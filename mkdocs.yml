@@ -29,9 +29,9 @@ plugins:
   - tags:
       tags_file: keywords.md
   - search
-  - bibtex:
-      bib_file: "references.bib"
   - mkdocs-video # embed videos to the docs
+  #- bibtex:
+  #    bib_file: "references.bib"
 
   
 # Footer
