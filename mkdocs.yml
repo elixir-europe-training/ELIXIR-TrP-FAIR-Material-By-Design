@@ -30,8 +30,8 @@ plugins:
       tags_file: keywords.md
   - search
   - mkdocs-video # embed videos to the docs
-  #- bibtex:
-  #    bib_file: "references.bib"
+  - bibtex:
+      bib_file: "references.bib"
 
   
 # Footer
