@@ -10,28 +10,33 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
 
 !!! overview ""
     :fontawesome-regular-bookmark: **Description**  
-    Add a short description of the training materail should be inserted here. 
+    This course is composed of 8 sessions, based on the FAIR training handbook and 10 simple rules to make material FAIR publication. All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & hands-on approach of how to create FAIR material by design.
+    
+    Activities are thought to increase the technical skills and critical thinking during the development of a new training course. From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. The topic will be disclaimed during the sessions, come inspired!
     
     </br>
     
     :fontawesome-solid-arrow-left: **Prerequisites**  
     To be able to follow this course, learners should have knowledge in:  
-    &emsp;1. First requirement  
-    &emsp;2. Second requirement  
+    &emsp;1. Git & GitHub usage (Make commits, create branches, open issues, make pull request)  
     
     </br>
     
     :fontawesome-solid-arrow-right: **Learning Outcomes:**  
     By the end of the course, learners will be able to:  
     &emsp;1. First item  
-    &emsp;2. Second item  
+    &emsp;2. Second item
+    &emsp;3. third item  
+    &emsp;4. forth item  
+    &emsp;5. fifth item    
     
     </br>
     
-    :fontawesome-solid-users: **Target Audience:** Researchers, undergraduate students, postgraduate students, etc...  
+    :fontawesome-solid-users: **Target Audience:** PhD students, postdocs, researchers and anyone who wants to give training or is related to teaching .
+
     </br>
     
-    :fontawesome-solid-stairs: **Level:** Beginner/Intermediate/Advanced  
+    :fontawesome-solid-stairs: **Level:** Beginner  
     
     :fontawesome-solid-lock: **License:** [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)  
     
