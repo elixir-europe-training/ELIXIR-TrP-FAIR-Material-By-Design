@@ -24,11 +24,11 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     
     :fontawesome-solid-arrow-right: **Learning Outcomes:**  
     By the end of the course, learners will be able to:  
-    &emsp;1. First item  
-    &emsp;2. Second item
-    &emsp;3. third item  
-    &emsp;4. forth item  
-    &emsp;5. fifth item    
+    &emsp;1. Plan and prepare documentation about the training to increase reusability __(Analyzing & Creating)__
+    &emsp;2. Use licenses to share your material and awknoledge others __(Applying)__
+    &emsp;3. Differentiate types of training material and their FAIRness levels __(Understanding & Evaluating)__
+    &emsp;4. Contrast and use GitHub and DOI to create FAIR releases of training material __(Understanding & Applying)__
+    &emsp;5. To annotate and share the training material metadata __(Applying)__
     
     </br>
     
