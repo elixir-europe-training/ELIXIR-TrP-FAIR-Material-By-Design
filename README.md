@@ -14,8 +14,6 @@
 
 [![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0002-3823-1555) Nina Norgren
 
-[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0003-2542-2747) Veerle Van den Eynden
-
 ### About this course
 
 This course is composed of **7 sessions**, based on the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) and [10 simple rules to make material FAIR publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & **hands-on** approach of how to create FAIR material by design.
