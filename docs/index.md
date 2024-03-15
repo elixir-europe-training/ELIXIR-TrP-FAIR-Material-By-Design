@@ -1,4 +1,4 @@
-# ELIXIR Lesson Title 
+# FAIR Training material by Design
 
 ## Authors
 
@@ -23,11 +23,11 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     
     :fontawesome-solid-arrow-right: **Learning Outcomes:**  
     By the end of the course, learners will be able to:  
-    &emsp;1. Plan and prepare documentation about the training to increase reusability __(Analyzing & Creating)__
-    &emsp;2. Use licenses to share your material and awknoledge others __(Applying)__
-    &emsp;3. Differentiate types of training material and their FAIRness levels __(Understanding & Evaluating)__
-    &emsp;4. Contrast and use GitHub and DOI to create FAIR releases of training material __(Understanding & Applying)__
-    &emsp;5. To annotate and share the training material metadata __(Applying)__
+    &emsp;1. Plan and prepare documentation about the training to increase reusability __(Analyzing & Creating)__ </br>
+    &emsp;2. Use licenses to share your material and awknoledge others __(Applying)__ </br>
+    &emsp;3. Differentiate types of training material and their FAIRness levels __(Understanding & Evaluating)__ </br>
+    &emsp;4. Contrast and use GitHub and DOI to create FAIR releases of training material __(Understanding & Applying)__ </br>
+    &emsp;5. To annotate and share the training material metadata __(Applying)__ </br>
     
     </br>
     
