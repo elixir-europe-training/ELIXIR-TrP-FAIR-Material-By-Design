@@ -16,7 +16,7 @@
     Lorem ipsum dolor sit amet.
   image: ./assets/images/cards/007-poseidon.png
 
-  - title: Jessica Lindvall
+- title: Jessica Lindvall
   content: |
     [:custom-orcid:](https://orcid.org/0000-0002-5042-8481) [:simple-github:](https://github.com/jlindvall) [:simple-linkedin:](https://www.linkedin.com/in/jessica-lindvall-310a8132/)<br>
     Lorem ipsum dolor sit amet.
