@@ -10,8 +10,10 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
 
 !!! overview ""
     :fontawesome-regular-bookmark: **Description**  
-    This course is composed of 7 sessions, based on the FAIR training handbook and 10 simple rules to make material FAIR publication. All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & hands-on approach of how to create FAIR material by design.
-    Activities are thought to increase the technical skills and critical thinking during the development of a new training course. From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. The topic will be disclaimed during the sessions, come inspired!
+    This course is composed of 7 sessions, based on the FAIR training handbook and 10 simple rules to make material FAIR publication. 
+    All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & hands-on approach of how to create FAIR material by design.
+    Activities are thought to increase the technical skills and critical thinking during the development of a new training course. 
+    From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. The topic will be disclaimed during the sessions, come inspired!
     
     </br>
     
@@ -23,11 +25,11 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     
     :fontawesome-solid-arrow-right: **Learning Outcomes:**  
     By the end of the course, learners will be able to:  
-    &emsp;1. Plan and prepare documentation about the training to increase reusability __(Analyzing & Creating)__ </br>
-    &emsp;2. Use licenses to share your material and awknoledge others __(Applying)__ </br>
-    &emsp;3. Differentiate types of training material and their FAIRness levels __(Understanding & Evaluating)__ </br>
-    &emsp;4. Contrast and use GitHub and DOI to create FAIR releases of training material __(Understanding & Applying)__ </br>
-    &emsp;5. To annotate and share the training material metadata __(Applying)__ </br>
+    &emsp;1. Plan and prepare documentation about the training to increase reusability __(Analyzing & Creating)__  
+    &emsp;2. Use licenses to share your material and awknoledge others __(Applying)__  
+    &emsp;3. Differentiate types of training material and their FAIRness levels __(Understanding & Evaluating)__  
+    &emsp;4. Contrast and use GitHub and DOI to create FAIR releases of training material __(Understanding & Applying)__  
+    &emsp;5. To annotate and share the training material metadata __(Applying)__  
     
     </br>
     
