@@ -75,30 +75,30 @@ DAY 2
 
 #### Per session
 
-**Session 1: What is FAIR and why do I care?**
+**Session 0: What is FAIR and why do I care?**
 
 - *under developmente*
 
-**Session 2: Syllabus and documentation**
+**Session 1: Syllabus and documentation**
 
 - *under developmente*
 
-**Session 3: Training material formats and interoperability**
+**Session 2: Training material formats and interoperability**
 
 - *under developmente*
 
-**Session 4: Ilustrations, aesthetics and acknoledgements**
+**Session 3: Ilustrations, aesthetics and acknoledgements**
 
 - *under developmente*
 
-**Session 5: Making e-learning FAIR, challanges and possibilities**
+**Session 4: Making e-learning FAIR, challanges and possibilities**
 
 - *under developmente*
 
-**Session 6: Releases and use of unique identifiers**
+**Session 5: Releases and use of unique identifiers**
 
 - *under developmente*
 
-**Session 7: Course metadata, standardization and structure**
+**Session 6: Course metadata, standardization and structure**
 
 - *under developmente*
