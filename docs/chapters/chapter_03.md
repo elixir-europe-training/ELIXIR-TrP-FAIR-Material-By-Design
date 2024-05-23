@@ -78,11 +78,13 @@ The key point of Rule 6 is: “Training materials need to be captured in interop
 
 ## 2.3 Create and discuss Interoperable and Reproducible training material (text, presentation, video)
 
+Prepare github repo before the course (?) (timing: 10 min)
 see ELIXIR lesson template
 - Create a Github repo from template
 - In case of ELIXIR template setup github pages
 
-INSERT drawing tools which close the circle of interoperability / reusability
+drawing tools which close the circle of interoperability / reusability
+https://docs.google.com/presentation/d/1p6xeyCK6GGZ8tq6q6GBxooH4wYiN6U9iVWFBNzqIdWA/edit?usp=sharing
 
 To use MarkDown tools to create material (text and presentation)
 - LiaScript
@@ -98,8 +100,7 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/ma
 - QUARTO
 see presentation on Quarto website and github
 
-- mention Video tool for montage - Davinci or Python code
-
+- mention Video tool for montage - Davinci or Python library moviepy (not sure to recommend it though given the state of the project)
 
 To use Google Slides/Docs (text and presentation)
 https://github.com/ssine/pptx2md
