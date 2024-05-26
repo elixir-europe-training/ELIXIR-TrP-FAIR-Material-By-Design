@@ -98,7 +98,7 @@ Rendering:
 https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/material-liascript/master/example-presentation.md#1
 
 - QUARTO
-see presentation on Quarto website and github
+see [presentation](https://quarto.org/docs/presentations/revealjs/) on Quarto website and [github](https://github.com/quarto-dev/quarto-web/blob/main/docs/presentations/revealjs/demo/index.qmd)
 
 - mention Video tool for montage - Davinci or Python library moviepy (not sure to recommend it though given the state of the project)
 
