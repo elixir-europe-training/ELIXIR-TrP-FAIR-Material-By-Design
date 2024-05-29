@@ -99,10 +99,73 @@ Let's do now the easier way, first find the image and its license, and then you 
 >
 > __
 
-#### Create images with AI
+#### Create your own images 
 
-* How to
-* what to keep in mind
+1. Inkscape
+
+Programs to make illustrations such as Inkscape or Adobe ilustrator might be an option to use all your creativity and create your own images to which you can choose your own licenses and use freely. Inkscape is free to use different from Adobe or Photoshop. But whatever you choose keep in mind that the leanring curve for learning how to use these is real.
+
+Nevertheless, I encourage you to look online, there are several videos that might help on this process. 
+
+This strategy can bring a lot of creativity and fredon, but also time investment and in times like this you might be asking yourself 'What if I use AI to create my images'. Well, there are a few things to consider. Check the next topic.
+
+2. with AI
+
+Artificial inteligence (AI) is a tempting, very powerful tool. However the world is just learning from it and adjusting to such power and its consequences. For the generative AI, thinking from the illustrations point of view there are still a lot of uncertenty.
+
+There is no one agrement to whom own the image rights, not all genAI make openly clear what database is being use to train their algorithim. What brings the most important consideration, genAI is trained based in existante image-references and this has several consequeces, I'll try to mention some that you should be carreful with just before telling how you can use this resource to your benefit.
+
+First you need to consider that the world we live is been fighting againt a lot of bieses and genAI is not very good at fighting it, unless you make your description very clear (and that is our biggest challagne perhapes). In world with etinical and gender bieases among many others, genAI has the tendency of returning images that reinforce this patterns so you need to be mindful and probably do some reiterations to get away of these.
+
+> add example here
+
+Another very important thing to take in account is the copyrights around GenAI-images. It is not clear yet how to define, and each country might have a different way to approach it. Regardless, it is all so new, that I would expect that there is still a lot to happen around this disscussion.
+
+But to give you an overview on the topic, and most importantly, some hints on how to navigate this waters. In 2023 [Lim Yong Lin](https://www.linkedin.com/pulse/who-owns-copyright-ai-generated-art-lim-yong-lin/), a lawier working with intelectual property, and [Anas Hassan]((https://www.linkedin.com/pulse/ai-image-generator-how-you-can-avoid-copyright-anas-hassan-/)), text writer and computer scientist exploring AI, both commented in some of the challanges to determine who has the copyrights of an AI generated image. 
+
+From the tecnological point if e advocate that AI is the one generating the image, it might be argued that it belongs to the person or copany operating the AI system.It could also be angued that who provided the data to train the AI or has trained the AI, owns it since they are _"the source"_. But the creative input is given by a third person that is accesing the AI and giving their instructions something was created, so they should have the copyrights for the "_idea_". To close this comlpex reflexion, I would like to bring the perspective that if AI is using existing data, and if the image contains references to another piece how do you define where the copyrights of the original piece ends and the nee AI generated image beggins? 
+
+The point is, there is no clear definition yet to solve any of the discussions above, and so it is most likelly seen case-by-case.
+
+But we agree it is a nice and useful tool to create images, so to try to avoid problems there are things you can consider. While might seam obvious, is still very good to reminded. Here is the list of hints based in what Annas Hassan said in his article:
+
+1. Use AI to create works that are sufficiently different from existing works
+    
+    - Use different datasets
+    - Use unique prompts and parameters
+
+2. Use AI to assist in the creative process rather than replacing it! 
+
+    - Uee AI to generate ideas and inspiration
+    - Combine with a human creator
+
+3. Make clear you have used AI and which genAI you have used
+
+    - P.S.: This can help avoiding confusion and misunderstandings about the originality
+
+4. Be mindfull whith the description you give to genAI
+
+    - Think twice before utilizing any artist's name
+    - Think twice before using other creations as reference
+    - Avoid mentioning works that are already protected by copyright
+    - Uploading existing reference is prohibited unless you own the copyright
+
+5. Check you AI tool's terms of service
+
+    - Not all of them allow for commercial usage of the generated photos/images
+
+6. Avoid very general suggestions
+
+7. Use tools for reverse image search to verify outcomes.
+
+    - examples: Google Lens or Google Reverse Image
+
+8. Save the prompt that was used to generate each image
+    
+    - Save it in the metadata for future reference
+
+**"Most AI Image Generators still stand on their terms that all generated images are free to use, but better still, when using them, reference the image to the platform of the creator" -Anas Hassan-**
+
 
 [AI images copyrights](https://www.linkedin.com/pulse/ai-image-generator-how-you-can-avoid-copyright-anas-hassan-/) by [Anas Hassan](https://www.linkedin.com/in/-anas-hassan-/), feb 2023.
 
