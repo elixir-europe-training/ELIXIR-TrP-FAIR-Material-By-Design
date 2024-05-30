@@ -38,7 +38,7 @@ DAY 1
 | 10:30 	| 10:45 	| break - leg stretcher                    	   |
 | 10:45 	| 12:00 	| Syllabus and documentation               	   |
 | 12:00 	| 13:15 	| Lunch ! 	   	           	     	         	   |
-| 13:15 	| 15:15 	| Train material formats and interoperability  |
+| 13:15 	| 15:15 	| Training material formats and interoperability  |
 | 15:15 	| 15:30 	| break     	           	     	               |
 | 15:30 	| 17:00 	| Illustrations, aesthetics and acknoledgements|
 | 19:00 	| late   	| Course dinner!      	                       |
