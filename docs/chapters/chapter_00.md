@@ -3,12 +3,13 @@ Lead: Bruna
 Duration: 45 min
 Title: What is FAIR and why do I care?
 To conver: 
-- What is FAIR
+- introduction round (10 min)
+- What is FAIR (20 - 25 min)
 - What is OPEN
 - How FAIR and OPEN apply for training material
-- Why make training materials Open and FAIR
+- Why make training materials Open and FAIR (10 min)
 To Reuse:
-- FAIR_&_OPEN_training -> https://docs.google.com/presentation/d/13aV9TIFyTQgDPRhaJAkXOrIfxxVJRZDxyr6UyXrSYAk/edit#slide=id.p
+- FAIR_&_OPEN_training -> https://docs.google.com/presentation/d/13aV9TIFyTQgDPRhaJAkXOrIfxxVJRZDxyr6UyXrSYAk/edit#slide=id.p 
 - 10 simple rules 4 making training materials FAIR -> https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854
 - FAIR training handbook -> https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/
 ---
@@ -58,7 +59,7 @@ From the need of reusing scholar data in research was born the idea of a consise
 
 ## Why to create FAIR training material?
 
-
+- activities: discussion 
 
 ```
 ![type:video](https://youtube.com/embed/oAD8FdGf8tI)
