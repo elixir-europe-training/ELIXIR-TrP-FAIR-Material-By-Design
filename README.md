@@ -27,18 +27,19 @@ Activities are thought to **increase the technical skills** and **critical think
 
 [**CC-BY**](https://creativecommons.org/licenses/by/4.0/)
 
-### Program (sugested time)
+### Program (suggested time)
 
 DAY 1
 
 | start 	| end   	| topic   	|
 |-------	|-------	|---------	|
-| 09:30 	| 10:00 	| cofee and sandwich! 	                      |
-| 10:00 	| 10:45 	| What is FAIR and why do I care? 	       	  |
+| 09:00 	| 09:40 	| coffee and sandwich - optional	            |
+| 09:45 	| 10:30 	| What is FAIR and why do I care? 	       	  |
+| 10:30 	| 10:45 	| break - leg stretcher                    	  |
 | 10:45 	| 12:00 	| Sylabus and documentation                	  |
 | 12:00 	| 13:15 	| Lunch ! 	   	           	     	         	  |
 | 13:15 	| 15:15 	| Train material formats and interoperability |
-| 15:15 	| 15:30 	| coffee!    	           	     	              |
+| 15:15 	| 15:30 	| break     	           	     	              |
 | 15:30 	| 17:00 	| Ilustrations, aesthetics and acknoledgements|
 | 19:00 	| late   	| Course dinner!      	                      |
 
