@@ -37,9 +37,10 @@ DAY 1
 | 10:00 	| 10:45 	| What is FAIR and why do I care? 	       	  |
 | 10:45 	| 12:00 	| Sylabus and documentation                	  |
 | 12:00 	| 13:15 	| Lunch ! 	   	           	     	         	  |
-| 13:15 	| 15:15 	| Train material formats and interoperability |
-| 15:15 	| 15:30 	| coffee!    	           	     	              |
-| 15:30 	| 17:00 	| Ilustrations, aesthetics and acknoledgements|
+| 13:15 	| 14:15 	| Hosting your training                       |
+| 14h15   | 16h00   | Train material formats and interoperability |
+| 16:00 	| 16:15 	| coffee!    	           	     	              |
+| 16:15 	| 17:00 	| Ilustrations, aesthetics and acknoledgements|
 | 19:00 	| late   	| Course dinner!      	                      |
 
 
