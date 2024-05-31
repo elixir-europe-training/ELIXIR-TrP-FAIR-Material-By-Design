@@ -9,9 +9,9 @@
 
 !!! overview ""
     :fontawesome-regular-bookmark: **Description**  
-   This 2 days course is based on the FAIR training handbook and 10 simple rules to make material FAIR publication. All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & hands-on approach of how to design FAIR training material.
-   
-   Activities are intended to increase the technical skills and critical thinking during the development of a new training course. From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. Come inspired!
+    This 2 days course is based on the FAIR training handbook and 10 simple rules to make material FAIR publication. All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & hands-on approach of how to design FAIR training material.
+    
+    Activities are intended to increase the technical skills and critical thinking during the development of a new training course. From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. Come inspired!
     
     </br>
     
@@ -23,9 +23,9 @@
     
     :fontawesome-solid-arrow-right: **General Learning Outcomes:**  
     By the end of the course, learners will be able to:  
-    &emsp;1. create FAIR and open training material from the start  
-    &emsp;2. apply FAIR principles to all elements of training material  
-    &emsp;3. use AI tools in content creation of FAIR training material 
+    &emsp;1. create FAIR and open training material from the start.  
+    &emsp;2. apply FAIR principles to all elements of training material.  
+    &emsp;3. use AI tools in content creation of FAIR training material. 
 
     </br>
     
@@ -33,9 +33,9 @@
 
     </br>
     
-    :fontawesome-solid-stairs: **Level:** Beginner  to Intermediate
+    :fontawesome-solid-stairs: **Level:** Beginner to Intermediate
     
-    :fontawesome-solid-lock: **License:**  [cc-by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+    :fontawesome-solid-lock: **License:** [cc-by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
     
     :fontawesome-solid-money-bill-1: **Funding:** This project has received funding from ELIXIR Europe.  
 
@@ -47,8 +47,6 @@
     [comment]: # (Property in Biochema: licence)
     [comment]: # (This is an example for CONVERGE)
     
-    </br>
-
 ---
 ## Citing this lesson
 
