@@ -1,4 +1,35 @@
 cff-version: 1.2.0
+
+message: "If you use this training material, please cite it as below."
+authors:
+- family-names: "Piereck"
+  given-names: "Bruna"
+  orcid: "https://orcid.org/0000-0001-5958-0669"
+- family-names: "Kronander"
+  given-names: "Elin"
+  orcid: "https://orcid.org/0000-0003-0280-6318"
+- family-names: "Jaworski "
+  given-names: "Jill "
+  orcid: "https://orcid.org/0009-0006-2607-5256"
+- family-names: "Norgren"
+  given-names: "Nina "
+  orcid: "https://orcid.org/0000-0002-3823-1555"
+- family-names: "Schroeder"
+  given-names: "Kristen"
+  orcid: "https://orcid.org/0000-0002-6271-4530"
+- family-names: "Botzki"
+  given-names: "Alexander"
+  orcid: "https://orcid.org/0000-0001-6691-4233"
+- family-names: "Lindvall"
+  given-names: "Jessica"
+  orcid: "https://orcid.org/0000-0002-5042-8481"
+  
+title: "Training material made _by desing_"
+version: v1.0.0-alpha
+doi: XXX
+date-released: XXX
+url: "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/"
+
 message: "If you use this software, please cite it as below."
 authors:
 - family-names: "van Geest"

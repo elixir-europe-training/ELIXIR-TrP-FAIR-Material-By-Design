@@ -1,4 +1,4 @@
-# FAIR Training material by Design
+# Training material made FAIR _by design_
 
 ## Authors
 
@@ -23,14 +23,12 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     
     </br>
     
-    :fontawesome-solid-arrow-right: **Learning Outcomes:**  
+    :fontawesome-solid-arrow-right: **General Learning Outcomes:**  
     By the end of the course, learners will be able to:  
-    &emsp;1. Plan and prepare documentation about the training to increase reusability __(Analyzing & Creating)__  
-    &emsp;2. Use licenses to share your material and awknoledge others __(Applying)__  
-    &emsp;3. Differentiate types of training material and their FAIRness levels __(Understanding & Evaluating)__  
-    &emsp;4. Contrast and use GitHub and DOI to create FAIR releases of training material __(Understanding & Applying)__  
-    &emsp;5. To annotate and share the training material metadata __(Applying)__  
-    
+    &emsp;1. create FAIR and open training material from the start __( ??? )__  
+    &emsp;2. apply FAIR principles to all elements of training material __(???? Applying)__  
+    &emsp;3. use AI tools in content creation of FAIR training material __()__  
+
     </br>
     
     :fontawesome-solid-users: **Target Audience:** PhD students, postdocs, researchers and anyone who wants to give training or is related to teaching .
@@ -39,7 +37,7 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     
     :fontawesome-solid-stairs: **Level:** Beginner  
     
-    :fontawesome-solid-lock: **License:** [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)  
+    :fontawesome-solid-lock: **License:** [../assets/images/by-nc-sa.png](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
     
     :fontawesome-solid-money-bill-1: **Funding:** This project has received funding from ELIXIR Europe.  
 
@@ -56,16 +54,13 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
 
 Please cite as:
 
-  1. Bruna Piereck, Jill Jakowski, Nina Norgren, Elin Kronander, Alexander Botzki, Jessica Lindvall (2024). The ELIXIR FAIR training material by Design course
+  1. Bruna Piereck, Jill Jaworski, Nina Norgren, Elin Kronander, Kristen Schroeder, Alexander Botzki, Jessica Lindvall (2024). The ELIXIR FAIR training material by Design course
   2. Geert van Geest, Elin Kronander, Jose Alejandro Romero Herrera, Nadja Žlender, & Alexia Cardona. (2023). The ELIXIR Training Lesson Template - Developing Training Together (v1.0.0-alpha). Zenodo. https://doi.org/10.5281/zenodo.7913092. 
 
 ---
-## Setup
+## Pre-course Setup
 
-### Data setup
-To run this lesson you need to clone the content of this github repository.
-
-### Software setup
-To run this course you need to install an text editor of choice.
+- Create a [GitHub account](https://github.com/) if you don't have one yet.
+- Create a [ORCID account](https://orcid.org/) if you don't have one yet. 
 
 
