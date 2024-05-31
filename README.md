@@ -27,7 +27,7 @@ Activities are intended to **increase the technical skills** and **critical thin
 
 <img src="https://raw.githubusercontent.com/vibbits/rdm-course-2022/main/images/logos/CC-by.png" title="" alt="" width="143">
 
-[**CC-BY**](https://creativecommons.org/licenses/by/4.0/)
+[**CC-BY-NC-SA**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 ### Program (suggested time)
 
