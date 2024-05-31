@@ -2,13 +2,17 @@
 
 | start 	| end   	| topic   	|
 |-------	|-------	|---------	|
-| 09:30 	| 10:15 	| What is FAIR and why do I care? 	                    |
-| 10:15 	| 10:30 	| coffee! 	           	           	                	|
-| 10:30 	| 12:30 	| Sylabus and documentation                         	|
-| 12:30 	| 13:15 	| Lunch ! 	   	           	     	                	|
-| 13:15 	| 15:15 	| Train material formats and interoperability       	|
-| 15:50 	| 15:30 	| coffee!    	           	     	                 	|
-| 15:30 	| 17:00 	| Ilustrations, aesthetics and acknoledgements      	|
+| 09:00 	| 09:40 	| Welcome coffee (optional)	       |
+| 09:40 	| 10:30 	| What is FAIR and why do I care?  |
+| 10:30 	| 10:45 	| Break!                    	   |
+| 10:45 	| 12:00 	| How to host your training   	   |
+| 12:00 	| 13:15 	| Lunch ! 	   	           	  	   |
+| 13:15 	| 14:30 	| How to host your training   |
+| 14h30     | 15h30     | Train material formats and interoperability  |
+| 15:30 	| 15:45 	| Break!	               |
+| 15:45 	| 16:30 	| Train material formats and interoperability |
+| 16:30     | 17:00     | Wrap up |
+| 19:00 	| late   	| Course dinner! 
 
 
 ## DAY 2
