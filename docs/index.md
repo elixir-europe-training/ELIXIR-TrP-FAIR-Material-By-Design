@@ -31,9 +31,9 @@
     :fontawesome-solid-users: **Target Audience:** Anyone involved in training.  
     </br>
     
-    :fontawesome-solid-stairs: **Level:** Beginner/Intermediate/  
+    :fontawesome-solid-stairs: **Level:** Beginner/Intermediate  
     
-    :fontawesome-solid-lock: **License:** [CC-BY-NC-SAl License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en  
+    :fontawesome-solid-lock: **License:** [CC-BY-NC-SA License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)  
     
     :fontawesome-solid-money-bill-1: **Funding:** This project has received funding from ELIXIR.  
 
