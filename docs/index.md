@@ -51,11 +51,6 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     [comment]: # (Property in Biochema: licence)
     [comment]: # (This is an example for CONVERGE)
 
-[comment]: #### Contributors
-
-[comment]: [cards class_name="contributors" cols="6"(./docs/assets/cards/contributor_cards.yaml)]
-[comment]: Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxicons) from [www.flaticon.com](www.flaticon.com)
-
 ---
 ## Citing this lesson
 
