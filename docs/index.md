@@ -35,7 +35,7 @@
     
     :fontawesome-solid-stairs: **Level:** Beginner  to Intermediate
     
-    :fontawesome-solid-lock: **License:**  [cc-by-nc-sa](ttps://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+    :fontawesome-solid-lock: **License:**  [cc-by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
     
     :fontawesome-solid-money-bill-1: **Funding:** This project has received funding from ELIXIR Europe.  
 
@@ -46,6 +46,8 @@
     [comment]: # (Property in Bioschema: educationalLevel)
     [comment]: # (Property in Biochema: licence)
     [comment]: # (This is an example for CONVERGE)
+    
+    </br>
 
 ---
 ## Citing this lesson
