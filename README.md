@@ -18,9 +18,9 @@
 
 ### About this course
 
-This course is composed of **7 sessions**, based on the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) and [10 simple rules to make material FAIR publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & **hands-on** approach of how to create FAIR material by design.
+This 2 days course is based on the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) and [10 simple rules to make material FAIR publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & **hands-on** approach of how to design FAIR training material.
 
-Activities are thought to **increase the technical skills** and **critical thinking** during the development of a new training course. From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. The topic will be disclaimed during the sessions, come inspired!
+Activities are intended to **increase the technical skills** and **critical thinking** during the development of a new training course. From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. Come inspired!
 
 
 ### Material license
