@@ -4,16 +4,15 @@
 
 [cards class_name="authors" cols="6"(./docs/assets/cards/author_cards.yaml)]
 
-Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxicons) from [www.flaticon.com](https://www.flaticon.com)
+ [comment]: Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxicons) from [www.flaticon.com](https://www.flaticon.com)
 
 ## Lesson overview
 
 !!! overview ""
     :fontawesome-regular-bookmark: **Description**  
-    This course is composed of 7 sessions, based on the FAIR training handbook and 10 simple rules to make material FAIR publication. 
-    All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & hands-on approach of how to create FAIR material by design.
-    Activities are thought to increase the technical skills and critical thinking during the development of a new training course. 
-    From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. The topic will be disclaimed during the sessions, come inspired!
+   This 2 days course is based on the FAIR training handbook and 10 simple rules to make material FAIR publication. All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & hands-on approach of how to design FAIR training material.
+   
+   Activities are intended to increase the technical skills and critical thinking during the development of a new training course. From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. Come inspired!
     
     </br>
     
@@ -25,19 +24,19 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
     
     :fontawesome-solid-arrow-right: **General Learning Outcomes:**  
     By the end of the course, learners will be able to:  
-    &emsp;1. create FAIR and open training material from the start __( ??? )__  
-    &emsp;2. apply FAIR principles to all elements of training material __(???? Applying)__  
-    &emsp;3. use AI tools in content creation of FAIR training material __()__  
+    &emsp;1. create FAIR and open training material from the start  
+    &emsp;2. apply FAIR principles to all elements of training material  
+    &emsp;3. use AI tools in content creation of FAIR training material 
 
     </br>
     
-    :fontawesome-solid-users: **Target Audience:** PhD students, postdocs, researchers and anyone who wants to give training or is related to teaching .
+    :fontawesome-solid-users: **Target Audience:** Anyone involved in training.
 
     </br>
     
-    :fontawesome-solid-stairs: **Level:** Beginner  
+    :fontawesome-solid-stairs: **Level:** Beginner  to Intermediate
     
-    :fontawesome-solid-lock: **License:** [../assets/images/by-nc-sa.png](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+    :fontawesome-solid-lock: **License:**  [![LISCENSE](../docs/assets/images/by-nc-sa.png)](ttps://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
     
     :fontawesome-solid-money-bill-1: **Funding:** This project has received funding from ELIXIR Europe.  
 
