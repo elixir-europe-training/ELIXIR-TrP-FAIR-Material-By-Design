@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: ELIXIR FAIR Material by Design
+site_name: ELIXIR FAIR Training Material by Design
 nav:
     - About: index.md
     - Course Content:
