@@ -1,4 +1,4 @@
-### FAIR training material by __design__
+### FAIR training material __by design__
 
 ### Contributors
 
