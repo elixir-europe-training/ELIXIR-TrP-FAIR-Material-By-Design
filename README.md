@@ -25,7 +25,6 @@ Activities are intended to **increase the technical skills** and **critical thin
 
 ### Material license
 
-<img src="https://raw.githubusercontent.com/vibbits/rdm-course-2022/main/images/logos/CC-by.png" title="" alt="" width="143">
+[![**CC-BY-NC-SA**](https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/main/docs/assets/images/by-nc-sa.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
-[**CC-BY-NC-SA**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
