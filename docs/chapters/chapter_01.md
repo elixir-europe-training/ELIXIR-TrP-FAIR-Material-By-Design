@@ -12,6 +12,7 @@ To Reuse:
 - FAIR_&_OPEN_training -> https://docs.google.com/presentation/d/13aV9TIFyTQgDPRhaJAkXOrIfxxVJRZDxyr6UyXrSYAk/edit#slide=id.p 
 - 10 simple rules 4 making training materials FAIR -> https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854
 - FAIR training handbook -> https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/
+- No data, no paper (RDM training) -> https://docs.google.com/presentation/d/1GLwPc6E2HGNBBV5QPf_qYhyhXy_9Fggr/edit#slide=id.p1
 ---
 
 # What is FAIR
@@ -46,7 +47,9 @@ From the need of reusing scholar data in research was born the idea of a consise
 
 ## How is FAIR different then OPEN
 
+<img src="../assets/images/FAIRvsOPEN_FloraD'Anna.svg" width="25%" >
 
+**From the course:** [***RDM: your aly in your way to your publication***](https://github.com/vibbits/rdm-introductory-course/blob/main/presentations/2023jun14_Day01_Session01_General-perspective-RDM_intro_.pdf)
 
 ## How FAIR and OPEN applies to Training material
 
