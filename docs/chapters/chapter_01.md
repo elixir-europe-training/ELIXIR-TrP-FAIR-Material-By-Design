@@ -16,20 +16,17 @@ To Reuse:
 ---
 !!! success "Learning Outcomes"
 
-    - Explain the FAIR principles and how they apply for training
-    - Differentiate and corelate FAIR and OPEN principles
+    - Define the FAIR principles and associate with training material
+    - Differentiate FAIR and OPEN principles
     - Discuss why creating FAIR material can be benefinetial
 
 # What is FAIR
 
-In the [Cambrige dictionary](https://dictionary.cambridge.org/dictionary/english/fair) the word **fair** can stand for _something that is resonable, what you expected or deserved_, but I'd like to elaborate more about the acronym FAIR. In this case each letter stands for something different:
+In the [Cambrige dictionary](https://dictionary.cambridge.org/dictionary/english/fair) the word **fair** can stand for _something that is resonable, what you expected or deserve_, but I'd like to elaborate more about the acronym FAIR. In this case each letter stands for something different:
 
-- **F** = Findable
-- **A** = Accessible
-- **I** = Interoperable
-- **R** = Reusable
+<img src="../assets/images/FAIRprinciples.svg" width="40%" align="center" >
 
-I would also say it is resonable and what I would expect. So, FAIR is just fair, don't you agree?
+I would also say it is resonable and what I would expect! So, FAIR is just fair, don't you agree?
 
 Well, before you can decide if you agree or not maybe I should tell you more about each part of this acronym.
 From the need of reusing scholar data in research was born the idea of a consise and mesurable set of principles to endorse reusability, the **FAIR** principles. The idea is that those need to be available for individuals but also in a machine redable format.
@@ -52,13 +49,13 @@ From the need of reusing scholar data in research was born the idea of a consise
 
 ## How is FAIR different then OPEN
 
-<img src="../assets/images/FAIRvsOPEN_FloraD'Anna.svg" width="25%" >
+<img src="../assets/images/FAIRvsOPEN_FloraD'Anna.svg" width="25%" align="center" >
 
 **From the course:** [***RDM: your aly in your way to your publication***](https://github.com/vibbits/rdm-introductory-course/blob/main/presentations/2023jun14_Day01_Session01_General-perspective-RDM_intro_.pdf)
 
 ## How FAIR and OPEN applies to Training material
 
-!!! note "Note"
+!!! example "Note"
 
     Here you can put a note using admonitions.
 
@@ -68,12 +65,6 @@ From the need of reusing scholar data in research was born the idea of a consise
 ## Why to create FAIR training material?
 
 - activities: discussion 
-
-```
-![type:video](https://youtube.com/embed/oAD8FdGf8tI)
-```
-
-![type:video](https://youtube.com/embed/oAD8FdGf8tI)
 
 
 # Links for extra reading
