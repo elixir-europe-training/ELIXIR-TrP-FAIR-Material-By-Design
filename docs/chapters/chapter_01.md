@@ -14,6 +14,11 @@ To Reuse:
 - FAIR training handbook -> https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/
 - No data, no paper (RDM training) -> https://docs.google.com/presentation/d/1GLwPc6E2HGNBBV5QPf_qYhyhXy_9Fggr/edit#slide=id.p1
 ---
+!!! success "Learning Outcomes"
+
+    - Explain the FAIR principles and how they apply for training
+    - Differentiate and corelate FAIR and OPEN principles
+    - Discuss why creating FAIR material can be benefinetial
 
 # What is FAIR
 
