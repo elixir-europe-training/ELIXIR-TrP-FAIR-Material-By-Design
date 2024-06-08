@@ -141,6 +141,38 @@ Identify possible formats for each type of material. Which format(s) do you most
 
 ## Compare your discussion results 
 
+               --{{1}}--
+******************
+Let's take a moment to reflect on our recent discussions and how they align with the insights from the "10 simple rules" paper. Our conversation has highlighted the various formats we use to disseminate knowledge in life sciences, each with its own set of advantages and challenges.
+
+**PowerPoint (PPT and PPTX)**
+- **Advantages:** These formats are easily (re)usable, widely available across different operating systems and software, and have widespread recognition.
+- **Disadvantages:** They provide a limited scope for delivering detailed training instructions and lack version control.
+
+**Keynote**
+- **Advantages:** Offers a polished overall aesthetic that can enhance the presentation quality.
+- **Disadvantages:** Its usage is confined to the macOS family, and it does not support version control.
+
+**PDF**
+- **Advantages:** PDFs ensure consistent display across various environments, maintaining the integrity of the content.
+- **Disadvantages:** They are not easily editable, which can be a hindrance when updates are needed, and they also lack version control.
+
+**TeX**
+- **Advantages:** TeX is easily editable and supports version control, making it a robust choice for collaborative work.
+- **Disadvantages:** However, it comes with a steep learning curve that can be a barrier for some trainers.
+
+**Markdown (MD), reStructuredText (RST), and HTML**
+- **Advantages:** These formats are version controlled and free, promoting accessibility and ease of updates.
+- **Disadvantages:** They require rendering, which may necessitate additional steps to convert into a visually appealing HTML format.
+
+**Google Slides**
+- **Advantages:** Google Slides are version controlled and freely available, supporting collaborative efforts.
+- **Disadvantages:** Their usage can be restricted by local or institutional policies, and accessibility issues may arise depending on the user's geographic location.
+
+As we continue with our training, let's consider how these formats serve our objectives and the ways in which we can leverage their strengths while mitigating their limitations. Thank you for your thoughtful contributions to this discussion. Now, let's proceed with our next topic.
+
+********
+
 Compare the list to Table 1 from the [10 simple rules paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec007).
 
 | Format            | Advantages                                       | Disadvantages                                   |
