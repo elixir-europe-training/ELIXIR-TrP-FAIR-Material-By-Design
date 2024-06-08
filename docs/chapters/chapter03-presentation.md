@@ -106,6 +106,31 @@ This presentation will guide you through this session where we will touch on:
 ## Formats for training material
 
 ![](../assets/images/03-activity-team.png)<!--
-style = "width: 50px;"
+style = "width: 100px;"
 -->
 Activity: How many training materials formats can you list?
+
+Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?
+
+ | Material type | Possible format(s) | Format(s) you mostly use | Why? |
+ | --- | --- | --- | --- |
+ | slides |  |  | |
+ | video |  |  | |
+ | dataset |  |  | |
+ | repository |  |  | |
+ | exercises |  |  | |
+ | VM/Container |  |  | |
+ | tutorial/hands on |  |  | |
+ | software |  |  | |
+ | webpage |  |  | |
+ |  |  |  | |
+ |  |  |  | |
+ |  |  |  | |
+
+## Formats for training material
+
+![](../assets/images/03-formats.png)<!--
+style = "width: 100px;"
+-->
+![](../assests/images/03-overview-formats.png)
+
