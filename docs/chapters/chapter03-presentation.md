@@ -105,5 +105,7 @@ This presentation will guide you through this session where we will touch on:
 
 ## Formats for training material
 
-![](../assets/images/03-activity-team.png)
+![](../assets/images/03-activity-team.png)<!--
+style = "width: 50px;"
+-->
 Activity: How many training materials formats can you list?
