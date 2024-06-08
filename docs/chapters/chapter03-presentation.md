@@ -107,6 +107,7 @@ This presentation will guide you through this session where we will touch on:
 
                --{{1}}--
 ******************
+
 Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them.
 
 Activity Overview: We’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll determine the possible formats they could take. Then, we’ll dive deeper to discuss which formats we predominantly use and, most importantly, why we prefer those over others.
@@ -143,6 +144,7 @@ Identify possible formats for each type of material. Which format(s) do you most
 
                --{{1}}--
 ******************
+
 Let's take a moment to reflect on our recent discussions and how they align with the insights from the "10 simple rules" paper. Our conversation has highlighted the various formats we use to disseminate knowledge in life sciences, each with its own set of advantages and challenges.
 
 **PowerPoint (PPT and PPTX)**
