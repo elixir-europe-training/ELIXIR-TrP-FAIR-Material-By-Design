@@ -12,6 +12,11 @@ To cover:
 - Images = avoid stereotypes, be inclusive, keep it clean
 To Reuse:
 [chapter 10 FAIR trianign handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_10/)
+suggestion of companins and legal terms:
+-https://openai.com/brand/
+-https://openai.com/policies/eu-terms-of-use/
+-https://www.adobe.com/se/legal/licenses-terms/adobe-gen-ai-user-guidelines.html
+-https://answers.microsoft.com/en-us/bing/forum/all/commercial-use-of-images-generated-using-copilot/af4613c4-9ed5-40ed-81df-65aea64b246f
 ---
 
 # Acknowledgements and FAIR principles
