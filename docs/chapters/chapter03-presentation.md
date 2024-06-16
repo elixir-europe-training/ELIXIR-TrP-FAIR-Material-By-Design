@@ -252,36 +252,55 @@ style = "width: 100px;"
 | | yes/no/partially | yes/no/partially | 
 | | *Explanation* | *Explanation* | 
 
-## TODO: overview slide
+## The more context you give about your material the better
 
           --{{1}}--
 1. For a lecture-style presentation, you can annotate each slide with an extensive narrative capturing all aspects of the subject on the slides. You can put the complete transcript of the verbal presentation in the Notes panel in Powerpoint or in Google slides. Suppose you want to share your slides in pdf format. In that case, it is handier to place the detailed content into a handbook or use text-book style reference materials and keep the slides for lectures cleaner, only placing relevant elements directly on the slides. 
 2. You may associate “Instructor notes” with the materials, but you don’t need to include them in the materials. The Instructor notes should provide information drawing on your experience or the experience of other instructors. They may consist of technical tips and tricks, common problems, and a description of what parts or exercises are essential and what could be skipped in case of lack of time. Very good examples of Instructor/Trainer notes are provided by the Carpentries ([Carpentry Trainer notes](https://carpentries.github.io/instructor-training/guide/index.html#curriculum), [Instructor notes template](https://carpentries.github.io/lesson-example/guide/index.html)).
 3. You may create a lesson plan describing the purpose and the mode of delivery of each piece of material. Lesson plans could contain many practical details, including - for each part of the material - the time needed for the delivery, the learning experiences and expected learning outcomes. Chapter 2.4 shows an example Lesson plan of this lesson.
 
-*****************
-
-TODO: nice illustration with 
-- annotation - narrative - check Christof's illustration for FTI Antwerp
-- Instructor notes
-- lesson plan - reference to content
-
-*****************
+|   |      |      |
+| :---------: | :---------: | :---------: |
+| ![](../assets/images/03-annotation-tutorial.png)<!--
+style = "width: 200px;"
+-->   |  ![](../assets/images/03-bloom-class.png)<!--
+style = "width: 200px;"
+--> | ![](../assets/images/03-bloom-describe.png)<!--
+style = "width: 200px;"
+--> |
+| narratives  | instructor notes     | lesson plan     |
 
 ## Create and discuss Interoperable and Reproducible training material (text, presentation)
 
-TODO: create slides with guide the practical exercises
+Let's first have a look at example presentations.
 
 Example presentation:
 Github: https://github.com/vibbits/material-liascript/blob/master/example-presentation.md?plain=1
 Rendering: 
 https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/material-liascript/master/example-presentation.md#1
 
+TODO: create slides with guide the practical exercises
+
+Exercises
+
+| ![](../assets/images/03-activity-team.png)<!--
+style = "width: 100px;"
+-->   | Activity: Create a presentation using a markdown dialect called Liascript  |
+
+TODO: AI element about Liascript
+
 To use MarkDown tools to create material (text and presentation)
 - LiaScript
   LiaScript
 Doc about Liascript
 https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1
+
+
+| ![](../assets/images/03-activity-team.png)<!--
+style = "width: 100px;"
+-->   | Activity: Create a PDF or   |
+
+
 
 ## Final considerations
 
