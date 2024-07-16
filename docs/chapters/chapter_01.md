@@ -20,6 +20,8 @@ To Reuse:
     - Differentiate FAIR and OPEN principles
     - Discuss why creating FAIR material can be benefinetial
 
+find here the presentation for this chapter: [Google slides](https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/edit?usp=sharing)
+
 # What is FAIR
 
 In the [Cambrige dictionary](https://dictionary.cambridge.org/dictionary/english/fair) the word **fair** can stand for _something that is resonable, what you expected or deserve_, but I'd like to elaborate more about the acronym FAIR. In this case each letter stands for something different:
