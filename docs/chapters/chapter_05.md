@@ -184,4 +184,34 @@ But we agree it is a nice and useful tool to create images, so to try to avoid p
 
 ## Authorship and recognition
 
+When thinking of scientific publications, it is more or less intuitive that Author and co-authors need to be listed and that when making use of any of the information thy shoudl be cited. For training material, despite of not being an automatic action the same should apply. As you saw before depending on the license they should be cited and what you can and cannot do is defined.
 
+This is very importante for the recognition and responsability of those who have been dedicate to create, review, update training materials and have shared them with either trainees and trainers.
+
+For training material, however we have Authors, contributors and trainers/teachers. Sometimes the ame person plays more then one role, but they are different roles and should be acknoledge as such. But to give proper recognition we need to define each role.See bellow how they were defined in the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/):
+
+- **Author**: Have made substantial contribution, can approve or not the version and are personally accountable for their contribution
+
+- **Contributor**: Testes, evaluate and improves the content (exercises, lectures, etc)
+
+- **Trainer**: Have interactions with the trainee (learner) as part of didatic process while making use of the material
+
+
+ In the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) you can also find a Credit matrix to help defining  the  responsabilities of authors in the creation of the training material. 
+
+ 
+Complementary, in some cases there is another layer where **founders**, **institutions**, **organizations** and **communities** must have their share of contribution ackoneldged also. Generally speaking, it is advised that wenever cerating or re-using material the same guidelines for academic citations and acknowledgements should apply, and you can also include a guideline or copy-paste text for people to easily cite the material.
+
+Is good to keep in mind that training material includes but is not limitted by **presentations**. it also refers to text, quizzes, list of literature, videos, etc. You will see more about it in the session about training materials.
+
+And where should you include such peace of information, it might vary depending on the material?
+
+ - Dedicated slide
+
+ - In the metadata
+
+ - In the cover page of material
+
+ - In the website page or README.md document
+
+ - Logos and names in the video and video description
