@@ -82,7 +82,11 @@ My advice for you is to either do your own illustration or use free licensed ima
 
 - [Unsplash](https://unsplash.com/s/photos/van-gogh?license=free)
 
-These three websites will provide you images with free and non-free licences. In some cases it is free for private or non commercial use other times is not to allowed for publicly available or comercial use. But, now that you know you can check before using it. Search an image, check the license and choose what you want to use in your material. If you love an image and have the budget to usem **ENJOY**, if you rather not pay, choose the free ones that allown public sharing.
+These three websites are examples of where you can find images with free and non-free licences. In some cases it is free for private or non commercial use other times is not to allowed for publicly available or comercial use. Feel encoraged to look for other pages that are alike!!! 
+
+It is important though, that when you use an image and even if you add the citation, the link to the original image should also be provided, in the slides, in the slides note, in the description of the image, but should be easy and clear for others how to find the original.
+
+But, now that you know you can check, (1) search an image, (2) check the license and choose what you want to use in your material. If you love an image that has a paying license and you have the budget to use them - **ENJOY** - , if you rather not pay, choose the free ones and always look for the conditions.
 
 > ✅ Solution
 >
@@ -100,7 +104,7 @@ Let's do now the easier way, first find the image and its license, and then you 
 >
 > Choose an image from at least one of the websites to use in your material. Check its license, and if it fits with the purpose of this material and with how you intend (or not) to share it.
 >
-> Don't forget to acknowledge the illustrator and preferentially add a link if other want to use it from the original source. If youa re aloud to not acknowledge, share the link in the activity so your trainers and colleges can see it.
+> Don't forget to acknowledge the illustrator and add a link if others want to use it from the original source. If youa re aloud to not acknowledge, share the link in the activity so your trainers and colleges can see it.
 >
 > __
 
