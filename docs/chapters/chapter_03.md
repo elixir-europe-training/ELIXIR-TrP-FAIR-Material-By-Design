@@ -115,7 +115,7 @@ Our activity is designed to not only identify the various formats available but 
 So, let’s get started! Please go to to the joint file. As we proceed, I encourage you to think critically about the ‘why’—it’s the key to understanding our choices and improving our approach to training. Let’s have a productive session!
 
 |      ![](../assets/images/03-activity-team.png)<!-- style = "width: 100px;"-->    |      Activity: How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
-|-|-|
+
 
               {{1}}
 *************
