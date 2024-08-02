@@ -140,24 +140,37 @@ Table 1
 
                --{{1}}--
 Let's take a moment to reflect on our recent discussions and how they align with the insights from the "10 simple rules" paper. Our conversation has highlighted the various formats we use to disseminate knowledge in life sciences, each with its own set of advantages and challenges.
-**PowerPoint (PPT and PPTX)**
-- **Advantages:** These formats are easily (re)usable, widely available across different operating systems and software, and have widespread recognition.
-- **Disadvantages:** They provide a limited scope for delivering detailed training instructions and lack version control.
+
+               --{{1}}--
+PowerPoint (PPT and PPTX) Advantages: These formats are easily (re)usable, widely available across different operating systems and software, and have widespread recognition.
+PowerPoint (PPT and PPTX) Disadvantages: They provide a limited scope for delivering detailed training instructions and lack version control.
+
+               --{{1}}--  
 **Keynote**
 - **Advantages:** Offers a polished overall aesthetic that can enhance the presentation quality.
 - **Disadvantages:** Its usage is confined to the macOS family, and it does not support version control.
+
+               --{{1}}--
 **PDF**
 - **Advantages:** PDFs ensure consistent display across various environments, maintaining the integrity of the content.
 - **Disadvantages:** They are not easily editable, which can be a hindrance when updates are needed, and they also lack version control.
+
+               --{{1}}--
 **TeX**
 - **Advantages:** TeX is easily editable and supports version control, making it a robust choice for collaborative work.
 - **Disadvantages:** However, it comes with a steep learning curve that can be a barrier for some trainers.
+
+               --{{1}}--
 **Markdown (MD), reStructuredText (RST), and HTML**
 - **Advantages:** These formats are version controlled and free, promoting accessibility and ease of updates.
 - **Disadvantages:** They require rendering, which may necessitate additional steps to convert into a visually appealing HTML format.
+
+               --{{1}}--
 **Google Slides**
 - **Advantages:** Google Slides are version controlled and freely available, supporting collaborative efforts.
 - **Disadvantages:** Their usage can be restricted by local or institutional policies, and accessibility issues may arise depending on the user's geographic location.
+
+               --{{1}}--
 As we continue with our training, let's consider how these formats serve our objectives and the ways in which we can leverage their strengths while mitigating their limitations. Thank you for your thoughtful contributions to this discussion. Now, let's proceed with our next topic.
 
 Compare the list to Table 1 from the [10 simple rules paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec007).
@@ -192,8 +205,28 @@ style = "width: 100px;"
 ## Summary of training material file formats
 
                --{{0}}--
-Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the bar charts of our training, providing clear, structured information at a glance. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom. **Video:** Like the play button that brings static images to life, our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Guidelines:** The checklists of our training, these guidelines are your roadmap to best practices and essential procedures, ensuring you're always on the right track. **Dataset:** Represented by database cylinders, our datasets are the real-world data playgrounds where you can apply and hone your analytical skills. **Tutorial:** The overlapping squares symbolize our tutorials, which provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** The gear of our toolkit, software training is where you'll gain hands-on experience with the tools that drive life science research forward. Each of these resources is interconnected, creating a comprehensive network that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed.
-Now, let's continue to build on this foundation and delve deeper into our next activity. Thank you for your engagement and enthusiasm!
+Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: 
+
+               --{{0}}--
+**Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the bar charts of our training, providing clear, structured information at a glance. 
+
+               --{{0}}--
+**Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom. 
+
+               --{{0}}--
+**Video:** Like the play button that brings static images to life, our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. 
+
+               --{{0}}--
+**Guidelines:** The checklists of our training, these guidelines are your roadmap to best practices and essential procedures, ensuring you're always on the right track. 
+
+               --{{0}}--
+**Dataset:** Represented by database cylinders, our datasets are the real-world data playgrounds where you can apply and hone your analytical skills. 
+
+               --{{0}}--
+**Tutorial:** The overlapping squares symbolize our tutorials, which provide step-by-step guidance, helping you navigate through practical applications with ease. 
+
+               --{{0}}--
+**Software:** The gear of our toolkit, software training is where you'll gain hands-on experience with the tools that drive life science research forward. Each of these resources is interconnected, creating a comprehensive network that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed. Now, let's continue to build on this foundation and dig deeper into our next activity.
 
 TODO: svg with overview
 
@@ -260,9 +293,13 @@ style = "width: 100px;"
 ## The more context you give about your material the better
 
           --{{1}}--
-1. For a lecture-style presentation, you can annotate each slide with an extensive narrative capturing all aspects of the subject on the slides. You can put the complete transcript of the verbal presentation in the Notes panel in Powerpoint or in Google slides. Suppose you want to share your slides in pdf format. In that case, it is handier to place the detailed content into a handbook or use text-book style reference materials and keep the slides for lectures cleaner, only placing relevant elements directly on the slides. 
+1. For a lecture-style presentation, you can annotate each slide with an extensive narrative capturing all aspects of the subject on the slides. You can put the complete transcript of the verbal presentation in the Notes panel in Powerpoint or in Google slides. Suppose you want to share your slides in pdf format. In that case, it is handier to place the detailed content into a handbook or use text-book style reference materials and keep the slides for lectures cleaner, only placing relevant elements directly on the slides.
+
+           --{{1}}--
 2. You may associate “Instructor notes” with the materials, but you don’t need to include them in the materials. The Instructor notes should provide information drawing on your experience or the experience of other instructors. They may consist of technical tips and tricks, common problems, and a description of what parts or exercises are essential and what could be skipped in case of lack of time. Very good examples of Instructor/Trainer notes are provided by the Carpentries ([Carpentry Trainer notes](https://carpentries.github.io/instructor-training/guide/index.html#curriculum), [Instructor notes template](https://carpentries.github.io/lesson-example/guide/index.html)).
-3. You may create a lesson plan describing the purpose and the mode of delivery of each piece of material. Lesson plans could contain many practical details, including - for each part of the material - the time needed for the delivery, the learning experiences and expected learning outcomes. Chapter 2.4 shows an example Lesson plan of this lesson.
+
+          --{{1}}--
+3. You may create a lesson plan describing the purpose and the mode of delivery of each piece of material. Lesson plans could contain many practical details, including - for each part of the material - the time needed for the delivery, the learning experiences and expected learning outcomes. 
 
 |   |      |      |
 | :---------: | :---------: | :---------: |
