@@ -117,6 +117,7 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 |      ![](../assets/images/03-activity-team.png)<!--
 style = "width: 100px;"
 -->    |      Activity: How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
+|-|-|
 
               {{1}}
 *************
