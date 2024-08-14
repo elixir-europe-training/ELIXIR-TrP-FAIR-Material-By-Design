@@ -37,11 +37,16 @@ The CC licenses will allow you to [combine different options](https://creativeco
 It is an scale, see it bellow:
 
 <figure>
+<a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
 <img src="../assets/images/chapter04/Creative_commons_license_spectrum.svg.png"  width="30%" >
-<figcaption> Image from Drake university 
-
-https://researchguides.drake.edu/OER/creativecommons</figcaption>
+</a>
+<figcaption>
+<a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
+Creative commons license spectrum by Shaddim; original CC license symbols by Creative Commons.
+</a>
+</figcaption>
 </figure>
+ 
 
 **CC0** means you can freely use! While **(C)** means all rights reserved.
 Between them you can find many options, for example the **CCBY**, second one in the right top, means you can share and adapt as long as citing **by** whom it was created.
@@ -140,7 +145,7 @@ For training material, however we have Authors, contributors and trainers/teache
  In the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) you can also find a Credit matrix to help defining  the  responsibilities of authors in the creation of the training material. 
 
  
-Complementary, in some cases there is another layer where **founders**, **institutions**, **organizations** and **communities** must have their share of contribution acknowledged also. Generally speaking, it is advised that whenever creating or re-using material the same guidelines for academic citations and acknowledgements should apply, and you can also include a guideline or copy-paste text for people to easily cite the material.
+Complementary, in some cases there is another layer where **founders** and **institutions/organizations** must have their share of contribution acknowledged also. Generally speaking, it is advised that whenever creating or re-using material the same guidelines for academic citations and acknowledgements should apply, and you can also include a guideline or copy-paste text for people to easily cite the material.
 
 Is good to keep in mind that training material includes but is not limited by **presentations**. it also refers to text, quizzes, list of literature, videos, etc. You will see more about it in the session about training materials.
 
