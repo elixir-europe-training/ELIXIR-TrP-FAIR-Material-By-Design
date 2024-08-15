@@ -2,7 +2,11 @@
 Lead: Elin 
 Duration: 110 min
 Title: Releases and use of unique identifiers
-To conver: 
+To cover: 
+- What is a DOI and why is it useful for training materials 
+- Different strategies for addinf DOIs for training materials
+- Connecting a GitHub repository with Zenodo to assign a DOI
+- Use releases in GitHub to make new versions  
 To Reuse:
 - chapter 10 FAIR trianing handbook -> https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_10/
 ---
