@@ -126,7 +126,9 @@ Help distinguish between :
 
 ## 1.3 Implementing your strategy (50 min)
 
-Now we will use Zenodo sandbox to create DOIs for our training material project from this course. This turtorial will guide you through the steps of creating a Zenodo record for your GitHub repository that will be automatically versioned. Upon creation of a new realse of your repositiry, a new DOI will be issued that is linked to the original one. You need to have an ORCID and a GitHub account before we get started.
+Now we will use Zenodo sandbox to create DOIs for our training material project from this course. A sandbox is used for testing purposes and DOIs created in the Zenodo Sandbox are not real and will not resolve.
+
+This turtorial will guide you through the steps of creating a Zenodo record for your GitHub repository which will be automatically versioned. Upon creation of a new realse of your repository, a new DOI, linked to the original one,  will be issued. Make sure to have an ORCID and a GitHub account before we get started.
 
 
 ??? success "Get an ORCID iD"
@@ -138,11 +140,35 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     Create your GitHub account by [signing up](https:/github.com)
 
-- Login/create a Zenodo account in Zenodo sandbox (Easiest via GitHub)
-- Link the repo and the Zenodo account from Zenodo)
+
+### 1.3.1 Linking your repository to Zenodo
+1. Go to [Zenodo Sandbox](https://sandbox.zenodo.org/)
+2. Sign up or sign in with your GitHub account
+3. Click the down arrow next to your `username` in the top right corner to expand the menu,  select `GitHub`
+> If you have not used your GitHub account to sign in to Zenodo sandbox select `Linked Accounts` first to connect your accounts
+4. Find your repository in the list, toggle the switch to `ON`
+> If your repository does not show up in the list, check when it was last synced in the title row of the first box and  click `sync now`if needed
+5. Reload the page > your repository should now be added to the list of `Enabled Repositories`
+6. Click on the repository to reach the Zenodo page of that repository > click `Create release` in the title row of the `Releases box`
+You have now moved to GitHub where we will create a release that will trigger an Zenodo record to be created.
+
+### 1.3.2 Create a GitHub release of your repository
+
+1. Create a tag by clickincg the `Choose a tag` button in the top left part of the page. Enter `v0.0.1` in the text field and click `+ Create new tag: on publish`
+2. Just below, enter `initial release` as the Release title
+3. In the large text box, add `This is the initial release of <Title of your training material>` as release notes 
+
+
+---
 - Create an item
 - Add DOI badge to repo (make sure to use DOI for all versions)
 - Create a new release (the release notes are the description by default)
 - Update TeSS
 
 
+Releases are deployable software iterations you can package and make available for a wider audience to download and use. 
+- tags
+- release notes
+    release note templates
+- version semantics
+- who can do what?
