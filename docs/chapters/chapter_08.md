@@ -157,7 +157,12 @@ You have now moved to GitHub where we will create a release that will trigger an
 1. Create a tag by clickincg the `Choose a tag` button in the top left part of the page. Enter `v0.0.1` in the text field and click `+ Create new tag: on publish`
 2. Just below, enter `initial release` as the Release title
 3. In the large text box, add `This is the initial release of <Title of your training material>` as release notes 
+4. Click the green button `Publish release`
+A DOI record has now been created for your repository. Return to your [Zenodo Sandbox](https://sandbox.zenodo.org/) > GitHub settings (see above) and inspect the list of `Enabled Repositories`. A black and blue DOI badge should now be available next to your repository name.  
+5. To add the DOI badge to repository click the badge, in the popup window, copy the Markdown formatted text. Go to your GitHub repository and paste the text at the top of your `readme.md` file
+Now it's time to inspect the record and the metadata it contains. 
 
+### 1.3.3
 
 ---
 - Create an item
@@ -172,3 +177,4 @@ Releases are deployable software iterations you can package and make available f
     release note templates
 - version semantics
 - who can do what?
+-How is metadata transferred from GitHub to Zenodo? What is used for title and author
