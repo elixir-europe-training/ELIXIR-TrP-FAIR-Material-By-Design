@@ -125,7 +125,19 @@ Help distinguish between :
 -   Individual/pair-wise work for their own context "at home"
 
 ## 1.3 Implementing your strategy (50 min)
-Steps in the exercise
+
+Now we will use Zenodo sandbox to create DOIs for our training material project from this course. This turtorial will guide you through the steps of creating a Zenodo record for your GitHub repository that will be automatically versioned. Upon creation of a new realse of your repositiry, a new DOI will be issued that is linked to the original one. You need to have an ORCID and a GitHub account before we get started.
+
+
+??? success "Get an ORCID iD"
+
+    Create your ORCID iD by [registering](https://orcid.org/register) at the [ORCID website](https://info.orcid.org/researchers/)
+
+
+??? success "Get a GitHub account"
+
+    Create your GitHub account by [signing up](https:/github.com)
+
 - Login/create a Zenodo account in Zenodo sandbox (Easiest via GitHub)
 - Link the repo and the Zenodo account from Zenodo)
 - Create an item
