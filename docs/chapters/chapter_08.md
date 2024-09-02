@@ -17,7 +17,7 @@ To Reuse:
     - Create versioned DOI for training material in a GitHub repository 
 
 
-## 1.1 Unique identifiers for training materials (20 min)
+## 8.1 Unique identifiers for training materials (20 min)
 
 ### What is a unique persistent identifier (PID)?
 
@@ -45,7 +45,7 @@ Help distinguish between :
 - Versioning of DOIs
 
 
-## 1.2 Selecting a strategy for unique identifiers (40 min)
+## 8.2 Selecting a strategy for unique identifiers (40 min)
 
 ### DOIs for presentations
 
@@ -154,7 +154,7 @@ Releases are deployable software iterations you can package and make available f
 
 
 
-## 1.3 Implementing your strategy (50 min)
+## 8.3 Tutorial for implementing your strategy (50 min)
 
 Now we will use Zenodo sandbox to create DOIs for our training material project from this course. A sandbox is used for testing purposes and DOIs created in the Zenodo Sandbox are not real and will not resolve.
 
@@ -171,7 +171,7 @@ This turtorial will guide you through the steps of creating a Zenodo record for 
     Create your GitHub account by [signing up](https:/github.com)
 
 
-### 1.3.1 Linking your repository to Zenodo
+### Step 1 - Link your repository to Zenodo
 1. Go to [Zenodo Sandbox](https://sandbox.zenodo.org/)
 2. Sign up or sign in with your GitHub account
 3. Click the down arrow next to your `username` in the top right corner to expand the menu,  select `GitHub`
@@ -182,7 +182,7 @@ This turtorial will guide you through the steps of creating a Zenodo record for 
 6. Click on the repository to reach the Zenodo page of that repository > click `Create release` in the title row of the `Releases box`
 You have now moved to GitHub where we will create a release that will trigger an Zenodo record to be created.
 
-### 1.3.2 Create a GitHub release of your repository
+### Step 2 - Create a GitHub release of your repository
 
 1. Create a tag by clickincg the `Choose a tag` button in the top left part of the page. Enter `v0.0.1` in the text field and click `+ Create new tag: on publish`
 2. Just below, enter `initial release` as the Release title
@@ -210,33 +210,42 @@ Now it's time to inspect the record and the metadata it contains. Return to your
 
 7. Now, create a new release of your repository. This time, include the description of your Training material as release notes. 
 
-### 1.3.3 Adding additionl metadata to your record
+### Step 3 - Add additionl metadata to your record
 
 Rich metadata is very important for making any kind of digital object FAIR. We will manually add the metadata from the previous session in the Zenodo Record fot your repository.  
-1. In your Zenodo Sandbox Dashboard, click `edit` next to your repository in the list.
+
+1. In your Zenodo Sandbox Dashboard, click `edit` next to your repository in the list
 2. Set (change or add) the following:
+
     - `Resource type` to "Lesson"
     - `License` to "Creative Commons Attribution 4.0 International aka CC-BY-4.0"
     - `Keywords` as specified previously
     - `Funding` if any
+
 3. In the `Creators`section, click `edit` next to an existing name or click the `Add creator` button below the names. Make sure to add the Names, the ORCID-iD in the `Identifiers` field and one or several Affiliations.
-4. Click `Save draft` in the right side-menu and then `Preview`. Review your record and if everything looks good, click `Back to edit` in the top left and then `Publish`in the right side-menu.
+4. In the `Related Works`field click `Add related work` to add a link to your TeSS record as follows:
 
-### Linking your repository to your TeSS record through the DOI
+    - `Relation`:  "Is described by" 
+    - `Identifier`: "the url to your record"
+    - `Scheme`: "URL"
+    - `Resource type`: "Event"
 
-The F3 principle of the [FAIR data pronciples](https://www.go-fair.org/fair-principles/) states that "Metadata clearly and explicitly include the identifier of the data they describe" and this applies to training materials as well. The link between the 
+5. Click `Save draft` in the right side-menu and then `Preview`. Review your record and if everything looks good, click `Back to edit` in the top left and then `Publish`in the right side-menu.
 
+### Step 4 - Link your training material to your TeSS record through the DOI
+
+The F3 principle of the [FAIR data pronciples](https://www.go-fair.org/fair-principles/) states that "Metadata clearly and explicitly include the identifier of the data they describe" and this applies to training materials as well. The association between the description of your course in TeSS and the course material in the GitHub repository should be done by mentioning the DOI is the TeSS record (and the repository) and also linking to the TeSS record from Zenodo.
+
+1. Go TeSS sandbox
+2. Click edit
+3. Add the DOI in the apporpriate place
 
 ??? abstract "Additional exercises"
 
 
     1. Add a citation.cff file to your repository
-    2. Add a .zenodo.json file to your repository
+    2. Add a .zenodo.json file to your repository. For an example see https://cdnis-brain.readthedocs.io/zenodo/
 
 
----
-- Create a new release (the release notes are the description by default)
-- Update TeSS
-- https://cdnis-brain.readthedocs.io/zenodo/
 
 
