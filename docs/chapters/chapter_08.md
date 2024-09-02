@@ -18,29 +18,36 @@ To Reuse:
 
 
 ## 1.1 Unique identifiers for training materials (20 min)
-- What is a unique persistent identifier?
+
+### What is a unique persistent identifier (PID)?
 
 A persistent identifier is a type of metadata that uniquely tags a digital object. 
  - leads to a landing page with the listed digital object and its metadata. Actual access to the digital object from this page might be restricted. 
 
-- Why is it useful for training materials?
+### Why are PIDs useful for training materials?
 Help distinguish between :
 - different materials
 - different versions of the same material
+- different authors and contributors
+- different oraginsations
 
 "I attended this ELIXIR course on data management practices which was really good, you should have look at it" 
--- screenshot of 
 
+-- insert screenshot of a TeSS/Google search --
 
--  Versioning of DOIs
+### Different type of unique identifiers useful for training materials:
+- ORCIDs
+- RORs
+- DOIs
 
-- Explore different strategies
-    -   group exercise, presenting strategies to each other
-
+### DOIs for Training materials 
+- 
+- Versioning of DOIs
 
 
 ## 1.2 Selecting a strategy for unique identifiers (40 min)
--   DOI for presentations
+
+### DOIs for presentations
 
 
 !!! checklist "Case Studies of Using PIDs in Training"
@@ -120,9 +127,32 @@ Help distinguish between :
             <img src="../../assets/images/FTH-fig5-chap5.png"
             width="500" alt="Screenshot Zenodo page for day 1 course from DTL"/>
 
--   DOI for repositories and releases
+### DOIs for GitHub repositories and making use of releases to version training material
 
--   Individual/pair-wise work for their own context "at home"
+Releases are deployable software iterations you can package and make available for a wider audience to download and use. 
+
+- tags
+- release notes
+    - release note templates
+- version semantics
+- who can do what?
+- How is metadata transferred from GitHub to Zenodo?
+
+!!! question "Reflection"
+
+    Think about what would be a good strategy to use for your own context 
+    
+    ??? Tip "Things to consider"
+
+        - Do you want to get a PID for each training material?
+        - Do you want to get one PID for your whole training or course?
+        - Do you want to get a separate PID for each topic/module? For example, for a course containing several topics.
+        - Do you want to create a collection of topics with a PID where each concept will also have a PID and associated metadata?
+        - Do you want to get one PID for your whole training or course?
+
+        Read more in [Chapter 5 of the FAIR Training Handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/#how-to-get-a-doi-for-your-training-materials)
+
+
 
 ## 1.3 Implementing your strategy (50 min)
 
@@ -159,22 +189,54 @@ You have now moved to GitHub where we will create a release that will trigger an
 3. In the large text box, add `This is the initial release of <Title of your training material>` as release notes 
 4. Click the green button `Publish release`
 A DOI record has now been created for your repository. Return to your [Zenodo Sandbox](https://sandbox.zenodo.org/) > GitHub settings (see above) and inspect the list of `Enabled Repositories`. A black and blue DOI badge should now be available next to your repository name.  
-5. To add the DOI badge to repository click the badge, in the popup window, copy the Markdown formatted text. Go to your GitHub repository and paste the text at the top of your `readme.md` file
-Now it's time to inspect the record and the metadata it contains. 
+5. To add the DOI badge to repository click the badge, in the popup window, copy the Markdown formatted text. 
+6. Go to your GitHub repository and select your `readme.md` file in the left side menu. Click the pen in the top right > paste the copied markdown text at the top of the file and commit your changes by clicking the green button in the top right corner
+Now it's time to inspect the record and the metadata it contains. Return to your [Zenodo Sandbox](https://sandbox.zenodo.org/) and click `Dashboard`in the middle of the top menu. Click on your record in the list and inspect the information in the record.
 
-### 1.3.3
+!!! question "Reflection"
+
+    Can you find some metadata which is automatically imported from the github repository? What metadata is missing?
+    
+    ??? tip "Hints"
+
+        Zenodo automatically extract metadata about your release from GitHub APIs. For example, the authors are determined from the repository’s contributor statistics or the citation.cff file that is used to populate the GitHub repository with information. To overwrite some of the default metadata that would come from a regular GitHub release you can include a .zenodo.json file at the root of your GitHub repository. This will not be covered in this course but you can find more information in the [Zenodo Developers documentation](https://developers.zenodo.org/#add-metadata-to-your-github-repository-release)
+
+
+        | Zenodo Record      | GitHub Repository                    |
+        | -------------------| ------------------------------------ |
+        | Description        | release notes |
+        | Title              | name of repository or citation.cff file if in place|
+        | Creators           | citation.cff file if in place|
+
+7. Now, create a new release of your repository. This time, include the description of your Training material as release notes. 
+
+### 1.3.3 Adding additionl metadata to your record
+
+Rich metadata is very important for making any kind of digital object FAIR. We will manually add the metadata from the previous session in the Zenodo Record fot your repository.  
+1. In your Zenodo Sandbox Dashboard, click `edit` next to your repository in the list.
+2. Set (change or add) the following:
+    - `Resource type` to "Lesson"
+    - `License` to "Creative Commons Attribution 4.0 International aka CC-BY-4.0"
+    - `Keywords` as specified previously
+    - `Funding` if any
+3. In the `Creators`section, click `edit` next to an existing name or click the `Add creator` button below the names. Make sure to add the Names, the ORCID-iD in the `Identifiers` field and one or several Affiliations.
+4. Click `Save draft` in the right side-menu and then `Preview`. Review your record and if everything looks good, click `Back to edit` in the top left and then `Publish`in the right side-menu.
+
+### Linking your repository to your TeSS record through the DOI
+
+The F3 principle of the [FAIR data pronciples](https://www.go-fair.org/fair-principles/) states that "Metadata clearly and explicitly include the identifier of the data they describe" and this applies to training materials as well. The link between the 
+
+
+??? abstract "Additional exercises"
+
+
+    1. Add a citation.cff file to your repository
+    2. Add a .zenodo.json file to your repository
+
 
 ---
-- Create an item
-- Add DOI badge to repo (make sure to use DOI for all versions)
 - Create a new release (the release notes are the description by default)
 - Update TeSS
+- https://cdnis-brain.readthedocs.io/zenodo/
 
 
-Releases are deployable software iterations you can package and make available for a wider audience to download and use. 
-- tags
-- release notes
-    release note templates
-- version semantics
-- who can do what?
--How is metadata transferred from GitHub to Zenodo? What is used for title and author
