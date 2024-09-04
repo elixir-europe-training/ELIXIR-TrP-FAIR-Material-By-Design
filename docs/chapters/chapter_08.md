@@ -3,7 +3,7 @@ Lead: Elin
 Duration: 110 min
 Title: Releases and use of unique identifiers
 To cover: 
-- What is a DOI and why is it useful for training materials 
+- What is a PID and why is it useful for training materials 
 - Different strategies for adding DOIs for training materials
 - Connecting a GitHub repository with Zenodo to assign a DOI
 - Use releases in GitHub to make new versions  
@@ -14,31 +14,71 @@ To Reuse:
 !!! success "Learning Outcomes"
 
     - Compare different strategies for unique identifiers for training material
-    - Create versioned DOI for training material in a GitHub repository 
+    - Create versioned DOIs for training material in a GitHub repository 
 
 
 ## 8.1 Unique identifiers for training materials (20 min)
 
 ### What is a unique persistent identifier (PID)?
 
-A persistent identifier is a type of metadata that uniquely tags a digital object. 
- - leads to a landing page with the listed digital object and its metadata. Actual access to the digital object from this page might be restricted. 
+A persistent identifier is a long-lasting reference that uniquely tags a resource. Often, they are used in the context of digital objects and are actionable, meaning that you can resolve it using the web browser and be taken to a web page with the listed digital object and its metadata.  Actual access to the digital object from this page might be restricted since a PID may be connected to a set of metadata describing an item rather than to the item itself. 
+The primary purpose of the PID is to provide the information required to reliably identify, verify and locate the resource it is connected with. In order to do so, the PIDs must comply with a few rules:
+
+* **Globally unique:**
+
+    To enable global uniqueness, a PID should comply with a **controlled syntax** to avoid clashes, for instance, by having **namespaces** that are **governed** by clearly defined **authorities**. 
+
+* **Persistent:** 
+
+    The identifier, and the object to which it points, should be **maintained** for a **long period of time**. The syntax used for the identifier should be also persistent 
+
+* **Resolvable**: 
+
+    The identifier allows both **human** and **machine** users to **access the resource**
+
+
+One of the most common PIDs used by public repositories is the  **Digital Object Identifier (DOI)** ([doi.org](https://www.doi.org/)). DOIs are coupled with metadata that can be modified over time and to keep track of the locations and characteristics of the objects they identify. DOIs are generated automatically when you make your resources available in a repository such as Dataverse or Zenodo, or when a research article is published. By using a public repository to assign a DOI to your training material you benefit from efficient management and accurate tracking, as well as gaining the ability to more easily automate processes and collaborate with partners in your community. Furthermore, DOIs facilitate accurate citation and tracking of outputs and for individuals to get recognised for their works. 
+>  DOI relies on a non-profit organisation that is the governance body of the federation of registration agencies. If you would like to learn more about the concept of DOIs, take a look at this [fact sheet](https://www.doi.org/factsheets/DOIKeyFacts.html).
+
+!!! Example 
+
+        "I attended an ELIXIR course on data management practices last year which was really good, you should have look at it" 
+
+        -- insert screenshot of a TeSS/Google search --
 
 ### Why are PIDs useful for training materials?
-Help distinguish between :
-- different materials
-- different versions of the same material
-- different authors and contributors
-- different oraginsations
 
-"I attended this ELIXIR course on data management practices which was really good, you should have look at it" 
 
--- insert screenshot of a TeSS/Google search --
+There are many different type of unique identifiers that are used for different kinds of resources or objects. For Training materials the 3 following are of main importance:
 
-### Different type of unique identifiers useful for training materials:
-- ORCIDs
-- RORs
-- DOIs
+* **ORCID**
+
+    ORCID, which stands for Open Researcher and Contributor ID, is a global, non-profit organisation which provides a **unique** and **persistent** identifier free of charge to researchers. Especially if you have a common name, you’ll know how important it is to distinguish homonyms! It is extremely useful to be correctly identified, worldwide. ORCID takes homonymy into account, and the system also allows you to add aliases to your profile in the event that your name changes,  making sure that it will be tracked back to you. Another benefit is that your ORCID will stay the same, even when your affiliation changes, ensuring that you get the credit you deserve and helping you keep track of your work.
+
+* **ROR**
+
+    The Research Organization Registry ([ROR.org](https://ror.org/)) is a global, community-led registry of open persistent identifiers for research organizations. ROR makes it easy for anyone or any system to disambiguate institution names and connect research organizations to researchers and research outputs.
+
+
+
+* **DOI**
+    For the training material itslef we recommend using a **Digital Object Identifier (DOI)**. It can be used for different types of objects covering all kinds of trainig materials
+   
+
+!!! question "Reflection"
+
+    In the context of training materials, why are PIDs needed?
+
+    ??? success "Answer"
+           'PIDs can help distinguish between :
+
+            - different materials
+            - different versions of the same material
+            - different authors and contributors ORCID-iDs are used to identify persons. Author and contributors of training materials 
+
+
+            - different oraginsations
+
 
 ### DOIs for Training materials 
 - 
