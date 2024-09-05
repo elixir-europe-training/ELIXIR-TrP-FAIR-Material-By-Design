@@ -40,14 +40,14 @@ The primary purpose of the PID is to provide the information required to reliabl
 One of the most common PIDs used by public repositories is the  **Digital Object Identifier (DOI)** ([doi.org](https://www.doi.org/)). DOIs are coupled with metadata that can be modified over time and to keep track of the locations and characteristics of the objects they identify. DOIs are generated automatically when you make your resources available in a repository such as Dataverse or Zenodo, or when a research article is published. By using a public repository to assign a DOI to your training material you benefit from efficient management and accurate tracking, as well as gaining the ability to more easily automate processes and collaborate with partners in your community. Furthermore, DOIs facilitate accurate citation and tracking of outputs and for individuals to get recognised for their works. 
 >  DOI relies on a non-profit organisation that is the governance body of the federation of registration agencies. If you would like to learn more about the concept of DOIs, take a look at this [fact sheet](https://www.doi.org/factsheets/DOIKeyFacts.html).
 
+
+### Why are PIDs useful for training materials?
+
 !!! Example 
 
         "I attended an ELIXIR course on data management practices last year which was really good, you should have look at it" 
 
         -- insert screenshot of a TeSS/Google search --
-
-### Why are PIDs useful for training materials?
-
 
 There are many different type of unique identifiers that are used for different kinds of resources or objects. For Training materials the 3 following are of main importance:
 
@@ -57,32 +57,29 @@ There are many different type of unique identifiers that are used for different 
 
 * **ROR**
 
-    The Research Organization Registry ([ROR.org](https://ror.org/)) is a global, community-led registry of open persistent identifiers for research organizations. ROR makes it easy for anyone or any system to disambiguate institution names and connect research organizations to researchers and research outputs.
-
-
+    The Research Organization Registry ([ROR.org](https://ror.org/)) is a global, community-led registry of open persistent identifiers for research organizations. ROR makes it easy for anyone or any system to disambiguate institution names and connect research organizations to researchers and research outputs. For example, Science for Life Laboratory is commonly referred to as SciLifeLab. If not direclty involved with the organisation one might easily think that these are two different organisations, using the [SciLifeLab ROR-id](https://ror.org/04ev03g22) will make it clear they refer to the same organisation. 
 
 * **DOI**
-    For the training material itslef we recommend using a **Digital Object Identifier (DOI)**. It can be used for different types of objects covering all kinds of trainig materials
+
+    For the training material itslef we recommend using a **Digital Object Identifier (DOI)** (see above for more details). It can be used for many different types of objects covering all kinds of trainig materials. Many public repositories have a system for linking DOIs tagging that are refering to versions of the same object. 
    
 
 !!! question "Reflection"
 
-    In the context of training materials, why are PIDs needed?
+    In the context of training materials why are PIDs needed?
+    Which identifier should be used for each need?
 
     ??? success "Answer"
-           'PIDs can help distinguish between :
+           PIDs can help distinguish between:
 
-            - different materials
-            - different versions of the same material
-            - different authors and contributors ORCID-iDs are used to identify persons. Author and contributors of training materials 
+        - different materials  -  **DOI**
+        - different versions of the same material -  **DOI**
+        - different authors and contributors -  **ORCID**
+        - different oraginsations -  **ROR**
 
+!!! note "Exercise"
 
-            - different oraginsations
-
-
-### DOIs for Training materials 
-- 
-- Versioning of DOIs
+    Go to the [ROR search page](https://ror.org/search) and try to find your organisation's ROR
 
 
 ## 8.2 Selecting a strategy for unique identifiers (40 min)
@@ -166,17 +163,23 @@ There are many different type of unique identifiers that are used for different 
         <figure>
             <img src="../../assets/images/FTH-fig5-chap5.png"
             width="500" alt="Screenshot Zenodo page for day 1 course from DTL"/>
+         </figure>
 
 ### DOIs for GitHub repositories and making use of releases to version training material
 
-Releases are deployable software iterations you can package and make available for a wider audience to download and use. 
+In this course we have promoted the use of GitHub for hosting markdown based training material. The public repositories Zenodo and Figshare have integrations with GitHub set up in order to issue DOIs for repositories. These integrations make use of `releases` which can be described as a snapshot of your project at a specific point in time that is packaged in way that make the content of the repository available for a wider audience to download and use. Each relaese is usually attached with a version number and attched to the snapshot in GitHub via a `tag`. This number helps users and authors keep track of different stages of the project and understand the differences between multiple releases. 
 
-- tags
-- release notes
-    - release note templates
-- version semantics
-- who can do what?
-- How is metadata transferred from GitHub to Zenodo?
+In addition, a title and `release notes` can be used to add some metadata for describing the release. If you make use of Zenodo to archive your repository, the release notes are imported as the record description while other metadata is set by default, e.g. `Resource type` will be set to "Software" and a link to the repository  itslef will be included as `related works` or needs to be added manually. 
+
+For each new release, a new version of your figshare or Zenodo record will be generated and a new doi will be issued. This doi is linked to the previous ones and there is also one DOI representing all versions. Read more about DOI versioing in Zenodo [here](https://sandbox.zenodo.org/help/versioning).
+        
+<figure>
+    <img src="../../docs/assets/images/fig1_ch_08.png"
+    width="500" alt="Screenshot DTL data stewardship course DOIs view"/>
+</figure>
+
+        **Figure 1:** Example of Zenodo record for GitHub repository containing the training material for the SIB course Introduction to RNAseq... See more [here](https://zenodo.org/records/8369162).
+
 
 !!! question "Reflection"
 
@@ -191,8 +194,7 @@ Releases are deployable software iterations you can package and make available f
         - Do you want to get one PID for your whole training or course?
 
         Read more in [Chapter 5 of the FAIR Training Handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/#how-to-get-a-doi-for-your-training-materials)
-
-
+    
 
 ## 8.3 Tutorial for implementing your strategy (50 min)
 
