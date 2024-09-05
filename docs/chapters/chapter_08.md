@@ -164,6 +164,7 @@ There are many different type of unique identifiers that are used for different 
             <img src="../../assets/images/FTH-fig5-chap5.png"
             width="500" alt="Screenshot Zenodo page for day 1 course from DTL"/>
          </figure>
+         **Figure 5:** Zenodo record for the Introductory Module of the DTL FAIR Data Stewardship Course. View [this record](https://doi.org/10.5281/zenodo.4629718) on Zenodo.
 
 ### DOIs for GitHub repositories and making use of releases to version training material
 
@@ -174,11 +175,10 @@ In addition, a title and `release notes` can be used to add some metadata for de
 For each new release, a new version of your figshare or Zenodo record will be generated and a new doi will be issued. This doi is linked to the previous ones and there is also one DOI representing all versions. Read more about DOI versioing in Zenodo [here](https://sandbox.zenodo.org/help/versioning).
         
 <figure>
-    <img src="../../docs/assets/images/fig1_ch_08.png"
-    width="500" alt="Screenshot DTL data stewardship course DOIs view"/>
+<img src="../../assets/images/fig6_ch_08.png" width="500" alt="Screenshot DTL data stewardship course DOIs view"/>
 </figure>
 
-        **Figure 1:** Example of Zenodo record for GitHub repository containing the training material for the SIB course Introduction to RNAseq... See more [here](https://zenodo.org/records/8369162).
+**Figure 6:** Example of Zenodo record for GitHub repository containing the training material for the SIB course Introduction to RNAseq... See more [here](https://zenodo.org/records/8369162).
 
 
 !!! question "Reflection"
