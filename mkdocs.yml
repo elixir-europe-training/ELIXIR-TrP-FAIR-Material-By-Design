@@ -12,7 +12,7 @@ nav:
       - "7. Metadata and Findability": chapters/chapter_07.md
       - "8. Releases and use of unique identifiers": chapters/chapter_08.md
       - "References": chapters/references.md
-    - "Follow up training": follow_up_training.md
+    - "Course schedule": course_schedule.md
 
 theme:
   name: material
