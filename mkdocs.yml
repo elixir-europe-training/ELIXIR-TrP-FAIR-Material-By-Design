@@ -1,12 +1,18 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: ELIXIR Training Lesson
+site_name: Training material made FAIR by design
 nav:
     - About: index.md
     - Course Content:
-      - "1. title of first chapter": chapters/chapter_01.md
-      - "2. title of second chapter": chapters/chapter_02.md
+      - "1. What is FAIR and why do I care?": chapters/chapter_01.md
+      - "2. Planning and Designing a FAIR training": chapters/chapter_02.md
+      - "3. How to host your training": chapters/chapter_03.md
+      - "4. Training material formats and interoperability": chapters/chapter_04.md
+      - "5. Acknowledgements, a comprehensive perspective": chapters/chapter_05.md
+      - "6. Put on your producer hat: considerations for FAIR video material": chapters/chapter_06.md
+      - "7. Metadata and Findability": chapters/chapter_07.md
+      - "8. Releases and use of unique identifiers": chapters/chapter_08.md
       - "References": chapters/references.md
-    - "Follow up training": follow_up_training.md
+    - "Course Schedule": course_schedule.md
 
 theme:
   name: material
@@ -21,8 +27,8 @@ theme:
     text: Lato
 
 # Repository
-repo_name: elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
-repo_url: https://github.com/elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
+repo_name: elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design
+repo_url: https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design
 edit_uri: edit/main/docs/
 
 plugins:
