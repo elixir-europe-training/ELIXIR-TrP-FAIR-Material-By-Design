@@ -1,4 +1,10 @@
-# Training materials formats
+!!! success "Learning Outcomes"
+
+    - LO1
+    - LO2
+    - LO3
+
+## Training materials formats
 
 This presentation will guide you through this session where we will touch on:
 
