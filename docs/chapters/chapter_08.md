@@ -43,12 +43,6 @@ One of the most common PIDs used by public repositories is the  **Digital Object
 
 ### Why are PIDs useful for training materials?
 
-!!! Example 
-
-        "I attended an ELIXIR course on data management practices last year which was really good, you should have look at it" 
-
-        -- insert screenshot of a TeSS/Google search --
-
 There are many different type of unique identifiers that are used for different kinds of resources or objects. For Training materials the 3 following are of main importance:
 
 * **ORCID**
