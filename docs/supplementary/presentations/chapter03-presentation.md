@@ -109,7 +109,7 @@ This presentation will guide you through this session where we will touch on:
 Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them. Here is the activity Overview: We’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll determine the possible formats they could take. Then, we’ll dive deeper to discuss which formats we predominantly use and, most importantly, why we prefer those over others. This exercise will not only enhance our understanding of the material formats but also provide insights into our teaching methodologies. It’s a chance to share experiences, learn from each other, and possibly discover new ways to engage our audience.
 So, let’s get started! Please go to to the joint file. As we proceed, I encourage you to think critically about the ‘why’—it’s the key to understanding our choices and improving our approach to training. Let’s have a productive session!
 
-|      ![](../assets/images/03-activity-team.png)<!--
+|      ![](../../assets/images/04-activities.png)<!--
 style = "width: 100px;"
 -->    |      Activity: How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
 
@@ -178,7 +178,7 @@ Compare the list to Table 1 from the [10 simple rules paper](https://journals.pl
 
 ## Formats for training material
 
-| ![](../assets/images/03-formats.png)<!--
+| ![](../../assets/images/04-activities.png)<!--
 style = "width: 100px;"
 -->  | ![](../assets/images/03-overview-formats.png)[^1]  |
 
@@ -208,7 +208,7 @@ Rule 6 from the 10 simple rules paper is mainly about interoperability [10 simpl
 
 ## Discuss about the interoperabilty of training material
 
-| ![](../assets/images/03-activity-team.png)<!--
+| ![](../../assets/images/04-activities.png)<!--
 style = "width: 100px;"
 -->   | Activity: Have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.   |
 
@@ -218,7 +218,7 @@ style = "width: 100px;"
 
 ## Discuss interoperability and re-usability of training material
 
-| ![](../assets/images/03-activity-team.png)<!--
+| ![](../../assets/images/04-activities.png)<!--
 style = "width: 100px;"
 -->   | Activity: Consider the list of in table X. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.   |
      
@@ -261,7 +261,7 @@ TODO: create slides with guide the practical exercises
 
 Exercises
 
-| ![](../assets/images/03-activity-team.png)<!--
+| ![](../../assets/images/04-activities.png)<!--
 style = "width: 100px;"
 -->   | Activity: Create a presentation using a markdown dialect called Liascript  |
 
