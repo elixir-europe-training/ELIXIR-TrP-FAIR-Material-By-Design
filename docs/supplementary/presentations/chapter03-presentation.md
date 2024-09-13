@@ -180,7 +180,7 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the bar charts of our training, providing clear, structured information at a glance. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom. **Video:** Like the play button that brings static images to life, our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Guidelines:** The checklists of our training, these guidelines are your roadmap to best practices and essential procedures, ensuring you're always on the right track. **Dataset:** Represented by database cylinders, our datasets are the real-world data playgrounds where you can apply and hone your analytical skills. **Tutorial:** The overlapping squares symbolize our tutorials, which provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** The gear of our toolkit, software training is where you'll gain hands-on experience with the tools that drive life science research forward. Each of these resources is interconnected, creating a comprehensive network that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed.
 Now, let's continue to build on this foundation and delve deeper into our next activity. Thank you for your engagement and enthusiasm!
 
-![](../../assets/images/04-formats.png)<!-- style="position: absolute; top: 150px; right: 80px; width: 450px;" -->
+![](../../assets/images/04-formats.png)<!-- style="position: absolute; top: 150px; left: 80px; width: 450px;" -->
 
 [^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
@@ -206,9 +206,7 @@ Rule 6 from the 10 simple rules paper is mainly about interoperability [10 simpl
 
 ## Discuss interoperability and re-usability of training material
 
-| ![](../../assets/images/04-activities.png)<!--
-style = "width: 100px;"
--->   | Activity: Consider the list of in table X. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.   |
+| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Consider the list of in table 1. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.   |
      
 | Formats | Interoperability | Reusability |
 | :---: | :---: | :---: |
@@ -270,5 +268,4 @@ style = "width: 100px;"
 
 ## Final considerations
 
-TODO: drawing tools which close the circle of interoperability / reusability
-https://docs.google.com/presentation/d/1p6xeyCK6GGZ8tq6q6GBxooH4wYiN6U9iVWFBNzqIdWA/edit?usp=sharing
+![](../../assets/images/rect2.png)<!-- style="position: absolute; top: 150px; left: 80px; width: 450px;" -->
