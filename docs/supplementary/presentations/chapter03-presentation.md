@@ -212,8 +212,7 @@ Rule 6 from the 10 simple rules paper is mainly about interoperability [10 simpl
 | :---: | :---: | :---: |
 | pdf | partially | yes | 
 | | *A pdf can be read in any OS, but to modify it you need to pay a licence* | *Only as is* | 
-| | *Explanation* | *Explanation* | 
-| | yes/no/partially | yes/no/partially | 
+| ... | yes/no/partially | yes/no/partially | 
 | | *Explanation* | *Explanation* | 
 
 ## The more context you give about your material the better
