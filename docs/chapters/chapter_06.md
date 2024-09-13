@@ -21,16 +21,16 @@ The full presentation can be downloaded as a pdf [here](UPDATE TO THE SAME AS AB
 ## Exercise: Generate a caption or transcript to a sample video
 
 You can download [the sample video](HERE) from the course website or record a 1-2 minute video on your smartphone or laptop to use.
->[!CAUTION]
->Ensure you do not record anyone without their permission!
+!!! warning
+    Ensure you do not record anyone without their permission!
 
 #### OpenAI Whisper tutorial
 
 The following cheat sheet explains several ways of achieving a LLM-generated transcription. These are: 
 
-Recommended: Using the SciLifeLab serve instance of Whisper (recommended, easy)
-Independent: Using an on-device GUI such as Whisper Transcription
-Challenge mode: Installing your own local instance of Whisper
+- Recommended: Using the SciLifeLab serve instance of Whisper (recommended, easy)
+- Independent: Using an on-device GUI such as Whisper Transcription
+- Challenge mode: Installing your own local instance of Whisper
 
 <iframe src="TRANSCRIPT CHEATSHEET" width="640" height="360" allow="autoplay"></iframe>
 
@@ -44,4 +44,5 @@ When you are finished transcription, inspect the transcript and answer the follo
 
 Following the basic guidelines for FAIR video material, add your video to your sample course.
 
-Tip: If you created your own video, use the SciLifeLab NextCloud Folder to host it.
+!!! tip
+    If you created your own video, use the SciLifeLab NextCloud Folder to host it.
