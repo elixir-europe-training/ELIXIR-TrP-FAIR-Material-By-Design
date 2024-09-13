@@ -153,7 +153,7 @@ Let's take a moment to reflect on our recent discussions and how they align with
 - **Disadvantages:** Their usage can be restricted by local or institutional policies, and accessibility issues may arise depending on the user's geographic location.
 As we continue with our training, let's consider how these formats serve our objectives and the ways in which we can leverage their strengths while mitigating their limitations. Thank you for your thoughtful contributions to this discussion. Now, let's proceed with our next topic.
 
-Compare the list to Table 1 from the [10 simple rules paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec007).
+Compare the list to Table 1 from the '10 simple rules' paper[^1].
 
 | Format            | Advantages                                       | Disadvantages                                   |
 |-------------------|--------------------------------------------------|-------------------------------------------------|
@@ -171,14 +171,8 @@ Compare the list to Table 1 from the [10 simple rules paper](https://journals.pl
 | **Google slides**    | Version controlled                              | Not always possible to use owing to local/institutional policies     |
 |                   |    Free                                           |     Not always accessible (depending on geographic location                     |
 
-
-## Formats for training material
-
-| ![](../../assets/images/04-activities.png)<!--
-style = "width: 100px;"
--->  | ![](../../assets/images/03-overview-formats.png)  |
-
 [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
+
 
 ## Summary of training material file formats
 
@@ -188,7 +182,7 @@ Now, let's continue to build on this foundation and delve deeper into our next a
 
 ![](../../assets/images/04-formats.png)<!-- style="position: absolute; top: 150px; right: 80px; width: 450px;" -->
 
-https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
+[^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
 ## Crafted for Collaboration - your training materials enhanced with Interoperable Materials
 
