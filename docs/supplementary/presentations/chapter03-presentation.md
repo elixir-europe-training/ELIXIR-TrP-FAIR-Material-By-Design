@@ -40,7 +40,7 @@ script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 This presentation will guide you through this session where we will touch on:
 
 - different types of training materials and its re-usability
-- 
+-
 - Image, video, and iframe embedding
 - Elegant transitions and animations
 - Printing to PDF via Liascript Exporter
@@ -109,16 +109,15 @@ This presentation will guide you through this session where we will touch on:
 Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them. Here is the activity Overview: We’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll determine the possible formats they could take. Then, we’ll dive deeper to discuss which formats we predominantly use and, most importantly, why we prefer those over others. This exercise will not only enhance our understanding of the material formats but also provide insights into our teaching methodologies. It’s a chance to share experiences, learn from each other, and possibly discover new ways to engage our audience.
 So, let’s get started! Please go to to the joint file. As we proceed, I encourage you to think critically about the ‘why’—it’s the key to understanding our choices and improving our approach to training. Let’s have a productive session!
 
-|  ![](../../assets/images/04-activities.png)<!--
-style = "width: 80px; padding:15px;"
--->    |      Activity: How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
+              {{0-1}}
+|  ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |      Activity: How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
 
               {{1}}
 *************
 
 | Material type | Possible format(s) | Format(s) you mostly use | Why? |
 | ----------------- | ------------------ | ------------------------ | ---- |
-| slides |                    |                          |      |
+| slides |                |                          |      |
 | video |                    |                          |      |
 | dataset  |                    |                          |      |
 | repository |  |    |      |
@@ -128,12 +127,11 @@ style = "width: 80px; padding:15px;"
 | software |                    |                          |      |
 | webpage |                    |                          |      |
 
-Table 1
 ***********
 
 ## Compare your discussion results 
 
-               --{{1}}--
+               --{{0}}--
 Let's take a moment to reflect on our recent discussions and how they align with the insights from the "10 simple rules" paper. Our conversation has highlighted the various formats we use to disseminate knowledge in life sciences, each with its own set of advantages and challenges.
 **PowerPoint (PPT and PPTX)**
 - **Advantages:** These formats are easily (re)usable, widely available across different operating systems and software, and have widespread recognition.
@@ -159,28 +157,26 @@ Compare the list to Table 1 from the [10 simple rules paper](https://journals.pl
 
 | Format            | Advantages                                       | Disadvantages                                   |
 |-------------------|--------------------------------------------------|-------------------------------------------------|
-| PPT and PPTX      | • Easily (re)usable                              | • Limited way to provide detailed training      |
-|                   | • Available to multiple OSs/Software             |   instructions                                  |
-|                   | • Widespread                                     | • Not version controlled                        |
-| Keynote           | • Polished overall aesthetic                     | • Limited to macOS family                       |
-|                   |                                                  | • Not version controlled                        |
-| PDF               | • Can be displayed identically in any environment| • Not easily editable                           |
-|                   |                                                  | • Not version controlled                        |
-| TeX               | • Easily editable                                | • Steep learning curve for trainers             |
-|                   | • Version controlled                             |                                                 |
-| MD, RST, and HTML | • Version controlled                             | • Rendering (need templating to transform into  |
-|                   | • Free                                           |   HTML)                                         |
-| Google slides    | • Version controlled                              | • Not always possible to use owing to local/    |
-|                   | • Free                                           |   institutional policies                        |
-|                   |                                                  | • Not always accessible (depending on geographic|
-|                   |                                                  |   location)                                     |
+| **PPT and PPTX**      | Easily (re)usable                              | Limited way to provide detailed training  instructions    |
+|                   | Available to multiple OSs/Software             |                                     |
+|                   | Widespread                                     | Not version controlled                        |
+| **Keynote**           | Polished overall aesthetic                     | Limited to macOS family                       |
+|                   |                                                  | Not version controlled                        |
+| **PDF**               | Can be displayed identically in any environment| Not easily editable                           |
+|                   |                                                  | Not version controlled                        |
+| **TeX**               | Easily editable                                | Steep learning curve for trainers             |
+|                   | Version controlled                             |                                                 |
+| **MD,RST and HTML** | Version controlled                             | Rendering (need templating to transform into HTML) |
+|                   | Free                                           |                                            |
+| **Google slides**    | Version controlled                              | Not always possible to use owing to local/institutional policies     |
+|                   |    Free                                           |     Not always accessible (depending on geographic location                     |
 
 
 ## Formats for training material
 
 | ![](../../assets/images/04-activities.png)<!--
 style = "width: 100px;"
--->  | ![](../assets/images/03-overview-formats.png)[^1]  |
+-->  | ![](../../assets/images/03-overview-formats.png)  |
 
 [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
 
