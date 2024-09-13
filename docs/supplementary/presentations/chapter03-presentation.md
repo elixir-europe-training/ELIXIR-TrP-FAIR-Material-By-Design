@@ -40,12 +40,8 @@ script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 This presentation will guide you through this session where we will touch on:
 
 - different types of training materials and its re-usability
--
-- Image, video, and iframe embedding
-- Elegant transitions and animations
-- Printing to PDF via Liascript Exporter
-
-...and much more
+- different types of training materials and its interoperability
+- creating presentation with a Markdown dialect or Google slides
 
 ```json   @JSONLD
 {
@@ -235,35 +231,39 @@ style = "width: 200px;"
 
 ## Create and discuss Interoperable and Reproducible training material (text, presentation)
 
-Let's first have a look at example presentations.
+          --{{0}}--
+Let's first have a look at example presentations using Liascript, a markdown dialect.
 
-Example presentation:
-Github: https://github.com/vibbits/material-liascript/blob/master/example-presentation.md?plain=1
-Rendering: 
-https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/material-liascript/master/example-presentation.md#1
+            {{0-1}}
+*********************
 
-TODO: create slides with guide the practical exercises
+**Example presentation**
 
-Exercises
+[Rendering](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/material-liascript/master/example-presentation.md#1)
 
-| ![](../../assets/images/04-activities.png)<!--
-style = "width: 100px;"
--->   | Activity: Create a presentation using a markdown dialect called Liascript  |
+[File on Github](https://github.com/vibbits/material-liascript/blob/master/example-presentation.md?plain=1)
 
-TODO: AI element about Liascript
+**********************
 
-To use MarkDown tools to create material (text and presentation)
-- LiaScript
-  LiaScript
-Doc about Liascript
-https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1
+         --{{1}}--
+Text
 
+           {{1}}
+*******************
 
-| ![](../assets/images/03-activity-team.png)<!--
-style = "width: 100px;"
--->   | Activity: Create a PDF or   |
+**Exercises**
 
+| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a markdown dialect called Liascript  |
 
+[Doc about Liascript](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1)
+
+| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a Google slides  |
+
+Additional exercise
+
+| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    | Activity: Create a PDF with Liascript (installation needed)   |
+
+*************
 
 ## Final considerations
 
