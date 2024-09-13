@@ -198,9 +198,7 @@ Rule 6 from the 10 simple rules paper is mainly about interoperability [10 simpl
 
 ## Discuss about the interoperabilty of training material
 
-| ![](../../assets/images/04-activities.png)<!--
-style = "width: 100px;"
--->   | Activity: Have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.   |
+| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->  | Activity: Have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.   |
 
 1. Could the presentation be extended?
 2. Could you choose a few slides and incorporate them in your presentation?
@@ -222,18 +220,18 @@ style = "width: 100px;"
 
 ## The more context you give about your material the better
 
-          --{{1}}--
+          --{{0}}--
 1. For a lecture-style presentation, you can annotate each slide with an extensive narrative capturing all aspects of the subject on the slides. You can put the complete transcript of the verbal presentation in the Notes panel in Powerpoint or in Google slides. Suppose you want to share your slides in pdf format. In that case, it is handier to place the detailed content into a handbook or use text-book style reference materials and keep the slides for lectures cleaner, only placing relevant elements directly on the slides. 
 2. You may associate “Instructor notes” with the materials, but you don’t need to include them in the materials. The Instructor notes should provide information drawing on your experience or the experience of other instructors. They may consist of technical tips and tricks, common problems, and a description of what parts or exercises are essential and what could be skipped in case of lack of time. Very good examples of Instructor/Trainer notes are provided by the Carpentries ([Carpentry Trainer notes](https://carpentries.github.io/instructor-training/guide/index.html#curriculum), [Instructor notes template](https://carpentries.github.io/lesson-example/guide/index.html)).
 3. You may create a lesson plan describing the purpose and the mode of delivery of each piece of material. Lesson plans could contain many practical details, including - for each part of the material - the time needed for the delivery, the learning experiences and expected learning outcomes. Chapter 2.4 shows an example Lesson plan of this lesson.
 
 |   |      |      |
 | :---------: | :---------: | :---------: |
-| ![](../assets/images/03-annotation-tutorial.png)<!--
+| ![](../../assets/images/03-annotation-tutorial.png)<!--
 style = "width: 200px;"
--->   |  ![](../assets/images/03-bloom-class.png)<!--
+-->   |  ![](../../assets/images/03-bloom-class.png)<!--
 style = "width: 200px;"
---> | ![](../assets/images/03-bloom-describe.png)<!--
+--> | ![](../../assets/images/03-bloom-describe.png)<!--
 style = "width: 200px;"
 --> |
 | narratives  | instructor notes     | lesson plan     |
