@@ -10,7 +10,7 @@ In this chapter we will touch on:
 - different types of training materials and its interoperability
 - creating presentations with Liascript, a Markdown dialect or Google slides
 
-## Formats for training material
+## 4.1 Formats for training material
 
 Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them. Here is the activity Overview: We’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll determine the possible formats they could take. Then, we’ll dive deeper to discuss which formats we predominantly use and, most importantly, why we prefer those over others. This exercise will not only enhance our understanding of the material formats but also provide insights into our teaching methodologies. It’s a chance to share experiences, learn from each other, and possibly discover new ways to engage our audience.
 So, let’s get started! Please go to to the joint file. As we proceed, I encourage you to think critically about the ‘why’—it’s the key to understanding our choices and improving our approach to training. Let’s have a productive session!
@@ -32,7 +32,7 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
         | software |                    |                          |      |
         | webpage |                    |                          |      |
 
-## Compare your discussion results 
+### Compare your discussion results 
 
 Let's take a moment to reflect on our recent discussions and how they align with the insights from the "10 simple rules" paper. Our conversation has highlighted the various formats we use to disseminate knowledge in life sciences, each with its own set of advantages and challenges.
 
@@ -83,7 +83,7 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
 
 
-## Summary of training material file formats
+### Summary of training material file formats
 
 We're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. 
 
@@ -110,7 +110,7 @@ As we move forward, remember that each resource is a piece of a larger puzzle, a
 
 [^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
-## Training material crafted for collaboration
+## 4.2 Training material crafted for collaboration
 
 Training materials need to be captured in interoperable formats, so that they can be used in different contexts (e.g., operating systems and software) and built upon later. For materials like slides, it is important that other trainers are able to (re)use, fine-tune or even extend them. This means that you should choose a format that supports editing and extension. 
 
@@ -122,7 +122,7 @@ Training materials need to be captured in interoperable formats, so that they ca
 - Reusability: Design your slides for longevity. Allow other trainers to adopt and adapt your materials with ease. 
 - Editability & Extensibility: Select formats that support seamless editing and extension, enabling continuous improvement and customization.
 
-## How re-usable public training material are
+### How re-usable public training material are
 
 !!! question "Reflection"
     Have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.   |
@@ -131,7 +131,7 @@ Training materials need to be captured in interoperable formats, so that they ca
     2. Could you choose a few slides and incorporate them in your presentation?
     3. Could you easily fix a typo?
 
-## Evaluate interoperability and re-usability of training material
+### Evaluate interoperability and re-usability of training material
 
 !!! question "Reflection"
     Consider the list of in table 1. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.
@@ -143,7 +143,7 @@ Training materials need to be captured in interoperable formats, so that they ca
     | ... | yes/no/partially | yes/no/partially | 
     | | *Explanation* | *Explanation* | 
 
-## The more context you give about your material the better
+### The more context you give about your material the better
 
 1. For a lecture-style presentation, you can annotate each slide with an extensive narrative capturing all aspects of the subject on the slides. You can put the complete transcript of the verbal presentation in the Notes panel in Powerpoint or in Google slides. Suppose you want to share your slides in pdf format. In that case, it is handier to place the detailed content into a handbook or use text-book style reference materials and keep the slides for lectures cleaner, only placing relevant elements directly on the slides.
 
@@ -153,16 +153,10 @@ Training materials need to be captured in interoperable formats, so that they ca
 
 |   |      |      |
 | :---------: | :---------: | :---------: |
-| ![](../../assets/images/03-annotation-tutorial.png)<!--
-style = "width: 200px;"
--->   |  ![](../../assets/images/03-bloom-class.png)<!--
-style = "width: 200px;"
---> | ![](../../assets/images/03-bloom-describe.png)<!--
-style = "width: 200px;"
---> |
+| ![](../../assets/images/03-annotation-tutorial.png)|  ![](../../assets/images/03-bloom-class.png) | ![](../../assets/images/03-bloom-describe.png)|
 | narratives  | instructor notes     | lesson plan     |
 
-## Create and explore Interoperable and Reproducible training material (text, presentation)
+## 4.3 Create and explore Interoperable and Reproducible training material (text, presentation)
 
 Let's first have a look at example presentations using Liascript, a markdown dialect.
 
@@ -184,6 +178,12 @@ Let's first have a look at example presentations using Liascript, a markdown dia
 
 *************
 
-## Final considerations
+## 4.4 Final considerations
+
+When considering the re-usability and extendability of training materials, PDF documents offer limited flexibility due to their static nature, making them less adaptable for updates or interactive elements. HTML pages provide greater re-usability and extendability, allowing for dynamic content and easier updates. PowerPoint files are somewhat reusable but can be cumbersome to update and share collaboratively. Google Presentations enhance re-usability through cloud-based collaboration and real-time updates, though they still face limitations in format compatibility. Markdown-based material stands out for its high degree of re-usability and extendability, being easily editable, version-controlled, and convertible to various formats.
+
+Looking ahead, the future of interoperable training material formats lies in developing standards that ensure seamless integration across platforms. Current gaps include inconsistent formatting, limited support for interactive elements, and challenges in maintaining version control across different tools. Addressing these gaps will be crucial for creating truly interoperable and user-friendly training materials.
+
 
 ![](../../assets/images/rect2.png)<!-- style="width: 650px;" -->
+
