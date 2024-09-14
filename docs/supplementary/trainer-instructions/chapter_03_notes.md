@@ -1,13 +1,13 @@
 
-## Activity 1
+## Activity 1 (slide 2)
 
 - discussion with the whole group
-- trainer as the note taker
+- trainer as the note taker with a flip chart or Google doc
 - in two steps
   - listing types of training material
   - talk about the formats of the respective types
 
-## Activity 2 (slide 7)
+## Activity 2 (slide 6)
 
 - print out 3 slides from Jensen's presentation (1, 2, 4)
 - put 2-3 persons in a group
@@ -20,7 +20,12 @@
     - discussion -> different pitches lead to different narratives
     - speaker notes which is a guide for presenters / original intension
 
-## Activity 3
+## Activity 3 (slide 7)
+
+- discussion with the whole group
+- trainer as the note taker with a flip chart or Google doc
+
+## Activity 4
 
 - check with Nina on how the github repos are setup
 - enter your git repo (github.dev)
@@ -28,5 +33,9 @@
 - create a markdown document using LiaScript 
 - create 2-3 slides about their training
   - no illustrations yet
-  - include narratives per slides (use AI for it)  
+  - include narratives per slides (use AI for it)
+- create a presentation using Google slides 
+- create 2-3 slides about their training
+  - no illustrations yet
+  - include narratives per slides (use AI for it)   
 
