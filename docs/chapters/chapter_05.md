@@ -162,11 +162,11 @@ For training material, however we have Authors, contributors and trainers/teache
 - **Trainer**: Have interactions with the trainee (learner) as part of didactic process while making use of the material
 
 
-
+Use this descriptions to help you define who has the author's role and who is the contributor. One thing important here to highlight is that _substantial contribution_ is not exactly defined. Each group might have a slightly different view on it and it can help, like in the papers, to describe what each person has done. However, I would focus in the fact that an author should be accountable for the material and its approval.
 
  In the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) you can also find a Credit matrix to help defining  the  responsibilities of authors in the creation of the training material. 
 
- 
+
 Complementary, in some cases there is another layer where **founders** and **institutions/organizations** must have their share of contribution acknowledged also. Generally speaking, it is advised that whenever creating or re-using material the same guidelines for academic citations and acknowledgements should apply, and you can also include a guideline or copy-paste text for people to easily cite the material.
 
 Is good to keep in mind that training material includes but is not limited by **presentations**. it also refers to text, quizzes, list of literature, videos, etc. You will see more about it in the session about training materials.
@@ -240,6 +240,7 @@ But we agree it is a nice and useful tool to create images, so to try to avoid p
     - Not all of them allow for commercial usage of the generated photos/images
 
 6. Avoid very general suggestions
+    - it tends to use reinforced biases of age, gender, race, etc.
 
 7. Use tools for reverse image search to verify outcomes.
 
@@ -259,5 +260,5 @@ But we agree it is a nice and useful tool to create images, so to try to avoid p
 
 * Keep it clean and meaninful
 * Avoid stereotypes, be inlcusive
-
-...
+* Check the licenses
+* Make citations and include links to original source
