@@ -211,7 +211,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
         Create your GitHub account by [signing up](https:/github.com)
 
 
-    ### GH Step 1- Link your repository to Zenodo
+    #### Step 1- Link your repository to Zenodo
     1. Go to [Zenodo Sandbox](https://sandbox.zenodo.org/)
     2. Sign up or sign in with your GitHub account
     3. Click the down arrow next to your `username` in the top right corner to expand the menu,  select `GitHub`
@@ -222,7 +222,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
     6. Click on the repository to reach the Zenodo page of that repository > click `Create release` in the title row of the `Releases box`
     You have now moved to GitHub where we will create a release that will trigger an Zenodo record to be created.
 
-    ### GH Step 2 - Create a GitHub release of your repository
+    #### Step 2 - Create a GitHub release of your repository
 
     1. Create a tag by clickincg the `Choose a tag` button in the top left part of the page. Enter `v0.0.1` in the text field and click `+ Create new tag: on publish`
     2. Just below, enter `initial release` as the Release title
@@ -250,7 +250,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     7. Now, create a new release of your repository. This time, include the description of your Training material as release notes. 
 
-    ### GH Step 3 - Add additional metadata to your record
+    #### Step 3 - Add additional metadata to your record
 
     Rich metadata is very important for making any kind of digital object FAIR. We will manually add the metadata from the previous session in the Zenodo Record fot your repository.  
 
@@ -272,7 +272,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     5. Click `Save draft` in the right side-menu and then `Preview`. Review your record and if everything looks good, click `Back to edit` in the top left and then `Publish`in the right side-menu.
 
-    ### GH Step 4 - Link your training material to your TeSS record through the DOI
+    #### Step 4 - Link your training material to your TeSS record through the DOI
 
     The F3 principle of the [FAIR data pronciples](https://www.go-fair.org/fair-principles/) states that "Metadata clearly and explicitly include the identifier of the data they describe" and this applies to training materials as well. The association between the description of your course in TeSS and the course material in the GitHub repository should be done by mentioning the DOI is the TeSS record (and the repository) and also linking to the TeSS record from Zenodo.
 
@@ -296,7 +296,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
    
 
-    ### GDrive Step 1 - Zenodo reserve a DOI
+    #### Step 1 - Zenodo reserve a DOI
     1. Go to [Zenodo Sandbox](https://sandbox.zenodo.org/)
     2. Sign up or sign in with your email adress or Github account 
     > The ORCID connection might not be stable for Zenodo Sandbox
@@ -313,7 +313,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
     6. Go back to the first field `Digital Object Indtifier`, click the button `Get a DOI now!` > This will reserve a DOI for your record that can be included in your files prior to upload. Copy the reserved DOI that has appeared to the left. It should look similar to this: `10.5072/zenodo.109776`
     7. Click `Save draft`in the right hand menu
     
-    ### GDrive Step 2 - Upload  your files
+    #### Step 2 - Upload  your files
     1. Go to your GDrive folder
     2. In your `readme file`, add the DOI you reserved in the previous step 
     3. Now download the entire folder by right clicking on the folder name and then select `download`. A `.zip file` will de downloaded to your computer. 
@@ -322,7 +322,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
     6. Upload your `.zip file` of your GDrive folder by `Drag and drop` or by clicking the `Upload files` button
     7. Click `Save draft` in the right side-menu and then `Preview`. Review your record and if everything looks good, click `Back to edit` in the top left and then `Publish`in the right side-menu.
 
-    ### GDrive Step 3 - Add additional metadata to your record
+    #### Step 3 - Add additional metadata to your record
 
     Rich metadata is very important for making any kind of digital object FAIR. We will continue to add the metadata from the previous session in the Zenodo Record. Metadata can be addedd without generating a new version of your record. If you were to upload new files, a new version of the record would automatically be generated and triggering the creation of a new DOI.
 
@@ -341,7 +341,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     4. Click `Save draft` in the right side-menu and then `Preview`. Review your record and if everything looks good, click `Back to edit` in the top left and then `Publish`in the right side-menu.
 
-    ### GDrive Step 4 - Link your training material to your TeSS record through the DOI
+    #### Step 4 - Link your training material to your TeSS record through the DOI
 
     The F3 principle of the [FAIR data principles](https://www.go-fair.org/fair-principles/) states that "Metadata clearly and explicitly include the identifier of the data they describe" and this applies to training materials as well. The association between the description of your course in TeSS and the course material in the LMS should be done by mentioning the DOI is the TeSS record (and the files themselves) and also linking to the TeSS record from Zenodo.
 
@@ -351,7 +351,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     ??? abstract "Additional exercises"
 
-        1. Add a link to your LMS in the `Related Works` field. Determine appropriate values for the fields
+        1. Add a link to your LMS in the `Related Works` field. Determine appropriate values for the following fields:
             - `Relation` 
             - `Identifier`
             - `Scheme`
