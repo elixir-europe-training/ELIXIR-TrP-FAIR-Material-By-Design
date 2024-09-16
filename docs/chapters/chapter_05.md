@@ -202,7 +202,39 @@ There is no one agreement to whom own the image rights, not all genAI make openl
 
 First you need to consider that the world we live is been fighting againt a lot of biases and genAI is not very good at fighting it, unless you make your description very clear (and that is our biggest challegne perhaps). In world with etinical and gender bieases among many others, genAI has the tendency of returning images that reinforce these patterns so you need to be mindful and probably do some reiterations to get away from these.
 
-> add example here
+In this example I only asked Copilot - Microsfot to draw a politician, nothing more then that. You can see bellow what is generate without further instruction.
+
+<figure>
+<a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
+<img src="../assets/images/politician_byCopilot_genAI.png"  width="30%" >
+</a>
+<figcaption>
+<a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
+Photo from "Strategic use of genAI" VIBcourse, by Bruna Piereck and Alexander Botzki. CCBY 4.0 License.
+</a>
+</figcaption>
+<figcaption>
+When asked with a very general request "draw a politician" the tool will most likely reproduce societal biases. As you cann see a politician despite of being a agender therm returns in tis majority light skin tone man, in strong quit angry posture. There are a lot of flags around.
+</figcaption>
+</figure>
+
+When reiteraiting and asking the tool - "make them women" - still very general but trying to steer the tool in another direction that is what we get back:
+
+<figure>
+<a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
+<img src="../assets/images/politician_byCopilot_genAI_women.png"  width="30%" >
+</a>
+<figcaption>
+<a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
+Photo from "Strategic use of genAI" VIBcourse, by Bruna Piereck and Alexander Botzki. CCBY 4.0 License.
+</a>
+</figcaption>
+<figcaption>
+We have again mostly light skin ton people, women however look calm and reserved, their posture is almost the oposit of the one above.
+</figcaption>
+</figure>
+
+There are also general aspects that you can look, all of them are quit conservative,women tend to look yonger then man. I wont go further on that, but when trying it on your own be mindifil and give context to steer in the desired direction.
 
 Another very important thing to take into account is the copyrights around GenAI-images. It is not clear yet how to define it, and each country might have a different way to approach it. Regardless, it is all so new, that I would expect that there is still a lot to happen around this discussion.
 
@@ -250,7 +282,7 @@ But we agree it is a nice and useful tool to create images, so to try to avoid p
     
     - Save it in the metadata for future reference
 
-**"Most AI Image Generators still stand on their terms that all generated images are free to use, but better still, when using them, reference the image to the platform of the creator" -Anas Hassan-**
+**"Most AI Image Generators still stand on their terms that all generated images are free to use, but it is still better to reference the image to the platform of the creator when using them, " -Anas Hassan-**
 
 
 [AI images copyrights](https://www.linkedin.com/pulse/ai-image-generator-how-you-can-avoid-copyright-anas-hassan-/) by [Anas Hassan](https://www.linkedin.com/in/-anas-hassan-/), feb 2023.
@@ -262,3 +294,6 @@ But we agree it is a nice and useful tool to create images, so to try to avoid p
 * Avoid stereotypes, be inlcusive
 * Check the licenses
 * Make citations and include links to original source
+
+
+
