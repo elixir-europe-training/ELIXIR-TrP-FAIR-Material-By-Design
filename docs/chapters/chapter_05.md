@@ -24,13 +24,13 @@ suggestion of companies and legal terms:
 
 In this case, when I'm talking about acknowledgements, I mean something very broad. While in most cases this is referring to the authorship and collaborations, before we get there I want to bring a more comprehensive reflection. 
 
-All along creating our training material we use images, videos, text, other materials, etc and as much as for scientific purposes acknowledging these is also extremely important. To make sure also your efforts are acknowledged accordingly you should assign a license to the material. 
+All along creating our training material we use images, videos, text, other materials, etc and as much as for scientific purposes, acknowledging these is also extremely important. To make sure also your efforts are acknowledged accordingly you should assign a license to the material. 
 
 Let's start talking a bit more about each aspect.
 
 ## Licenses
 
-A license is a formal and practical way to make people know what they should or should not, what they can and cannot do with some resource. No matter what type of resource, it can be any kind of training materialm support material, images, videos, etc. There are different types of liscenses to support you in keeping the property rights clear. Most of the time when talking about training material we are talking about a creative work. In this case a good license option is the [_creative commons_ (CC)](https://creativecommons.org/). 
+A license is a formal and practical way to make people know what they should or should not, what they can and cannot do with some resource. No matter what type of resource, it can be any kind of training material, support material, images, videos, etc. There are different types of liscenses to support you in keeping the property rights clear. Most of the time when talking about training material we are talking about a creative work. In this case a good license option is the [_creative commons_ (CC)](https://creativecommons.org/). 
 
 The CC licenses will allow you to [combine different options](https://creativecommons.org/mission/downloads/), depending if you want to make it fully open, or if you want to make clear some limitations of the use of your material. An example is to have it open but restricted to the obligation of acknowledging the original work, so people can use and adapt as long as a citation is made. In other hands, maybe you prefer that it is not used for commercial purposes, or that it can only be using as long as keeping the same license type.
 
@@ -42,18 +42,18 @@ It is an scale, see it bellow:
 </a>
 <figcaption>
 <a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
-Creative commons license spectrum by Shaddim; original CC license symbols by Creative Commons.
+Creative commons license spectrum by Shaddim; original CC license symbols by Creative Commons. CCBY 4.0 license
 </a>
 </figcaption>
 </figure>
  
 
-**CC0** means you can freely use! While **(C)** means all rights reserved.
+If you see a **CC0** means you can freely use! While **(C)** means all rights reserved.
 Between them you can find many options, for example the **CCBY**, second one in the right top, means you can share and adapt as long as citing **by** whom it was created.
 
 As you have seen in the previous chapter, open and FAIR are not the same. So even if you have all rights reserved it can still be FAIR, it can be findable, accessible, interoperable and reusable. Maybe to reuse you need to pay, but it means it is not open, however it is still FAIR. What we strongly encourage is to use a CCBY or similar, where you are recognized but it is still open, so, combining both principles FAIR and OPEN.
 
-It is good to remember that this should be taken into account in both directions! Always, **ALWAYS**, check the licenses of materials, images and videos you want to use, and add a license to your materials.
+It is good to remember that this should be taken into account in both directions! Always... I mean **ALWAYS** check the licenses of materials, images and videos you want to use, and add a license to your materials too.
 
 If you are accessing a CCBY license you should take in account some [good practices](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution#This_is_a_good_attribution_for_material_you_modified_slightly) of how to make good citations/atribution 
 
@@ -61,9 +61,10 @@ If you are accessing a CCBY license you should take in account some [good practi
 >
 > I challenge you to take a look in the links and the options and choose one license for your project. Discuss with your group the advantages and disadvantages and let's go one step ahead in being FAIR.
 >
-> You can use the helpo of the [license chooser](https://chooser-beta.creativecommons.org/) from creative commons
+> You can use the help of the [license chooser](https://chooser-beta.creativecommons.org/) from creative commons
 >
 > __
+
 
 At this point there one thing about liceses that I believe you have not started asking yet. WHERE SHOULD I PUT THE LICENSE?
 
@@ -71,7 +72,26 @@ The easier answer to that is "THE MOST EVIDENT PLACE YOU CAN FIND", if we are ta
 
 It is also importante that you think and evaluate carrefully what license you want to apply since these also come with some terms for the licensor. Please check [what to consider](https://creativecommons.org/share-your-work/cclicenses/) before choosing a license from creative commons and starting to distribute the material.
 
-That saidm let's start looking into some resources we usually access and check their licenses.
+Last but not least, when citing another license there are good and bad ways to do it, you can check all the [recommended practices by Creative Commons](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution). 
+
+A good citation will include all the information needed to find back the original source, you can include the Title, Author, Source, and License or include the link to the source, the author and the link to the license.
+
+For this course material you could do, for example:
+[Training material made FAIR by design](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/), from  Alexander Botxki, Bruna Piereck, Elin Kronander, Jessica Lindvall, Jill Jaworski, Kristen Schroeder and Nina Norgren. [CCBYSA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+
+If you have modified the original you also need to make it clear to everyone. Here is one example from [CC recommended practices guide](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attributio) of how to do it:
+
+<figure>
+<a href="https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution">
+<img src="https://wiki.creativecommons.org/images/b/b8/8256206923_c77e85319e_n_90fied.jpg"  width="30%" >
+</figure>
+
+This work, "90fied", is adapted from "[Creative Commons 10th Birthday Celebration San Francisco](http://www.flickr.com/photos/sixteenmilesofstring/8256206923/in/set-72157632200936657)" by [Timothy Vollmer](http://www.flickr.com/photos/sixteenmilesofstring/), used under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/). "90fied" is licensed under CC BY 4.0 by [Your name here].
+
+In this example you know the image was changed to have a 90's look, not present in the original picture.
+
+Enought of this, let's start looking into some resources we usually access and check their licenses.
+
 
 ## Illustrations
 
@@ -133,13 +153,15 @@ When thinking of scientific publications, it is more or less intuitive that auth
 
 This is very important for the recognition and responsibility of those who have been dedicated to create, review, update training materials and have shared them with either trainees and trainers.
 
-For training material, however we have Authors, contributors and trainers/teachers. Sometimes the same person plays more than one role, but they are different roles and should be acknowledged  as such. But to give proper recognition we need to define each role. See below how they were defined in the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/):
+For training material, however we have Authors, contributors and trainers/teachers. Sometimes the same person plays more than one role, but they are different roles and should be acknowledged as such. But to give proper recognition we need to define each role. See below how they were defined in the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/):
 
 - **Author**: Have made substantial contribution, can approve or not the version and are personally accountable for their contribution
 
 - **Contributor**: Testes, evaluate and improves the content (exercises, lectures, etc)
 
 - **Trainer**: Have interactions with the trainee (learner) as part of didactic process while making use of the material
+
+
 
 
  In the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) you can also find a Credit matrix to help defining  the  responsibilities of authors in the creation of the training material. 
