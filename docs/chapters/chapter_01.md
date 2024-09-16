@@ -93,8 +93,7 @@ OPEN is related to the rules to access and share the material, clear rules will 
 
 ## Why to create FAIR training material?
 
-- activities: discussion 
-...
+When you make your material FAIR you enable the community exchange while alowing to this material to live beyond! It makes easier the content data share and the maintanence, updated and reuse by others. You also reinforce practices to you ensure trainers and content creators recognition. 
 
 # Links for extra reading
 
