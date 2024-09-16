@@ -278,7 +278,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     1. Go [test instance of TeSS](https://dev.tess.elixir-europe.org/users/sign_up)
     2. Click edit
-    3. Add the DOI in the apporpriate place
+    3. Add the DOI in the appropriate place
 
     ??? abstract "Additional exercises"
 
@@ -347,7 +347,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     1. Go [test instance of TeSS](https://dev.tess.elixir-europe.org/users/sign_up)
     2. Click edit
-    3. Add the DOI in the apporpriate place
+    3. Add the DOI in the appropriate place
 
     ??? abstract "Additional exercises"
 
