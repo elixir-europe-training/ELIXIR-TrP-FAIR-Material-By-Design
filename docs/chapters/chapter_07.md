@@ -1,44 +1,50 @@
 !!! success "Learning Outcomes"
 
-    - LO1
-    - LO2
-    - LO3
+    - Define training metadata
+    - Discuss the importance of training metadata
+    - Register training metadata in TeSS manually
 
-
-
-## First subtopic
-
-- What is metadata and why is important
-
-https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_04/ 
-
-Introduction to metadata
-
-Metadata can be defined as data used to describe other data. That other data is complete on its own even without the metadata; however, the metadata makes it easier, for instance, to quickly grasp what that other data is about and to establish some common parameters that can be used to find and compare similar data, even if you have no access to that other data. As examples might be easier to grasp than definitions, let’s have a look at a couple of metadata examples:
-
-    You look at a can (data) of a new beverage and later comment this with a friend who wants to know more. You do not remember the name (metadata) of the beverage, but you tell your friend about the height and colours of the can (metadata). Your friend quickly realises what that new beverage is as she has already tried it out.
-    You can read, enjoy and learn from a book (data) even if you do not know the title, the author, or the date it was printed (metadata). However, if you really like that book and know the name of the author, you can also find other books by the same author.
-    You look for a film (data) in your preferred browser. As you know the title (metadata) you can easily find not only the film (access is restricted to those renting the film) but information about the director and the actors, and even a summary of the plot (more metadata).
-    You are interested in finding concerts happening during summer. You go to your preferred browser and use some keywords (metadata) to find some concerts close to your city.
+## What is metadata
 
 Most likely, you have already used metadata without even noticing it!
+If I'm very practical I could tell that **Metadata** is just data used to describe other **Data**. Metadata should, however, live independently. The metadata has the function of describing and defining parameters that will make easier to find and compare other similar data.
 
-While the first example involved only people, the other three involved people and machines. When we want to communicate with other people, we use words, either orally or written and thanks to the common knowledge of the used language, e.g., English, we can understand each other. A sentence like ‘the title of this chapter is “Using metadata to describe training materials” ‘ is clear for us, but while free text is enough for humans, machines need more structured data (and metadata) to communicate with each other. The sort of structured metadata we use to describe training materials looks like a sentence with a subject, a predicate, and an object, with the main subject being our training material. The sentence above would for example look like: thisChapter (subject) - hasTitle (predicate) - “Using metadata to describe training materials”. Further information about how we communicate with machines and how machines communicate with each other is an exciting subject, but it is outside the scope of this book. If you are interested, we offer some additional information in Section Further reading about structured metadata.
+Let me try to put in an example to make it easier:
 
+_You look at a can (data) of a new beverage and later comment this with a friend who wants to know more. You do not remember the name (metadata) of the beverage, but you tell your friend about the height and colours of the can (metadata). Your friend quickly realises what that new beverage is as she has already tried it out._
 
-- Ontology (authors/contributors/…)
+Example from [FAIR handbook (chapter 04)](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_04/), by [FAIR handbook working group](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/). [CCBYSA 4.0 license](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md)
 
-Dictionary
-Definitions from Oxford Languages · Learn more
-ontology
-a set of concepts and categories in a subject area or domain that shows their properties and the relations between them.
-"what's new about our ontology is that it is created automatically from large datasets"
+As said before and you can see in the example, the metadata helps describing the data, this will be important in the data retrival, meaning - people can more easily find it - and also in the comparison with similar data, in our case other training materials.
 
-Controlled vocabulary
+But looking into another example from the chapter 04 from the FAIR handbook:
 
-## Bioschemas
+_You look for a film (data) in your preferred browser. As you know the title (metadata) you can easily find not only the film (access is restricted to those renting the film) but information about the director and the actors, and even a summary of the plot (more metadata)._
 
-GOBLET and ELIXIR have worked together on the subject of metadata for training materials under a community-based project umbrella, namely Bioschemas. Bioschemas 1 is a collaborative effort supporting metadata schemas to describe types relevant in the Life Sciences domain (e.g., Gene and Protein) and providing guidelines (known as profiles) on how to use general-purpose types offered by Schema.org (e.g., Dataset or Learning Resource). Schema.org 2 is also a collaborative effort providing cross-domain types with the purpose of adding structured markup to web pages so web search engines understand better what they are about.
+In this example includes not only humans, but also machines. You can lookup in the brounser and find a lot of information about the movie, nonetheless is most probably that you can only watch it if you pay a fee or have a streaming account. The metada of the movie that is retrieved might look like has a lot of free text, what is great for humans, but machines need more structure for better functioning
+
+The sort of structured metadata we use to describe training materials will look a like having a key concept followed by a description. Ideally this descriptions as much as the key concept will use therms with clear meanings. For example:
+
+Title: Course Title
+Author: Name FamilyName
+Level: Begginers
+
+As part of being clear and machine redable, the more we focus in Ontology, the more we can achieve. Do you know what is an ontology?
+
+Ontology according to the definition from Oxford Languages is a set of concepts and categories in a subject area or domain that shows their properties and the relations between them. For example, we can look into the controled vocabulary for _pants_, this is one concept that has propeties and relations:
+
+| Pants        | Categories |        |       |
+| -----------  | -----------|--------|-------|
+|**Adults**    | Casual     | Sports | Dress |
+|**Children**  | Dress      | Play   |       |
+
+You have *Pants* as a term, and it can be categorized for *Adults* and *Children* and within them *Casual*, *Sports*, *Dress* and *Play*. This way the information is structures and can easily be identified by machines and comapring and finding similar things will be easier, like when you filter for searching in a online clothes shoping. 
+
+But for training, as expected, we have other categories, and they are defined with Schemas.org and Bioschmas.org
+
+## Schemas and Bioschemas
+
+Bioschemas is a collaborative effort supporting metadata schemas to describe types relevant in the Life Sciences domain (e.g., Gene and Protein) and providing guidelines (known as profiles) on how to use general-purpose types offered by Schema.org (e.g., Dataset or Learning Resource). Schema.org 2 is also a collaborative effort providing cross-domain types with the purpose of adding structured markup to web pages so web search engines understand better what they are about.
 
 Many training related resources will include pages describing tutorials or courses. As such, they are marked up using the following three profiles:
 
