@@ -46,6 +46,8 @@ But for training, as expected, we have other categories, and they are defined wi
 
 Bioschemas is a collaborative effort supporting metadata schemas to describe types relevant in the Life Sciences domain (e.g., Gene and Protein) and providing guidelines (known as profiles) on how to use general-purpose types offered by Schema.org (e.g., Dataset or Learning Resource). Schema.org 2 is also a collaborative effort providing cross-domain types with the purpose of adding structured markup to web pages so web search engines understand better what they are about.
 
+GOBLET and ELIXIR have worked together on the subject of metadata for training materials under a community-based project umbrella, namely Bioschemas.
+
 Many training related resources will include pages describing tutorials or courses. As such, they are marked up using the following three profiles:
 
     TrainingMaterial: A profile describing training materials in life sciences, it can be used on its own (as it happens with the Bioschemas tutorials) or in combination with a CourseInstance.
