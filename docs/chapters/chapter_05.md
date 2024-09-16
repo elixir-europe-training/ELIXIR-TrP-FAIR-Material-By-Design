@@ -294,6 +294,3 @@ But we agree it is a nice and useful tool to create images, so to try to avoid p
 * Avoid stereotypes, be inlcusive
 * Check the licenses
 * Make citations and include links to original source
-
-
-
