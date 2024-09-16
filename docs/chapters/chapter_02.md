@@ -1,29 +1,59 @@
 !!! success "Learning Outcomes"
 
-    - LO1
-    - LO2
-    - LO3
+    By the end of this session, learners will be able to:
 
+    - Describe pedagogical frameworks and methods that support Learning Outcome development (including Bloom’s Taxonomy and the Smartie Principles) 
+    - Create Learning Outcomes relevant to their own training 
+    - Understand how Nicholl’s Five Steps and the Training LIfe Cycle relate to FAIR
+    - Describe how documentation pedagogically supports FAIR trainings 
+    - Describe methods for and means of documenting trainings documenting in a FAIR way 
+ 
 
+## 1. Presentation
+Here you can find the presentation for this session: 
+ 
+ <iframe src="https://docs.google.com/presentation/d/11AKe42VhgFKThxRNTGFeQ7vJn1F513X88v_vyPBMc38/preview" width="640" height="360" allow="autoplay"></iframe>
 
-## First subtopic
-Here you can enter text and create inline citations[@Garcia2020] by using the bibtex plugin. Add your references in `references.bib`, and cite [@hoebelheinrich_nancy_j_2022_6769695] by adding the @refid inside brackets like this `[@10.1093/bioinformatics/btt113]`
+The full presentation can be downloaded [here](https://docs.google.com/presentation/d/11AKe42VhgFKThxRNTGFeQ7vJn1F513X88v_vyPBMc38/edit#slide=id.p).
 
-You can also embed videos from a local source (with a relative path) or from an url (like youtube). To use a youtube URL, 
-just attach the ID of the video to a youtube embedded video link: `https://youtube.com/embed/`. For example, the Elixir training video `https://youtu.be/oAD8FdGf8tI` has the ID `oAD8FdGf8tI`, so the final link would be:
+## 2. Discussion Topics
+### Part 1: Learning Outcomes 
+- What are Learning Outcomes? 
+- How do Learning Outcomes relate to FAIR?
+- The SMARTIE Principles
+- Bloom’s Taxonomy
+- Example learning outcome statements
 
-```
-![type:video](https://youtube.com/embed/oAD8FdGf8tI)
-```
+### Part 2: Syllabus Creation
+- How do you create a syllabus document? 
+- Nicholl’s Five Steps 
+- The Training Life Cycle 
 
-![type:video](https://youtube.com/embed/oAD8FdGf8tI)
+### Part 3: Documentation 
+- Why is documentation important to the FAIR process?
+- How can we document our trainings to make them FAIR?
+- Differences between metadata and documentation 
 
-## Second subtopic
+## 3. Activities 
+**Create Learning Outcomes for your training (Individually)**
 
-!!! danger "Challenge 1"
+- Reflect on your training
+- Define teaching/learning objectives (describe your goals and intentions as the instructor)
+- Write learning outcomes (think about what learners will be able to do by the end of this instruction; using Bloom’s taxonomy; actionable verbs)
+- Identify the target audience and prerequisites
 
-    This is an example of text of Challenge 1
+**How does the Training Life Cycle relate to FAIR?** 
 
-    ??? success "Solution"
+- Group Discussion
 
-        This is an example solution for Challenge 1.
+**Why is documentation important to the FAIR process?** 
+
+- Think, Pair, Share
+
+**How can we best document our trainings to make them FAIR?** 
+
+- Group Discussion
+
+**What are the differences between metadata and documentation?** 
+
+- Think, Pair, Share
