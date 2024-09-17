@@ -21,8 +21,17 @@ To Reuse:
     - Differentiate FAIR and OPEN science and application in training material
     - Discuss the advantages of FAIR and OPEN training
 
+# What is FAIR and why do I car ?
 
-# What is FAIR
+## 1.1 Presentation
+Here you can find the presentation for this session: 
+ 
+ <iframe src="https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/preview" width="640" height="360" allow="autoplay"></iframe>
+ 
+
+The full presentation can be downloaded [here](https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/export?format=pdf).
+
+## 1.2 What is FAIR
 
 In the [Cambrige dictionary](https://dictionary.cambridge.org/dictionary/english/fair) the word **fair** can stand for _something that you expected or deserved_, but I'd like to elaborate more about the acronym FAIR. In this case each letter stands for something different:
 _
@@ -87,7 +96,7 @@ Ten simple rules for making training materials FAIR.
 </span>
 
 
-## How are FAIR different then OPEN ?
+## 1.3 How are FAIR different then OPEN ?
 
 Now that you know a bit about what the acronym for FAIR states for, you can try to about this question, **"how are FAIR and OPEN different ?"**.
 
@@ -101,11 +110,11 @@ OPEN is related to the rules to access and share the material, clear rules will 
 **From the course:** [***RDM: your aly in your way to your publication***](https://github.com/vibbits/rdm-introductory-course/blob/main/presentations/2023jun14_Day01_Session01_General-perspective-RDM_intro_.pdf)
 
 
-## Why to create FAIR training material?
+## 1.4 Why to create FAIR training material?
 
 When you make your material FAIR you enable the community exchange while alowing to this material to live beyond! It makes easier the content data share and the maintanence, updated and reuse by others. You also reinforce practices to you ensure trainers and content creators recognition. 
 
-# Links for extra reading
+## 1.5 Links for extra reading
 
 [Go-FAIR](https://www.go-fair.org/fair-principles/)
 [10 simple rules 4 making training materials FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854)

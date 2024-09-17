@@ -8,7 +8,17 @@
     - Defining Authorship and Contributors
     - Acknowledging othe training materials sources
 
-# Acknowledgements and FAIR principles
+# Acknowledgements a comprehensive perspective
+
+## 5.1 Presentation
+Here you can find the presentation for this session: 
+ 
+ <iframe src="https://docs.google.com/presentation/d/1B0kVV1UjC1J79e4ys9AVp9Z7k8Ms_eeHdIwBXwQai0k/edit?usp=drive_link/preview" width="640" height="360" allow="autoplay"></iframe>
+ 
+
+The full presentation can be downloaded [here](https://docs.google.com/presentation/d/1B0kVV1UjC1J79e4ys9AVp9Z7k8Ms_eeHdIwBXwQai0k/edit?usp=drive_link/export?format=pdf).
+
+## 5.2 Acknowledgements and FAIR principles
 
 In this case, when I'm talking about acknowledgements, I mean something very broad. While in most cases this is referring to the authorship and collaborations, before we get there I want to bring a more comprehensive reflection. 
 
@@ -16,7 +26,7 @@ All along creating our training material we use images, videos, text, other mate
 
 Let's start talking a bit more about each aspect.
 
-## Licenses
+## 5.3 Licenses
 
 A license is a formal and practical way to make people know what they should or should not, what they can and cannot do with some resource. No matter what type of resource, it can be any kind of training material, support material, images, videos, etc. There are different types of liscenses to support you in keeping the property rights clear. Most of the time when talking about training material we are talking about a creative work. In this case a good license option is the [_creative commons_ (CC)](https://creativecommons.org/). 
 
@@ -76,8 +86,43 @@ In this example you know the image was changed to have a 90's look, not present 
 
 Enought of this, let's start looking into some resources we usually access and check their licenses.
 
+## 5.4 Authorship and recognition
 
-## Illustrations
+When thinking of scientific publications, it is more or less intuitive that authors and co-authors need to be listed and that when making use of any of the information that sholud be cited. For training material, despite not being an automatic action the same should apply. As you saw before depending on the license they should be cited and what you can and cannot do is defined.
+
+This is very important for the recognition and responsibility of those who have been dedicated to create, review, update training materials and have shared them with either trainees and trainers.
+
+For training material, however we have Authors, contributors and trainers/teachers. Sometimes the same person plays more than one role, but they are different roles and should be acknowledged as such. But to give proper recognition we need to define each role. See below how they were defined in the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/):
+
+- **Author**: Have made substantial contribution, can approve or not the version and are personally accountable for their contribution
+
+- **Contributor**: Testes, evaluate and improves the content (exercises, lectures, etc)
+
+- **Trainer**: Have interactions with the trainee (learner) as part of didactic process while making use of the material
+
+
+Use this descriptions to help you define who has the author's role and who is the contributor. One thing important here to highlight is that _substantial contribution_ is not exactly defined. Each group might have a slightly different view on it and it can help, like in the papers, to describe what each person has done. However, I would focus in the fact that an author should be accountable for the material and its approval.
+
+ In the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) you can also find a Credit matrix to help defining  the  responsibilities of authors in the creation of the training material. 
+
+
+Complementary, in some cases there is another layer where **founders** and **institutions/organizations** must have their share of contribution acknowledged also. Generally speaking, it is advised that whenever creating or re-using material the same guidelines for academic citations and acknowledgements should apply, and you can also include a guideline or copy-paste text for people to easily cite the material.
+
+Is good to keep in mind that training material includes but is not limited by **presentations**. it also refers to text, quizzes, list of literature, videos, etc. You will see more about it in the session about training materials.
+
+And where should you include such a piece of information, it might vary depending on the material?
+
+ - Dedicated slide
+
+ - In the metadata
+
+ - In the cover page of material
+
+ - In the website page or README.md document
+
+ - Logos and names in the video and video description
+
+## 5.5 Illustrations
 
 #### Images with free licenses
 
@@ -134,42 +179,6 @@ Let's do now the easier way, first find the image and its license, and then you 
 >
 > __
 
-
-## Authorship and recognition
-
-When thinking of scientific publications, it is more or less intuitive that authors and co-authors need to be listed and that when making use of any of the information that sholud be cited. For training material, despite not being an automatic action the same should apply. As you saw before depending on the license they should be cited and what you can and cannot do is defined.
-
-This is very important for the recognition and responsibility of those who have been dedicated to create, review, update training materials and have shared them with either trainees and trainers.
-
-For training material, however we have Authors, contributors and trainers/teachers. Sometimes the same person plays more than one role, but they are different roles and should be acknowledged as such. But to give proper recognition we need to define each role. See below how they were defined in the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/):
-
-- **Author**: Have made substantial contribution, can approve or not the version and are personally accountable for their contribution
-
-- **Contributor**: Testes, evaluate and improves the content (exercises, lectures, etc)
-
-- **Trainer**: Have interactions with the trainee (learner) as part of didactic process while making use of the material
-
-
-Use this descriptions to help you define who has the author's role and who is the contributor. One thing important here to highlight is that _substantial contribution_ is not exactly defined. Each group might have a slightly different view on it and it can help, like in the papers, to describe what each person has done. However, I would focus in the fact that an author should be accountable for the material and its approval.
-
- In the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) you can also find a Credit matrix to help defining  the  responsibilities of authors in the creation of the training material. 
-
-
-Complementary, in some cases there is another layer where **founders** and **institutions/organizations** must have their share of contribution acknowledged also. Generally speaking, it is advised that whenever creating or re-using material the same guidelines for academic citations and acknowledgements should apply, and you can also include a guideline or copy-paste text for people to easily cite the material.
-
-Is good to keep in mind that training material includes but is not limited by **presentations**. it also refers to text, quizzes, list of literature, videos, etc. You will see more about it in the session about training materials.
-
-And where should you include such a piece of information, it might vary depending on the material?
-
- - Dedicated slide
-
- - In the metadata
-
- - In the cover page of material
-
- - In the website page or README.md document
-
- - Logos and names in the video and video description
 
 #### Create your own images 
 
