@@ -1,6 +1,6 @@
 --- 
 Lead: Elin 
-Duration: 110 min (8.1 - 20 min, 8.2 - 40 min, 8.3 - 50 min)  
+Duration: 110 min (8.2 - 20 min, 8.3 - 40 min, 8.4 - 50 min)  
 Title: Releases and use of unique identifiers
 To cover: 
 - What is a PID and why is it useful for training materials 
@@ -17,13 +17,14 @@ To Reuse:
     - Compare different strategies for unique identifiers for training materials
     - Create versioned DOIs for training materials
 
+## 8.1 Presentation
 Here you can find the presentation for this session:
 
 <iframe src="https://drive.google.com/file/d/1-WVUwjQR8oGToCNy4nJ16znOGQch9qBLqVfPA4Q01VU/preview" width="640" height="360" allow="autoplay"></iframe>
 
 The full presentation can be downloaded as a pdf [here](https://docs.google.com/presentation/d/1-WVUwjQR8oGToCNy4nJ16znOGQch9qBLqVfPA4Q01VU/export?format=pdf).
 
-## 8.1 Unique identifiers for training materials
+## 8.2 Unique identifiers for training materials
 
 ### What is a unique persistent identifier (PID)?
 
@@ -82,7 +83,7 @@ There are many different type of unique identifiers that are used for different 
     Go to the [ROR search page](https://ror.org/search) and try to find your organisation's ROR
 
 
-## 8.2 Selecting a strategy for unique identifiers
+## 8.3 Selecting a strategy for unique identifiers
 
 ### DOIs for presentations
 
@@ -196,7 +197,7 @@ For each new release, a new version of your figshare or Zenodo record will be ge
         Read more in [Chapter 5 of the FAIR Training Handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/#how-to-get-a-doi-for-your-training-materials)
     
 
-## 8.3 Tutorial for implementing your strategy
+## 8.4 Tutorial for implementing your strategy
 
 Now we will use Zenodo sandbox to create DOIs for our training material project from this course. A sandbox is used for testing purposes and DOIs created in the Zenodo Sandbox are not real and will not resolve. Choose the appropriate tutorial below based on the hosting platform you've used in the previous sessions.
 
