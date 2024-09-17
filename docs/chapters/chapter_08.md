@@ -12,11 +12,16 @@ To Reuse:
 ---
 
 !!! success "Learning Outcomes"
-    - Explain what unique persistant identifiers are is and their benefits
+    - Explain what unique persistant identifiers are and their benefits
     - List and differentiate the types of unique identifiers that are relevant for publishing and sharing training materials
-    - Compare different strategies for unique identifiers for training material
+    - Compare different strategies for unique identifiers for training materials
     - Create versioned DOIs for training materials
 
+Here you can find the presentation for this session:
+
+<iframe src="https://drive.google.com/file/d/1-WVUwjQR8oGToCNy4nJ16znOGQch9qBLqVfPA4Q01VU/preview" width="640" height="360" allow="autoplay"></iframe>
+
+The full presentation can be downloaded as a pdf [here](https://docs.google.com/presentation/d/1-WVUwjQR8oGToCNy4nJ16znOGQch9qBLqVfPA4Q01VU/export?format=pdf).
 
 ## 8.1 Unique identifiers for training materials
 
