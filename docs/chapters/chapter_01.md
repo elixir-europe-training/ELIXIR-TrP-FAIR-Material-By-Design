@@ -28,7 +28,7 @@ In the [Cambrige dictionary](https://dictionary.cambridge.org/dictionary/english
 _
 
 <figure>
-    <img src="../assets/images/FAIRprinciples.svg"
+    <img src="../../assets/images/FAIRprinciples.svg"
     width="40%" align="center" alt="FAIR acronim description"/>
 </figure>
 _
@@ -74,7 +74,7 @@ In case is not yet clear, all this steps also consider that the ones  involved n
 _
 
 <figure>
-    <img src="../assets/images/10steps_rules4FAIRtraining.png"
+    <img src="../../assets/images/10steps_rules4FAIRtraining.png"
     width="50%" align="center" alt="10 steps for FAIR training material"/>
 </figure>
 _
@@ -94,7 +94,7 @@ Now that you know a bit about what the acronym for FAIR states for, you can try 
 OPEN is related to the rules to access and share the material, clear rules will define if you can freely access, modify and share, or state that there are restrictions for a specific group or under registration in a platfomr and might make restrictions about how to share and with whom. Many are the possibilities. Last but not least, it can have closed access and still be FAIR. You can find metadata, and information about it, but you cannot access. 
 
  <figure>
-    <img src="../assets/images/FAIRvsOPEN_FloraD&apos;Anna.svg"
+    <img src="../../assets/images/FAIRvsOPEN_FloraD&apos;Anna.svg"
     width="25%" align="center" alt="Schema of FAIR and OPEN meaning and overlaps"/>
 </figure>
   
