@@ -17,17 +17,21 @@ To Reuse:
 
 !!! success "Learning Outcomes"
 
-    - LO1
-    - LO2
-    - LO3
-
+    - Explain the 4 principles in the acronim FAIR
+    - Differentiate FAIR and OPEN science and application in training material
+    - Discuss the advantages of FAIR and OPEN training
 
 
 # What is FAIR
 
 In the [Cambrige dictionary](https://dictionary.cambridge.org/dictionary/english/fair) the word **fair** can stand for _something that you expected or deserved_, but I'd like to elaborate more about the acronym FAIR. In this case each letter stands for something different:
+_
 
-<img src="../assets/images/FAIRprinciples.svg" width="40%" align="center" >
+<figure>
+    <img src="../../assets/images/FAIRprinciples.svg"
+    width="40%" align="center" alt="FAIR acronim description"/>
+</figure>
+_
 
 I would say that expecting that training material is FAIR is just fair, don't you agree?
 
@@ -69,8 +73,10 @@ In case is not yet clear, all this steps also consider that the ones  involved n
 
 _
 
-<img src="../assets/images/10steps_rules4FAIRtraining.png" width="50%" align="center" >
-
+<figure>
+    <img src="../../assets/images/10steps_rules4FAIRtraining.png"
+    width="50%" align="center" alt="10 steps for FAIR training material"/>
+</figure>
 _
 
 <span style="font-family:serif; font-size:1.8em;">
@@ -87,8 +93,11 @@ Now that you know a bit about what the acronym for FAIR states for, you can try 
 
 OPEN is related to the rules to access and share the material, clear rules will define if you can freely access, modify and share, or state that there are restrictions for a specific group or under registration in a platfomr and might make restrictions about how to share and with whom. Many are the possibilities. Last but not least, it can have closed access and still be FAIR. You can find metadata, and information about it, but you cannot access. 
 
-<img src="../assets/images/FAIRvsOPEN_FloraD&apos;Anna.svg" width="25%" align="center" >
-
+ <figure>
+    <img src="../../assets/images/FAIRvsOPEN_FloraD&apos;Anna.svg"
+    width="25%" align="center" alt="Schema of FAIR and OPEN meaning and overlaps"/>
+</figure>
+  
 **From the course:** [***RDM: your aly in your way to your publication***](https://github.com/vibbits/rdm-introductory-course/blob/main/presentations/2023jun14_Day01_Session01_General-perspective-RDM_intro_.pdf)
 
 

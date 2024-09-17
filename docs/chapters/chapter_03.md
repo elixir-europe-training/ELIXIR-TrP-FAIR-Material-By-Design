@@ -8,21 +8,21 @@
 
 
 
-## Presentation
+## 3.1 Presentation
 Here you can find the presentation for this session:
 
-<iframe src="https://drive.google.com/file/d/1f9OQH3KgY5wJiFnCM9X6TpGxa63ahPfwnutMmt9eQ6U/preview" width="640" height="360" allow="autoplay"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1f9OQH3KgY5wJiFnCM9X6TpGxa63ahPfwnutMmt9eQ6U/preview" width="640" height="360" allow="autoplay"></iframe>
 
-The full presentation can be downloaded as a pdf [here](https://drive.google.com/file/d/1f9OQH3KgY5wJiFnCM9X6TpGxa63ahPfwnutMmt9eQ6U/export?format=pdf).
+The full presentation can be downloaded as a pdf [here](https://docs.google.com/presentation/d/1f9OQH3KgY5wJiFnCM9X6TpGxa63ahPfwnutMmt9eQ6U/export?format=pdf).
 
 
-## Hosting and delivery
+## 3.2 Hosting and delivery
 
-When it comes to hosting and delivering training materials in line with FAIR principles, there are several tools and platforms that can help ensure your content is well-organized and accessible. Hosting your materials can involve cloud-based platforms like **G Suite** or **Nextcloud**, which are ideal for collaboration and real-time editing. These platforms allow users to store documents, presentations, and other data in one place, making it easier for teams to work together on developing course materials.
+When it comes to hosting and delivering training materials in line with FAIR principles, there are several tools and platforms that can help ensure your content is well-organized and accessible. Hosting your materials can involve cloud-based platforms like **G Suite** or **Nextcloud**, which are ideal for collaboration and real-time editing. These platforms allow users to store documents, presentations, and other data in one place, making it easier for teams to work together on developing training materials.
 
 For more technical users, **GitHub** offers a robust version control system that allows for collaborative development and easy sharing of materials. This platform is particularly useful for archiving content, as it keeps a history of all changes made, ensuring that different versions of the materials are available for future use or review.
 
-On the delivery side, a **Learning Management System (LMS)** is often the go-to platform. Popular LMS platforms like **Moodle**, **Canvas**, and **OpenEDX** help educators manage and deliver content to students, track learner progress, and create a more engaging learning experience. For those who prefer an open, web-based approach, **GitHub Pages** allows you to turn a GitHub repository into a simple website, making it a lightweight yet powerful solution for course delivery.
+On the delivery side, a **Learning Management System (LMS)** is a common platform. Popular LMS platforms like **Moodle**, **Canvas**, and **OpenEDX** help trainers manage and deliver content to students, track learner progress, and create a more engaging learning experience. For those who prefer an open, web-based approach, **GitHub Pages** allows you to turn a GitHub repository into a simple website, making it a lightweight yet flexible solution for course delivery.
 
 
 ### The training life cycle
@@ -31,7 +31,7 @@ Training materials go through several phases in their lifecycle: development, de
 
 ### Learning Management systems and google drive
 
-Using google drive alongside an LMS can enhance the delivery and management of training materials. google drive provides a collaborative environment for creating course content — such as documents, presentations, and exercises — which can then be shared via a more structured LMS like Moodle or OpenEDX. The combination of these tools ensures that the content remains easily accessible and organized, while the LMS provides tools to track learner engagement and progress. Both systems support various file types and have flexible access control options, ensuring that materials remain FAIR-compliant.
+Using google drive alongside an LMS can enhance the delivery and management of training materials. Google drive provides a collaborative environment for creating course materials — such as documents, presentations, and exercises — which can then be shared via a more structured LMS like Moodle or OpenEDX. The combination of these tools ensures that the content remains easily accessible and organized, while the LMS provides tools to track learner engagement and progress. Both systems support various file types and have flexible access control options, ensuring that materials remain FAIR-compliant.
 
 To ensure interoperability and flexibility, training materials should comply with e-learning standards. **SCORM** is a widely used standard that packages content in a way that allows it to be used across different LMS platforms. **xAPI** is a newer standard that tracks diverse learning experiences, both within and outside the LMS environment. **CMI5** combines the best aspects of SCORM and xAPI, supporting traditional LMS features while also allowing for more flexible, modern learning environments. These standards ensure that your content remains interoperable and reusable across different platforms and learning scenarios.
 
@@ -40,7 +40,7 @@ To ensure interoperability and flexibility, training materials should comply wit
 For trainers looking to develop, share, and archive content in a more open environment, GitHub offers tools for collaborative content development. GitHub Pages provides a simple way to turn your repository into a website, making it an excellent tool for delivering course materials. Best practices for working with GitHub include using releases to create different versions of course materials and enabling collaboration by allowing multiple contributors to work on the same content. GitHub also supports public access and indexing by search engines, making your materials findable and accessible to a wide audience.
 
 
-## Discussion topics
+## 3.3 Discussion topics
 
 |              | Findable    |  Accessible  | Interoperable  | Reusable | 
 | -----------  | ----------- | -----------  | -------------- | -------- |
@@ -50,7 +50,7 @@ For trainers looking to develop, share, and archive content in a more open envir
 
 How do the above hosting and delivery alternatives do when looked at through the FAIR principles? Fill in the missing cells.
 
-## Case studies
+## 3.4 Case studies
 
 Below is three case studies of trainers setting up and delivering courses. Analyze each case and judge how FAIR it is when it comes to the training materials life cycle.
 
@@ -66,7 +66,7 @@ Steve has a course in microscopy, delivered online. He also has a google drive f
 
 Jane has a hybrid course in R. She has set up a course website using github pages and Quarto. She has a github repo where she creates all information regarding the course, including slides and exercises using markdown. She uses releases to separate different instances of her course. All relevant information is published on the github page, with the links to the github repo.
 
-## Exercise: Set up a course website
+## 3.5 Exercise: Set up a course website
 
 Now once you have your course syllabus and learning outcomes, it's time to set up a course website where we can display all this information. A course website helps make your training findable and accessible for your students and the rest of the world.
 

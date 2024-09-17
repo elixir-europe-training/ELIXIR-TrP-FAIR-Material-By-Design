@@ -14,7 +14,7 @@ Here you can find the presentation for this session:
  
  <iframe src="https://docs.google.com/presentation/d/11AKe42VhgFKThxRNTGFeQ7vJn1F513X88v_vyPBMc38/preview" width="640" height="360" allow="autoplay"></iframe>
 
-The full presentation can be downloaded [here](https://docs.google.com/presentation/d/11AKe42VhgFKThxRNTGFeQ7vJn1F513X88v_vyPBMc38/edit#slide=id.p).
+The full presentation can be downloaded [here](https://docs.google.com/presentation/d/11AKe42VhgFKThxRNTGFeQ7vJn1F513X88v_vyPBMc38/export?format=pdf).
 
 ## 2. Discussion Topics
 ### Part 1: Learning Outcomes 
