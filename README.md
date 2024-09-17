@@ -28,3 +28,50 @@ Activities are intended to **increase the technical skills** and **critical thin
 [![**CC-BY-NC-SA**](https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/main/docs/assets/images/by-nc-sa.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 
+### Complement (Links for materials and Reading)
+
+- [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/)
+- [10 simple rules to make material FAIR publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854)
+
+- Course presentation:
+  
+  - *under developmente*
+  
+
+### Learning Outcomes (LO's)
+
+#### General 
+
+- Create FAIR and open training material from the start 
+- Apply FAIR principles to all elements of training material
+- Include AI tools in content creation of FAIR training material
+
+#### Per session
+
+**Session 0: What is FAIR and why do I care?**
+
+- *under developmente*
+
+**Session 1: Syllabus and documentation**
+
+- *under developmente*
+
+**Session 2: Training material formats and interoperability**
+
+- *under developmente*
+
+**Session 3: Ilustrations, aesthetics and acknoledgements**
+
+- *under developmente*
+
+**Session 4: Making e-learning FAIR, challanges and possibilities**
+
+- *under developmente*
+
+**Session 5: Releases and use of unique identifiers**
+
+- *under developmente*
+
+
+
+

@@ -46,7 +46,14 @@
     [comment]: # (Property in Bioschema: educationalLevel)
     [comment]: # (Property in Biochema: licence)
     [comment]: # (This is an example for CONVERGE)
-  
+
+---
+## Pre-course Setup
+
+- Create a [GitHub account](https://github.com/) if you don't have one yet.
+- Create a [ORCID account](https://orcid.org/) if you don't have one yet.
+- Create an account at the [test instance of TeSS](https://dev.tess.elixir-europe.org/users/sign_up).
+
 ---
 ## Citing this lesson
 
@@ -55,10 +62,5 @@ Please cite as:
   1. Bruna Piereck, Jill Jaworski, Nina Norgren, Elin Kronander, Kristen Schroeder, Alexander Botzki, Jessica Lindvall (2024). The ELIXIR FAIR training material by Design course
   2. Geert van Geest, Elin Kronander, Jose Alejandro Romero Herrera, Nadja Žlender, & Alexia Cardona. (2023). The ELIXIR Training Lesson Template - Developing Training Together (v1.0.0-alpha). Zenodo. https://doi.org/10.5281/zenodo.7913092. 
 
----
-## Pre-course Setup
-
-- Create a [GitHub account](https://github.com/) if you don't have one yet.
-- Create a [ORCID account](https://orcid.org/) if you don't have one yet. 
 
 

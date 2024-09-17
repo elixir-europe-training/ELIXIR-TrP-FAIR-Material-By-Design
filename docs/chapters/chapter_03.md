@@ -141,3 +141,4 @@ A few things you should consider when creating the quarto pages:
 - Add a page with your Learning outcomes and course syllabus
 
 You can use the Liascript template from the previous option as inspiration.
+
