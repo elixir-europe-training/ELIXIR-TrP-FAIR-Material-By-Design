@@ -9,14 +9,14 @@
     - Describe methods for and means of documenting trainings documenting in a FAIR way 
  
 
-## 1. Presentation
+## 2.1 Presentation
 Here you can find the presentation for this session: 
  
  <iframe src="https://docs.google.com/presentation/d/11AKe42VhgFKThxRNTGFeQ7vJn1F513X88v_vyPBMc38/preview" width="640" height="360" allow="autoplay"></iframe>
 
 The full presentation can be downloaded [here](https://docs.google.com/presentation/d/11AKe42VhgFKThxRNTGFeQ7vJn1F513X88v_vyPBMc38/export?format=pdf).
 
-## 2. Discussion Topics
+## 2.2 Discussion Topics
 ### Part 1: Learning Outcomes 
 - What are Learning Outcomes? 
 - How do Learning Outcomes relate to FAIR?
@@ -34,7 +34,7 @@ The full presentation can be downloaded [here](https://docs.google.com/presentat
 - How can we document our trainings to make them FAIR?
 - Differences between metadata and documentation 
 
-## 3. Activities 
+## 2.3 Activities 
 **Create Learning Outcomes for your training (Individually)**
 
 - Reflect on your training
