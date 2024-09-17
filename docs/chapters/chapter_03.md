@@ -120,15 +120,15 @@ Steps:
 ### Using github and Liascript (intermediate)
 
 #### Create repo 
-Create a github repo from template at [https://github.com/vibbits/training_material_template](). Make sure the repo is public.
+Create a github repo from template at [https://github.com/vibbits/training_material_template](https://github.com/vibbits/training_material_template). Make sure the repo is public.
 
 #### Clone the repo
 Clone the repo to your local computer.
 
 #### Generate course website
-Copy the url of the raw README.md page on github and paste it here: [https://liascript.github.io/](). You can use the generated url to send to your course participants. The website will be generated locally on their computers, directly from github.
+Copy the url of the **raw** (click the Raw button in upper right corner) README.md page on github and paste it here: [https://liascript.github.io/](https://liascript.github.io/). You can use the generated url to send to your course participants. The website will be generated locally on their computers, directly from github.
 
-#### Add learning outcomes
+#### Start adding course information
 Update the README.md file on your computer to add learning outcomes and syllabus. Push the changes to github to make them render on the course website. You might have to force refresh your browser to see the changes on the site.
 
 <br> 
