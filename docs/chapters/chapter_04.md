@@ -10,7 +10,11 @@ In this chapter we will touch on:
 - different types of training materials and its interoperability
 - creating presentations with Liascript, a Markdown dialect or Google slides
 
-## 4.1 Formats for training material
+## 4.1 Presentation
+
+Here you can find the [presentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/main/docs/supplementary/presentations/chapter03-presentation.md) for this session.
+
+## 4.2 Formats for training material
 
 Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them. 
 
@@ -41,7 +45,7 @@ Let's take a moment to reflect on our recent discussions and how they align with
 As we continue with our training, let's consider how these formats serve our objectives and the ways in which we can leverage their strengths while mitigating their limitations. 
 
 !!! question "Reflection"
-    Compare your list to Table 1 from the '10 simple rules' paper[^1].
+    Compare your list of the slide formats from above to the formats mentioned in the ['10 simple rules' paper](https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001).
 
     ??? success "Answer as Table 1"
         | Format            | Advantages                                       | Disadvantages                                   |
@@ -59,8 +63,6 @@ As we continue with our training, let's consider how these formats serve our obj
         |                   | Free                                           |                                            |
         | **Google slides**    | Version controlled                              | Not always possible to use owing to local/institutional policies     |
         |                   |    Free                                           |     Not always accessible (depending on geographic location                     |
-        
-        [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
 
 ### Summary of training material file formats
 
@@ -88,7 +90,7 @@ Each of these resources is valuable training material that supports your teachin
 
 [^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
-## 4.2 Training material crafted for collaboration
+## 4.3 Training material crafted for collaboration
 
 Training materials need to be captured in interoperable formats, so that they can be used in different contexts (e.g., operating systems and software tools) and built upon later. For materials like slides, it is important that other trainers are able to (re)use, fine-tune or even extend them. This means that you should choose a format that supports editing and extension. 
 
@@ -156,7 +158,7 @@ In our session, we are using two different approaches - one using documents from
 
 *************
 
-## 4.4 Final considerations
+## 4.5 Final considerations
 
 When considering the re-usability and extendability of training materials, PDF documents offer limited flexibility due to their static nature, making them less adaptable for updates or interactive elements. HTML pages provide greater re-usability and extendability, allowing for dynamic content and easier updates. PowerPoint files are somewhat reusable but can be cumbersome to update and share collaboratively. Google Presentations enhance re-usability through cloud-based collaboration and real-time updates, though they still face limitations in format compatibility. Markdown-based material stands out for its high degree of re-usability and extendability, being easily editable, version-controlled, and convertible to various formats.
 

@@ -11,7 +11,6 @@ nav:
       - "6. Put on your producer hat: considerations for FAIR video material": chapters/chapter_06.md
       - "7. Metadata and Findability": chapters/chapter_07.md
       - "8. Releases and use of unique identifiers": chapters/chapter_08.md
-      - "References": chapters/references.md
     - "Course Schedule": course_schedule.md
 
 theme:
