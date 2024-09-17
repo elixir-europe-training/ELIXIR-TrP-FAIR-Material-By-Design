@@ -130,12 +130,12 @@ I had the experience of finding out one of the images I was using actually had a
 
 !!! danger "Challenge"
 
- I have a challenge for you! Can you find the source and the license of the image below?
+    I have a challenge for you! Can you find the source and the license of the image below?
 
- <figure>
- <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
- <img src="../../docs/assets/images/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
- </figure>
+    <figure>
+    <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
+    <img src="../../assets/images/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
+    </figure>
 
 
 My advice for you is to either do your own illustration or use free licensed images. In most cases the free licenses require that you acknowledge the source (illustrator and maybe illustration website). This is the same for icons or very fancy illustrations! So maybe I can share with you some websites, in case you are not a Picasso or a Van gogh, you can still have nice visuals for your material.
@@ -152,18 +152,16 @@ It is important though, that when you use an image and even if you add the citat
 
 But, now that you know you can check, (1) search an image, (2) check the license and choose what you want to use in your material. If you love an image that has a paying license and you have the budget to use them - **ENJOY** - , if you rather not pay, choose the free ones and always look for the conditions.
 
-> ✅ Solution
->
-> <figure>
-> <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
-> <img src="../../docs/assets/images/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
-> </figure>
->
-> This [image](https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm?log-in=email#fromView=search&page=1&position=0&uuid=f919f4f7-cbaa-4bf0-8f63-468f04a72381) can be found in [FreePik](https://www.freepik.com/) and is owned by FreePik.
->
-> When accessing, you will see there are two options of download; (1) Premium, if you want to use without attribution, and; (2) Free, where we are required to give attribution.
->
-> __
+??? success "Solution"
+    <figure>
+    <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
+    <img src="../../assets/images/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
+    </figure>
+
+    This [image](https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm?log-in=email#fromView=search&page=1&position=0&uuid=f919f4f7-cbaa-4bf0-8f63-468f04a72381) can be found in [FreePik](https://www.freepik.com/) and is owned by FreePik.
+    When accessing, you will see there are two options of download; (1) Premium, if you want to use without attribution, and; (2) Free, where we are required to give attribution.
+    
+    __
 
 Let's do now the easier way, first find the image and its license, and then you decided whether to use it!
 
