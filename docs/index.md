@@ -10,7 +10,7 @@
 
 !!! overview ""
     :fontawesome-regular-bookmark: **Description**  
-    This 2 days course is based on the FAIR training handbook and 10 simple rules to make material FAIR publication. All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & hands-on approach of how to design FAIR training material.
+  This 2 days course is based on the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) and [10 simple rules to make material FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854) publication. All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & hands-on approach of how to design FAIR training material.
     
     Activities are intended to increase the technical skills and critical thinking during the development of a new training course. From A to Z participants are going to be challenged to work in a group to build a FAIR lesson on a topic to be presented at the end of the course. Come inspired! 
     
@@ -59,8 +59,7 @@
 
 Please cite as:
 
-  1. Bruna Piereck, Jill Jaworski, Nina Norgren, Elin Kronander, Kristen Schroeder, Alexander Botzki, Jessica Lindvall (2024). The ELIXIR FAIR training material by Design course
-  2. Geert van Geest, Elin Kronander, Jose Alejandro Romero Herrera, Nadja Žlender, & Alexia Cardona. (2023). The ELIXIR Training Lesson Template - Developing Training Together (v1.0.0-alpha). Zenodo. https://doi.org/10.5281/zenodo.7913092. 
+  1. Bruna Piereck, Jill Jaworski, Nina Norgren, Elin Kronander, Kristen Schroeder, Alexander Botzki, Jessica Lindvall (2024). The ELIXIR FAIR training material by Design course. 
 
 
 
