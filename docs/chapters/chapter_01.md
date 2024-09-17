@@ -87,7 +87,7 @@ Now that you know a bit about what the acronym for FAIR states for, you can try 
 
 OPEN is related to the rules to access and share the material, clear rules will define if you can freely access, modify and share, or state that there are restrictions for a specific group or under registration in a platfomr and might make restrictions about how to share and with whom. Many are the possibilities. Last but not least, it can have closed access and still be FAIR. You can find metadata, and information about it, but you cannot access. 
 
-<img src="../assets/images/FAIRvsOPEN_FloraD'Anna.svg" width="25%" align="center" >
+<img src="../assets/images/FAIRvsOPEN_FloraD&apos;Anna.svg" width="25%" align="center" >
 
 **From the course:** [***RDM: your aly in your way to your publication***](https://github.com/vibbits/rdm-introductory-course/blob/main/presentations/2023jun14_Day01_Session01_General-perspective-RDM_intro_.pdf)
 
