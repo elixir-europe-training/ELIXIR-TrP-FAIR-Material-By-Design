@@ -90,7 +90,7 @@ There are many different type of unique identifiers that are used for different 
 
 !!! checklist "Case Studies of Using PIDs in Training"
 
-    Read through the real world examples of using PIDs in Training from [chapter 5](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/) in the the FAIR Training handbook. 
+    Read through the real world examples of using PIDs in Training from [FAIR handbook (chapter 05)](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/), by [FAIR handbook working group](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/). [CCBYSA 4.0 license](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md)
 
     - Summarise the strategy used in each use case
     - What is the main benefit with each strategy?
