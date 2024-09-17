@@ -4,7 +4,7 @@
     - Discuss the importance of training metadata
     - Register training metadata in TeSS manually
 
-## What is metadata
+## What is metadata (chapter still under development)
 
 Most likely, you have already used metadata without even noticing it!
 If I'm very practical I could tell that **Metadata** is just data used to describe other **Data**. Metadata should, however, live independently. The metadata has the function of describing and defining parameters that will make easier to find and compare other similar data.
