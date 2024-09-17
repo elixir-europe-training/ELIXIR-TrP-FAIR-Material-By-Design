@@ -48,6 +48,8 @@ For trainers looking to develop, share, and archive content in a more open envir
 | Github       |   | Yes, can be made public <br>and accessible to all | | |
 | LMS          |   | | | Exported in SCORM <br>format |
 
+Adapted from [FAIR handbook (chapter 03)](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_03/), by [FAIR handbook working group](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/). [CCBYSA 4.0 license](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md)
+
 How do the above hosting and delivery alternatives do when looked at through the FAIR principles? Fill in the missing cells.
 
 ## 3.4 Case studies
