@@ -35,7 +35,7 @@ The CC licenses will allow you to [combine different options](https://creativeco
 It is an scale, see it bellow:
 
 <figure>
-<img src="../../docs/assets/images/Creative_commons_license_spectrum.svg.png" align="center" width="30%" >
+<img src="../../assets/images/Creative_commons_license_spectrum.svg.png" align="center" width="30%" >
 </figure>
 
 [Creative commons license spectrum by Shaddim](https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg"); original CC license symbols by Creative Commons. [CCBYSA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
@@ -93,7 +93,7 @@ For training material, however we have Authors, contributors and trainers/teache
 
 - **Author**: Have made substantial contribution, can approve or not the version and are personally accountable for their contribution
 
-- **Contributor**: Testes, evaluate and improves the content (exercises, lectures, etc)
+- **Contributor**: Tests, evaluates and improves the content (exercises, lectures, etc)
 
 - **Trainer**: Have interactions with the trainee (learner) as part of didactic process while making use of the material
 
