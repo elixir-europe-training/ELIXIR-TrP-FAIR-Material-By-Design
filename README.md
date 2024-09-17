@@ -51,29 +51,55 @@ Activities are intended to **increase the technical skills** and **critical thin
 
 #### Per session
 
-**Session 0: What is FAIR and why do I care?**
+**Session 1: What is FAIR and why do I care?**
+- Explain the 4 principles in the acronim FAIR
+- Differentiate FAIR and OPEN science and application in training material
+- Discuss the advantages of FAIR and OPEN training
 
-- *under developmente*
+**Session 2: Planning and Designing a FAIR training**
+- Describe pedagogical frameworks and methods that support Learning Outcome development (including Bloom’s Taxonomy and the Smartie Principles) 
+- Create Learning Outcomes relevant to their own training 
+- Understand how Nicholl’s Five Steps and the Training LIfe Cycle relate to FAIR
+- Describe how documentation pedagogically supports FAIR trainings 
+- Describe methods for and means of documenting trainings documenting in a FAIR way 
 
-**Session 1: Syllabus and documentation**
+**Session 3: How to host your training**
+- List common e-learning platforms
+- Explain what the SCORM format is 
+- Describe pros and cons of different Learning Management Systems, from a FAIR perspective
+- Create a github page to host and deliver training
+- Describe how to make your training material FAIR using only google drive
 
-- *under developmente*
+**Session 4: Training material formats and interoperability**
+- assess the degree of re-usability of training material
+- explain the concepts of re-usability, interoperability and extendibility for training material
+- develop presentation with narratives for each slides using Liascript
 
-**Session 2: Training material formats and interoperability**
+**Session 5: Acknowledgements, a comprehensive perspective**
+- Explain the importance of having a license and getting informed about other's license
+- Choosing a license for the material while understanding the duties and rights of each choice
+- Choosing illustrations based on their license
+- List and discuss the steps and challanges to create images with genAI 
+- Defining Authorship and Contributors
+- Acknowledging othe training materials sources
 
-- *under developmente*
+**Session 6: Put on your producer hat: considerations for FAIR video material**
+- Describe the advantages and challenges of video media in FAIR training
+- Understand active and responsible AI usage in creating FAIR video materials
+- Find video materials to use in FAIR training
+- Annotate video material to make it FAIR
+- Apply FAIR video materials to your training delivery system
 
-**Session 3: Ilustrations, aesthetics and acknoledgements**
+**Session 7: Metadata and Findability**
+- Define training metadata
+- Discuss the importance of training metadata
+- Register training metadata in TeSS manually
 
-- *under developmente*
-
-**Session 4: Making e-learning FAIR, challanges and possibilities**
-
-- *under developmente*
-
-**Session 5: Releases and use of unique identifiers**
-
-- *under developmente*
+**Session 8: Releases and use of unique identifiers**
+- Explain what unique persistant identifiers are and their benefits
+- List and differentiate the types of unique identifiers that are relevant for publishing and sharing training materials
+- Compare different strategies for unique identifiers for training materials
+- Create versioned DOIs for training materials
 
 
 
