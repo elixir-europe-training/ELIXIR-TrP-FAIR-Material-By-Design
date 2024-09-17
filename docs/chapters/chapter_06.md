@@ -56,3 +56,10 @@ Following the basic guidelines for FAIR video material in the slides, add your v
 
 !!! tip
     If you created your own video, you can use your [SciLifeLab NextCloud Folder](https://nextcloud.dc.scilifelab.se/login) to host it.
+
+
+## Citations
+1.	Noble, S.U. (2018). Algorithms of oppression: how search engines reinforce racism (New York university press).
+2.	Popenici, S. (2022). Artificial Intelligence and Learning Futures: Critical Narratives of Technology and Imagination in Higher Education 1st ed. (Routledge) https://doi.org/10.4324/9781003266563.
+3.	Johnson, A. (2020). An Intersectional Physics Identity Framework for Studying Physics Settings. In Physics Education and Gender Cultural Studies of Science Education., A. J. Gonsalves and A. T. Danielsson, eds. (Springer International Publishing), pp. 53–80. https://doi.org/10.1007/978-3-030-41933-2_4.
+4. Dignum, Virginia (2024). Beyond the AI Hype: Balancing Innovation and Social Responsibility. Distinguished Lecturer seminar at the Institute for Experiential AI, January 31, 2024. Accessed via YouTube: https://www.youtube.com/watch?v=IsMY6NZZnWc 
