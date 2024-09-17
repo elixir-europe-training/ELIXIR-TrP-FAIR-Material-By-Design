@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/737050365.svg)](https://zenodo.org/doi/10.5281/zenodo.13773159)
+
+
 ### Training material made FAIR _by design_
 
 ### Contributors
