@@ -6,6 +6,10 @@
 
 [cards class_name="authors" cols="4"(./docs/assets/cards/author2_cards.yaml)]
 
+## Contributor
+
+[cards class_name="contributor" cols="4"(./docs/assets/cards/contributor_cards.yaml)]
+
 ## Lesson overview
 
 !!! overview ""
