@@ -5,13 +5,13 @@
 | 09:00 	| 09:40 	| Welcome coffee (optional)	       |
 | 09:40 	| 10:30 	| What is FAIR and why do I care?  |
 | 10:30 	| 10:40 	| Break!                    	   |
-| 10:40 	| 12:00 	| How to host your training   	   |
+| 10:40 	| 12:00 	| Planning and designing a FAIR training   	   |
 | 12:00 	| 13:15 	| Lunch! 	   	           	  	   |
 | 13:15 	| 14:30 	| How to host your training   |
 | 14:30   | 14:40   |   Break!                      |
-| 14:40   | 15h40   | Train material formats and interoperability  |
+| 14:40   | 15h40   | Training material formats and interoperability  |
 | 15:40 	| 15:50 	| Break!	               |
-| 15:50 	| 16:35 	| Train material formats and interoperability |
+| 15:50 	| 16:35 	| Training material formats and interoperability |
 | 16:35   | 17:00   | Wrap up of day 1 |
 | 19:00 	| late   	| Course dinner! 
 
