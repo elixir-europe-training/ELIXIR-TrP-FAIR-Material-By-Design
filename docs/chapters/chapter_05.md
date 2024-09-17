@@ -1,24 +1,12 @@
---- 
-Lead: Bruna 
-Duration: 1h40
-Title: Acknowledgements everywhere
-To cover: 
-- How to find free license images
-- How to be FAIR when using illustrations
-- Make citations on material (people, institutions)
-- AI support to create images
-- AI images, who's copyrights?
-- Use images and be mindful (impact of aesthetics in the training)
-- Images = avoid stereotypes, be inclusive, keep it clean
-To Reuse:
-[chapter 10 FAIR trainign handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_10/)
-suggestion of companies and legal terms:
-https://openai.com/brand/
-https://openai.com/policies/eu-terms-of-use/
-https://www.adobe.com/se/legal/licenses-terms/adobe-gen-ai-user-guidelines.html
-https://answers.microsoft.com/en-us/bing/forum/all/commercial-use-of-images-generated-using-copilot/af4613c4-9ed5-40ed-81df-65aea64b246f
-https://spectrum.ieee.org/midjourney-copyright
----
+
+!!! success "Learning Outcomes"
+
+    - Explain the importance of having a license and getting informed about other's license
+    - Choosing a license for the material while understanding the duties and rights of each choice
+    - Choosing illustrations based on their license
+    - List and discuss the steps and challanges to create images with genAI 
+    - Defining Authorship and Contributors
+    - Acknowledging othe training materials sources
 
 # Acknowledgements and FAIR principles
 
@@ -38,7 +26,7 @@ It is an scale, see it bellow:
 
 <figure>
 <a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
-<img src="../assets/images/chapter04/Creative_commons_license_spectrum.svg.png" align="center" width="30%" >
+<img src="../../assets/images/chapter04/Creative_commons_license_spectrum.svg.png" align="center" width="30%" >
 </a>
 <figcaption>
 <a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
@@ -109,7 +97,7 @@ I had the experience of finding out one of the images I was using actually had a
 >
 > <figure>
 > <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
-> <img src="../assets/images/chapter04/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
+> <img src="../../assets/images/chapter04/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
 > </figure>
 > __
 
@@ -132,7 +120,7 @@ But, now that you know you can check, (1) search an image, (2) check the license
 >
 > <figure>
 > <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
-> <img src="../assets/images/chapter04/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
+> <img src="../../assets/images/chapter04/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
 > </figure>
 >
 > This [image](https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm?log-in=email#fromView=search&page=1&position=0&uuid=f919f4f7-cbaa-4bf0-8f63-468f04a72381) can be found in [FreePik](https://www.freepik.com/) and is owned by FreePik.
@@ -213,7 +201,7 @@ When asked with a very general request "draw a politician" the tool will most li
 
 <figure>
 <a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
-<img src="../assets/images/politician_byCopilot_genAI.png" align="center" width="30%" >
+<img src="../../assets/images/politician_byCopilot_genAI.png" align="center" width="30%" >
 </figure>
 
 Photo from "[Strategic use of genAI](https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733)" VIBcourse, by Bruna Piereck and Alexander Botzki. [CCBY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en).
@@ -224,7 +212,7 @@ Mostly light skin ton people, women however look calm and reserved, their postur
 
 <figure>
 <a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
-<img src="../assets/images/politician_byCopilot_genAI_women.png" align="center" width="50%" >
+<img src="../../assets/images/politician_byCopilot_genAI_women.png" align="center" width="50%" >
 </figure>
 
 Photo from "[Strategic use of genAI](https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733)" VIBcourse, by Bruna Piereck and Alexander Botzki. [CCBY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en).
