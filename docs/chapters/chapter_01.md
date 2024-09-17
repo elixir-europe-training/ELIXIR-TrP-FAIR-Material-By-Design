@@ -14,13 +14,14 @@ To Reuse:
 - FAIR training handbook -> https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/
 - No data, no paper (RDM training) -> https://docs.google.com/presentation/d/1GLwPc6E2HGNBBV5QPf_qYhyhXy_9Fggr/edit#slide=id.p1
 ---
+
 !!! success "Learning Outcomes"
 
-    - Define the FAIR principles and associate with training material
-    - Differentiate FAIR and OPEN principles
-    - Discuss why creating FAIR material can be benefinetial
+    - LO1
+    - LO2
+    - LO3
 
-find here the presentation for this chapter: [Google slides](https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/edit?usp=sharing)
+
 
 # What is FAIR
 
@@ -99,3 +100,6 @@ When you make your material FAIR you enable the community exchange while alowing
 
 [Go-FAIR](https://www.go-fair.org/fair-principles/)
 [10 simple rules 4 making training materials FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854)
+
+
+ 
