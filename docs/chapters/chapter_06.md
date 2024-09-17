@@ -9,7 +9,7 @@
 
 ## 6.1 Presentation
 Here you can find the presentation for this session:
-https://docs.google.com/presentation/d/
+
 <iframe src="https://docs.google.com/presentation/d/1vKoL-0AzID9tPM3HwcnvclJPJOnygMJS/preview" width="640" height="360" allow="autoplay"></iframe>
 
 
