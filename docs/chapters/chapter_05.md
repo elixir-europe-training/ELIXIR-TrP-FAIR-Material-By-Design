@@ -13,7 +13,7 @@
 ## 5.1 Presentation
 Here you can find the presentation for this session: 
  
- <iframe src="https://docs.google.com/presentation/d/1B0kVV1UjC1J79e4ys9AVp9Z7k8Ms_eeHdIwBXwQai0k/edit?usp=drive_link/preview" width="640" height="360" allow="autoplay"></iframe>
+ <iframe src="https://docs.google.com/presentation/d/1B0kVV1UjC1J79e4ys9AVp9Z7k8Ms_eeHdIwBXwQai0k/preview" width="640" height="360" allow="autoplay"></iframe>
  
 
 The full presentation can be downloaded [here](https://docs.google.com/presentation/d/1B0kVV1UjC1J79e4ys9AVp9Z7k8Ms_eeHdIwBXwQai0k/edit?usp=drive_link/export?format=pdf).
@@ -35,7 +35,6 @@ The CC licenses will allow you to [combine different options](https://creativeco
 It is an scale, see it bellow:
 
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
 <img src="../../docs/assets/images/Creative_commons_license_spectrum.svg.png" align="center" width="30%" >
 </figure>
 
@@ -51,13 +50,11 @@ It is good to remember that this should be taken into account in both directions
 
 If you are accessing a CCBY license you should take in account some [good practices](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution#This_is_a_good_attribution_for_material_you_modified_slightly) of how to make good citations/atribution 
 
-> ✍️ ACTIVITY
->
-> I challenge you to take a look in the links and the options and choose one license for your project. Discuss with your group the advantages and disadvantages and let's go one step ahead in being FAIR.
->
-> You can use the help of the [license chooser](https://chooser-beta.creativecommons.org/) from creative commons
->
-> __
+!!! danger "Challenge"
+
+ I challenge you to take a look in the links and the options and choose one license for your project. Discuss with your group the advantages and disadvantages and let's go one step ahead in being FAIR.
+
+ You can use the help of the [license chooser](https://chooser-beta.creativecommons.org/) from creative commons
 
 
 At this point there one thing about liceses that I believe you have not started asking yet. WHERE SHOULD I PUT THE LICENSE?
@@ -100,7 +97,6 @@ For training material, however we have Authors, contributors and trainers/teache
 
 - **Trainer**: Have interactions with the trainee (learner) as part of didactic process while making use of the material
 
-
 Use this descriptions to help you define who has the author's role and who is the contributor. One thing important here to highlight is that _substantial contribution_ is not exactly defined. Each group might have a slightly different view on it and it can help, like in the papers, to describe what each person has done. However, I would focus in the fact that an author should be accountable for the material and its approval.
 
  In the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) you can also find a Credit matrix to help defining  the  responsibilities of authors in the creation of the training material. 
@@ -132,15 +128,15 @@ Despite of being tempting, you should not do it as simple as this. You should ch
 
 I had the experience of finding out one of the images I was using actually had a paying license and had to replace it.
 
-> ✍️ ACTIVITY
->
-> I have a challenge for you! Can you find the source and the license of the image below?
->
-> <figure>
-> <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
-> <img src="../../docs/assets/images/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
-> </figure>
-> __
+!!! danger "Challenge"
+
+ I have a challenge for you! Can you find the source and the license of the image below?
+
+ <figure>
+ <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
+ <img src="../../docs/assets/images/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
+ </figure>
+
 
 My advice for you is to either do your own illustration or use free licensed images. In most cases the free licenses require that you acknowledge the source (illustrator and maybe illustration website). This is the same for icons or very fancy illustrations! So maybe I can share with you some websites, in case you are not a Picasso or a Van gogh, you can still have nice visuals for your material.
 
@@ -171,13 +167,12 @@ But, now that you know you can check, (1) search an image, (2) check the license
 
 Let's do now the easier way, first find the image and its license, and then you decided whether to use it!
 
-> ✍️ ACTIVITY
->
-> Choose an image from at least one of the websites to use in your material. Check its license, and if it fits with the purpose of this material and with how you intend (or not) to share it.
->
-> Don't forget to acknowledge the illustrator and add a link if others want to use it from the original source. If youa re aloud to not acknowledge, share the link in the activity so your trainers and colleges can see it.
->
-> __
+!!! danger "Challenge"
+
+ Choose an image from at least one of the websites to use in your material. Check its license, and if it fits with the purpose of this material and with how you intend (or not) to share it.
+
+ Don't forget to acknowledge the illustrator and add a link if others want to use it from the original source. If youa re aloud to not acknowledge, share the link in the activity so your trainers and colleges can see it.
+
 
 
 #### Create your own images 

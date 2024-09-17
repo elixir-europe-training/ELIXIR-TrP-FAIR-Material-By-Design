@@ -47,7 +47,7 @@ I would say that expecting that training material is FAIR is just fair, don't yo
 Before you can decide if you agree or not maybe I should tell you more about each part of this acronym.
 From the need of reusing scholar data in research was born the idea of a consise and mesurable set of principles to endorse reusability, the **FAIR** principles. The idea is that those need to be available for individuals but also in a machine redable format.
 
-!!! danger "Challenge 1"
+!!! danger "Challenge"
 
     Before looking for the answers bellow, try to answer with your current knoledge and perspective
     
