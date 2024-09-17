@@ -102,17 +102,20 @@ Intermediate knowledge of github needed (clone, push, pull, gh-pages configurati
     Steps:
 
     1. Create a Google drive folder where you will put the course materials
-    2. Create a user account at [https://sandbox.openedx.org/]()
+    2. Create a user account at [https://sandbox.openedx.org/](https://sandbox.openedx.org/)
     3. Go to the tab Studio and click the `Create your first course` button
     4. Fill in the information required and create the course
     5. Make sure you have your course syllabus and learning outcomes in separate documents in the Google drive folder
-    6. Embed the syllabus and learning outcomes documents in iframes.
-    - In google: File -> Share -> Publish to web. Click on the Embed tab, and copy the code
-    - In Open edX: add new section, subsection, and unit
-    - Name the units Syllabus and Learning outcomes, and add a Text element to each
-    - Edit the page and click Embed iframe in the top right corner
-    - Paste the embed code from google
-    - You might have to adjust the size:
+    6. Embed the syllabus and learning outcomes documents in iframes.  
+    - In google: File -> Share -> Publish to web. Click on the Embed tab, and copy the code  
+    - In Open edX: go to Settings -> Schedule and Details, scroll down to Course overview  
+    - Click on the three dots -> Embed iframe, and paste the embed code  
+    - If you want you can put the Learning outcomes as a separate page: in Content -> Outline:  
+    - Add new section, subsection, and unit  
+    - Name the units Learning outcomes, and add a Text element to it   
+    - Edit the page and click Embed iframe in the top right corner  
+    - Paste the embed code from google  
+    - You might have to adjust the size:  
     ```
     <iframe src="<url>" width="900px" height="900px" scrolling="no" frameborder="0"></iframe> 
     ```
