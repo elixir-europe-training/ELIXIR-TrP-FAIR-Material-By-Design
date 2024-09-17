@@ -41,7 +41,7 @@ Let's take a moment to reflect on our recent discussions and how they align with
 As we continue with our training, let's consider how these formats serve our objectives and the ways in which we can leverage their strengths while mitigating their limitations. 
 
 !!! question "Reflection"
-    Compare your list to Table 1 from the '10 simple rules' paper[^1].
+    Compare your list of the slide formats from above to the formats mentioned in the ['10 simple rules' paper](https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001).
 
     ??? success "Answer as Table 1"
         | Format            | Advantages                                       | Disadvantages                                   |
@@ -59,8 +59,6 @@ As we continue with our training, let's consider how these formats serve our obj
         |                   | Free                                           |                                            |
         | **Google slides**    | Version controlled                              | Not always possible to use owing to local/institutional policies     |
         |                   |    Free                                           |     Not always accessible (depending on geographic location                     |
-        
-        [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
 
 ### Summary of training material file formats
 
