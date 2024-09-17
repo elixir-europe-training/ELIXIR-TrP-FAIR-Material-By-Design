@@ -26,15 +26,11 @@ It is an scale, see it bellow:
 
 <figure>
 <a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
-<img src="../../assets/images/chapter04/Creative_commons_license_spectrum.svg.png" align="center" width="30%" >
-</a>
-<figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
-Creative commons license spectrum by Shaddim; original CC license symbols by Creative Commons. CCBY 4.0 license
-</a>
-</figcaption>
+<img src="../../docs/assets/images/Creative_commons_license_spectrum.svg.png" align="center" width="30%" >
 </figure>
- 
+
+[Creative commons license spectrum by Shaddim](https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg"); original CC license symbols by Creative Commons. [CCBYSA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+
 
 If you see a **CC0** means you can freely use! While **(C)** means all rights reserved.
 Between them you can find many options, for example the **CCBY**, second one in the right top, means you can share and adapt as long as citing **by** whom it was created.
@@ -97,10 +93,9 @@ I had the experience of finding out one of the images I was using actually had a
 >
 > <figure>
 > <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
-> <img src="../../assets/images/chapter04/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
+> <img src="../../docs/assets/images/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
 > </figure>
 > __
-
 
 My advice for you is to either do your own illustration or use free licensed images. In most cases the free licenses require that you acknowledge the source (illustrator and maybe illustration website). This is the same for icons or very fancy illustrations! So maybe I can share with you some websites, in case you are not a Picasso or a Van gogh, you can still have nice visuals for your material.
 
@@ -120,7 +115,7 @@ But, now that you know you can check, (1) search an image, (2) check the license
 >
 > <figure>
 > <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
-> <img src="../../assets/images/chapter04/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
+> <img src="../../docs/assets/images/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
 > </figure>
 >
 > This [image](https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm?log-in=email#fromView=search&page=1&position=0&uuid=f919f4f7-cbaa-4bf0-8f63-468f04a72381) can be found in [FreePik](https://www.freepik.com/) and is owned by FreePik.
@@ -201,7 +196,7 @@ When asked with a very general request "draw a politician" the tool will most li
 
 <figure>
 <a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
-<img src="../../assets/images/politician_byCopilot_genAI.png" align="center" width="30%" >
+<img src="../../assets/images/politician_byCopilot_genAI.png" align="center" width="50%" >
 </figure>
 
 Photo from "[Strategic use of genAI](https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733)" VIBcourse, by Bruna Piereck and Alexander Botzki. [CCBY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en).
