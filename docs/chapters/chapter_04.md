@@ -12,9 +12,7 @@ In this chapter we will touch on:
 
 ## 4.1 Presentation
 
-Here you can find the presentation for this session:
-<iframe src="https://docs.google.com/presentation/d/1f9OQH3KgY5wJiFnCM9X6TpGxa63ahPfwnutMmt9eQ6U/preview" width="640" height="360" allow="autoplay"></iframe> 
-
+Here you can find the [presentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/main/docs/supplementary/presentations/chapter03-presentation.md) for this session.
 
 ## 4.2 Formats for training material
 
