@@ -13,11 +13,11 @@ To cover:
 To Reuse:
 [chapter 10 FAIR trainign handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_10/)
 suggestion of companies and legal terms:
--https://openai.com/brand/
--https://openai.com/policies/eu-terms-of-use/
--https://www.adobe.com/se/legal/licenses-terms/adobe-gen-ai-user-guidelines.html
--https://answers.microsoft.com/en-us/bing/forum/all/commercial-use-of-images-generated-using-copilot/af4613c4-9ed5-40ed-81df-65aea64b246f
-- https://spectrum.ieee.org/midjourney-copyright
+https://openai.com/brand/
+https://openai.com/policies/eu-terms-of-use/
+https://www.adobe.com/se/legal/licenses-terms/adobe-gen-ai-user-guidelines.html
+https://answers.microsoft.com/en-us/bing/forum/all/commercial-use-of-images-generated-using-copilot/af4613c4-9ed5-40ed-81df-65aea64b246f
+https://spectrum.ieee.org/midjourney-copyright
 ---
 
 # Acknowledgements and FAIR principles
@@ -38,7 +38,7 @@ It is an scale, see it bellow:
 
 <figure>
 <a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
-<img src="../assets/images/chapter04/Creative_commons_license_spectrum.svg.png"  width="30%" >
+<img src="../assets/images/chapter04/Creative_commons_license_spectrum.svg.png" align="center" width="30%" >
 </a>
 <figcaption>
 <a href="https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg">
@@ -83,7 +83,7 @@ If you have modified the original you also need to make it clear to everyone. He
 
 <figure>
 <a href="https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution">
-<img src="https://wiki.creativecommons.org/images/b/b8/8256206923_c77e85319e_n_90fied.jpg"  width="30%" >
+<img src="https://wiki.creativecommons.org/images/b/b8/8256206923_c77e85319e_n_90fied.jpg" align="center" width="150%" >
 </figure>
 
 This work, "90fied", is adapted from "[Creative Commons 10th Birthday Celebration San Francisco](http://www.flickr.com/photos/sixteenmilesofstring/8256206923/in/set-72157632200936657)" by [Timothy Vollmer](http://www.flickr.com/photos/sixteenmilesofstring/), used under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/). "90fied" is licensed under CC BY 4.0 by [Your name here].
@@ -107,8 +107,10 @@ I had the experience of finding out one of the images I was using actually had a
 >
 > I have a challenge for you! Can you find the source and the license of the image below?
 >
+> <figure>
+> <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
 > <img src="../assets/images/chapter04/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
->
+> </figure>
 > __
 
 
@@ -128,7 +130,10 @@ But, now that you know you can check, (1) search an image, (2) check the license
 
 > ✅ Solution
 >
+> <figure>
+> <a href="https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm">
 > <img src="../assets/images/chapter04/flat-design-van-gogh-painting-illustration/7597323.jpg"  width="30%" >
+> </figure>
 >
 > This [image](https://www.freepik.com/free-vector/flat-design-van-gogh-painting-illustration_29725492.htm?log-in=email#fromView=search&page=1&position=0&uuid=f919f4f7-cbaa-4bf0-8f63-468f04a72381) can be found in [FreePik](https://www.freepik.com/) and is owned by FreePik.
 >
@@ -204,35 +209,25 @@ First you need to consider that the world we live is been fighting againt a lot 
 
 In this example I only asked Copilot - Microsfot to draw a politician, nothing more then that. You can see bellow what is generate without further instruction.
 
+When asked with a very general request "draw a politician" the tool will most likely reproduce societal biases. As you cann see a politician despite of being a agender therm returns in tis majority light skin tone man, in strong quit angry posture. There are a lot of flags around.
+
 <figure>
 <a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
-<img src="../assets/images/politician_byCopilot_genAI.png"  width="30%" >
-</a>
-<figcaption>
-<a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
-Photo from "Strategic use of genAI" VIBcourse, by Bruna Piereck and Alexander Botzki. CCBY 4.0 License.
-</a>
-</figcaption>
-<figcaption>
-When asked with a very general request "draw a politician" the tool will most likely reproduce societal biases. As you cann see a politician despite of being a agender therm returns in tis majority light skin tone man, in strong quit angry posture. There are a lot of flags around.
-</figcaption>
+<img src="../assets/images/politician_byCopilot_genAI.png" align="center" width="30%" >
 </figure>
+
+Photo from "[Strategic use of genAI](https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733)" VIBcourse, by Bruna Piereck and Alexander Botzki. [CCBY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 When reiteraiting and asking the tool - "make them women" - still very general but trying to steer the tool in another direction that is what we get back:
 
+Mostly light skin ton people, women however look calm and reserved, their posture is almost the oposit of the one above.
+
 <figure>
 <a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
-<img src="../assets/images/politician_byCopilot_genAI_women.png"  width="30%" >
-</a>
-<figcaption>
-<a href="https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733">
-Photo from "Strategic use of genAI" VIBcourse, by Bruna Piereck and Alexander Botzki. CCBY 4.0 License.
-</a>
-</figcaption>
-<figcaption>
-We have again mostly light skin ton people, women however look calm and reserved, their posture is almost the oposit of the one above.
-</figcaption>
+<img src="../assets/images/politician_byCopilot_genAI_women.png" align="center" width="50%" >
 </figure>
+
+Photo from "[Strategic use of genAI](https://docs.google.com/presentation/d/1zp-BRONJo-glWBHddJOUuNz8g2NvCLo92lKGnzfy_SI/edit#slide=id.g2fb2693d97c_0_2733)" VIBcourse, by Bruna Piereck and Alexander Botzki. [CCBY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 There are also general aspects that you can look, all of them are quit conservative,women tend to look yonger then man. I wont go further on that, but when trying it on your own be mindifil and give context to steer in the desired direction.
 
