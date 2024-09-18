@@ -22,8 +22,8 @@
 |-------	|-------	|---------	|
 | 09:00 	| 10:00 	| Acknowledgements, a comprehensive perspective	|
 | 10:00 	| 10:15 	| Break!    	           	                	|
-| 10:15 	| 11:00 	| Put on your producer hat: considerations for FAIR video material |
-| 11:00 	| 12:00 	| Metadata and Findabilty  	|
+| 10:15 	| 11:15 	| Put on your producer hat: considerations for FAIR video material |
+| 11:15 	| 12:00 	| Metadata and Findabilty  	|
 | 12:00 	| 13:15 	| Lunch! |
 | 13:15 	| 14:10 	| Metadata and Findabilty |   	           	                	|
 | 14:10   | 15:00   | Releases and use of unique identifiers    	|
