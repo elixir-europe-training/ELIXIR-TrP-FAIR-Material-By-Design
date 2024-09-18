@@ -25,9 +25,8 @@
 - discussion with the whole group
 - trainer as the note taker with a flip chart or Google doc
 
-## Activity 4
+## Activity 4 (slide 9)
 
-- check with Nina on how the github repos are setup
 - enter your git repo (github.dev)
 - show the cheatsheet of LiaScript
 - create a markdown document using LiaScript 
