@@ -289,7 +289,7 @@ Validate the individual page with the [schema.org validator](https://validator.s
 
 Example: https://nanocommons.github.io/tutorials/enteringData/index.html
 
-![screenshot for login page](./../assets/images/b369eIQ.png)
+![screenshot for login page](../../assets/images/b369eIQ.png)
 
 You will get the the HTML code of the web site on the left side and a list of type from schema.org. Open the entries on the left side to check on eventual error. 
 
