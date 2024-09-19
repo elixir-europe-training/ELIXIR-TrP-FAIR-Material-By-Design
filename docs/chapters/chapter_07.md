@@ -166,7 +166,7 @@ Here is one example: “NanoCommons will deliver a sustainable and openly access
 
 8. Enter a image to have a **visual representation of the content provider**. The image can be added by URL of the image location or by uploading an image.
 
-![screenshot for login page](https://github.com/elixir-europe-training/ELIXIR-TrP-TeSS/blob/main/docs/assets/images/qyOSDyb.png)
+![screenshot for login page](./../assets/images/qyOSDyb.png)
 
 9. Enter the type of the content provider in the Type field. You can choose ‘Project’, ‘Organisation’ or ‘Portal’.
 
@@ -187,7 +187,7 @@ Here is one example: “NanoCommons will deliver a sustainable and openly access
 3. Click on “+ Register event”. As an example, we use an RNAseq training event.
 You will be directed to a form type of page. 
 
-![screenshot for login page](https://github.com/elixir-europe-training/ELIXIR-TrP-TeSS/blob/main/docs/assets/images/appDpje.png)
+![screenshot for login page](./../assets/images/appDpje.png)
 
 4. Select that Type at the beginning of the form since we enter a face-to-face event.
 If your event is online, choosing the option "Online" which will modify the form to fit that type of event i.e. no address field has to be filled in. 
@@ -216,6 +216,7 @@ This field supports markdown syntax.
 We recommend applying the Bloom hierarchy of cognitive skills to formulate the Learning objectives. For more detailed information about our pedagogical model, please browse to the course material of the ELIXIR Train the Trainer course https://github.com/TrainTheTrainer/ELIXIR-EXCELERATE-TtT This field supports markdown syntax. 
 
 16. For the Address and related fields, enter the relevant information as
+    
 ○	Address: fill in the address by starting to type the address. Once you select an address, the Google maps view will be shown and the fields Venue, City, Region, Country and Postcode will be filled in automatically
 ○	Venue: the venue of the event e.g. street
 ○	City: the city where the venue is located
@@ -224,6 +225,7 @@ We recommend applying the Bloom hierarchy of cognitive skills to formulate the L
 ○	Postcode: the postcode of the venue
 
 In our example, these are
+
 ○	Herestraat 49
 ○	Campus Gasthuisberg
 ○	Leuven
@@ -339,9 +341,3 @@ Look for a script element with the attribute type="application/ld+json". This sc
 If you are using the G-suite setup, copy the JSON object of the [github template](https://github.com/vibbits/training_material_template/blob/main/README.md) which is located at the top of the README.md file. Paste the content from the clipboard to a text file (suffix .json), edit it in the g-drive and save it there.
 
 If you are using the github setup, edit the JSON object of your cloned github template which is located at the top of the README.md file. You can verify the presence of the JSON-LD object with the schema.org validator using the rendered version of your course page.
-
-
-
-
-
-
