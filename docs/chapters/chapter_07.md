@@ -70,7 +70,7 @@ Such an event in TeSS is a link to a single training event sourced by a provider
 
 Training events in TeSS can be added manually or automatically harvested from a provider's website. Here is the procedure to register for training events manually.
 
-![screenshot for login page](./../assets/images/rhh0rv5.png)
+![screenshot for login page](../../assets/images/rhh0rv5.png)
 
 ## 7.4 Discover events and materials in TeSS
 
@@ -128,15 +128,15 @@ In order to be able to register resources in TeSS you need to log in the registr
 3.	To log in using your institutional account, choose Log in with LS Login from the dropdown menu
 You will be redirected to the LifeScience RI authentication page (Fig. 1).
 
-![screenshot for login page](./../assets/images/6dXdfgu.jpg "Figure 1")
+![screenshot for login page](../../assets/images/6dXdfgu.jpg "Figure 1")
 
 4.	Start typing the name of your own institution, for instance ‘VIB’, into the text box then choose the appropriate option that appears and proceed with your usual institutional login procedure (Fig. 2). 
 
-![screenshot for login page](./../assets/images/l5mQUND.png "Figure 2")
+![screenshot for login page](../../assets/images/l5mQUND.png "Figure 2")
 
 5. You should now be logged into TeSS. Once successful, you should be taken to the TeSS Welcome page with a message stating “Logged in successfully.”  You should also see your username in the top bar of the page, which you can click to view and edit your TeSS profile.
 
-![screenshot for login page](./../assets/images/meCcJjO.png "Figure 3")
+![screenshot for login page](../../assets/images/meCcJjO.png "Figure 3")
 
 6.	Check all the fields in your user profile are correct and click the “Update Profile” button.
 You will also see a button to log out of TeSS.
@@ -166,7 +166,7 @@ Here is one example: “NanoCommons will deliver a sustainable and openly access
 
 8. Enter a image to have a **visual representation of the content provider**. The image can be added by URL of the image location or by uploading an image.
 
-![screenshot for login page](./../assets/images/qyOSDyb.png)
+![screenshot for login page](../../assets/images/qyOSDyb.png)
 
 9. Enter the type of the content provider in the Type field. You can choose ‘Project’, ‘Organisation’ or ‘Portal’.
 
@@ -187,7 +187,7 @@ Here is one example: “NanoCommons will deliver a sustainable and openly access
 3. Click on “+ Register event”. As an example, we use an RNAseq training event.
 You will be directed to a form type of page. 
 
-![screenshot for login page](./../assets/images/appDpje.png)
+![screenshot for login page](../../assets/images/appDpje.png)
 
 4. Select that Type at the beginning of the form since we enter a face-to-face event.
 If your event is online, choosing the option "Online" which will modify the form to fit that type of event i.e. no address field has to be filled in. 
@@ -217,21 +217,21 @@ We recommend applying the Bloom hierarchy of cognitive skills to formulate the L
 
 16. For the Address and related fields, enter the relevant information as
     
-○	Address: fill in the address by starting to type the address. Once you select an address, the Google maps view will be shown and the fields Venue, City, Region, Country and Postcode will be filled in automatically
-○	Venue: the venue of the event e.g. street
-○	City: the city where the venue is located
-○	Region: the region where the city is located
-○	Country: the country where the event will take place
-○	Postcode: the postcode of the venue
+   -	Address: fill in the address by starting to type the address. Once you select an address, the Google maps view will be shown and the fields Venue, City, Region, Country and Postcode will be filled in automatically
+   -	Venue: the venue of the event e.g. street
+   -	City: the city where the venue is located
+   -	Region: the region where the city is located
+   -	Country: the country where the event will take place
+   -	Postcode: the postcode of the venue
 
 In our example, these are
 
-○	Herestraat 49
-○	Campus Gasthuisberg
-○	Leuven
-○	Flemish region
-○	Belgium
-○	3000
+   -	Herestraat 49
+   -	Campus Gasthuisberg
+   -	Leuven
+   -	Flemish region
+   -	Belgium
+   -	3000
 
 18. For the Eligibility field, there are three options you can choose from: First come first served, Registration of interest, By invitation. You could provide more than one eligibility type, if applicable. In our example, we enter First come, first serve.
 
