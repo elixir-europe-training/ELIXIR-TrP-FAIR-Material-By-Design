@@ -26,10 +26,10 @@ To Reuse:
 ## 1.1 Presentation
 Here you can find the presentation for this session: 
  
- <iframe src="https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/preview" width="640" height="360" allow="autoplay"></iframe>
+ <iframe src="https://docs.google.com/presentation/d/1FQp1Enrb-jLDfeZam19PITFPf4eii3rb/preview" width="640" height="360" allow="autoplay"></iframe>
  
 
-The full presentation can be downloaded [here](https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/export?format=pdf).
+The full presentation can be downloaded [here](https://docs.google.com/presentation/d/1FQp1Enrb-jLDfeZam19PITFPf4eii3rb/export?format=pdf).
 
 ## 1.2 What is FAIR
 

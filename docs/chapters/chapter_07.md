@@ -8,7 +8,7 @@
 ## 7.1 Presentation
 
 Here you can find the presentation for this session:
-<iframe src="https://docs.google.com/presentation/d/1ZcFJpbXtxT4Qa6wgffV_oEX8_cZfzM8B-VlMH0Cff0I/preview" width="640" height="360" allow="autoplay"></iframe> 
+<iframe src="https://docs.google.com/presentation/d/1xc-ir9VZ6WFpLbpMRe-58kbG6Qr_WMwK/preview" width="640" height="360" allow="autoplay"></iframe> 
 
 ## 7.2 What is metadata and its structure
 

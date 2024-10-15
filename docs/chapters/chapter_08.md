@@ -20,9 +20,9 @@ To Reuse:
 ## 8.1 Presentation
 Here you can find the presentation for this session:
 
-<iframe src="https://drive.google.com/file/d/1-WVUwjQR8oGToCNy4nJ16znOGQch9qBLqVfPA4Q01VU/preview" width="640" height="360" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1h4TZciHorxDPkhVrlwebzkbq8n0PnnNi/preview" width="640" height="360" allow="autoplay"></iframe>
 
-The full presentation can be downloaded as a pdf [here](https://docs.google.com/presentation/d/1-WVUwjQR8oGToCNy4nJ16znOGQch9qBLqVfPA4Q01VU/export?format=pdf).
+The full presentation can be downloaded as a pdf [here](https://docs.google.com/presentation/d/1h4TZciHorxDPkhVrlwebzkbq8n0PnnNi/export?format=pdf).
 
 ## 8.2 Unique identifiers for training materials
 

@@ -10,10 +10,10 @@
 ## 6.1 Presentation
 Here you can find the presentation for this session:
 
-<iframe src="https://docs.google.com/presentation/d/1vKoL-0AzID9tPM3HwcnvclJPJOnygMJS/preview" width="640" height="360" allow="autoplay"></iframe>
+<iframe src="https://docs.google.com/presentation/d/14zKqZlcC6tHAmNgJmdETwZyqdNdJL8zT/preview" width="640" height="360" allow="autoplay"></iframe>
 
 
-The full presentation can be downloaded as a pdf by clicking [here](https://docs.google.com/presentation/d/1vKoL-0AzID9tPM3HwcnvclJPJOnygMJS/export?format=pdf).
+The full presentation can be downloaded as a pdf by clicking [here](https://docs.google.com/presentation/d/14zKqZlcC6tHAmNgJmdETwZyqdNdJL8zT/export?format=pdf).
 
 
 ## 6.2 Discussion topics
