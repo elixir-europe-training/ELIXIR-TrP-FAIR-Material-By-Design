@@ -17,19 +17,19 @@ To Reuse:
 
 !!! success "Learning Outcomes"
 
-    - Explain the 4 principles in the acronim FAIR
+    - Explain the 4 principles in the acronym FAIR
     - Differentiate FAIR and OPEN science and application in training material
     - Discuss the advantages of FAIR and OPEN training
 
-# What is FAIR and why do I car ?
+# What is FAIR and why do I care ?
 
 ## 1.1 Presentation
 Here you can find the presentation for this session: 
  
- <iframe src="https://docs.google.com/presentation/d/1FQp1Enrb-jLDfeZam19PITFPf4eii3rb/preview" width="640" height="360" allow="autoplay"></iframe>
+ <iframe src="https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/preview" width="640" height="360" allow="autoplay"></iframe>
  
 
-The full presentation can be downloaded [here](https://docs.google.com/presentation/d/1FQp1Enrb-jLDfeZam19PITFPf4eii3rb/export?format=pdf).
+The full presentation can be downloaded [here](https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/export?format=pdf).
 
 ## 1.2 What is FAIR
 
@@ -45,40 +45,39 @@ _
 I would say that expecting that training material is FAIR is just fair, don't you agree?
 
 Before you can decide if you agree or not maybe I should tell you more about each part of this acronym.
-From the need of reusing scholar data in research was born the idea of a consise and mesurable set of principles to endorse reusability, the **FAIR** principles. The idea is that those need to be available for individuals but also in a machine redable format.
+From the need of reusing scholar data in research was born the idea of a consise and mesurable set of principles to endorse reusability, the **FAIR** principles. The idea is that those need to be available for humans but also in a machine readable format.
 
 !!! danger "Challenge"
 
-    Before looking for the answers bellow, try to answer with your current knoledge and perspective
+    Before looking for the answers below, try to answer with your current knowledge and perspective.
     
     "How would you interpret each of this principles?" 
     
-    Elaborate shortly how you see each of them (in general and for training) and thenn compare with the text bellow:
+    Elaborate shortly how you see each of them (in general and for training) and then compare with the text below:
     
     1. Findable:
     2. Accessible:
     3. Interoperable:
     4. Reusable:
 
-The main goal of the FAIR principals is to **SHARE**. For training material this includes extending, updating and modifiing the material to a certain audiance or circustances. To achieve this final goal the for principals can be organized in 10 rules [Garcia et al. 2020](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854).
+The main goal of the FAIR principals is to **SHARE**. For training material, this includes extending, updating and modifying the material to a certain audiance or circumstances. To achieve this final goal the four principals can be organized in 10 rules [Garcia et al. 2020](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854).
 <span style="font-family:serif; font-size:1.5em; color:#008B8B;">F</span><span style="font-family:serif; font-size:1.5em;">indable:</span>
 
-For data, including training material, to be considered **FINDABLE** it needs to take in consideration 3 rules . First the material needs to be described in such a way that humans and machines can find the material and its metadata, it needs to have a unique identifier and to be registered online in a catalogue or repositorie.
+For data, including training material, to be considered **FINDABLE** we need to take in consideration three rules. First the material needs to be described in such a way that humans and machines can find the material and its metadata, it needs to have a unique identifier and to be registered online in a catalogue or repository.
 
 <span style="font-family:serif; font-size:1.5em; color:#008B8B;">A</span><span style="font-family:serif; font-size:1.5em;">ccessible:</span>
 
-To be condered **ACCESSIBLE**, the most importante thing is to define access rules. It can be through lisces, document stating the rules or a policy, any of those will allow the person who finds it to know how it can be access and what is authorized to do like sharing, re-using, modifing. In some cases the material might be restrict or closed, but its metadata can still be found and the rules for the accessibility are clearly stated.
+To be considered **ACCESSIBLE**, the most importante thing is to define access rules. It can be through licenses, a document stating the access rules or a policy, any of those will allow the person who finds it to know how it can be accessed and what is authorized to do with the material like sharing, re-using, modifying. In some cases the material might be restricted or closed, but its metadata can still be found and the rules for the accessibility are clearly stated.
 
 <span style="font-family:serif; font-size:1.5em; color:#008B8B;">I</span><span style="font-family:serif; font-size:1.5em;">nteroperable:</span>
 
-Working as expected in different operational systems (OS) and different plataforms is the main idea behing **Interoperability** ! For now I take the liberty to say that , maybe, this is one level more complicated from training material then it is for scientific data, just because we've been worring about it for longer when it comes to data analysis. But as you will see in the session for training material, there are several types of training material and some of them will be easy to execute in any OS, but not easily editable, extended or updated. While other can fufill this needs but be a little trickier to execute in one or the other system/platform. You must be asking yourself : "So what is the perfect solution?" , in this case some solutions are possible, some are preferable but a it will vary according to considerations as you will see later in this lesson.
+Working as expected in different operational systems (OS) and different platforms is the main idea behind **Interoperability** ! For now I take the liberty to say that, maybe, this is level is more complicated for training material than it is for scientific data, just because we've been worring about it for longer when it comes to data analysis. But as you will see in the session for training material, there are several types of training material and some of them will be easy to open in any OS, but not easily editable, extended or updated. You must be asking yourself : "So what is the perfect solution?", in this case several technical solutions are available to us, some are preferable but the interoperability will vary according to specific considerations as you will see later in this lesson.
 
 <span style="font-family:serif; font-size:1.5em; color:#008B8B;">R</span><span style="font-family:serif; font-size:1.5em;">eusable:</span>
 
+After carefully considering all of the above, you want to reuse some material or make your material reusable. Consider when it comes to training that there are two main groups that can reuse the materials: (1) the trainers and (2) the trainees. So as trainers, we annotate, describe and make the material all as clear as possible so that other trainers or the trainees can read, listen or watch and know what you mean independently of your presence. And keep your material up-to-date! That is probably easier by welcoming contributions, by using a collaboration platform like GitHub or similar, and by making clear statements of how someone can contribute.
 
-After carrefuly considering all the above, you want to reuse some material or make your material reusable. Consider that when it comes to training there are two main groups that can reuse the materia (1) the trainers & (2) the trainees, so annotate, describe and make it all clear so they can read, listen or watch and know what you mean independently of your presence. And keep your material up-to-date! That is probably easier by welcoming contributions, by using a colaboratie plataform as GitHub or similar, and by making clear statements of how someone cna contribute.
-
-In case is not yet clear, all this steps also consider that the ones  involved need to be auknoledge, as author or contributors, sharing material and reusing as much as in science needs to provide proper recognition for those who dedicate their time and effort to do so, unless they assing a CC0 license or similar. But we will talk more about this in the following chapters.
+In case is not yet clear, all these steps also consider that the ones involved need to be acknowledged, as authors or contributors. Sharing material and reusing as much as possible needs to provide proper recognition mechanisms for those who dedicate their time and effort to do so, unless they assign a CC0 license or similar. But we will talk more about this in the following chapters.
 
 _
 
@@ -96,11 +95,11 @@ Ten simple rules for making training materials FAIR.
 </span>
 
 
-## 1.3 How are FAIR different then OPEN ?
+## 1.3 How is FAIR different compared OPEN ?
 
-Now that you know a bit about what the acronym for FAIR states for, you can try to about this question, **"how are FAIR and OPEN different ?"**.
+Now that you know a bit about what the acronym FAIR stands for, you can try to think about this question, **how different are FAIR and OPEN?**.
 
-OPEN is related to the rules to access and share the material, clear rules will define if you can freely access, modify and share, or state that there are restrictions for a specific group or under registration in a platfomr and might make restrictions about how to share and with whom. Many are the possibilities. Last but not least, it can have closed access and still be FAIR. You can find metadata, and information about it, but you cannot access. 
+OPEN is related to the rules to access and share the material, clear rules will define if you can freely access, modify and share, or state that there are restrictions for a specific group. Access might be restricted through registration on a platform and the auhtors might add restrictions about how to share and with whom. There are many possibilities. Last but not least, it can have closed access and still be FAIR. You can find metadata, and information about it, but you cannot access the material. 
 
  <figure>
     <img src="../../assets/images/FAIRvsOPEN_FloraD&apos;Anna.svg"
@@ -112,7 +111,7 @@ OPEN is related to the rules to access and share the material, clear rules will 
 
 ## 1.4 Why to create FAIR training material?
 
-When you make your material FAIR you enable the community exchange while alowing to this material to live beyond! It makes easier the content data share and the maintanence, updated and reuse by others. You also reinforce practices to you ensure trainers and content creators recognition. 
+When you make your material FAIR you enable the community exchange while allowing this material to live beyond! Having FAIR materials makes it easier to share the content and maintain, update and reuse them by others. You also reinforce practices to ensure trainers and content creators recognition. 
 
 ## 1.5 Links for extra reading
 
