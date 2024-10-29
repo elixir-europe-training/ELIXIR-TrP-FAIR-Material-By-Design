@@ -38,8 +38,14 @@ Activities are intended to **increase the technical skills** and **critical thin
 
 - Course presentation:
   
-  - *under developmente*
-  
+  - [What is FAIR and why do I care?]
+  - [Planning and Designing a FAIR training]
+  - [How to host your training]
+  - [Training material formats and interoperability]
+  - [Acknowledgements, a comprehensive perspective]
+  - [Put on your producer hat: considerations for FAIR video material]
+  - [Metadata and Findability]
+  - [Releases and use of unique identifiers]
 
 ### Learning Outcomes (LO's)
 
