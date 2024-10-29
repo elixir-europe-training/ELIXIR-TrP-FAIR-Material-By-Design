@@ -38,14 +38,14 @@ Activities are intended to **increase the technical skills** and **critical thin
 
 - Course presentation:
   
-  - [What is FAIR and why do I care?]
-  - [Planning and Designing a FAIR training]
-  - [How to host your training]
-  - [Training material formats and interoperability]
-  - [Acknowledgements, a comprehensive perspective]
-  - [Put on your producer hat: considerations for FAIR video material]
-  - [Metadata and Findability]
-  - [Releases and use of unique identifiers]
+  - [What is FAIR and why do I care?](./docs/supplementary/presentations/ch_01_What_is_FAIR_why_do_I_care/)
+  - [Planning and Designing a FAIR training](./docs/supplementary/presentations/ch_02_TrainingDocumentation_LOs_n_Sylabus/)
+  - [How to host your training](./docs/supplementary/presentations/ch_03_Hosting_Training_Material/)
+  - [Training material formats and interoperability](./docs/supplementary/presentations/ch_04_Type_of_training_material/)
+  - [Acknowledgements, a comprehensive perspective](./docs/supplementary/presentations/ch_05_Acknowledgements/)
+  - [Put on your producer hat: considerations for FAIR video material](./docs/supplementary/presentations/ch_06_considerations_for_FAIR_video%20/)
+  - [Metadata and Findability](./docs/supplementary/presentations/ch_07_Metadata_n_findability/)
+  - [Releases and use of unique identifiers](./docs/supplementary/presentations/ch_08_Unique_identifiers/)
 
 ### Learning Outcomes (LO's)
 
