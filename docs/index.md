@@ -63,7 +63,7 @@
 
 Please cite as:
 
-  1. Bruna Piereck, Jill Jaworski, Nina Norgren, Elin Kronander, Kristen Schroeder, Alexander Botzki, Jessica Lindvall (2024). The ELIXIR FAIR training material by Design course. 
+  1. Bruna Piereck, Jill Jaworski, Nina Norgren, Elin Kronander, Kristen Schroeder, Alexander Botzki, Jessica Lindvall (2024). The ELIXIR FAIR training material by Design course. DOI: 10.5281/zenodo.13773159 
 
 
 
