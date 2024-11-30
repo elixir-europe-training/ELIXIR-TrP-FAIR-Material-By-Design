@@ -106,7 +106,7 @@ Welcome, everyone! Today, we’re going to embark on an interactive journey to e
 So, let’s get started! Please go to to the joint file. As we proceed, I encourage you to think critically about the ‘why’—it’s the key to understanding our choices and improving our approach to training. Let’s have a productive session!
 
               {{0-1}}
-|  ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |      Activity: How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
+|  ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |      Activity: How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
 
               {{1}}
 *************
@@ -176,7 +176,7 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the bar charts of our training, providing clear, structured information at a glance. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom. **Video:** Like the play button that brings static images to life, our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Guidelines:** The checklists of our training, these guidelines are your roadmap to best practices and essential procedures, ensuring you're always on the right track. **Dataset:** Represented by database cylinders, our datasets are the real-world data playgrounds where you can apply and hone your analytical skills. **Tutorial:** The overlapping squares symbolize our tutorials, which provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** The gear of our toolkit, software training is where you'll gain hands-on experience with the tools that drive life science research forward. Each of these resources is interconnected, creating a comprehensive network that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed.
 Now, let's continue to build on this foundation and delve deeper into our next activity. Thank you for your engagement and enthusiasm!
 
-![](../../assets/images/04-formats.png)<!-- style="width: 700px;" -->
+![](../../../assets/images/04-formats.png)<!-- style="width: 700px;" -->
 
 [^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
@@ -187,11 +187,11 @@ Training materials need to be captured in interoperable formats, so that they ca
 
 **Enhance your training materials via**
 
-![](../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 650px;" -->
+![](../../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 650px;" -->
 
 ## How re-usable public training material are
 
-| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->  | Activity: Have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.   |
+| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->  | Activity: Have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.   |
 
 1. Could the presentation be extended?
 2. Could you choose a few slides and incorporate them in your presentation?
@@ -199,7 +199,7 @@ Training materials need to be captured in interoperable formats, so that they ca
 
 ## Evaluate interoperability and re-usability of training material
 
-| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Consider the list of in table 1. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.   |
+| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Consider the list of in table 1. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.   |
      
 | Formats | Interoperability | Reusability |
 | :---: | :---: | :---: |
@@ -217,11 +217,11 @@ Training materials need to be captured in interoperable formats, so that they ca
 
 |   |      |      |
 | :---------: | :---------: | :---------: |
-| ![](../../assets/images/03-annotation-tutorial.png)<!--
+| ![](../../../assets/images/03-annotation-tutorial.png)<!--
 style = "width: 200px;"
--->   |  ![](../../assets/images/03-bloom-class.png)<!--
+-->   |  ![](../../../assets/images/03-bloom-class.png)<!--
 style = "width: 200px;"
---> | ![](../../assets/images/03-bloom-describe.png)<!--
+--> | ![](../../../assets/images/03-bloom-describe.png)<!--
 style = "width: 200px;"
 --> |
 | narratives  | instructor notes     | lesson plan     |
@@ -250,15 +250,15 @@ Text
 
 **Exercises**
 
-| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a markdown dialect called Liascript  |
+| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a markdown dialect called Liascript  |
 
 [Doc about Liascript](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1)
 
-| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a Google slides  |
+| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a Google slides  |
 
 Additional exercise
 
-| ![](../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    | Activity: Create a PDF with Liascript (installation needed)   |
+| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    | Activity: Create a PDF with Liascript (installation needed)   |
 
 *************
 
@@ -267,4 +267,4 @@ Additional exercise
       --{{0}}--
 When considering the re-usability and extendability of training materials, PDF documents offer limited flexibility due to their static nature, making them less adaptable for updates or interactive elements. HTML pages provide greater re-usability and extendability, allowing for dynamic content and easier updates. PowerPoint files are somewhat reusable but can be cumbersome to update and share collaboratively. Google Presentations enhance re-usability through cloud-based collaboration and real-time updates, though they still face limitations in format compatibility. Markdown-based material stands out for its high degree of re-usability and extendability, being easily editable, version-controlled, and convertible to various formats. Looking ahead, the future of interoperable training material formats lies in developing standards that ensure seamless integration across platforms. Current gaps include inconsistent formatting, limited support for interactive elements, and challenges in maintaining version control across different tools. Addressing these gaps will be crucial for creating truly interoperable and user-friendly training materials.
 
-![](../../assets/images/rect2.png)<!-- style="width: 650px;" -->
+![](../../../assets/images/rect2.png)<!-- style="width: 650px;" -->
