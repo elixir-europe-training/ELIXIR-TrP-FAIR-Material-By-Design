@@ -12,7 +12,7 @@ In this chapter we will touch on:
 
 ## 4.1 Presentation
 
-Here you can find the [presentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/main/docs/supplementary/presentations/chapter03-presentation.md) for this session.
+Here you can find the [presentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/refs/heads/main/docs/supplementary/presentations/ch_04_Type_of_training_material/chapter04-Types_of_training_material-presentation.md#1) for this session.
 
 ## 4.2 Formats for training material
 
