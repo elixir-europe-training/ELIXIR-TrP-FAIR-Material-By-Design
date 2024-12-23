@@ -65,7 +65,7 @@ Activities are intended to **increase the technical skills** and **critical thin
 **Session 2: Planning and Designing a FAIR training**
 - Describe pedagogical frameworks and methods that support Learning Outcome development (including Bloom’s Taxonomy and the Smartie Principles) 
 - Create Learning Outcomes relevant to their own training 
-- Understand how Nicholl’s Five Steps and the Training LIfe Cycle relate to FAIR
+- Understand how Nicholl’s Five Steps and the Training Life Cycle relate to FAIR
 - Describe how documentation pedagogically supports FAIR trainings 
 - Describe methods for and means of documenting trainings documenting in a FAIR way 
 
