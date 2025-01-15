@@ -26,7 +26,7 @@ To Reuse:
 ## 1.1 Presentation
 Here you can find the presentation for this session: 
  
- <iframe src="https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/preview" width="640" height="360" allow="autoplay"></iframe>
+ <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQR1Bwvg9tgMkNx4SjwWNESj_uCYdhIbV_R0W9ezOXSQv-r6LQIjpsUVLH5BBwIzQ/pub?start=false&loop=false&delayms=3000" width="640" height="360" allow="autoplay"></iframe>
  
 
 The full presentation can be downloaded [here](https://docs.google.com/presentation/d/12p9U5KgA-pjds7KdellDWpRQPFIxMNGrysoVnLVDmC0/export?format=pdf).
