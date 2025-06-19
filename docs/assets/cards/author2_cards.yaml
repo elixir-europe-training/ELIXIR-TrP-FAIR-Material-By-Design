@@ -1,17 +1,17 @@
 - title: Jill Jaworski
   content: |
-    [:custom-orcid:](https://orcid.org/0009-0006-2607-5256) [:simple-github:](https://github.com/jilljaworski) [:simple-linkedin:](https://www.linkedin.com/in/jill-jaworski-01102481)<br>
+    [:custom-orcid:](https://orcid.org/0009-0006-2607-5256) [:simple-github:](https://github.com/jilljaworski) [:material-linkedin:](https://www.linkedin.com/in/jill-jaworski-01102481)<br>
     SciLifeLab Training Hub
   image: ./assets/images/cards/jill.png
 
 - title: Nina Norgren
   content: |
-    [:custom-orcid:](https://orcid.org/0000-0002-3823-1555) [:simple-github:](https://github.com/ninanorgren) [:simple-linkedin:](https://www.linkedin.com/in/nina-norgren-2a970868/)<br>
+    [:custom-orcid:](https://orcid.org/0000-0002-3823-1555) [:simple-github:](https://github.com/ninanorgren) [:material-linkedin:](https://www.linkedin.com/in/nina-norgren-2a970868/)<br>
     NBIS/SciLifeLab, ELIXIR-SE
   image: ./assets/images/cards/nina.png
 
 - title: Kristen Schroeder
   content: |
-    [:custom-orcid:](https://orcid.org/0000-0002-6271-4530) [:simple-github:](https://github.com/kristen-schroeder) [:simple-linkedin:](https://www.linkedin.com/in/kristen-schroeder-7b418470/)<br>
+    [:custom-orcid:](https://orcid.org/0000-0002-6271-4530) [:simple-github:](https://github.com/kristen-schroeder) [:material-linkedin:](https://www.linkedin.com/in/kristen-schroeder-7b418470/)<br>
     SciLifeLab Training Hub
   image: ./assets/images/cards/kristen.png

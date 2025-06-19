@@ -1,18 +1,18 @@
 - title: Alexander Botzki
   content: |
-    [:custom-orcid:](https://orcid.org/0000-0001-6691-4233) [:simple-github:](https://github.com/abotzki) [:simple-linkedin:](https://www.linkedin.com/in/alexander-botzki-1323b42/)<br>
+    [:custom-orcid:](https://orcid.org/0000-0001-6691-4233) [:simple-github:](https://github.com/abotzki) [:material-linkedin:](https://www.linkedin.com/in/alexander-botzki-1323b42/)<br>
     VIB, ELIXIR-BE
   image: ./assets/images/cards/alex_portrait.jpg
 
 - title: Bruna Piereck
   content: |
-    [:custom-orcid:](https://orcid.org/0000-0001-5958-0669) [:simple-github:](https://github.com/bpiereck) [:simple-linkedin:](https://www.linkedin.com/in/bruna-piereck-moura-a5063526a/)<br>
+    [:custom-orcid:](https://orcid.org/0000-0001-5958-0669) [:simple-github:](https://github.com/bpiereck) [:material-linkedin:](https://www.linkedin.com/in/bruna-piereck-moura-a5063526a/)<br>
     VIB, ELIXIR-BE
   image: ./assets/images/cards/bruna.png
 
 - title: Elin Kronander
   content: |
-    [:custom-orcid:](https://orcid.org/0000-0003-0280-6318) [:simple-github:](https://github.com/elinkronander) [:simple-linkedin:](https://www.linkedin.com/in/elin-kronander/)<br>
+    [:custom-orcid:](https://orcid.org/0000-0003-0280-6318) [:simple-github:](https://github.com/elinkronander) [:material-linkedin:](https://www.linkedin.com/in/elin-kronander/)<br>
     NBIS/SciLifeLab, ELIXIR-SE
   image: ./assets/images/cards/elin.png
 
