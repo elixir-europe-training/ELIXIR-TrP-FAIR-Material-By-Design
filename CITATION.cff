@@ -1,53 +1,47 @@
+abstract: '<p>This repository contains material for a 2 days course on how to make
+  Training material made FAIR by design based on the <a href="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/">FAIR
+  training handbook</a> and <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854">10
+  simple rules to make material FAIR</a> publication.</p>
+
+  <p>This release contains the materials used for the course instance held in Uppsala
+  Sweden September 2024.</p>'
+authors:
+- affiliation: VIB
+  family-names: Piereck Moura
+  given-names: Bruna
+  orcid: 0000-0001-5958-0669
+- affiliation: Science for Life Laboratory
+  family-names: Jaworski
+  given-names: Jillian
+  orcid: 0009-0006-2607-5256
+- affiliation: National Bioinformatics Infrastructure Sweden
+  family-names: Norgren
+  given-names: Nina
+  orcid: 0000-0002-3823-1555
+- affiliation: National Bioinformatics Infrastructure Sweden
+  family-names: Kronander
+  given-names: Elin
+  orcid: 0000-0003-0280-6318
+- affiliation: Science for Life Laboratory
+  family-names: Schroeder
+  given-names: Kristen
+  orcid: 0000-0002-6271-4530
+- affiliation: VIB
+  family-names: Botzki
+  given-names: Alexander
+  orcid: 0000-0001-6691-4233
+- affiliation: National Bioinformatics Infrastructure Sweden
+  family-names: Lindvall
+  given-names: Jessica
+  orcid: 0000-0002-5042-8481
 cff-version: 1.2.0
-
-message: "If you use this training material, please cite it as below."
-authors:
-- family-names: "Piereck"
-  given-names: "Bruna"
-  orcid: "https://orcid.org/0000-0001-5958-0669"
-- family-names: "Kronander"
-  given-names: "Elin"
-  orcid: "https://orcid.org/0000-0003-0280-6318"
-- family-names: "Jaworski "
-  given-names: "Jill "
-  orcid: "https://orcid.org/0009-0006-2607-5256"
-- family-names: "Norgren"
-  given-names: "Nina "
-  orcid: "https://orcid.org/0000-0002-3823-1555"
-- family-names: "Schroeder"
-  given-names: "Kristen"
-  orcid: "https://orcid.org/0000-0002-6271-4530"
-- family-names: "Botzki"
-  given-names: "Alexander"
-  orcid: "https://orcid.org/0000-0001-6691-4233"
-- family-names: "Lindvall"
-  given-names: "Jessica"
-  orcid: "https://orcid.org/0000-0002-5042-8481"
-  
-title: "Training material made _by desing_"
-version: v1.0.0-alpha
-doi: XXX
-date-released: XXX
-url: "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/"
-
-message: "If you use this software, please cite it as below."
-authors:
-- family-names: "van Geest"
-  given-names: "Geert"
-  orcid: "https://orcid.org/0000-0002-1561-078X"
-- family-names: "Kronander"
-  given-names: "Elin"
-- family-names: "Herrera"
-  given-names: "Jose Alejandro Romero"
-  orcid: "https://orcid.org/0000-0002-4765-2087"
-- family-names: "Žlender"
-  given-names: "Nadja"
-- family-names: "Cardona"
-  given-names: "Alexia"
-  orcid: "https://orcid.org/0000-0002-7877-5565"
-  
-title: "The ELIXIR Training Lesson Template - Developing Training Together"
-version: v1.0.0-alpha
-doi: 10.5281/zenodo.7913092
-date-released: 2023-05-09
-url: "https://doi.org/10.5281/zenodo.7913092"
+date-released: '2025-03-07'
+doi: 10.5281/zenodo.14987327
+identifiers:
+- type: swh
+  value: swh:1:dir:24b6f1a3c57e766eb1679ed0feff8fa464a06516;origin=https://doi.org/10.5281/zenodo.13773159;visit=swh:1:snp:1de5a44095725ae56c083531d849173be9ad6bb3;anchor=swh:1:rel:b9ebc7978e3b73769bd15c4946fec5b279f04965;path=elixir-europe-training-ELIXIR-TrP-FAIR-Material-By-Design-a46ae5c
+license:
+- cc-by-4.0
+message: If you use this work, please cite it using the metadata from this file.
+title: Training material made FAIR by design
+version: 2024-09-Uppsala
