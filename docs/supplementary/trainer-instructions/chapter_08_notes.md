@@ -22,6 +22,6 @@ You will discuss one use case per group and then share this with the rest of the
 - Individual reflection that might be left as an "after the course homework" depending on time. 
 - If this is taught in a context where several ppl are from the same team or organisation it might be useful to do this as a group discussion.
 
-## Activity 4 - Turtorial
+## Activity 4 - Tutorial
 - Let the project-groups go through the self-guided tutorial
 - Inform the participants about additional exercises if they are done. The reflective activity could also be done to fill the time if needed.
