@@ -11,9 +11,9 @@
 ## 3.1 Presentation
 Here you can find the presentation for this session:
 
-<iframe src="https://docs.google.com/presentation/d/12japh6U2VeUIjwkU90pnO5ofRTSEcFdn/preview" width="640" height="360" allow="autoplay"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1Dl7QjDlAxRDKUQZ97GkDxfKCcr3sDRdx/preview" width="640" height="360" allow="autoplay"></iframe>
 
-The full presentation can be downloaded as a pdf [here](https://docs.google.com/presentation/d/12japh6U2VeUIjwkU90pnO5ofRTSEcFdn/export?format=pdf).
+The full presentation can be downloaded as a pdf [here](https://docs.google.com/presentation/d/1Dl7QjDlAxRDKUQZ97GkDxfKCcr3sDRdx/export?format=pdf).
 
 
 ## 3.2 Hosting and delivery
