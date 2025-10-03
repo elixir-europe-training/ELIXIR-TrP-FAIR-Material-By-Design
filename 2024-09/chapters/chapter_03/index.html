@@ -1,0 +1,887 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../chapter_02/">
+      
+      
+        <link rel="next" href="../chapter_04/">
+      
+      
+      <link rel="icon" href="../../assets/images/elixir_favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "LearningResource",
+    "@id": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/",
+    "http://purl.org/dc/terms/conformsTo": {
+        "@type": "CreativeWork",
+        "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
+    },
+    "description": "ELIXIR Lesson: FAIR training material by Design",
+    "keywords": "FAIR, OPEN, Bioinformatics, Teaching",
+    "name": "ELIXIR Lesson: FAIR training material by Design",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "educationLevel": "beginner",
+    "competencyRequired": "github",
+    "teaches": ["FAIRness of training material", "Markdown", "FAIRness of images and videos", "AI tools for content creation"]
+}
+</script>
+
+    
+      
+        <title>3. How to host your training - Training material made FAIR by design</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/neoteroi-mkdocs.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#31-presentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Training material made FAIR by design" class="md-header__button md-logo" aria-label="Training material made FAIR by design" data-md-component="logo">
+      
+  <img src="../../assets/images/white-orange-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Training material made FAIR by design
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3. How to host your training
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Training material made FAIR by design" class="md-nav__button md-logo" aria-label="Training material made FAIR by design" data-md-component="logo">
+      
+  <img src="../../assets/images/white-orange-logo.png" alt="logo">
+
+    </a>
+    Training material made FAIR by design
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Course Content
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Course Content
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. What is FAIR and why do I care?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Planning and Designing a FAIR training
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    3. How to host your training
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    3. How to host your training
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-presentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Presentation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-hosting-and-delivery" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Hosting and delivery
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Hosting and delivery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-training-life-cycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      The training life cycle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-management-systems-and-google-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Management systems and google drive
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-and-github-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      GitHub and GitHub pages
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33-discussion-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Discussion topics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#34-case-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Case studies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#35-exercise-set-up-a-course-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 Exercise: Set up a course website
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 Exercise: Set up a course website">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#different-prerequisities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Different prerequisities
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Training material formats and interoperability
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Acknowledgements, a comprehensive perspective
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Put on your producer hat: considerations for FAIR video material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Metadata and Findability
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Releases and use of unique identifiers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course_schedule/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Schedule
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>3. How to host your training</h1>
+
+<div><div class="admonition success">
+<p class="admonition-title">Learning Outcomes</p>
+<ul>
+<li>List common e-learning platforms</li>
+<li>Explain what the SCORM format is </li>
+<li>Describe pros and cons of different Learning Management Systems, from a FAIR perspective</li>
+<li>Create a github page to host and deliver training</li>
+<li>Describe how to make your training material FAIR using only google drive</li>
+</ul>
+</div>
+<h2 id="31-presentation">3.1 Presentation</h2>
+<p>Here you can find the presentation for this session:</p>
+<iframe src="https://docs.google.com/presentation/d/12japh6U2VeUIjwkU90pnO5ofRTSEcFdn/preview" width="640" height="360" allow="autoplay"></iframe>
+
+<p>The full presentation can be downloaded as a pdf <a href="https://docs.google.com/presentation/d/12japh6U2VeUIjwkU90pnO5ofRTSEcFdn/export?format=pdf">here</a>.</p>
+<h2 id="32-hosting-and-delivery">3.2 Hosting and delivery</h2>
+<p>When it comes to hosting and delivering training materials in line with FAIR principles, there are several tools and platforms that can help ensure your content is well-organized and accessible. Hosting your materials can involve cloud-based platforms like <strong>G Suite</strong> or <strong>Nextcloud</strong>, which are ideal for collaboration and real-time editing. These platforms allow users to store documents, presentations, and other data in one place, making it easier for teams to work together on developing training materials.</p>
+<p>For more technical users, <strong>GitHub</strong> offers a robust version control system that allows for collaborative development and easy sharing of materials. This platform is particularly useful for archiving content, as it keeps a history of all changes made, ensuring that different versions of the materials are available for future use or review.</p>
+<p>On the delivery side, a <strong>Learning Management System (LMS)</strong> is a common platform. Popular LMS platforms like <strong>Moodle</strong>, <strong>Canvas</strong>, and <strong>OpenEDX</strong> help trainers manage and deliver content to students, track learner progress, and create a more engaging learning experience. For those who prefer an open, web-based approach, <strong>GitHub Pages</strong> allows you to turn a GitHub repository into a simple website, making it a lightweight yet flexible solution for course delivery.</p>
+<h3 id="the-training-life-cycle">The training life cycle</h3>
+<p>Training materials go through several phases in their lifecycle: development, delivery, sharing, and archiving. In the <strong>development</strong> phase, tools like G Suite or GitHub allow for collaborative creation of content. Once the materials are ready, they move into the <strong>delivery phase</strong>, where LMS platforms or GitHub Pages are used to distribute them to learners. The <strong>sharing</strong> phase ensures that materials are made publicly available, often through platforms like Zenodo, GitHub, or even a public LMS site. Finally, in the <strong>archiving</strong> phase, content is stored for future use, ensuring it remains accessible and reusable for future trainers or trainees.</p>
+<h3 id="learning-management-systems-and-google-drive">Learning Management systems and google drive</h3>
+<p>Using google drive alongside an LMS can enhance the delivery and management of training materials. Google drive provides a collaborative environment for creating course materials — such as documents, presentations, and exercises — which can then be shared via a more structured LMS like Moodle or OpenEDX. The combination of these tools ensures that the content remains easily accessible and organized, while the LMS provides tools to track learner engagement and progress. Both systems support various file types and have flexible access control options, ensuring that materials remain FAIR-compliant.</p>
+<p>To ensure interoperability and flexibility, training materials should comply with e-learning standards. <strong>SCORM</strong> is a widely used standard that packages content in a way that allows it to be used across different LMS platforms. <strong>xAPI</strong> is a newer standard that tracks diverse learning experiences, both within and outside the LMS environment. <strong>CMI5</strong> combines the best aspects of SCORM and xAPI, supporting traditional LMS features while also allowing for more flexible, modern learning environments. These standards ensure that your content remains interoperable and reusable across different platforms and learning scenarios.</p>
+<h3 id="github-and-github-pages">GitHub and GitHub pages</h3>
+<p>For trainers looking to develop, share, and archive content in a more open environment, GitHub offers tools for collaborative content development. GitHub Pages provides a simple way to turn your repository into a website, making it an excellent tool for delivering course materials. Best practices for working with GitHub include using releases to create different versions of course materials and enabling collaboration by allowing multiple contributors to work on the same content. GitHub also supports public access and indexing by search engines, making your materials findable and accessible to a wide audience.</p>
+<h2 id="33-discussion-topics">3.3 Discussion topics</h2>
+<div class="admonition question">
+<p class="admonition-title">Reflection</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Findable</th>
+<th>Accessible</th>
+<th>Interoperable</th>
+<th>Reusable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google drive</td>
+<td>No, not searchable</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Github</td>
+<td></td>
+<td>Yes, can be made public <br>and accessible to all</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>LMS</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Exported in SCORM <br>format</td>
+</tr>
+</tbody>
+</table>
+<p>Adapted from <a href="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_03/">FAIR handbook (chapter 03)</a>, by <a href="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/">ELIXIR training platform</a>. <a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md">CCBYSA 4.0 license</a></p>
+<p>How do the above hosting and delivery alternatives do when looked at through the FAIR principles? Fill in the missing cells.</p>
+</div>
+<h2 id="34-case-studies">3.4 Case studies</h2>
+<p>Below is three case studies of trainers setting up and delivering courses. Analyze each case and judge how FAIR it is when it comes to the training materials life cycle.</p>
+<div class="admonition note">
+<p class="admonition-title">RNAseq analysis course</p>
+<p>Kate has an onsite course in RNAseq analysis. She sends out all relevant course information by email to the students. During the course she has prepared powerpoint slides for her presentations, and exercise instructions that she has in a google drive folder she shares with her students. After the course is done, she sends the slides as pdfs to her students.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Microscopy course</p>
+<p>Steve has a course in microscopy, delivered online. He also has a google drive folder where he prepares all his slides, exercises, and other relevant information regarding the course. This folder is read-only for anyone with the link. He sets up a course website in Canvas, where he links all information from his google drive, including presentation slides and exercises. The course website he makes public so everyone can see it. Plus, he links to the original google drive folder from Canvas.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">R course</p>
+<p>Jane has a hybrid course in R. She has set up a course website using github pages and Quarto. She has a github repo where she creates all information regarding the course, including slides and exercises using markdown. She uses releases to separate different instances of her course. All relevant information is published on the github page, with the links to the github repo.</p>
+</div>
+<h2 id="35-exercise-set-up-a-course-website">3.5 Exercise: Set up a course website</h2>
+<p>Now once you have your course syllabus and learning outcomes, it’s time to set up a course website where we can display all this information. A course website helps make your training findable and accessible for your students and the rest of the world.</p>
+<p>Depending on your technical skills and preferences, you may choose either of these 3 options below for hosting your website:</p>
+<h3 id="different-prerequisities">Different prerequisities</h3>
+<div style="background-color:lightgreen; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
+<b>Easy technical</b><br>
+No knowledge of github needed
+</div>
+
+<div style="background-color:#F8C471; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
+<b>Intermediate technical</b><br>
+Basic knowledge of github needed (clone, push, pull) + basic markdown skills
+</div>
+
+<div style="background-color:#D98880; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
+<b>Advanced technical</b><br>
+Intermediate knowledge of github needed (clone, push, pull, gh-pages configuration) + basic quarto knowledge
+</div>
+<p><br></p>
+<div class="admonition note">
+<p class="admonition-title">Using OpenEdx and Google drive (easy)</p>
+<p>Your organization might have their own LMS set up for you to use, but here we will just try the process out by using the Open edX sandbox, which is designed for testing out setting up your own courses. You will not be able to use this for your real courses, as the data is deleted every day (<em>which also means whatever you put in here today you will unfortunately also have to re-do tomorrow, so don’t add too much information today</em>).</p>
+<p>Steps:</p>
+<ol>
+<li>Create a Google drive folder where you will put the course materials</li>
+<li>Create a user account at <a href="https://sandbox.openedx.org/">https://sandbox.openedx.org/</a></li>
+<li>Go to the tab Studio and click the <code>Create your first course</code> button</li>
+<li>Fill in the information required and create the course</li>
+<li>Make sure you have your course syllabus and learning outcomes in separate documents in the Google drive folder</li>
+<li>Embed the syllabus and learning outcomes documents in iframes.<br>
+- In google: File -&gt; Share -&gt; Publish to web. Click on the Embed tab, and copy the code<br>
+- In Open edX: go to Settings -&gt; Schedule and Details, scroll down to Course overview<br>
+- Click on the three dots -&gt; Embed iframe, and paste the embed code<br>
+- If you want you can put the Learning outcomes as a separate page: in Content -&gt; Outline:<br>
+- Add new section, subsection, and unit<br>
+- Name the units Learning outcomes, and add a Text element to it <br>
+- Edit the page and click Embed iframe in the top right corner<br>
+- Paste the embed code from google<br>
+- You might have to adjust the size:<br>
+<div class="highlight"><pre><span></span><code>&lt;iframe src="&lt;url&gt;" width="900px" height="900px" scrolling="no" frameborder="0"&gt;&lt;/iframe&gt; 
+</code></pre></div></li>
+</ol>
+</div>
+<p><br></p>
+<div class="admonition note">
+<p class="admonition-title">Using github and Liascript (intermediate)</p>
+<ol>
+<li>Create a github repo from template at <a href="https://github.com/vibbits/training_material_template">https://github.com/vibbits/training_material_template</a>. Make sure the repo is public.</li>
+<li>Clone the repo to your local computer.</li>
+<li>Copy the url of the <strong>raw</strong> (click the Raw button in upper right corner) README.md page on github and paste it here: <a href="https://liascript.github.io/">https://liascript.github.io/</a>. You can use the generated url to send to your course participants. The website will be generated locally on their computers, directly from github.</li>
+<li>Update the README.md file on your computer to add learning outcomes and syllabus. Push the changes to github to make them render on the course website. You might have to force refresh your browser to see the changes on the site.</li>
+</ol>
+</div>
+<p><br> </p>
+<div class="admonition note">
+<p class="admonition-title">Using github pages and Quarto (advanced)</p>
+<p>If you choose this option we assume you are experienced enough to create a repo, start a new Quarto project, and set up a gh-pages to display the course website. You can find the Quarto documentation for setting up a website <a href="https://quarto.org/docs/websites/">here</a>.</p>
+<p>A few things you should consider when creating the quarto pages:</p>
+<ul>
+<li>Make sure to add authors where applicable</li>
+<li>Add a page with your Learning outcomes and course syllabus</li>
+</ul>
+<p>You can use the Liascript template from the previous option as inspiration.</p>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../chapter_02/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 2. Planning and Designing a FAIR training">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                2. Planning and Designing a FAIR training
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../chapter_04/" class="md-footer__link md-footer__link--next" aria-label="Next: 4. Training material formats and interoperability">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                4. Training material formats and interoperability
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      By the ELIXIR Training Platform
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.footer", "toc.integrate", "version"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>

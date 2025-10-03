@@ -1,0 +1,967 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../../assets/images/elixir_favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "LearningResource",
+    "@id": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/",
+    "http://purl.org/dc/terms/conformsTo": {
+        "@type": "CreativeWork",
+        "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
+    },
+    "description": "ELIXIR Lesson: FAIR training material by Design",
+    "keywords": "FAIR, OPEN, Bioinformatics, Teaching",
+    "name": "ELIXIR Lesson: FAIR training material by Design",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "educationLevel": "beginner",
+    "competencyRequired": "github",
+    "teaches": ["FAIRness of training material", "Markdown", "FAIRness of images and videos", "AI tools for content creation"]
+}
+</script>
+
+    
+      
+        <title>chapter04 Types of training material presentation - Training material made FAIR by design</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.35f28582.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../../stylesheets/neoteroi-mkdocs.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#training-materials-formats" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Training material made FAIR by design" class="md-header__button md-logo" aria-label="Training material made FAIR by design" data-md-component="logo">
+      
+  <img src="../../../../assets/images/white-orange-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Training material made FAIR by design
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              chapter04 Types of training material presentation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Training material made FAIR by design" class="md-nav__button md-logo" aria-label="Training material made FAIR by design" data-md-component="logo">
+      
+  <img src="../../../../assets/images/white-orange-logo.png" alt="logo">
+
+    </a>
+    Training material made FAIR by design
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Course Content
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Course Content
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../chapters/chapter_01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. What is FAIR and why do I care?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../chapters/chapter_02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Planning and Designing a FAIR training
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../chapters/chapter_03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. How to host your training
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../chapters/chapter_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Training material formats and interoperability
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../chapters/chapter_05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Acknowledgements, a comprehensive perspective
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../chapters/chapter_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Put on your producer hat: considerations for FAIR video material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../chapters/chapter_07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Metadata and Findability
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../chapters/chapter_08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Releases and use of unique identifiers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../course_schedule/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Schedule
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<div><h1 id="training-materials-formats">Training materials formats</h1>
+<p>This presentation will guide you through this session where we will touch on:</p>
+<ul>
+<li>different types of training materials and its re-usability</li>
+<li>different types of training materials and its interoperability</li>
+<li>creating presentations with Liascript, a Markdown dialect or Google slides</li>
+</ul>
+<p><code>json   @JSONLD
+{
+  "@context": "https://schema.org/",
+  "@type": "LearningResource",
+  "@id": "https://elixir-europe-training.github.io/ELIXIR-TrP-TeSS/",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@type": "CreativeWork",
+    "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
+  },
+  "description": "TeSS, how can I help you? This is our interactive hands-on course about efficient use of the ELIXIR TeSS platform.",
+  "keywords": "FAIR, OPEN, Bioinformatics, Teaching, TeSS",
+  "name": "TeSS, how can I help you?",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "educationalLevel": "beginner",
+  "competencyRequired": "none",
+  "teaches": [
+    "search events and material in TeSS via direct and faceted search",
+    "add manually and automatically events and material to TeSS",
+    "extract events and material from TeSS by using TeSS widgets"
+  ],
+  "audience": "training providers",
+  "inLanguage": "en-US",
+  "learningResourceType": [
+    "tutorial"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Bruna Piereck"
+    },
+    {
+      "@type": "Person",
+      "name": "Olivier Sand"
+    },
+    {
+      "@type": "Person",
+      "name": "Alexander Botzki"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Yasmine Maes"
+    },
+    {
+      "@type": "Person",
+      "name": "Finn Bacall"
+    },
+    {
+      "@type": "Person",
+      "name": "Munazah Andrabi"
+    }
+  ]
+}</code></p>
+<h2 id="formats-for-training-material">Formats for training material</h2>
+<div class="codehilite"><pre><span></span><code>       --{{0}}--
+</code></pre></div>
+
+<p>Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them. Here is the activity Overview: We’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll determine the possible formats they could take. Then, we’ll dive deeper to discuss which formats we predominantly use and, most importantly, why we prefer those over others. This exercise will not only enhance our understanding of the material formats but also provide insights into our teaching methodologies. It’s a chance to share experiences, learn from each other, and possibly discover new ways to engage our audience.
+So, let’s get started! Please go to to the joint file. As we proceed, I encourage you to think critically about the ‘why’—it’s the key to understanding our choices and improving our approach to training. Let’s have a productive session!</p>
+<div class="codehilite"><pre><span></span><code>          {{0-1}}
+</code></pre></div>
+
+<p>|  <img alt="" src="../../../../assets/images/04-activities.png"><!-- style = "width: 80px; padding:15px;"-->    |      Activity: How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |</p>
+<div class="codehilite"><pre><span></span><code>          {{1}}
+</code></pre></div>
+
+<hr>
+<table>
+<thead>
+<tr>
+<th>Material type</th>
+<th>Possible format(s)</th>
+<th>Format(s) you mostly use</th>
+<th>Why?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>slides</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>video</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>dataset</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>repository</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>exercises</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>VM/Container</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>tutorial/hands-on</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>software</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>webpage</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="compare-your-discussion-results">Compare your discussion results</h2>
+<div class="codehilite"><pre><span></span><code>           --{{0}}--
+</code></pre></div>
+
+<p>Let’s take a moment to reflect on our recent discussions and how they align with the insights from the “10 simple rules” paper. Our conversation has highlighted the various formats we use to disseminate knowledge in life sciences, each with its own set of advantages and challenges.
+<strong>PowerPoint (PPT and PPTX)</strong>
+- <strong>Advantages:</strong> These formats are easily (re)usable, widely available across different operating systems and software, and have widespread recognition.
+- <strong>Disadvantages:</strong> They provide a limited scope for delivering detailed training instructions and lack version control.
+<strong>Keynote</strong>
+- <strong>Advantages:</strong> Offers a polished overall aesthetic that can enhance the presentation quality.
+- <strong>Disadvantages:</strong> Its usage is confined to the macOS family, and it does not support version control.
+<strong>PDF</strong>
+- <strong>Advantages:</strong> PDFs ensure consistent display across various environments, maintaining the integrity of the content.
+- <strong>Disadvantages:</strong> They are not easily editable, which can be a hindrance when updates are needed, and they also lack version control.
+<strong>TeX</strong>
+- <strong>Advantages:</strong> TeX is easily editable and supports version control, making it a robust choice for collaborative work.
+- <strong>Disadvantages:</strong> However, it comes with a steep learning curve that can be a barrier for some trainers.
+<strong>Markdown (MD), reStructuredText (RST), and HTML</strong>
+- <strong>Advantages:</strong> These formats are version controlled and free, promoting accessibility and ease of updates.
+- <strong>Disadvantages:</strong> They require rendering, which may necessitate additional steps to convert into a visually appealing HTML format.
+<strong>Google Slides</strong>
+- <strong>Advantages:</strong> Google Slides are version controlled and freely available, supporting collaborative efforts.
+- <strong>Disadvantages:</strong> Their usage can be restricted by local or institutional policies, and accessibility issues may arise depending on the user’s geographic location.
+As we continue with our training, let’s consider how these formats serve our objectives and the ways in which we can leverage their strengths while mitigating their limitations. Thank you for your thoughtful contributions to this discussion. Now, let’s proceed with our next topic.</p>
+<p>Compare the list to Table 1 from the ‘10 simple rules’ paper<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PPT and PPTX</strong></td>
+<td>Easily (re)usable</td>
+<td>Limited way to provide detailed training  instructions</td>
+</tr>
+<tr>
+<td></td>
+<td>Available to multiple OSs/Software</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Widespread</td>
+<td>Not version controlled</td>
+</tr>
+<tr>
+<td><strong>Keynote</strong></td>
+<td>Polished overall aesthetic</td>
+<td>Limited to macOS family</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Not version controlled</td>
+</tr>
+<tr>
+<td><strong>PDF</strong></td>
+<td>Can be displayed identically in any environment</td>
+<td>Not easily editable</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Not version controlled</td>
+</tr>
+<tr>
+<td><strong>TeX</strong></td>
+<td>Easily editable</td>
+<td>Steep learning curve for trainers</td>
+</tr>
+<tr>
+<td></td>
+<td>Version controlled</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>MD,RST and HTML</strong></td>
+<td>Version controlled</td>
+<td>Rendering (need templating to transform into HTML)</td>
+</tr>
+<tr>
+<td></td>
+<td>Free</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Google slides</strong></td>
+<td>Version controlled</td>
+<td>Not always possible to use owing to local/institutional policies</td>
+</tr>
+<tr>
+<td></td>
+<td>Free</td>
+<td>Not always accessible (depending on geographic location</td>
+</tr>
+</tbody>
+</table>
+<h2 id="summary-of-training-material-file-formats">Summary of training material file formats</h2>
+<div class="codehilite"><pre><span></span><code>           --{{0}}--
+</code></pre></div>
+
+<p>Now, we’re going to consolidate our understanding of the diverse resources we’ve been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let’s take a brief tour through these resources: <strong>Presentations:</strong> Our journey begins with presentations, the visual storytellers of complex concepts. They are the bar charts of our training, providing clear, structured information at a glance. <strong>Website:</strong> The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom. <strong>Video:</strong> Like the play button that brings static images to life, our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. <strong>Guidelines:</strong> The checklists of our training, these guidelines are your roadmap to best practices and essential procedures, ensuring you’re always on the right track. <strong>Dataset:</strong> Represented by database cylinders, our datasets are the real-world data playgrounds where you can apply and hone your analytical skills. <strong>Tutorial:</strong> The overlapping squares symbolize our tutorials, which provide step-by-step guidance, helping you navigate through practical applications with ease. <strong>Software:</strong> The gear of our toolkit, software training is where you’ll gain hands-on experience with the tools that drive life science research forward. Each of these resources is interconnected, creating a comprehensive network that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed.
+Now, let’s continue to build on this foundation and delve deeper into our next activity. Thank you for your engagement and enthusiasm!</p>
+<p><img alt="" src="../../../../assets/images/04-formats.png"><!-- style="width: 700px;" --></p>
+<h2 id="training-material-crafted-for-collaboration">Training material crafted for collaboration</h2>
+<div class="codehilite"><pre><span></span><code>           --{{0}}--
+</code></pre></div>
+
+<p>Training materials need to be captured in interoperable formats, so that they can be used in different contexts (e.g., operating systems and software) and built upon later. For materials like slides, it is important that other trainers are able to (re)use, fine-tune or even extend them. This means that you should choose a format that supports editing and extension. Interoperability: Ensure your training materials are versatile. Use formats that are compatible across various operating systems and software platforms. Reusability: Design your slides for longevity. Allow other trainers to adopt and adapt your materials with ease. Editability &amp; Extensibility: Select formats that support seamless editing and extension, enabling continuous improvement and customization.</p>
+<p><strong>Enhance your training materials via</strong></p>
+<p><img alt="" src="../../../../assets/images/04-reuse-extend-inter.png"><!-- style="width: 650px;" --></p>
+<h2 id="how-re-usable-public-training-material-are">How re-usable public training material are</h2>
+<p>| <img alt="" src="../../../../assets/images/04-activities.png"><!-- style = "width: 80px; padding:15px;"-->  | Activity: Have a look at the slides on the <a href="https://www.slideshare.net/larsjuhljensen/the-string-database">String Database (by Lars Juhl Jensen)</a> on Slideshare. Imagine the slides were downloadable in pptx format.   |</p>
+<ol>
+<li>Could the presentation be extended?</li>
+<li>Could you choose a few slides and incorporate them in your presentation?</li>
+<li>Could you easily fix a typo?</li>
+</ol>
+<h2 id="evaluate-interoperability-and-re-usability-of-training-material">Evaluate interoperability and re-usability of training material</h2>
+<p>| <img alt="" src="../../../../assets/images/04-activities.png"><!-- style = "width: 80px; padding:15px;"-->   | Activity: Consider the list of in table 1. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.   |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Formats</th>
+<th style="text-align: center;">Interoperability</th>
+<th style="text-align: center;">Reusability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">pdf</td>
+<td style="text-align: center;">partially</td>
+<td style="text-align: center;">yes</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>A pdf can be read in any OS, but to modify it you need to pay a licence</em></td>
+<td style="text-align: center;"><em>Only as is</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">…</td>
+<td style="text-align: center;">yes/no/partially</td>
+<td style="text-align: center;">yes/no/partially</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>Explanation</em></td>
+<td style="text-align: center;"><em>Explanation</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-more-context-you-give-about-your-material-the-better">The more context you give about your material the better</h2>
+<div class="codehilite"><pre><span></span><code>      --{{0}}--
+</code></pre></div>
+
+<ol>
+<li>For a lecture-style presentation, you can annotate each slide with an extensive narrative capturing all aspects of the subject on the slides. You can put the complete transcript of the verbal presentation in the Notes panel in Powerpoint or in Google slides. Suppose you want to share your slides in pdf format. In that case, it is handier to place the detailed content into a handbook or use text-book style reference materials and keep the slides for lectures cleaner, only placing relevant elements directly on the slides. </li>
+<li>You may associate “Instructor notes” with the materials, but you don’t need to include them in the materials. The Instructor notes should provide information drawing on your experience or the experience of other instructors. They may consist of technical tips and tricks, common problems, and a description of what parts or exercises are essential and what could be skipped in case of lack of time. Very good examples of Instructor/Trainer notes are provided by the Carpentries (<a href="https://carpentries.github.io/instructor-training/guide/index.html#curriculum">Carpentry Trainer notes</a>, <a href="https://carpentries.github.io/lesson-example/guide/index.html">Instructor notes template</a>).</li>
+<li>You may create a lesson plan describing the purpose and the mode of delivery of each piece of material. Lesson plans could contain many practical details, including - for each part of the material - the time needed for the delivery, the learning experiences and expected learning outcomes. Chapter 2.4 shows an example Lesson plan of this lesson.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="" src="../../../../assets/images/03-annotation-tutorial.png">&lt;!–</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">style = “width: 200px;”</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">–&gt;</td>
+<td style="text-align: center;"><img alt="" src="../../../../assets/images/03-bloom-class.png">&lt;!–</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">style = “width: 200px;”</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">–&gt;</td>
+<td style="text-align: center;"><img alt="" src="../../../../assets/images/03-bloom-describe.png">&lt;!–</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">style = “width: 200px;”</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">–&gt;</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">narratives</td>
+<td style="text-align: center;">instructor notes</td>
+<td style="text-align: center;">lesson plan</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create-and-explore-interoperable-and-reproducible-training-material-text-presentation">Create and explore Interoperable and Reproducible training material (text, presentation)</h2>
+<div class="codehilite"><pre><span></span><code>      --{{0}}--
+</code></pre></div>
+
+<p>Let’s first have a look at example presentations using Liascript, a markdown dialect.</p>
+<div class="codehilite"><pre><span></span><code>        {{0-1}}
+</code></pre></div>
+
+<hr>
+<p><strong>Example presentation</strong></p>
+<p><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/material-liascript/master/example-presentation.md#1">Rendering</a></p>
+<p><a href="https://github.com/vibbits/material-liascript/blob/master/example-presentation.md?plain=1">File on Github</a></p>
+<hr>
+<div class="codehilite"><pre><span></span><code>     --{{1}}--
+</code></pre></div>
+
+<p>Text</p>
+<div class="codehilite"><pre><span></span><code>       {{1}}
+</code></pre></div>
+
+<hr>
+<p><strong>Exercises</strong></p>
+<p>| <img alt="" src="../../../../assets/images/04-activities.png"><!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a markdown dialect called Liascript  |</p>
+<p><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1">Doc about Liascript</a></p>
+<p>| <img alt="" src="../../../../assets/images/04-activities.png"><!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a Google slides  |</p>
+<p>Additional exercise</p>
+<p>| <img alt="" src="../../../../assets/images/04-activities.png"><!-- style = "width: 80px; padding:15px;"-->    | Activity: Create a PDF with Liascript (installation needed)   |</p>
+<hr>
+<h2 id="final-considerations">Final considerations</h2>
+<div class="codehilite"><pre><span></span><code>  --{{0}}--
+</code></pre></div>
+
+<p>When considering the re-usability and extendability of training materials, PDF documents offer limited flexibility due to their static nature, making them less adaptable for updates or interactive elements. HTML pages provide greater re-usability and extendability, allowing for dynamic content and easier updates. PowerPoint files are somewhat reusable but can be cumbersome to update and share collaboratively. Google Presentations enhance re-usability through cloud-based collaboration and real-time updates, though they still face limitations in format compatibility. Markdown-based material stands out for its high degree of re-usability and extendability, being easily editable, version-controlled, and convertible to various formats. Looking ahead, the future of interoperable training material formats lies in developing standards that ensure seamless integration across platforms. Current gaps include inconsistent formatting, limited support for interactive elements, and challenges in maintaining version control across different tools. Addressing these gaps will be crucial for creating truly interoperable and user-friendly training materials.</p>
+<p><img alt="" src="../../../../assets/images/rect2.png"><!-- style="width: 650px;" --></p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789 <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+</ol>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      By the ELIXIR Training Platform
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.top", "navigation.footer", "toc.integrate", "version"], "search": "../../../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
