@@ -39,6 +39,23 @@ To host it locally.
 Check it out with your browser at [http://localhost:8000/](http://localhost:8000/).
 
 
+## Additional instructions for the FAIR course
+
+This course uses mike to host several versions of the course. Default is the latest version, that builds from the `main` branch. Once a course is done, and a new release has been created, a new version should be created manually with mike, to keep latest free for the next course instance.
+
+To create a new version from the release, first install mike if you don't have it yet:
+```bash
+pip install mike
+```
+
+Make sure you are in the the release version you want to create. 
+
+```bash
+mike deploy <YYYY-MM> --push
+```
+
+This will create a new versioned folder in the `gh-pages` branch. The `--push` option will push the changes to the remote repository.
+
 ## Citation
 
 Please cite as
