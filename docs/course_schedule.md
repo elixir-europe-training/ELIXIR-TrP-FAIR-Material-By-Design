@@ -2,7 +2,7 @@
 
 | start 	| end   	| topic   	|
 |-------	|-------	|---------	|
-| 09:00 	| 09:40 	| Welcome coffee (optional)	       |
+| 09:00 	| 09:40 	| Welcome coffee	       |
 | 09:40 	| 10:30 	| What is FAIR and why do I care?  |
 | 10:30 	| 10:40 	| Break!                    	   |
 | 10:40 	| 12:00 	| Planning and designing a FAIR training   	   |
