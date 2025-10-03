@@ -20,5 +20,7 @@ jobs:
           python-version: 3.10.10
       - run: |
           pip install -r requirements.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           mike deploy --push --update-aliases latest
           mike set-default latest --push
