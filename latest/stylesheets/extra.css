@@ -59,3 +59,8 @@
   /* line-height: 1; */
   font-size: 14px;
 }
+
+/* Hide the "latest release" info in repo header */
+.md-source__fact--version {
+  display: none !important;
+}
