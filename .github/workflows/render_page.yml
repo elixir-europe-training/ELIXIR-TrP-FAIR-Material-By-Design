@@ -13,9 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: 3.10.10
       - run: |
           pip install -r requirements.txt
-          mkdocs gh-deploy --force
+          mike deploy --push --update-aliases latest
+          mike set-default latest --push
