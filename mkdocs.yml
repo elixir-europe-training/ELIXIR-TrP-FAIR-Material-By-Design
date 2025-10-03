@@ -22,6 +22,7 @@ theme:
     - navigation.top
     - navigation.footer
     - toc.integrate
+    - version
   font: 
     text: Lato
 
@@ -71,3 +72,6 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/neoteroi-mkdocs.css
 
+extra:
+  version:
+    provider: mike
