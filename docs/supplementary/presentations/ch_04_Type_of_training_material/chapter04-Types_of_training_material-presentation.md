@@ -113,15 +113,15 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 
 | Material type | Possible format(s) | Format(s) you mostly use | Why? |
 | ----------------- | ------------------ | ------------------------ | ---- |
-| slides |                |                          |      |
-| video |                    |                          |      |
-| dataset  |                    |                          |      |
-| repository |  |    |      |
-| exercises  |                    |                          |      |
-| VM/Container |                    |                          |      |
-| tutorial/hands-on |      |                          |      |
-| software |                    |                          |      |
-| webpage |                    |                          |      |
+| slides |  PowerPoint/Keynote (.pptx) with speaker notes and animations  • PDF handout (1-up or 3-up with notes)  • Web slides (Reveal.js/Marp/Quarto)  • Cloud deck (Microsoft 365/Google Slides)              |                          |    PPTX for delivery; PDF for distribution. PPTX supports animations/live demos and presenter notes during the course; exporting to PDF gives a stable, portable, non-editable handout students can search and annotate offline  |
+| video |        Micro‑lectures (5–8 min MP4)  • Screencasts (live coding/CLI walkthrough)  • Animated explainers (diagram-first)  • Full-session recording with chapters            |                          |     Micro‑lectures reduce cognitive load, fit just‑in‑time review, and are easy to update. Pair with screencasts for tasks (e.g., docking run, queue submission) and keep full recordings as “nice-to-have. |
+| dataset  |      Small synthetic CSV/TSV (de‑identified)  • Real subset of HDF5  • Domain-native: FASTA/FASTQ/SDF/PDB/...               |                          | Synthetic CSV/TSV opens everywhere, is light enough for laptops/VMs, avoids privacy/IP issues, and minimizes setup friction. You can add a larger Parquet or domain-native set as an optional “stretch” dataset.     |
+| repository | GitHub/GitLab template repo (scaffolded)  • Branch-per-module + solutions branch  • Tagged releases + Zenodo DOI  • Binder/CodeSpaces config |    |  Template repo with tagged releases + DOI makes your course reproducible, citable, and easy to fork. Branching for “solutions” prevents spoilers while enabling instructor diffs. |
+| exercises  |   Jupyter notebooks with tests (nbgrader/otter/pytest)  • Short quizzes (H5P/Moodle/Forms)  • Markdown worksheets + expected outputs  • coding exercises  |                          |  Notebook-based exercises with lightweight tests give immediate feedback, support live coding, and store code, outputs, and narrative together—ideal for computational biology workflows    |
+| VM/Container |    Docker image (multi‑arch)  • Apptainer/Singularity image for HPC  • Vagrant/VirtualBox VM  • Conda environment  |                          |   Apptainer/Singularity is HPC‑friendly (no root), portable across clusters, and integrates with schedulers. It locks software stacks for reproducible runs.   |
+| tutorial/hands-on | Markdown/Sphinx/ReadTheDocs step‑by‑step with copy‑paste blocks  • Quarto/Bookdown site  • Narrative Jupyter notebooks  • Interactive Binder/JupyterHub lab     |                          |    Markdown is diffable, version‑controlled, searchable, and robust offline—great for cluster instructions (modules, job scripts, file paths) where copy‑paste reliability matters.  |
+| software |  Conda (Bioconda) package + environment.yml  • Python wheels on PyPI  • Standalone CLI binaries  • Containerized app (Docker/Apptainer)  |                          |  Conda/Bioconda simplifies compiled deps common in life sciences and runs on Linux/macOS/Windows and HPC. Pair with a lock (e.g., conda-lock) and optionally a container for strict reproducibility    |
+| webpage |   Static site (Quarto/Jekyll) on GitHub Pages  • LMS page (Moodle/Canvas)  • GitHub Wiki  • ReadTheDocs                 |                          |   tatic site is versioned, searchable, linkable to repo tags, and easy to host for free. It’s fast, works with PRs, and can be snapshotted per course run for stable URLs   |
 
 ***********
 
