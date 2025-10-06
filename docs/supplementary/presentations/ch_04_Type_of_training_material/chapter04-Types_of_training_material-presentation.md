@@ -226,6 +226,10 @@ style = "width: 200px;"
 --> |
 | narratives  | instructor notes     | lesson plan     |
 
+## Instructor notes
+
+About this chapter, you can find the [instructor notes](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/blob/main/docs/supplementary/trainer-instructions/chapter_04_notes.md) in the GitHub repository.
+
 ## Lesson plans
 
           {{0}}
