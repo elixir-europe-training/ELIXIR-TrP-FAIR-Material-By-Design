@@ -614,57 +614,57 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 <tbody>
 <tr>
 <td>slides</td>
+<td>PowerPoint/Keynote (.pptx) with speaker notes and animations  • PDF handout (1-up or 3-up with notes)  • Web slides (Reveal.js/Marp/Quarto)  • Cloud deck (Microsoft 365/Google Slides)</td>
 <td></td>
-<td></td>
-<td></td>
+<td>PPTX for delivery; PDF for distribution. PPTX supports animations/live demos and presenter notes during the course; exporting to PDF gives a stable, portable, non-editable handout students can search and annotate offline</td>
 </tr>
 <tr>
 <td>video</td>
+<td>Micro‑lectures (5–8 min MP4)  • Screencasts (live coding/CLI walkthrough)  • Animated explainers (diagram-first)  • Full-session recording with chapters</td>
 <td></td>
-<td></td>
-<td></td>
+<td>Micro‑lectures reduce cognitive load, fit just‑in‑time review, and are easy to update. Pair with screencasts for tasks (e.g., docking run, queue submission) and keep full recordings as “nice-to-have.</td>
 </tr>
 <tr>
 <td>dataset</td>
+<td>Small synthetic CSV/TSV (de‑identified)  • Real subset of HDF5  • Domain-native: FASTA/FASTQ/SDF/PDB/…</td>
 <td></td>
-<td></td>
-<td></td>
+<td>Synthetic CSV/TSV opens everywhere, is light enough for laptops/VMs, avoids privacy/IP issues, and minimizes setup friction. You can add a larger Parquet or domain-native set as an optional “stretch” dataset.</td>
 </tr>
 <tr>
 <td>repository</td>
+<td>GitHub/GitLab template repo (scaffolded)  • Branch-per-module + solutions branch  • Tagged releases + Zenodo DOI  • Binder/CodeSpaces config</td>
 <td></td>
-<td></td>
-<td></td>
+<td>Template repo with tagged releases + DOI makes your course reproducible, citable, and easy to fork. Branching for “solutions” prevents spoilers while enabling instructor diffs.</td>
 </tr>
 <tr>
 <td>exercises</td>
+<td>Jupyter notebooks with tests (nbgrader/otter/pytest)  • Short quizzes (H5P/Moodle/Forms)  • Markdown worksheets + expected outputs  • coding exercises</td>
 <td></td>
-<td></td>
-<td></td>
+<td>Notebook-based exercises with lightweight tests give immediate feedback, support live coding, and store code, outputs, and narrative together—ideal for computational biology workflows</td>
 </tr>
 <tr>
 <td>VM/Container</td>
+<td>Docker image (multi‑arch)  • Apptainer/Singularity image for HPC  • Vagrant/VirtualBox VM  • Conda environment</td>
 <td></td>
-<td></td>
-<td></td>
+<td>Apptainer/Singularity is HPC‑friendly (no root), portable across clusters, and integrates with schedulers. It locks software stacks for reproducible runs.</td>
 </tr>
 <tr>
 <td>tutorial/hands-on</td>
+<td>Markdown/Sphinx/ReadTheDocs step‑by‑step with copy‑paste blocks  • Quarto/Bookdown site  • Narrative Jupyter notebooks  • Interactive Binder/JupyterHub lab</td>
 <td></td>
-<td></td>
-<td></td>
+<td>Markdown is diffable, version‑controlled, searchable, and robust offline—great for cluster instructions (modules, job scripts, file paths) where copy‑paste reliability matters.</td>
 </tr>
 <tr>
 <td>software</td>
+<td>Conda (Bioconda) package + environment.yml  • Python wheels on PyPI  • Standalone CLI binaries  • Containerized app (Docker/Apptainer)</td>
 <td></td>
-<td></td>
-<td></td>
+<td>Conda/Bioconda simplifies compiled deps common in life sciences and runs on Linux/macOS/Windows and HPC. Pair with a lock (e.g., conda-lock) and optionally a container for strict reproducibility</td>
 </tr>
 <tr>
 <td>webpage</td>
+<td>Static site (Quarto/Jekyll) on GitHub Pages  • LMS page (Moodle/Canvas)  • GitHub Wiki  • ReadTheDocs</td>
 <td></td>
-<td></td>
-<td></td>
+<td>tatic site is versioned, searchable, linkable to repo tags, and easy to host for free. It’s fast, works with PRs, and can be snapshotted per course run for stable URLs</td>
 </tr>
 </tbody>
 </table>
