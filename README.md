@@ -19,6 +19,8 @@
 
 [![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0002-3823-1555) Nina Norgren
 
+[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0001-5768-275X) Ineke Luijten
+
 ### About this course
 
 This 2 days course is based on the [FAIR training handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) and [10 simple rules to make material FAIR publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). All sessions are structured in a way that complement each other aiming to introduce participants with a theoretical & **hands-on** approach of how to design FAIR training material.
@@ -106,6 +108,7 @@ Activities are intended to **increase the technical skills** and **critical thin
 - List and differentiate the types of unique identifiers that are relevant for publishing and sharing training materials
 - Compare different strategies for unique identifiers for training materials
 - Create versioned DOIs for training materials
+
 
 
 
