@@ -60,7 +60,7 @@ Before deciding whether that statement holds true, it helps to understand what e
     3. Interoperable:
     4. Reusable:
 
-The main goal of the FAIR principles is to **SHARE**. In the context of training materials, this involves extending, updating and modifying the material to suit specific audiences or circumstances. To support this overarching goal, the four FAIR principles can be translated into ten practical rules for FAIR training, as described by [Garcia et al. 2020](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854).
+The main goal of the FAIR principles is to **SHARE**. In the context of training materials, this involves extending, updating and modifying the material to suit specific audiences or circumstances. To support this overarching goal, the four FAIR principles can be translated into ten practical rules for FAIR training, as described by [Garcia et al. 2020](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854).    
 <span style="font-family:serif; font-size:1.5em; color:#008B8B;">F</span><span style="font-family:serif; font-size:1.5em;">indable:</span>
 
 For data, including training material, to be considered **FINDABLE** three key aspects should be taken into account: the material needs to be described in such a way that humans and machines can find the material and its metadata, it needs to have a unique identifier and it must be registered online in a catalogue or repository.
@@ -77,9 +77,8 @@ The main idea behind materials being **INTEROPERABLE** is that they should work 
 
 After considering all the previous principles, the next step is to **REUSE** existing materials or ensure that new materials are reusable. In the context of training, there are two main groups who can benefit from reuse: (1) trainers and (2) trainees. Trainers should aim to annotate, describe, and present materials as clearly as possible so that others—whether trainers or trainees—can understand the content without requiring the author’s presence. It is also essential to keep your materials up to date, which can be facilitated by welcoming contributions, using collaborative platforms such as GitHub, and providing clear guidelines on how others can contribute.
 
-When sharing or reusing materials, it is essential to provide proper attribution to those involved, whether as authors or contributors. Recognition ensures that the time and effort invested by individuals is acknowledged, unless a CC0 or similar license has been applied. This topic will be explored further in the following chapters.
-
-
+When sharing or reusing materials, it is essential to provide proper attribution to those involved, whether as authors or contributors. Recognition ensures that the time and effort invested by individuals is acknowledged, unless a CC0 or similar license has been applied. This topic will be explored further in the following chapters.  
+<br>  
 <figure>
     <img src="../../assets/images/10steps_rules4FAIRtraining.png"
     width="50%" align="center" alt="10 steps for FAIR training material"/>
