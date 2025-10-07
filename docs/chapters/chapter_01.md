@@ -49,11 +49,11 @@ From the need of reusing scholar data in research was born the idea of a consise
 
 !!! danger "Challenge"
 
-    Before looking for the answers below, try to answer with your current knowledge and perspective.
+    Before looking at the answers below, try to answer with your current knowledge and perspective.
     
-    "How would you interpret each of this principles?" 
+    "How would you interpret each of these principles?" 
     
-    Elaborate shortly how you see each of them (in general and for training) and then compare with the text below:
+    Elaborate shortly how you see each one (in general and for training) and then compare with the text below:
     
     1. Findable:
     2. Accessible:
