@@ -125,6 +125,10 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 
 ***********
 
+## Which letters of FAIR do we focus on?
+
+<insert one slide focussing on the I and R>
+
 ## Compare your discussion results 
 
                --{{0}}--
