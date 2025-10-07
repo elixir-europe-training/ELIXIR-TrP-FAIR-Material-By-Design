@@ -1,5 +1,11 @@
 - title: Christof De Bo
   content: |
-    [:custom-orcid:](https://orcid.org/0000-0002-8210-4756) [:simple-github:](https://github.com/chdeb) [:simple-linkedin:](https://www.linkedin.com/in/christof-de-bo/)<br>
+    [:custom-orcid:](https://orcid.org/0000-0002-8210-4756) [:simple-github:](https://github.com/chdeb) <a href="https://www.linkedin.com/in/christof-de-bo/"><img src="./assets/images/Linkedin.png" alt="LinkedIn" width="22" height="22"/></a><br>
     VIB
   image: ./assets/images/cards/christof_deBo.jpg
+  
+- title: Ineke Luijten
+  content: |
+    [:custom-orcid:](https://orcid.org/0000-0001-5768-275X) [:simple-github:](https://github.com/InekeL) <a href="https://www.linkedin.com/in/inekeluijten/"><img src="./assets/images/Linkedin.png" alt="LinkedIn" width="22" height="22"/></a><br>
+    VIB
+  image: ./assets/images/cards/InekeLuijten.png
