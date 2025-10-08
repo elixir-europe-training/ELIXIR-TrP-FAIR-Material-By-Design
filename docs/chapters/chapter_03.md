@@ -18,22 +18,25 @@ The full presentation can be downloaded as a pdf [here](https://docs.google.com/
 
 ## 3.2 Hosting and delivery
 
-When it comes to hosting and delivering training materials in line with FAIR principles, there are several tools and platforms that can help ensure your content is well-organized and accessible. Hosting your materials can involve cloud-based platforms like **G Suite** or **Nextcloud**, which are ideal for collaboration and real-time editing. These platforms allow users to store documents, presentations, and other data in one place, making it easier for teams to work together on developing training materials.
+When it comes to hosting and delivering training materials in line with FAIR principles, there are several tools and platforms that can help ensure your content is well-organized and accessible. Hosting your materials can involve cloud-based platforms like [**Google workspace**](https://workspace.google.com) or [**Nextcloud**](https://nextcloud.com), which are ideal for collaboration and real-time editing. These platforms allow users to store documents, presentations, and other data in one place, making it easier for teams to work together on developing training materials.
 
-For more technical users, **GitHub** offers a robust version control system that allows for collaborative development and easy sharing of materials. This platform is particularly useful for archiving content, as it keeps a history of all changes made, ensuring that different versions of the materials are available for future use or review.
+For more technical users, [**GitHub**](https://github.com) offers a robust version control system that allows for collaborative development and easy sharing of materials. This platform is particularly useful for archiving content, as it keeps a history of all changes made, ensuring that different versions of the materials are available for future use or review.
 
-On the delivery side, a **Learning Management System (LMS)** is a common platform. Popular LMS platforms like **Moodle**, **Canvas**, and **OpenEDX** help trainers manage and deliver content to students, track learner progress, and create a more engaging learning experience. For those who prefer an open, web-based approach, **GitHub Pages** allows you to turn a GitHub repository into a simple website, making it a lightweight yet flexible solution for course delivery.
-
-
+To deliver training materials effectively, many educators rely on a **Learning Management System (LMS)**. Popular LMS platforms like [**Moodle**](https://moodle.org), [**Canvas**](https://www.instructure.com/canvas), and [**OpenEDX**](https://openedx.org) help trainers manage and deliver content to students, track learner progress, and create a more engaging learning experience. For those who prefer an open, web-based approach, [**GitHub Pages**](https://docs.github.com/en/pages) allows you to turn a GitHub repository into a simple website, making it a lightweight yet flexible solution for course delivery.
+  
 ### The training life cycle
 
-Training materials go through several phases in their lifecycle: development, delivery, sharing, and archiving. In the **development** phase, tools like G Suite or GitHub allow for collaborative creation of content. Once the materials are ready, they move into the **delivery phase**, where LMS platforms or GitHub Pages are used to distribute them to learners. The **sharing** phase ensures that materials are made publicly available, often through platforms like Zenodo, GitHub, or even a public LMS site. Finally, in the **archiving** phase, content is stored for future use, ensuring it remains accessible and reusable for future trainers or trainees.
+Training materials go through several phases in their lifecycle: development, delivery, sharing, and archiving. In the **development** phase, tools like G Suite or GitHub allow for collaborative creation of content. Once the materials are ready, they move into the **delivery phase**, where LMS platforms or GitHub Pages are used to distribute them to learners. The **sharing** phase ensures that materials are made publicly available, ideally according to FAIR principles, through platforms like Zenodo, GitHub, or even a public LMS site. Finally, in the **archiving** phase, content is stored for future use, ensuring it remains accessible and reusable for future trainers or trainees.
 
-### Learning Management systems and google drive
+### Learning Management systems and Google drive
 
-Using google drive alongside an LMS can enhance the delivery and management of training materials. Google drive provides a collaborative environment for creating course materials — such as documents, presentations, and exercises — which can then be shared via a more structured LMS like Moodle or OpenEDX. The combination of these tools ensures that the content remains easily accessible and organized, while the LMS provides tools to track learner engagement and progress. Both systems support various file types and have flexible access control options, ensuring that materials remain FAIR-compliant.
+Using Google drive alongside an LMS can enhance the delivery and management of training materials. Google drive provides a collaborative environment for creating course materials — such as documents, presentations, and exercises — which can then be shared via a more structured LMS like Moodle or OpenEDX. The combination of these tools ensures that the content remains easily accessible and organized, while the LMS provides tools to track learner engagement and progress. Both systems support various file types and have flexible access control options, ensuring that materials remain FAIR-compliant.
 
-To ensure interoperability and flexibility, training materials should comply with e-learning standards. **SCORM** is a widely used standard that packages content in a way that allows it to be used across different LMS platforms. **xAPI** is a newer standard that tracks diverse learning experiences, both within and outside the LMS environment. **CMI5** combines the best aspects of SCORM and xAPI, supporting traditional LMS features while also allowing for more flexible, modern learning environments. These standards ensure that your content remains interoperable and reusable across different platforms and learning scenarios.
+To ensure interoperability and flexibility, training materials should comply with e-learning standards.  
+[**SCORM**](https://scorm.com/scorm-explained/) (Sharable Content Object Reference Model) is one of the earliest and most widely used standards. It defines how online learning content and LMSs communicate with each other, for example for tracking whether a learner has completed a module or how much time they spent on it. SCORM packages training materials into a standardized format (usually a .zip file) that can be imported into almost any LMS.    
+[**xAPI**](https://xapi.com/overview/) (Experience API), also known as Tin Can API, is a newer and more flexible standard. Unlike SCORM, it can track learning experiences both inside and outside an LMS, for example attending a workshop, watching a video, or participating in a simulation. It then stores this data in a Learning Record Store (LRS).  
+[**CMI5**](https://aicc.github.io/CMI-5_Spec_Current/) builds on xAPI, combining the structure of SCORM with the versatility of xAPI. It supports traditional LMS functions like course launching and completion tracking while also enabling richer, modern learning experiences across various tools and devices.  
+Together, these standards ensure that your content remains interoperable and reusable across different platforms and learning scenarios.
 
 ### GitHub and GitHub pages
 
@@ -56,48 +59,46 @@ For trainers looking to develop, share, and archive content in a more open envir
 
 ## 3.4 Case studies
 
-Below is three case studies of trainers setting up and delivering courses. Analyze each case and judge how FAIR it is when it comes to the training materials life cycle.
+The following three case studies describe how different trainers set up and deliver their courses. Analyze each case and assess how FAIR the training materials are throughout their life cycle.  
 
 !!! note "RNAseq analysis course"
 
-    Kate has an onsite course in RNAseq analysis. She sends out all relevant course information by email to the students. During the course she has prepared powerpoint slides for her presentations, and exercise instructions that she has in a google drive folder she shares with her students. After the course is done, she sends the slides as pdfs to her students.
+    Kate delivers an onsite course in RNAseq analysis. She sends out all relevant course information by email to the students. During the course she has prepared powerpoint slides for her presentations, and exercise instructions that she has in a Google drive folder she shares with her students. After the course is done, she sends the slides as pdfs to her students.
 
 !!! note "Microscopy course"
 
-    Steve has a course in microscopy, delivered online. He also has a google drive folder where he prepares all his slides, exercises, and other relevant information regarding the course. This folder is read-only for anyone with the link. He sets up a course website in Canvas, where he links all information from his google drive, including presentation slides and exercises. The course website he makes public so everyone can see it. Plus, he links to the original google drive folder from Canvas.
+    Steve organizes a course in microscopy, delivered online. He also has a Google drive folder where he prepares all his slides, exercises, and other relevant information regarding the course. This folder is read-only for anyone with the link. He sets up a course website in Canvas, where he links all information from his Google drive, including presentation slides and exercises. He makes the course website public, so everyone can see it. Plus, he links to the original Google drive folder from Canvas.
 
 !!! note "R course"
 
-    Jane has a hybrid course in R. She has set up a course website using github pages and Quarto. She has a github repo where she creates all information regarding the course, including slides and exercises using markdown. She uses releases to separate different instances of her course. All relevant information is published on the github page, with the links to the github repo.
+    Jane teaches a hybrid course in R. She has set up a course website using Github pages and Quarto. She has a Github repo where she creates all information regarding the course, including slides and exercises using markdown. She uses releases to separate different instances of her course. All relevant information is published on the Github page, with the links to the Github repo.
 
 ## 3.5 Exercise: Set up a course website
 
-Now once you have your course syllabus and learning outcomes, it's time to set up a course website where we can display all this information. A course website helps make your training findable and accessible for your students and the rest of the world.
+Now that you have your course syllabus and learning outcomes, it’s time to set up a course website where you can display all this information.
+A course website helps make your training findable and accessible to your students — and to the rest of the world.  
 
-Depending on your technical skills and preferences, you may choose either of these 3 options below for hosting your website:
-
-### Different prerequisities
-
+Depending on your technical skills and preferences, you may choose one of the three options below for hosting your website:    
 
 <div style="background-color:lightgreen; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
-<b>Easy technical</b><br>
-No knowledge of github needed
+<b>Easy technical level</b><br>
+No knowledge of github required
 </div>
 
 <div style="background-color:#F8C471; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
-<b>Intermediate technical</b><br>
-Basic knowledge of github needed (clone, push, pull) + basic markdown skills
+<b>Intermediate technical level</b><br>
+Basic knowledge of GitHub (clone, push, pull) and basic Markdown skills required
 </div>
 
 <div style="background-color:#D98880; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
-<b>Advanced technical</b><br>
-Intermediate knowledge of github needed (clone, push, pull, gh-pages configuration) + basic quarto knowledge
+<b>Advanced technical level</b><br>
+Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and basic Quarto knowledge required
 </div>
 <br>
 
 !!! note "Using OpenEdx and Google drive (easy)"
 
-    Your organization might have their own LMS set up for you to use, but here we will just try the process out by using the Open edX sandbox, which is designed for testing out setting up your own courses. You will not be able to use this for your real courses, as the data is deleted every day (*which also means whatever you put in here today you will unfortunately also have to re-do tomorrow, so don't add too much information today*).
+    Your organization might already have its own LMS set up for you to use, but here we will try out the process using the Open edX Sandbox, a platform designed for experimenting with course creation. Please note that this environment is only for testing purposes, all data is deleted every day! (*This also means that anything you add today will unfortunately need to be re-created tomorrow, so try not to add too much information during this exercise*).  
 
     Steps:
 
@@ -107,38 +108,67 @@ Intermediate knowledge of github needed (clone, push, pull, gh-pages configurati
     4. Fill in the information required and create the course
     5. Make sure you have your course syllabus and learning outcomes in separate documents in the Google drive folder
     6. Embed the syllabus and learning outcomes documents in iframes.  
-    - In google: File -> Share -> Publish to web. Click on the Embed tab, and copy the code  
+    - In Google drive: File -> Share -> Publish to web. Click on the Embed tab, and copy the code  
     - In Open edX: go to Settings -> Schedule and Details, scroll down to Course overview  
     - Click on the three dots -> Embed iframe, and paste the embed code  
-    - If you want you can put the Learning outcomes as a separate page: in Content -> Outline:  
+    - If you want you can put the learning outcomes as a separate page: in Content -> Outline:  
     - Add new section, subsection, and unit  
-    - Name the units Learning outcomes, and add a Text element to it   
-    - Edit the page and click Embed iframe in the top right corner  
+    - Name the unit *Learning outcomes*, and add a Text component to it: Text -> Text -> Select  
+    - In the editor, click on the three dots in the top right corner and click Embed iframe 
     - Paste the embed code from google  
     - You might have to adjust the size:  
     ```
     <iframe src="<url>" width="900px" height="900px" scrolling="no" frameborder="0"></iframe> 
-    ```
+    ```  
+    You have now set up a simple course website using Open edX and Google Drive!
 
 <br>
 
-!!! note "Using github and Liascript (intermediate)"
+!!! note "Using Github and Liascript (intermediate)"
+
+    This exercise assumes basic familiarity with GitHub and Markdown. Cloning the repository locally is optional for this exercise — it is not required to generate the course website in LiaScript, but it is useful for future edits or offline work.  
+
+    Steps:  
  
-    1. Create a github repo from template at [https://github.com/vibbits/training_material_template](https://github.com/vibbits/training_material_template). Make sure the repo is public.
-    2. Clone the repo to your local computer.
-    3. Copy the url of the **raw** (click the Raw button in upper right corner) README.md page on github and paste it here: [https://liascript.github.io/](https://liascript.github.io/). You can use the generated url to send to your course participants. The website will be generated locally on their computers, directly from github.
-    4. Update the README.md file on your computer to add learning outcomes and syllabus. Push the changes to github to make them render on the course website. You might have to force refresh your browser to see the changes on the site.
+    1. Create a new GitHub repository from the template  
+    - Go to the template repository: [https://github.com/vibbits/training_material_template](https://github.com/vibbits/training_material_template)  
+    - On the repository page, click the green “Use this template” button near the top right (next to the Code button)  
+    - Select “Create a new repository”  
+    - Give your new repository a name (for example, my-training-course)  
+    - Make sure to select Public under Repository visibility, so LiaScript can access it  
+    - Click “Create repository from template”  
+    2. Clone the repo to your local computer  
+    - On your new repository’s page (your version, not the template), click the green “Code” button  
+    - Copy the HTTPS link shown (it will look like https://github.com/yourusername/my-training-course.git)  
+    - Open GitHub Desktop or your terminal, and clone the repository:   
+        - In GitHub Desktop: Click File → Clone repository, then paste the URL  
+        - In the terminal: git clone https://github.com/yourusername/my-training-course.git  
+    3. Generate the LiaScript course website  
+    - Go to your GitHub repository in your browser (the one you just created from the template)  
+    - Open the file called README.md — it should display the formatted text  
+    - In the top-right corner of that file’s view, click the “Raw” button. This opens a plain text version of the Markdown file.  
+    - Copy this page's URL and paste it here: [https://liascript.github.io/](https://liascript.github.io/).   
+    You can share the same raw README.md URL with your course participants. They can paste it into https://liascript.github.io/ themselves, and the course website will appear in their browsers.  
+    4. Update the README.md file on your computer to include your learning outcomes and syllabus. Then push the changes to GitHub so they are reflected on the course website. You may need to force refresh your browser (e.g., Ctrl+Shift+R or Cmd+Shift+R) to see the updated content appear.    
+
+    You have now created a course website using GitHub and LiaScript!
 
 <br> 
 
-!!! note "Using github pages and Quarto (advanced)"
+!!! note "Using Github pages and Quarto (advanced)"
 
-    If you choose this option we assume you are experienced enough to create a repo, start a new Quarto project, and set up a gh-pages to display the course website. You can find the Quarto documentation for setting up a website [here](https://quarto.org/docs/websites/).
+    This option assumes you are comfortable with GitHub, Quarto, and deploying via gh-pages.  
 
-    A few things you should consider when creating the quarto pages:
+    Steps:   
+    - Create a repository on GitHub and start a new Quarto project.  
+    - Configure gh-pages to display your site. Official Quarto documentation: [https://quarto.org/docs/websites/](https://quarto.org/docs/websites/)  
+     
 
-    - Make sure to add authors where applicable
-    - Add a page with your Learning outcomes and course syllabus
+    When creating your Quarto course website, make sure to:  
+    - Add authors where applicable    
+    - Include a page with your learning outcomes and course syllabus    
 
-    You can use the Liascript template from the previous option as inspiration.
+    You can use the Liascript template from the previous option as inspiration.    
+    You have now created a course website using GitHub Pages and Quarto, ready for future training delivery!  
+
 
