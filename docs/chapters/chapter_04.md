@@ -1,14 +1,12 @@
 !!! success "Learning Outcomes"
 
-    - assess the degree of re-usability of training material
-    - explain the concepts of re-usability, interoperability and extendibility for training material
-    - develop presentation with narratives for each slides using Liascript
-
-In this chapter we will touch on:
-
-- different types of training materials and its re-usability
-- different types of training materials and its interoperability
-- creating presentations with Liascript, a Markdown dialect or Google slides
+    By the end of this session, learners will be able to:  
+      
+    - assess the degree of re-usability of training material  
+    - explain the concepts of re-usability, interoperability and extendibility for training material  
+    - develop presentation with narratives for each slides using Liascript  
+    
+    
 
 ## 4.1 Presentation
 
@@ -16,15 +14,16 @@ Here you can find the [presentation](https://liascript.github.io/course/?https:/
 
 ## 4.2 Formats for training material
 
-Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them. 
+In this chapter, we're going to explore the diverse landscape of training materials in life sciences. The goal is to identify different material types (slides, videos, datasets, software, etc.), consider which formats are commonly used, and reflect on the reasons behind those choices.  
 
-Here is the activity: We’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll determine the possible formats they could take. Then, we’ll dive deeper to discuss which formats we predominantly use and, most importantly, why we prefer those over others. This exercise will not only enhance our understanding of the material formats but also provide insights into our teaching methodologies. It’s a chance to share experiences, learn from each other, and possibly discover new ways to engage our audience.
-Let’s get started! Please open the 'Answer' tab as a guide for this reflection exercies. 
-As we proceed, I encourage you to think critically about the ‘why’ — it’s the key to understanding our choices and improving our approach to training.
+For the first activity, we’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll list possible formats, note which formats we typically use, and discuss why we prefer those formats. The aim is to deepen our understanding of format choices, surface different teaching practices, and perhaps discover new ways to engage learners.
+
+Let’s get started! Please open the 'Answer' tab as a guide for this reflection exercise. 
+As you work through it, focus on the why. That insight is key to improving how training is designed and delivered.
 
 !!! question "Discussion"
 
-    How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?
+    How many training material formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?
     
     ??? success "Answer as Table 1"
         | Material type | Possible format(s) | Format(s) you mostly use | Why? |
@@ -41,8 +40,7 @@ As we proceed, I encourage you to think critically about the ‘why’ — it’
 
 ### Compare your discussion results 
 
-Let's take a moment to reflect on our recent discussions and how they align with the insights from the "10 simple rules" paper. Our conversation has highlighted the various formats we use to disseminate knowledge in life sciences, each with its own set of advantages and challenges.
-As we continue with our training, let's consider how these formats serve our objectives and the ways in which we can leverage their strengths while mitigating their limitations. 
+Our next activity focuses on assessing how our exploration of different training materials and formats aligns with the insights from the ['10 simple rules' paper](https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001). Each format used to share knowledge in the life sciences comes with its own advantages and challenges. Let's consider how these formats support your objectives and how their strengths can be leveraged while minimizing potential limitations. 
 
 !!! question "Reflection"
     Compare your list of the slide formats from above to the formats mentioned in the ['10 simple rules' paper](https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001).
