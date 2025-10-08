@@ -3,7 +3,7 @@
     - List common e-learning platforms
     - Explain what the SCORM format is 
     - Describe pros and cons of different Learning Management Systems, from a FAIR perspective
-    - Create a Github page to host and deliver training
+    - Create a GitHub page to host and deliver training
     - Describe how to make your training material FAIR using only Google drive
 
 
@@ -26,7 +26,7 @@ To deliver training materials effectively, many educators rely on a **Learning M
   
 ### The training life cycle
 
-Training materials go through several phases in their lifecycle: development, delivery, sharing, and archiving. In the **development** phase, tools like G Suite or GitHub allow for collaborative creation of content. Once the materials are ready, they move into the **delivery phase**, where LMS platforms or GitHub Pages are used to distribute them to learners. The **sharing** phase ensures that materials are made publicly available, ideally according to FAIR principles, through platforms like Zenodo, GitHub, or even a public LMS site. Finally, in the **archiving** phase, content is stored for future use, ensuring it remains accessible and reusable for future trainers or trainees.
+Training materials go through several phases in their lifecycle: development, delivery, sharing, and archiving. In the **development** phase, tools like Google workspace or GitHub allow for collaborative creation of content. Once the materials are ready, they move into the **delivery phase**, where LMS platforms or GitHub Pages are used to distribute them to learners. The **sharing** phase ensures that materials are made publicly available, ideally according to FAIR principles, through platforms like Zenodo, GitHub, or even a public LMS site. Finally, in the **archiving** phase, content is stored for future use, ensuring it remains accessible and reusable for future trainers or trainees.
 
 ### Learning Management systems and Google drive
 
@@ -71,7 +71,7 @@ The following three case studies describe how different trainers set up and deli
 
 !!! note "R course"
 
-    Jane teaches a hybrid course in R. She has set up a course website using Github pages and Quarto. She has a Github repo where she creates all information regarding the course, including slides and exercises using markdown. She uses releases to separate different instances of her course. All relevant information is published on the Github page, with the links to the Github repo.
+    Jane teaches a hybrid course in R. She has set up a course website using GitHub pages and Quarto. She has a GitHub repo where she creates all information regarding the course, including slides and exercises using markdown. She uses releases to separate different instances of her course. All relevant information is published on the GitHub page, with the links to the GitHub repo.
 
 ## 3.5 Exercise: Set up a course website
 
@@ -82,7 +82,7 @@ Depending on your technical skills and preferences, you may choose one of the th
 
 <div style="background-color:lightgreen; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
 <b>Easy technical level</b><br>
-No knowledge of github required
+No knowledge of GitHub required
 </div>
 
 <div style="background-color:#F8C471; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
@@ -142,14 +142,14 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
     - Copy the HTTPS link shown (it will look like https://github.com/yourusername/my-training-course.git)  
     - Open GitHub Desktop or your terminal, and clone the repository:   
         - In GitHub Desktop: Click File → Clone repository, then paste the URL  
-        - In the terminal: git clone https://github.com/yourusername/my-training-course.git  
+        - In the terminal: `git clone https://github.com/yourusername/my-training-course.git`  
     3. Generate the LiaScript course website  
     - Go to your GitHub repository in your browser (the one you just created from the template)  
     - Open the file called README.md — it should display the formatted text  
     - In the top-right corner of that file’s view, click the “Raw” button. This opens a plain text version of the Markdown file.  
     - Copy this page's URL and paste it here: [https://liascript.github.io/](https://liascript.github.io/).   
     You can share the same raw README.md URL with your course participants. They can paste it into https://liascript.github.io/ themselves, and the course website will appear in their browsers.  
-    4. Update the README.md file on your computer to include your learning outcomes and syllabus. Then push the changes to GitHub so they are reflected on the course website. You may need to force refresh your browser (e.g., Ctrl+Shift+R or Cmd+Shift+R) to see the updated content appear.    
+    4. Update the README.md file on your locally cloned repository to include your learning outcomes and syllabus. Then push the changes to GitHub so they are reflected on the course website. You may need to force refresh your browser (e.g., Ctrl+Shift+R or Cmd+Shift+R) to see the updated content appear.    
 
     You have now created a course website using GitHub and LiaScript!
 
@@ -160,7 +160,8 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
     This option assumes you are comfortable with GitHub, Quarto, and deploying via gh-pages.  
 
     Steps:   
-    - Create a repository on GitHub and start a new Quarto project.  
+    
+    - Create a repository on GitHub and start a new Quarto project. You can use the Liascript template from the previous option as inspiration.    
     - Configure gh-pages to display your site. Official Quarto documentation: [https://quarto.org/docs/websites/](https://quarto.org/docs/websites/)  
      
 
@@ -168,8 +169,8 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
     - Add authors where applicable    
     - Include a page with your learning outcomes and course syllabus    
 
-    You can use the Liascript template from the previous option as inspiration.    
     You have now created a course website using GitHub Pages and Quarto, ready for future training delivery!  
+
 
 
 
