@@ -161,8 +161,8 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
 
     Steps:   
     
-    - Create a repository on GitHub and start a new Quarto project. You can use the Liascript template from the previous option as inspiration.    
-    - Configure gh-pages to display your site. Official Quarto documentation: [https://quarto.org/docs/websites/](https://quarto.org/docs/websites/)  
+    1. Create a repository on GitHub and start a new Quarto project. You can use the Liascript template from the previous option as inspiration.    
+    2. Configure gh-pages to display your site. Official Quarto documentation: [https://quarto.org/docs/websites/](https://quarto.org/docs/websites/)  
      
 
     When creating your Quarto course website, make sure to:  
@@ -170,6 +170,7 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
     - Include a page with your learning outcomes and course syllabus    
 
     You have now created a course website using GitHub Pages and Quarto, ready for future training delivery!  
+
 
 
 
