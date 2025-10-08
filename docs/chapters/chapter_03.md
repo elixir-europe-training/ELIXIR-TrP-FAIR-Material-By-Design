@@ -1,5 +1,6 @@
 !!! success "Learning Outcomes"
 
+    By the end of this session, learners will be able to:  
     - List common e-learning platforms
     - Explain what the SCORM format is 
     - Describe pros and cons of different Learning Management Systems, from a FAIR perspective
@@ -170,6 +171,7 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
     - Include a page with your learning outcomes and course syllabus    
 
     You have now created a course website using GitHub Pages and Quarto, ready for future training delivery!  
+
 
 
 
