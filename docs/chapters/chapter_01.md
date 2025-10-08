@@ -18,9 +18,9 @@ To Reuse:
 !!! success "Learning Outcomes"
 
     By the end of this session, learners will be able to:  
-    - Explain the 4 principles in the acronym FAIR
-    - Differentiate FAIR and OPEN science and application in training material
-    - Discuss the advantages of FAIR and OPEN training
+    - Explain the 4 principles in the acronym FAIR  
+    - Differentiate FAIR and OPEN science and application in training material  
+    - Discuss the advantages of FAIR and OPEN training  
 
 # What is FAIR and why do I care ?
 
