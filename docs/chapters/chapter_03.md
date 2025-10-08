@@ -3,8 +3,8 @@
     - List common e-learning platforms
     - Explain what the SCORM format is 
     - Describe pros and cons of different Learning Management Systems, from a FAIR perspective
-    - Create a github page to host and deliver training
-    - Describe how to make your training material FAIR using only google drive
+    - Create a Github page to host and deliver training
+    - Describe how to make your training material FAIR using only Google drive
 
 
 
@@ -170,5 +170,6 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
 
     You can use the Liascript template from the previous option as inspiration.    
     You have now created a course website using GitHub Pages and Quarto, ready for future training delivery!  
+
 
 
