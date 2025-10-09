@@ -29,6 +29,8 @@ To deliver training materials effectively, many educators rely on a **Learning M
   
 ### The training life cycle
 
+![](../../assets/images/03-life-cycle.png){width=80%}
+
 Training materials go through several phases in their lifecycle: development, delivery, sharing, and archiving. In the **development** phase, tools like Google workspace or GitHub allow for collaborative creation of content. Once the materials are ready, they move into the **delivery phase**, where LMS platforms or GitHub Pages are used to distribute them to learners. The **sharing** phase ensures that materials are made publicly available, ideally according to FAIR principles, through platforms like Zenodo, GitHub, or even a public LMS site. Finally, in the **archiving** phase, content is stored for future use, ensuring it remains accessible and reusable for future trainers or trainees.
 
 ### Learning Management systems and Google drive
@@ -36,10 +38,14 @@ Training materials go through several phases in their lifecycle: development, de
 Using Google drive alongside an LMS can enhance the delivery and management of training materials. Google drive provides a collaborative environment for creating course materials — such as documents, presentations, and exercises — which can then be shared via a more structured LMS like Moodle or OpenEDX. The combination of these tools ensures that the content remains easily accessible and organized, while the LMS provides tools to track learner engagement and progress. Both systems support various file types and have flexible access control options, ensuring that materials remain FAIR-compliant.
 
 To ensure interoperability and flexibility, training materials should comply with e-learning standards.  
+
 [**SCORM**](https://scorm.com/scorm-explained/) (Sharable Content Object Reference Model) is one of the earliest and most widely used standards. It defines how online learning content and LMSs communicate with each other, for example for tracking whether a learner has completed a module or how much time they spent on it. SCORM packages training materials into a standardized format (usually a .zip file) that can be imported into almost any LMS.    
 [**xAPI**](https://xapi.com/overview/) (Experience API), also known as Tin Can API, is a newer and more flexible standard. Unlike SCORM, it can track learning experiences both inside and outside an LMS, for example attending a workshop, watching a video, or participating in a simulation. It then stores this data in a Learning Record Store (LRS).  
 [**CMI5**](https://aicc.github.io/CMI-5_Spec_Current/) builds on xAPI, combining the structure of SCORM with the versatility of xAPI. It supports traditional LMS functions like course launching and completion tracking while also enabling richer, modern learning experiences across various tools and devices.  
+
 Together, these standards ensure that your content remains interoperable and reusable across different platforms and learning scenarios.
+
+
 
 ### GitHub and GitHub pages
 
@@ -102,6 +108,8 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
 !!! note "Using OpenEdx and Google drive (easy)"
 
     Your organization might already have its own LMS set up for you to use, but here we will try out the process using the Open edX Sandbox, a platform designed for experimenting with course creation. Please note that this environment is only for testing purposes, all data is deleted every day! (*This also means that anything you add today will unfortunately need to be re-created tomorrow, so try not to add too much information during this exercise*).  
+
+    If you are tech-savvy, you can set up your own instance of open edX, that way your data will not be lost. For more information, see [here](https://docs.tutor.edly.io/gettingstarted.html).
 
     Steps:
 
