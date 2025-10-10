@@ -765,23 +765,25 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
 <ol>
 <li>Create a Google drive folder where you will put the course materials</li>
 <li>Create a user account at <a href="https://sandbox.openedx.org/">https://sandbox.openedx.org/</a></li>
-<li>Go to the tab Studio and click the <code>Create your first course</code> button</li>
+<li>Go to the tab <code>Studio</code> and click the <code>New course</code> button</li>
 <li>Fill in the information required and create the course</li>
 <li>Make sure you have your course syllabus and learning outcomes in separate documents in the Google drive folder</li>
-<li>Embed the syllabus and learning outcomes documents in iframes.<br>
-- In Google drive: File -&gt; Share -&gt; Publish to web. Click on the Embed tab, and copy the code<br>
-- In Open edX: go to Settings -&gt; Schedule and Details, scroll down to Course overview<br>
-- Click on the three dots -&gt; Embed iframe, and paste the embed code<br>
-- If you want you can put the learning outcomes as a separate page: in Content -&gt; Outline:<br>
-- Add new section, subsection, and unit<br>
-- Name the unit <em>Learning outcomes</em>, and add a Text component to it: Text -&gt; Text -&gt; Select<br>
-- In the editor, click on the three dots in the top right corner and click Embed iframe 
-- Paste the embed code from google<br>
-- You might have to adjust the size:<br>
+<li>Embed the syllabus and learning outcomes documents in iframes.  <ul>
+<li>In Google drive: File -&gt; Share -&gt; Publish to web. Click on the Embed tab, and copy the code  </li>
+<li>In Open edX: go to Content -&gt; Outline  </li>
+<li>Click on <code>New secion</code> -&gt; Rename the section to <em>Syllabus</em></li>
+<li>Add a new subsection called <em>Course description</em></li>
+<li>Click on <code>New unit</code> -&gt; Add a Text component to it: Text -&gt; IFrame Tool -&gt; Select</li>
+<li>In the editor, click on the three dots in the top right corner and click <code>HTML</code>, this will switch to HTML mode </li>
+<li>Remove everything there and paste the embed code from google  </li>
+<li>You might have to adjust the size:<br>
 <div class="highlight"><pre><span></span><code>&lt;iframe src="&lt;url&gt;" width="900px" height="900px" scrolling="no" frameborder="0"&gt;&lt;/iframe&gt; 
-</code></pre></div>
-You have now set up a simple course website using Open edX and Google Drive!</li>
+</code></pre></div></li>
+<li>If you want you can put the learning outcomes as a separate section or subsection</li>
+</ul>
+</li>
 </ol>
+<p>You have now set up a simple course website using Open edX and Google Drive!</p>
 </div>
 <p><br></p>
 <div class="admonition note">
@@ -789,27 +791,33 @@ You have now set up a simple course website using Open edX and Google Drive!</li
 <p>This exercise assumes basic familiarity with GitHub and Markdown. Cloning the repository locally is optional for this exercise — it is not required to generate the course website in LiaScript, but it is useful for future edits or offline work.  </p>
 <p>Steps:  </p>
 <ol>
-<li>Create a new GitHub repository from the template<br>
-- Go to the template repository: <a href="https://github.com/vibbits/training_material_template">https://github.com/vibbits/training_material_template</a><br>
-- On the repository page, click the green “Use this template” button near the top right (next to the Code button)<br>
-- Select “Create a new repository”<br>
-- Give your new repository a name (for example, my-training-course)<br>
-- Make sure to select Public under Repository visibility, so LiaScript can access it<br>
-- Click “Create repository from template”  </li>
-<li>Clone the repo to your local computer<br>
-- On your new repository’s page (your version, not the template), click the green “Code” button<br>
-- Copy the HTTPS link shown (it will look like https://github.com/yourusername/my-training-course.git)<br>
-- Open GitHub Desktop or your terminal, and clone the repository:   <ul>
+<li>Create a new GitHub repository from the template  <ul>
+<li>Go to the template repository: <a href="https://github.com/vibbits/training_material_template">https://github.com/vibbits/training_material_template</a>  </li>
+<li>On the repository page, click the green “Use this template” button near the top right (next to the Code button)  </li>
+<li>Select “Create a new repository”  </li>
+<li>Give your new repository a name (for example, my-training-course)  </li>
+<li>Make sure to select Public under Repository visibility, so LiaScript can access it  </li>
+<li>Click “Create repository from template”  </li>
+</ul>
+</li>
+<li>Clone the repo to your local computer  <ul>
+<li>On your new repository’s page (your version, not the template), click the green “Code” button  </li>
+<li>Copy the HTTPS link shown (it will look like https://github.com/yourusername/my-training-course.git)  </li>
+<li>Open GitHub Desktop or your terminal, and clone the repository:   <ul>
 <li>In GitHub Desktop: Click File → Clone repository, then paste the URL  </li>
 <li>In the terminal: <code>git clone https://github.com/yourusername/my-training-course.git</code>  </li>
 </ul>
 </li>
-<li>Generate the LiaScript course website<br>
-- Go to your GitHub repository in your browser (the one you just created from the template)<br>
-- Open the file called README.md — it should display the formatted text<br>
-- In the top-right corner of that file’s view, click the “Raw” button. This opens a plain text version of the Markdown file.<br>
-- Copy this page’s URL and paste it here: <a href="https://liascript.github.io/">https://liascript.github.io/</a>. <br>
+</ul>
+</li>
+<li>Generate the LiaScript course website  <ul>
+<li>Go to your GitHub repository in your browser (the one you just created from the template)  </li>
+<li>Open the file called README.md — it should display the formatted text  </li>
+<li>In the top-right corner of that file’s view, click the “Raw” button. This opens a plain text version of the Markdown file.  </li>
+<li>Copy this page’s URL and paste it here: <a href="https://liascript.github.io/">https://liascript.github.io/</a>. <br>
 You can share the same raw README.md URL with your course participants. They can paste it into https://liascript.github.io/ themselves, and the course website will appear in their browsers.  </li>
+</ul>
+</li>
 <li>Update the README.md file on your locally cloned repository to include your learning outcomes and syllabus. Then push the changes to GitHub so they are reflected on the course website. You may need to force refresh your browser (e.g., Ctrl+Shift+R or Cmd+Shift+R) to see the updated content appear.    </li>
 </ol>
 <p>You have now created a course website using GitHub and LiaScript!</p>
@@ -817,15 +825,17 @@ You can share the same raw README.md URL with your course participants. They can
 <p><br> </p>
 <div class="admonition note">
 <p class="admonition-title">Using Github pages and Quarto (advanced)</p>
-<p>This option assumes you are comfortable with GitHub, Quarto, and deploying via gh-pages.  </p>
+<p>This option assumes you are comfortable with GitHub, Quarto, and deploying via gh-pages. No extensive documentation is provided here, but the official Quarto documentation is very good.  </p>
 <p>Steps:   </p>
 <ol>
 <li>Create a repository on GitHub and start a new Quarto project. You can use the Liascript template from the previous option as inspiration.    </li>
 <li>Configure gh-pages to display your site. Official Quarto documentation: <a href="https://quarto.org/docs/websites/">https://quarto.org/docs/websites/</a>  </li>
 </ol>
-<p>When creating your Quarto course website, make sure to:<br>
-- Add authors where applicable  <br>
-- Include a page with your learning outcomes and course syllabus    </p>
+<p>When creating your Quarto course website, make sure to:  </p>
+<ul>
+<li>Add authors where applicable    </li>
+<li>Include a page with your learning outcomes and course syllabus    </li>
+</ul>
 <p>You have now created a course website using GitHub Pages and Quarto, ready for future training delivery!  </p>
 </div></div>
 
