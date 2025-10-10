@@ -8,7 +8,7 @@ nav:
       - "3. How to host your training": chapters/chapter_03.md
       - "4. Training material formats and interoperability": chapters/chapter_04.md
       - "5. Acknowledgements, a comprehensive perspective": chapters/chapter_05.md
-      - "6. Put on your producer hat: considerations for FAIR video material": chapters/chapter_06.md
+      - "6. Considerations for FAIR video material": chapters/chapter_06.md
       - "7. Metadata and Findability": chapters/chapter_07.md
       - "8. Releases and use of unique identifiers": chapters/chapter_08.md
     - "Course Schedule": course_schedule.md
