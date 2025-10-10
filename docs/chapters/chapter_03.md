@@ -115,22 +115,23 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
 
     1. Create a Google drive folder where you will put the course materials
     2. Create a user account at [https://sandbox.openedx.org/](https://sandbox.openedx.org/)
-    3. Go to the tab Studio and click the `Create your first course` button
+    3. Go to the tab `Studio` and click the `New course` button
     4. Fill in the information required and create the course
     5. Make sure you have your course syllabus and learning outcomes in separate documents in the Google drive folder
     6. Embed the syllabus and learning outcomes documents in iframes.  
-    - In Google drive: File -> Share -> Publish to web. Click on the Embed tab, and copy the code  
-    - In Open edX: go to Settings -> Schedule and Details, scroll down to Course overview  
-    - Click on the three dots -> Embed iframe, and paste the embed code  
-    - If you want you can put the learning outcomes as a separate page: in Content -> Outline:  
-    - Add new section, subsection, and unit  
-    - Name the unit *Learning outcomes*, and add a Text component to it: Text -> Text -> Select  
-    - In the editor, click on the three dots in the top right corner and click Embed iframe 
-    - Paste the embed code from google  
-    - You might have to adjust the size:  
-    ```
-    <iframe src="<url>" width="900px" height="900px" scrolling="no" frameborder="0"></iframe> 
-    ```  
+        * In Google drive: File -> Share -> Publish to web. Click on the Embed tab, and copy the code  
+        * In Open edX: go to Content -> Outline  
+        * Click on `New secion` -> Rename the section to *Syllabus*
+        * Add a new subsection called *Course description*
+        * Click on `New unit` -> Add a Text component to it: Text -> IFrame Tool -> Select
+        * In the editor, click on the three dots in the top right corner and click `HTML`, this will switch to HTML mode 
+        * Remove everything there and paste the embed code from google  
+        * You might have to adjust the size:  
+        ```
+        <iframe src="<url>" width="900px" height="900px" scrolling="no" frameborder="0"></iframe> 
+        ```  
+        * If you want you can put the learning outcomes as a separate section or subsection
+
     You have now set up a simple course website using Open edX and Google Drive!
 
 <br>
@@ -142,23 +143,23 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
     Steps:  
  
     1. Create a new GitHub repository from the template  
-    - Go to the template repository: [https://github.com/vibbits/training_material_template](https://github.com/vibbits/training_material_template)  
-    - On the repository page, click the green “Use this template” button near the top right (next to the Code button)  
-    - Select “Create a new repository”  
-    - Give your new repository a name (for example, my-training-course)  
-    - Make sure to select Public under Repository visibility, so LiaScript can access it  
-    - Click “Create repository from template”  
+        * Go to the template repository: [https://github.com/vibbits/training_material_template](https://github.com/vibbits/training_material_template)  
+        * On the repository page, click the green “Use this template” button near the top right (next to the Code button)  
+        * Select “Create a new repository”  
+        * Give your new repository a name (for example, my-training-course)  
+        * Make sure to select Public under Repository visibility, so LiaScript can access it  
+        * Click “Create repository from template”  
     2. Clone the repo to your local computer  
-    - On your new repository’s page (your version, not the template), click the green “Code” button  
-    - Copy the HTTPS link shown (it will look like https://github.com/yourusername/my-training-course.git)  
-    - Open GitHub Desktop or your terminal, and clone the repository:   
-        - In GitHub Desktop: Click File → Clone repository, then paste the URL  
-        - In the terminal: `git clone https://github.com/yourusername/my-training-course.git`  
+        * On your new repository’s page (your version, not the template), click the green “Code” button  
+        * Copy the HTTPS link shown (it will look like https://github.com/yourusername/my-training-course.git)  
+        * Open GitHub Desktop or your terminal, and clone the repository:   
+            * In GitHub Desktop: Click File → Clone repository, then paste the URL  
+            * In the terminal: `git clone https://github.com/yourusername/my-training-course.git`  
     3. Generate the LiaScript course website  
-    - Go to your GitHub repository in your browser (the one you just created from the template)  
-    - Open the file called README.md — it should display the formatted text  
-    - In the top-right corner of that file’s view, click the “Raw” button. This opens a plain text version of the Markdown file.  
-    - Copy this page's URL and paste it here: [https://liascript.github.io/](https://liascript.github.io/).   
+        * Go to your GitHub repository in your browser (the one you just created from the template)  
+        * Open the file called README.md — it should display the formatted text  
+        * In the top-right corner of that file’s view, click the “Raw” button. This opens a plain text version of the Markdown file.  
+        * Copy this page's URL and paste it here: [https://liascript.github.io/](https://liascript.github.io/).   
     You can share the same raw README.md URL with your course participants. They can paste it into https://liascript.github.io/ themselves, and the course website will appear in their browsers.  
     4. Update the README.md file on your locally cloned repository to include your learning outcomes and syllabus. Then push the changes to GitHub so they are reflected on the course website. You may need to force refresh your browser (e.g., Ctrl+Shift+R or Cmd+Shift+R) to see the updated content appear.    
 
@@ -168,7 +169,7 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
 
 !!! note "Using Github pages and Quarto (advanced)"
 
-    This option assumes you are comfortable with GitHub, Quarto, and deploying via gh-pages.  
+    This option assumes you are comfortable with GitHub, Quarto, and deploying via gh-pages. No extensive documentation is provided here, but the official Quarto documentation is very good.  
 
     Steps:   
     
@@ -177,8 +178,9 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
      
 
     When creating your Quarto course website, make sure to:  
-    - Add authors where applicable    
-    - Include a page with your learning outcomes and course syllabus    
+    
+    * Add authors where applicable    
+    * Include a page with your learning outcomes and course syllabus    
 
     You have now created a course website using GitHub Pages and Quarto, ready for future training delivery!  
 
