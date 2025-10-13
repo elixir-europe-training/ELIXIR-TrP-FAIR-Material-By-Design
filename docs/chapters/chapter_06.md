@@ -47,18 +47,18 @@ Let's now have a look at what it takes to FAIRify video material:
 
 !!! note "Exercise"
 
-    Find a short video (for example, on YouTube, Protocols.io, Zenodo, or another platform) that you might want to include in your own course, or use one of two sample videos that can be found [here](https://www.youtube.com/watch?v=VUGsZgQaAZs) and [here](https://www.protocols.io/view/video-protocol-for-sorting-drosophila-pupae-n2bvjx8nwlk5/v1) For your chosen video, take 5–10 minutes to assess:  
+    Find a short video (for example on YouTube, Protocols.io, Zenodo, or another platform) that you might want to include in your own course, or use one of two sample videos that can be found [here](https://www.youtube.com/watch?v=VUGsZgQaAZs) and [here](https://www.protocols.io/view/video-protocol-for-sorting-drosophila-pupae-n2bvjx8nwlk5/v1). For your chosen video, take 5–10 minutes to assess:  
     
-    - Findable → Is it hosted on a trusted platform? Does it have a DOI or persistent identifier?
-    - Accessible → Is the access type and language defined? Can the video or transcript be downloaded? 
-    - Interoperable → Are there captions or transcripts? Is it in a standard format (e.g. .mp4, .mov)?
-    - Reusable → Is there a clear license? Are contributors and tools properly attributed? Is there versioning information?
+    - **Findable** → Is it hosted on a trusted platform? Does it have a DOI or persistent identifier?
+    - **Accessible** → Is the access type and language defined? Can the video or transcript be downloaded? 
+    - **Interoperable** → Are there captions or transcripts? Is it in a standard format (e.g. .mp4, .mov)?
+    - **Reusable** → Is there a clear license? Are contributors and tools properly attributed? Is there versioning information?
 
     Document your findings [here](https://docs.google.com/document/d/e/2PACX-1vTAvSqdNhrO_ZNsRvzPSulFxucFkbNN7UvnC1oFvyFZtG4H0wZWBgcGFWct2ynB8eFA3UwDeAehT_Xb/pub)
 
 !!! question "Reflection"
 
-    Take a moment to reflect:  
+    After the exercise, take a moment to reflect:  
     
     - Was the video material you chose FAIR?  
     - How easy would it be for you to reuse this material?   
@@ -74,13 +74,35 @@ Making your video materials FAIR increases their long-term value and educational
 - It allow others to legally adapt or remix content  
 - It ensures videos remain available and understandable over time  
 
-**FAIR video = more impact from the effort you put into creating it**
+In short: **FAIR video = more impact from the effort you put into creating it**  
 By sharing your training videos in a FAIR way, you amplify their reach, support diverse learners, and contribute to a more open and connected scientific training ecosystem.
 
 
 ## 6.3 Barriers to creating FAIR video materials 
+Making video materials FAIR can be highly rewarding — but it’s not always straightforward. There are practical, technical, and even ethical challenges that educators and trainers often face.  
 
+!!! question "Reflection"
 
+    Before we look at common barriers, take a moment to reflect:
+    What’s the biggest barrier for you in using and FAIRifying video material? Is it related to technology, time, or something else?
+
+Below are some of the most common obstacles encountered when creating or sharing FAIR video materials:
+
+| **Barrier** | **Description** |
+|--------------|------------------|
+| **Time & Resources** | Creating, editing, and annotating videos takes planning and effort. |
+| **Technical Skills** | Recording, editing, adding metadata, and creating captions require some know-how. |
+| **Knowledge Gaps** | Limited awareness of FAIR video practices or suitable hosting platforms. |
+| **Infrastructure** | Not all organizations have repositories or tools for storing videos with FAIR metadata. |
+| **Licensing & Permissions** | Confusion about copyright, reuse rights, and privacy when sharing video content. |
+| **AI & Ethics** | Emerging tools (e.g., for transcription or editing) raise questions about bias, transparency, and attribution. |
+| **File Size & Storage Limits** | High-quality video files are large, making them harder to host on institutional repositories or platforms like Zenodo (often limited to 50 GB per upload). |
+| **Metadata Complexity** | Video materials often need multiple layers of metadata (e.g., author, content, format, transcript, licensing), and it’s not always clear where or how to include these. |
+
+Even though these barriers exist, many can be overcome with planning, collaboration, and the right tools. In the next section, we’ll look at practical steps and minimum FAIR-by-design practices to help make your video materials more FAIR without requiring expert-level skills.  
+  
+
+## 6.4 AI and FAIR video material
 
 : Generate a caption or transcript to a sample video
 
@@ -119,3 +141,4 @@ Following the basic guidelines for FAIR video material in the slides, add your v
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
