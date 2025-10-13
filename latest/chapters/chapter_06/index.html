@@ -863,20 +863,60 @@ What’s the biggest barrier for you in using and FAIRifying video material? Is 
 </tbody>
 </table>
 <h3 id="adding-transcripts-to-videos-whisperai">Adding transcripts to videos: WhisperAI</h3>
-<dl>
-<dd>Generate a caption or transcript to a sample video</dd>
-</dl>
+<p>One essential step in FAIRifying video training materials is adding captions or a transcript. This not only improves accessibility but also enhances interoperability and reusability of your content.<br>
+The following exercise is designed to give you hands-on practice with generating transcripts and captions. There are three levels of difficulty available, but for this course, we recommend starting with Level 1, which is suitable for beginners and covers the core skills needed to make your videos FAIR.  </p>
+<div style="background-color:lightgreen; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
+<b>Easy technical level</b><br>
+Basic computer skills required
+</div>
+
+<div style="background-color:#F8C471; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
+<b>Intermediate technical level</b><br>
+Some experience installing and using desktop applications 
+</div>
+
+<div style="background-color:#D98880; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
+<b>Advanced technical level</b><br>
+Intermediate knowledge of GitHub and using the terminal required
+</div>
+<p><br>  </p>
 <p>You can download <a href="https://drive.google.com/file/d/1TdwvG0R5_UGFCE9jAOZXjloCoVk1dfoz/view?usp=sharing">the sample video</a> from the course website or record a 1-2 minute video on your smartphone or laptop to use.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Ensure you do not record anyone without their permission!</p>
 </div>
-<p>The following cheat sheet explains several ways of achieving a LLM-generated transcription. These are: </p>
-<ul>
-<li>Recommended: Using the SciLifeLab serve instance of Whisper (recommended, easy)</li>
-<li>Independent: Using an on-device GUI such as Whisper Transcription</li>
-<li>Challenge mode: Installing your own local instance of Whisper</li>
-</ul>
+<div class="admonition note">
+<p class="admonition-title">Using the SciLifeLab serve instance of Whisper (easy)</p>
+<ol>
+<li>Go to https://whisper-ai.serve.scilifelab.se  </li>
+<li>Upload your video file  </li>
+<li>Select the desired output format(s):<br>
+      .txt for a plain transcript<br>
+      .srt for caption files  </li>
+<li>Submit the file for processing  </li>
+<li>When transcription is complete, your output files will automatically download to your computer  </li>
+</ol>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Using an on-device GUI such as Whisper Transcription (Intermediate)</p>
+<ol>
+<li>Download the Whisper Transcription app (developed by Good Snooze) from the Mac App Store  </li>
+<li>In the app, download the Small Whisper model for faster performance  </li>
+<li>Open your video or audio file in the app to start transcription  </li>
+<li>Once completed, export the results as:<br>
+      .srt for captions, or<br>
+      .txt for transcript text  </li>
+</ol>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Installing your own local instance of Whisper (Advanced)</p>
+<ol>
+<li>Install Whisper directly from GitHub: <code>pip install -U openai-whisper</code>, or from the repository at <a href="https://github.com/openai/whisper">https://github.com/openai/whisper</a>  </li>
+<li>Install ffmpeg if not already available:<br>
+      macOS: <code>brew install ffmpeg</code>
+      Windows: <code>choco install ffmpeg</code></li>
+</ol>
+</div>
 <iframe src="https://docs.google.com/presentation/d/1OjEQHg0TWgYtGGp5-zHduaTLLki6MXZ9/preview" width="640" height="360" allow="autoplay"></iframe>
 
 <p>You can also download this cheat sheet as a pdf <a href="https://drive.google.com/file/d/1hahGc_k3WVtqRRnlwkmGq-hKJe-5or4v/view?usp=share_link">here</a></p>
