@@ -54,7 +54,7 @@ Let's now have a look at what it takes to FAIRify video material:
     - **Interoperable** → Are there captions or transcripts? Is it in a standard format (e.g. .mp4, .mov)?
     - **Reusable** → Is there a clear license? Are contributors and tools properly attributed? Is there versioning information?
 
-    Document your findings [here](https://docs.google.com/document/d/e/2PACX-1vTAvSqdNhrO_ZNsRvzPSulFxucFkbNN7UvnC1oFvyFZtG4H0wZWBgcGFWct2ynB8eFA3UwDeAehT_Xb/pub)
+    Document your findings in the [**Checklist for minimally FAIR video material**](https://docs.google.com/document/d/e/2PACX-1vTAvSqdNhrO_ZNsRvzPSulFxucFkbNN7UvnC1oFvyFZtG4H0wZWBgcGFWct2ynB8eFA3UwDeAehT_Xb/pub)
 
 !!! question "Reflection"
 
@@ -68,11 +68,11 @@ Let's now have a look at what it takes to FAIRify video material:
 ### Why FAIR video materials matter  
 Making your video materials FAIR increases their long-term value and educational impact:  
   
-- It makes it easy to locate videos  
-- It supports asynchronous learning when videos can be viewed or downloaded anytime, anywhere   
-- It enables using videos across platforms and tools  
-- It allow others to legally adapt or remix content  
-- It ensures videos remain available and understandable over time  
+- It makes them easy to locate  
+- It supports asynchronous learning when they can be viewed or downloaded anytime, anywhere   
+- It enables using them across platforms and tools  
+- It allow others to legally adapt or remix them  
+- It ensures they remain available and understandable over time  
 
 In short: **FAIR video = more impact from the effort you put into creating it**  
 By sharing your training videos in a FAIR way, you amplify their reach, support diverse learners, and contribute to a more open and connected scientific training ecosystem.
@@ -83,7 +83,7 @@ Making video materials FAIR can be highly rewarding — but it’s not always st
 
 !!! question "Reflection"
 
-    Before we look at common barriers, take a moment to reflect:
+    Before we look at common barriers, take a moment to reflect:  
     What’s the biggest barrier for you in using and FAIRifying video material? Is it related to technology, time, or something else?
 
 Below are some of the most common obstacles encountered when creating or sharing FAIR video materials:
@@ -102,15 +102,47 @@ Below are some of the most common obstacles encountered when creating or sharing
 Even though these barriers exist, many can be overcome with planning, collaboration, and the right tools. In the next section, we’ll look at practical steps and minimum FAIR-by-design practices to help make your video materials more FAIR without requiring expert-level skills.  
   
 
-## 6.4 AI and FAIR video material
+## 6.4 AI and FAIR video material 
 
+### A workflow for making FAIR video material with the use of AI  
+
+A potential way to mitigate some of the barriers to FAIR video materials is to use AI tools at different stages of video creation. The workflow below illustrates which tools, some of which use AI, can support each stage:   
+
+![](../../assets/images/06-fair-video-material-ai.png)<!-- style="width: 650px;" -->  
+
+As the workflow illustrates, AI tools can help overcome several common barriers in creating FAIR video materials, from generating scripts to editing, transcribing, and hosting videos. While AI can speed up production and reduce workload, it’s important to remember that using AI does not automatically make content FAIR.
+
+!!! question "Reflection"
+     
+     Use AI with caution!  
+     
+     - Is AI-generated content FAIR?  
+     - How can you ensure quality and accuracy?  
+     - How might AI affect creativity and learner engagement?  
+     - Who is the author, and how should we credit AI contributions?   
+
+### Indicating AI contributions  
+
+If you decide to use AI tools in your video creation process, it is important to indicate its contribution properly to ensure transparency, maintain trust, and support FAIR principles. Proper stating AIs contribution makes the provenance of your materials understandable for both humans and machines, and helps others to responsibly reuse or adapt your video content.    
+  
+General guidelines for indicating AI contribution:   
+
+| **Aspect** | **Guidelines / Examples** |
+|------------|---------------------------|
+| **Crediting AI** | For AI tools that had a creative or technical role: *“Script generated with ChatGPT (OpenAI, 2025)”* |
+| **Describing the role of AI** | Explain how an AI tool was used, e.g., *“Voiceover synthesized using Microsoft Azure TTS”* |
+| **Crediting AI in metadata or end credits** | *“Video created by [Name], 2025. Script drafted with ChatGPT (OpenAI, version x.x). Captions generated using Whisper (OpenAI). Edited in CapCut.”* |
+| **Citing AI in reference lists / FAIR records** | *Luijten, I. (2025). Creating FAIR video materials [Video]. Script generated with ChatGPT (OpenAI). Captions via Whisper (OpenAI). Zenodo. https://doi.org/10.xxxx/zenodo.xxxxx* |
+| **Licensing AI-generated content** | License with CC BY or CC BY-SA to allow reuse with attribution. State if remixing or AI reuse is permitted. |
+
+
+### Adding transcripts to videos: WhisperAI
+   
 : Generate a caption or transcript to a sample video
 
 You can download [the sample video](https://drive.google.com/file/d/1TdwvG0R5_UGFCE9jAOZXjloCoVk1dfoz/view?usp=sharing) from the course website or record a 1-2 minute video on your smartphone or laptop to use.
 !!! warning
     Ensure you do not record anyone without their permission!
-
-### 6.3.1 OpenAI Whisper tutorial
 
 The following cheat sheet explains several ways of achieving a LLM-generated transcription. These are: 
 
@@ -141,4 +173,5 @@ Following the basic guidelines for FAIR video material in the slides, add your v
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
