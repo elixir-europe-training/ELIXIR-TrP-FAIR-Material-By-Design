@@ -137,18 +137,58 @@ General guidelines for indicating AI contribution:
 
 
 ### Adding transcripts to videos: WhisperAI
-   
-: Generate a caption or transcript to a sample video
 
+One essential step in FAIRifying video training materials is adding captions or a transcript. This not only improves accessibility but also enhances interoperability and reusability of your content.  
+The following exercise is designed to give you hands-on practice with generating transcripts and captions. There are three levels of difficulty available, but for this course, we recommend starting with Level 1, which is suitable for beginners and covers the core skills needed to make your videos FAIR.  
+
+<div style="background-color:lightgreen; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
+<b>Easy technical level</b><br>
+Basic computer skills required
+</div>
+
+<div style="background-color:#F8C471; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
+<b>Intermediate technical level</b><br>
+Some experience installing and using desktop applications 
+</div>
+
+<div style="background-color:#D98880; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
+<b>Advanced technical level</b><br>
+Intermediate knowledge of GitHub and using the terminal required
+</div>
+<br>  
+  
 You can download [the sample video](https://drive.google.com/file/d/1TdwvG0R5_UGFCE9jAOZXjloCoVk1dfoz/view?usp=sharing) from the course website or record a 1-2 minute video on your smartphone or laptop to use.
 !!! warning
     Ensure you do not record anyone without their permission!
+    
+    
+!!! note "Using the SciLifeLab serve instance of Whisper (easy)"
 
-The following cheat sheet explains several ways of achieving a LLM-generated transcription. These are: 
+     1. Go to https://whisper-ai.serve.scilifelab.se  
+     2. Upload your video file  
+     3. Select the desired output format(s):  
+          .txt for a plain transcript  
+          .srt for caption files  
+     6. Submit the file for processing  
+     7. When transcription is complete, your output files will automatically download to your computer  
 
-- Recommended: Using the SciLifeLab serve instance of Whisper (recommended, easy)
-- Independent: Using an on-device GUI such as Whisper Transcription
-- Challenge mode: Installing your own local instance of Whisper
+!!! note "Using an on-device GUI such as Whisper Transcription (Intermediate)"
+
+     1. Download the Whisper Transcription app (developed by Good Snooze) from the Mac App Store  
+     2. In the app, download the Small Whisper model for faster performance  
+     3. Open your video or audio file in the app to start transcription  
+     4. Once completed, export the results as:  
+          .srt for captions, or  
+          .txt for transcript text  
+
+!!! note "Installing your own local instance of Whisper (Advanced)"
+
+     1. Install Whisper directly from GitHub: `pip install -U openai-whisper`, or from the repository at [https://github.com/openai/whisper](https://github.com/openai/whisper)  
+     2. Install ffmpeg if not already available:  
+          macOS: `brew install ffmpeg`
+          Windows: `choco install ffmpeg`
+
+
 
 <iframe src="https://docs.google.com/presentation/d/1OjEQHg0TWgYtGGp5-zHduaTLLki6MXZ9/preview" width="640" height="360" allow="autoplay"></iframe>
 
@@ -173,5 +213,6 @@ Following the basic guidelines for FAIR video material in the slides, add your v
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
 
