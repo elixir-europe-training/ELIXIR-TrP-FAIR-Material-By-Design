@@ -969,41 +969,42 @@ Intermediate knowledge of GitHub and using the terminal required
 </ol>
 <p>You’ve embedded your FAIR video and provided a transcript and license to improve findability, accessibility, and reusability.  </p>
 </div>
-<p>!!! note “Using GitHub and LiaScript”</p>
-<div class="codehilite"><pre><span></span><code> 1. Upload your video to a FAIR-friendly, openly accessible platform such as YouTube, Zenodo, or Figshare.  
-    Make sure the video has a descriptive title, license, and metadata.  
- 2. Upload your transcript file (`.txt` or `.md`) to your GitHub repository or another accessible public location.  
- 3. Go to your course repository created from the [training material template](https://github.com/vibbits/training_material_template).  
- 4. Open the file `README.md` in your browser or local editor.  
- 5. Embed your video in Markdown. LiaScript supports simple Markdown video embedding. Add something like:  
-    ```markdown
-    ## 🎥 Training Video
+<div class="admonition note">
+<p class="admonition-title">Using GitHub and LiaScript</p>
+<ol>
+<li>Upload your video to a FAIR-friendly, openly accessible platform such as YouTube, Zenodo, or Figshare.<br>
+    Make sure the video has a descriptive title, license, and metadata.  </li>
+<li>Upload your transcript file (<code>.txt</code> or <code>.md</code>) to your GitHub repository or another accessible public location.  </li>
+<li>Go to your course repository created from the <a href="https://github.com/vibbits/training_material_template">training material template</a>.  </li>
+<li>Open the file <code>README.md</code> in your browser or local editor.  </li>
+<li>
+<p>Embed your video in Markdown. LiaScript supports simple Markdown video embedding. Add something like:<br>
+    </p><div class="highlight"><pre><span></span><code><span class="gu">## Training Video</span>
 
-    ![Video](https://img.youtube.com/vi/yourvideoid/0.jpg)  
-    [Watch on YouTube](https://www.youtube.com/watch?v=yourvideoid)
-    ```
-    Alternatively, embed directly using HTML:  
-    ```html
-    &lt;iframe width="800" height="450" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-    ```
-
- 6. Add your transcript below the video:  
-    ```markdown
-    **Transcript:**  
-    [Download transcript (.txt)](transcript.txt)
-    ```
-    Or include a short excerpt for learners to preview:  
-    ```markdown
-    &gt; “Welcome to this FAIR video tutorial…”
-    ```
-
- 7. Commit and save your changes.  
- 8. Open your course through [https://liascript.github.io/](https://liascript.github.io/) using the **raw URL** of your updated `README.md`.  
- 9. Refresh your browser to see your embedded video and transcript displayed in the LiaScript course page.
-
- You’ve now embedded a FAIR video and transcript in your LiaScript course — ensuring your content is accessible, shareable, and reusable.
+![<span class="nt">Video</span>](<span class="na">https://img.youtube.com/vi/yourvideoid/0.jpg</span>)  
+[<span class="nt">Watch on YouTube</span>](<span class="na">https://www.youtube.com/watch?v=yourvideoid</span>)
 </code></pre></div>
-
+    Alternatively, embed directly using HTML:<br>
+    <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">width</span><span class="o">=</span><span class="s">"800"</span> <span class="na">height</span><span class="o">=</span><span class="s">"450"</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://www.youtube.com/embed/yourvideoid"</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">"0"</span> <span class="na">allowfullscreen</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</code></pre></div>
+</li>
+<li>
+<p>Add your transcript below the video:<br>
+    </p><div class="highlight"><pre><span></span><code><span class="gs">**Transcript:**</span>  
+[<span class="nt">Download transcript (.txt)</span>](<span class="na">transcript.txt</span>)
+</code></pre></div>
+    Or include a short excerpt for learners to preview:<br>
+    <div class="highlight"><pre><span></span><code><span class="k">&gt; </span><span class="ge">“Welcome to this FAIR video tutorial…”</span>
+</code></pre></div>
+</li>
+<li>
+<p>Commit and save your changes.  </p>
+</li>
+<li>Open your course through <a href="https://liascript.github.io/">https://liascript.github.io/</a> using the <strong>raw URL</strong> of your updated <code>README.md</code>.  </li>
+<li>Refresh your browser to see your embedded video and transcript displayed in the LiaScript course page.  </li>
+</ol>
+<p>You’ve now embedded a FAIR video and transcript in your LiaScript course — ensuring your content is accessible, shareable, and reusable.</p>
+</div>
 <h2 id="citations">Citations</h2>
 <ol>
 <li>Paivio A (2009) Mental Representations: A dual coding approach, Oxford Psychology Series.  https://doi.org/10.1093/acprof:oso/9780195066661.001.0001  </li>
