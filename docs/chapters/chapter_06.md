@@ -188,7 +188,8 @@ For this exercise, you'll need a short video. You can download [our sample video
      2. Install ffmpeg if not already available:  
           macOS: `brew install ffmpeg`
           Windows: `choco install ffmpeg`
-     3. Save your transcription script as thecode.py in a text editor
+     3. Save your transcription script as thecode.py in a text editor  
+       
            ??? success "transcription script:" 
           `import whisper`  
   
@@ -230,6 +231,7 @@ Following the basic guidelines for FAIR video material in the slides, add your v
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
 
 
