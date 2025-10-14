@@ -914,27 +914,30 @@ Intermediate knowledge of GitHub and using the terminal required
 <ol>
 <li>Install Whisper directly from GitHub: <code>pip install -U openai-whisper</code>, or from the repository at <a href="https://github.com/openai/whisper">https://github.com/openai/whisper</a>  </li>
 <li>Install ffmpeg if not already available:<br>
-      macOS: <code>brew install ffmpeg</code>
-      Windows: <code>choco install ffmpeg</code></li>
-<li>
-<p>Save your transcription script as thecode.py in a text editor  </p>
-<p>??? abstract  “Transcription script”</p>
-<p><code>import whisper</code>  </p>
-<p><code>model = whisper.load_model("base")</code>  <br>
-<code>result = model.transcribe(”audio.mp3")</code>    </p>
-<p><code>with open("transcript.txt", "a") as f:</code>  <br>
-<code>print(result["text"], file=f)</code>  </p>
-<p><strong>Variables:</strong>
-  <code>base</code> is the model size (small, medium, etc.)<br>
-<code>audio.mp3</code> is the name of your audio file (.m4a, .wav, .flac)<br>
-<code>transcript.txt</code> is the name of your output transcript  </p>
-</li>
-<li>
-<p>Place your audio file (e.g. video1234.mp3) in the same directory  </p>
-</li>
-<li>Open a terminal and navigate to that folder <code>cd path/to/your/files</code>  </li>
-<li>Run the script <code>python3 thecode.py</code>  </li>
-<li>Wait for transcription to complete—your output will appear in the same directory    </li>
+   - macOS: <code>brew install ffmpeg</code><br>
+   - Windows: <code>choco install ffmpeg</code>  </li>
+<li>Save your transcription script as <code>thecode.py</code> in a text editor  </li>
+</ol>
+<details class="abstract">
+<summary>Transcription script</summary>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">whisper</span>  
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">whisper</span><span class="o">.</span><span class="n">load_model</span><span class="p">(</span><span class="s2">"base"</span><span class="p">)</span>    
+<span class="n">result</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">transcribe</span><span class="p">(</span><span class="s2">"audio.mp3"</span><span class="p">)</span>    
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"transcript.txt"</span><span class="p">,</span> <span class="s2">"a"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="s2">"text"</span><span class="p">],</span> <span class="n">file</span><span class="o">=</span><span class="n">f</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Variables:</strong><br>
+- <code>base</code> — model size (small, medium, etc.)<br>
+- <code>audio.mp3</code> — your audio file (.m4a, .wav, .flac)<br>
+- <code>transcript.txt</code> — name of your output transcript  </p>
+</details>
+<ol start="4">
+<li>Place your audio file (e.g. <code>audio1234.mp3</code>) in the same directory  </li>
+<li>Open a terminal and navigate to that folder: <code>cd path/to/your/files</code>  </li>
+<li>Run the script: <code>python3 thecode.py</code>  </li>
+<li>Wait for transcription to complete — your output will appear in the same directory      </li>
 </ol>
 </div>
 <div class="admonition question">
@@ -947,11 +950,52 @@ Intermediate knowledge of GitHub and using the terminal required
 </ul>
 </div>
 <h2 id="65-adding-fair-video-transcript-to-your-sample-course">6.5 Adding FAIR video &amp; transcript to your sample course</h2>
-<p>Following the basic guidelines for FAIR video material in the slides, add your video to your sample course.</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>If you created your own video, you can use your <a href="https://nextcloud.dc.scilifelab.se/login">SciLifeLab NextCloud Folder</a> to host it.</p>
+<p>In this final exercise, you will practice publishing your own FAIR-by-design training video. Following the basic guidelines below, add your video and its transcript or captions to your sample course page. This step helps make your learning material more FAIR by ensuring that your video content is well-described, openly shared, and accessible to all learners.</p>
+<div class="admonition note">
+<p class="admonition-title">Using OpenEdx</p>
+<ol>
+<li>Upload your video to a FAIR-friendly, openly accessible platform such as YouTube, Zenodo, or Figshare. Make sure the video has a descriptive title, license, and metadata.  </li>
+<li>If your video includes captions or a transcript file (.srt or .txt), upload that as well and link it in your course content.    </li>
+<li>Go to your sample course on <a href="https://sandbox.openedx.org/">https://sandbox.openedx.org/</a>  </li>
+<li>Click on ‘view course in: Studio’ in the top right corner. You will be taken to course outline. </li>
+<li>Create a new section or unit, rename it to something like Training Video</li>
+<li>Add a subsection and a unit where the video will appear</li>
+<li>Under ‘Add a new component’ click ‘Video’</li>
+<li>Copy paste the URL for you video </li>
+<li>If you have a transcript, click ‘Transcripts’ and upload your .srt file </li>
+<li>Under ‘License’ select the Creative Commons license of your choice</li>
+<li>Click ‘Save’ and check that your video plays correctly and that the transcript link works</li>
+<li>Click Publish to make your course unit visible  </li>
+</ol>
+<p>You’ve embedded your FAIR video and provided a transcript and license to improve findability, accessibility, and reusability.  </p>
 </div>
+<p>!!! note “Using GitHub and Liascript”</p>
+<div class="codehilite"><pre><span></span><code>  Host your video on an open platform such as YouTube, Zenodo, or Figshare.
+ Host the transcript file (.txt or .md) in your GitHub repository or an accessible public location.
+ Open your LiaScript course file
+ Go to your course repository (created from the training material template).
+ Edit the README.md file in your browser or local editor.
+ Embed the video in Markdown
+ LiaScript supports simple Markdown video embedding. Add something like:
+ ## 🎥 Training Video
+
+ ![Video](https://img.youtube.com/vi/yourvideoid/0.jpg)
+ [Watch on YouTube](https://www.youtube.com/watch?v=yourvideoid)
+ Alternatively, you can embed directly:
+ &lt;iframe width="800" height="450" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+ Add your transcript below the video
+ Paste the transcript text or link to the transcript file:
+ **Transcript:**  
+ [Download transcript (.txt)](transcript.txt)
+ or include a short excerpt for learners to preview:
+ &gt; “Welcome to this FAIR video tutorial…”
+ Commit and view
+ Save and commit your changes.
+ Open your course through https://liascript.github.io/ using the raw URL of your updated README.md.
+ Refresh to see the embedded video and transcript.
+ Your LiaScript course now includes a FAIR video with accompanying transcript—accessible, reusable, and easy to share.
+</code></pre></div>
+
 <h2 id="citations">Citations</h2>
 <ol>
 <li>Paivio A (2009) Mental Representations: A dual coding approach, Oxford Psychology Series.  https://doi.org/10.1093/acprof:oso/9780195066661.001.0001  </li>
