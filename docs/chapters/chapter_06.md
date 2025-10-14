@@ -184,31 +184,33 @@ For this exercise, you'll need a short video. You can download [our sample video
 
 !!! note "Installing your own local instance of Whisper (advanced)"
 
-     1. Install Whisper directly from GitHub: `pip install -U openai-whisper`, or from the repository at [https://github.com/openai/whisper](https://github.com/openai/whisper)  
-     2. Install ffmpeg if not already available:  
-          macOS: `brew install ffmpeg`
-          Windows: `choco install ffmpeg`
-     3. Save your transcription script as thecode.py in a text editor  
-       
-          ??? abstract  "Transcription script"
-          
-          `import whisper`  
-  
-          `model = whisper.load_model("base")`    
-          `result = model.transcribe(”audio.mp3")`    
+    1. Install Whisper directly from GitHub: `pip install -U openai-whisper`, or from the repository at [https://github.com/openai/whisper](https://github.com/openai/whisper)  
+    2. Install ffmpeg if not already available:  
+       - macOS: `brew install ffmpeg`  
+       - Windows: `choco install ffmpeg`  
+    3. Save your transcription script as `thecode.py` in a text editor  
 
-          `with open("transcript.txt", "a") as f:`    
-          `print(result["text"], file=f)`  
+    ??? abstract "Transcription script"
 
-          **Variables:**
-          `base` is the model size (small, medium, etc.)  
-          `audio.mp3` is the name of your audio file (.m4a, .wav, .flac)  
-          `transcript.txt` is the name of your output transcript  
-          
-     4. Place your audio file (e.g. video1234.mp3) in the same directory  
-     5. Open a terminal and navigate to that folder `cd path/to/your/files`  
-     5. Run the script `python3 thecode.py`  
-     6. Wait for transcription to complete—your output will appear in the same directory    
+        ```python
+        import whisper  
+
+        model = whisper.load_model("base")    
+        result = model.transcribe("audio.mp3")    
+
+        with open("transcript.txt", "a") as f:
+            print(result["text"], file=f)
+        ```
+
+        **Variables:**  
+        - `base` — model size (small, medium, etc.)  
+        - `audio.mp3` — your audio file (.m4a, .wav, .flac)  
+        - `transcript.txt` — name of your output transcript  
+
+    4. Place your audio file (e.g. `audio1234.mp3`) in the same directory  
+    5. Open a terminal and navigate to that folder: `cd path/to/your/files`  
+    6. Run the script: `python3 thecode.py`  
+    7. Wait for transcription to complete — your output will appear in the same directory      
 
 
 !!! question "Reflection"
@@ -222,10 +224,51 @@ For this exercise, you'll need a short video. You can download [our sample video
 
 ## 6.5 Adding FAIR video & transcript to your sample course
 
-Following the basic guidelines for FAIR video material in the slides, add your video to your sample course.
+In this final exercise, you will practice publishing your own FAIR-by-design training video. Following the basic guidelines below, add your video and its transcript or captions to your sample course page. This step helps make your learning material more FAIR by ensuring that your video content is well-described, openly shared, and accessible to all learners.
 
-!!! tip
-    If you created your own video, you can use your [SciLifeLab NextCloud Folder](https://nextcloud.dc.scilifelab.se/login) to host it.
+!!! note "Using OpenEdx"
+
+     1. Upload your video to a FAIR-friendly, openly accessible platform such as YouTube, Zenodo, or Figshare. Make sure the video has a descriptive title, license, and metadata.  
+     2. If your video includes captions or a transcript file (.srt or .txt), upload that as well and link it in your course content.    
+     3. Go to your sample course on [https://sandbox.openedx.org/]( https://sandbox.openedx.org/)  
+     6. Click on 'view course in: Studio' in the top right corner. You will be taken to course outline. 
+     7. Create a new section or unit, rename it to something like Training Video
+     8. Add a subsection and a unit where the video will appear
+     9. Under 'Add a new component' click 'Video'
+     10. Copy paste the URL for you video 
+     11. If you have a transcript, click 'Transcripts' and upload your .srt file 
+     12. Under 'License' select the Creative Commons license of your choice
+     13. Click 'Save' and check that your video plays correctly and that the transcript link works
+     14. Click Publish to make your course unit visible  
+
+     You’ve embedded your FAIR video and provided a transcript and license to improve findability, accessibility, and reusability.  
+     
+ !!! note "Using GitHub and Liascript"
+ 
+      Host your video on an open platform such as YouTube, Zenodo, or Figshare.
+     Host the transcript file (.txt or .md) in your GitHub repository or an accessible public location.
+     Open your LiaScript course file
+     Go to your course repository (created from the training material template).
+     Edit the README.md file in your browser or local editor.
+     Embed the video in Markdown
+     LiaScript supports simple Markdown video embedding. Add something like:
+     ## 🎥 Training Video
+
+     ![Video](https://img.youtube.com/vi/yourvideoid/0.jpg)
+     [Watch on YouTube](https://www.youtube.com/watch?v=yourvideoid)
+     Alternatively, you can embed directly:
+     <iframe width="800" height="450" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen></iframe>
+     Add your transcript below the video
+     Paste the transcript text or link to the transcript file:
+     **Transcript:**  
+     [Download transcript (.txt)](transcript.txt)
+     or include a short excerpt for learners to preview:
+     > “Welcome to this FAIR video tutorial…”
+     Commit and view
+     Save and commit your changes.
+     Open your course through https://liascript.github.io/ using the raw URL of your updated README.md.
+     Refresh to see the embedded video and transcript.
+     Your LiaScript course now includes a FAIR video with accompanying transcript—accessible, reusable, and easy to share.
 
 
 ## Citations
@@ -233,6 +276,7 @@ Following the basic guidelines for FAIR video material in the slides, add your v
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
 
 
