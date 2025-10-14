@@ -165,7 +165,7 @@ For this exercise, you'll need a short video. You can download [our sample video
     
 !!! note "Using the SciLifeLab serve instance of Whisper (easy)"
 
-     1. Go to https://whisper-ai.serve.scilifelab.se  
+     1. Go to [https://whisper-ai.serve.scilifelab.se](https://whisper-ai.serve.scilifelab.se)  
      2. Upload your video file  
      3. Select the desired output format(s):  
           .txt for a plain transcript  
@@ -285,6 +285,7 @@ In this final exercise, you will practice publishing your own FAIR-by-design tra
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
 
 
