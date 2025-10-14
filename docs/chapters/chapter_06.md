@@ -243,32 +243,41 @@ In this final exercise, you will practice publishing your own FAIR-by-design tra
 
      You’ve embedded your FAIR video and provided a transcript and license to improve findability, accessibility, and reusability.  
      
- !!! note "Using GitHub and Liascript"
- 
-      Host your video on an open platform such as YouTube, Zenodo, or Figshare.
-     Host the transcript file (.txt or .md) in your GitHub repository or an accessible public location.
-     Open your LiaScript course file
-     Go to your course repository (created from the training material template).
-     Edit the README.md file in your browser or local editor.
-     Embed the video in Markdown
-     LiaScript supports simple Markdown video embedding. Add something like:
-     ## 🎥 Training Video
+ !!! note "Using GitHub and LiaScript"
 
-     ![Video](https://img.youtube.com/vi/yourvideoid/0.jpg)
-     [Watch on YouTube](https://www.youtube.com/watch?v=yourvideoid)
-     Alternatively, you can embed directly:
-     <iframe width="800" height="450" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen></iframe>
-     Add your transcript below the video
-     Paste the transcript text or link to the transcript file:
-     **Transcript:**  
-     [Download transcript (.txt)](transcript.txt)
-     or include a short excerpt for learners to preview:
-     > “Welcome to this FAIR video tutorial…”
-     Commit and view
-     Save and commit your changes.
-     Open your course through https://liascript.github.io/ using the raw URL of your updated README.md.
-     Refresh to see the embedded video and transcript.
-     Your LiaScript course now includes a FAIR video with accompanying transcript—accessible, reusable, and easy to share.
+     1. Upload your video to a FAIR-friendly, openly accessible platform such as YouTube, Zenodo, or Figshare.  
+        Make sure the video has a descriptive title, license, and metadata.  
+     2. Upload your transcript file (`.txt` or `.md`) to your GitHub repository or another accessible public location.  
+     3. Go to your course repository created from the [training material template](https://github.com/vibbits/training_material_template).  
+     4. Open the file `README.md` in your browser or local editor.  
+     5. Embed your video in Markdown. LiaScript supports simple Markdown video embedding. Add something like:  
+        ```markdown
+        ## 🎥 Training Video
+
+        ![Video](https://img.youtube.com/vi/yourvideoid/0.jpg)  
+        [Watch on YouTube](https://www.youtube.com/watch?v=yourvideoid)
+        ```
+        Alternatively, embed directly using HTML:  
+        ```html
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen></iframe>
+        ```
+
+     6. Add your transcript below the video:  
+        ```markdown
+        **Transcript:**  
+        [Download transcript (.txt)](transcript.txt)
+        ```
+        Or include a short excerpt for learners to preview:  
+        ```markdown
+        > “Welcome to this FAIR video tutorial…”
+        ```
+
+     7. Commit and save your changes.  
+     8. Open your course through [https://liascript.github.io/](https://liascript.github.io/) using the **raw URL** of your updated `README.md`.  
+     9. Refresh your browser to see your embedded video and transcript displayed in the LiaScript course page.  
+
+     You’ve now embedded a FAIR video and transcript in your LiaScript course — ensuring your content is accessible, shareable, and reusable.
+
 
 
 ## Citations
@@ -276,6 +285,7 @@ In this final exercise, you will practice publishing your own FAIR-by-design tra
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
 
 
