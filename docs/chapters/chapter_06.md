@@ -108,9 +108,9 @@ Even though these barriers exist, many can be overcome with planning, collaborat
 
 A potential way to mitigate some of the barriers to FAIR video materials is to use AI tools at different stages of video creation. The workflow below illustrates which tools, some of which use AI, can support each stage:   
 
-![](../../assets/images/06-fair-video-material-ai.png)<!-- style="width: 650px;" -->  
+![](../../assets/images/06-fair-video-material-ai.png)<!-- style="width: 550px;" -->  
 
-As the workflow illustrates, AI tools can help overcome several common barriers in creating FAIR video materials, from generating scripts to editing, transcribing, and hosting videos. While AI can speed up production and reduce workload, it’s important to remember that using AI does not automatically make content FAIR.
+As the workflow illustrates, AI tools can help overcome several common barriers in creating FAIR video materials, from generating scripts to editing, transcribing, and hosting videos. While AI can speed up production and reduce workload, it’s important to remember that using AI does not automatically make content FAIR. For example, an AI-generated transcript may improve accessibility, but if it is not properly formatted, licensed, or shared with metadata, it will not be findable or reusable. Likewise, AI platforms may store outputs in proprietary formats or behind authentication walls, limiting accessibility and interoperability. Ensuring FAIRness thus requires deliberate steps by the creator, such as applying open licenses, adding persistent identifiers, using open formats, and providing rich, structured metadata. 
 
 !!! question "Reflection"
      
@@ -119,11 +119,11 @@ As the workflow illustrates, AI tools can help overcome several common barriers 
      - Is AI-generated content FAIR?  
      - How can you ensure quality and accuracy?  
      - How might AI affect creativity and learner engagement?  
-     - Who is the author, and how should we credit AI contributions?   
+     - How should we credit AI contributions?   
 
 ### Indicating AI contributions  
 
-If you decide to use AI tools in your video creation process, it is important to indicate its contribution properly to ensure transparency, maintain trust, and support FAIR principles. Proper stating AIs contribution makes the provenance of your materials understandable for both humans and machines, and helps others to responsibly reuse or adapt your video content.    
+If you do decide to use AI tools in your video creation process, it is important to indicate its contribution properly to ensure transparency, maintain trust, and support FAIR principles. Properly stating AIs contribution makes the provenance of your materials understandable for both humans and machines, and helps others to responsibly reuse or adapt your video content.    
   
 General guidelines for indicating AI contribution:   
 
@@ -138,8 +138,9 @@ General guidelines for indicating AI contribution:
 
 ### Adding transcripts to videos: WhisperAI
 
-One essential step in FAIRifying video training materials is adding captions or a transcript. This not only improves accessibility but also enhances interoperability and reusability of your content.  
-The following exercise is designed to give you hands-on practice with generating transcripts and captions. There are three levels of difficulty available, but for this course, we recommend starting with Level 1, which is suitable for beginners and covers the core skills needed to make your videos FAIR.  
+One essential step in FAIRifying video training materials is adding captions or a transcript, because it transforms the spoken content into machine-readable and searchable text. This improves **findability**, as search engines and repositories can index the text and help others discover your content. It also enhances **accessibility**, ensuring that people with hearing impairments or those who prefer reading can still engage with the material. In addition, transcripts and captions promote **interoperability** by allowing the content to be reused across different platforms, formats, or languages. Finally, they increase **reusability**, since the text can be cited, translated, remixed, or integrated into other learning materials, all while preserving the original meaning and context.  
+<br>  
+The following exercise is designed to give you hands-on practice with generating transcripts and captions. There are three levels of difficulty available, but for this course, we recommend you complete Level 1, which is suitable for beginners and covers the core skills needed to make your videos FAIR by adding a transcript or caption.  
 
 <div style="background-color:lightgreen; padding-top:7px; padding-bottom:1px; padding-left:15px; border-radius:10px;margin-bottom:10px;">
 <b>Easy technical level</b><br>
@@ -157,7 +158,7 @@ Intermediate knowledge of GitHub and using the terminal required
 </div>
 <br>  
   
-You can download [the sample video](https://drive.google.com/file/d/1TdwvG0R5_UGFCE9jAOZXjloCoVk1dfoz/view?usp=sharing) from the course website or record a 1-2 minute video on your smartphone or laptop to use.
+For this exercise, you'll need a short video. You can download [our sample video](https://drive.google.com/file/d/1TdwvG0R5_UGFCE9jAOZXjloCoVk1dfoz/view?usp=sharing) from the course website or record a 1-2 minute video on your smartphone or laptop to use.
 !!! warning
     Ensure you do not record anyone without their permission!
     
@@ -172,7 +173,7 @@ You can download [the sample video](https://drive.google.com/file/d/1TdwvG0R5_UG
      6. Submit the file for processing  
      7. When transcription is complete, your output files will automatically download to your computer  
 
-!!! note "Using an on-device GUI such as Whisper Transcription (Intermediate)"
+!!! note "Using an on-device GUI such as Whisper Transcription (intermediate)"
 
      1. Download the Whisper Transcription app (developed by Good Snooze) from the Mac App Store  
      2. In the app, download the Small Whisper model for faster performance  
@@ -181,26 +182,42 @@ You can download [the sample video](https://drive.google.com/file/d/1TdwvG0R5_UG
           .srt for captions, or  
           .txt for transcript text  
 
-!!! note "Installing your own local instance of Whisper (Advanced)"
+!!! note "Installing your own local instance of Whisper (advanced)"
 
      1. Install Whisper directly from GitHub: `pip install -U openai-whisper`, or from the repository at [https://github.com/openai/whisper](https://github.com/openai/whisper)  
      2. Install ffmpeg if not already available:  
           macOS: `brew install ffmpeg`
           Windows: `choco install ffmpeg`
+     3. Save your transcription script as thecode.py in a text editor
+           ??? success "transcription script:" 
+          `import whisper`  
+  
+          `model = whisper.load_model("base")`    
+          `result = model.transcribe(”audio.mp3")`    
+
+          `with open("transcript.txt", "a") as f:`    
+          `print(result["text"], file=f)`  
+
+          **Variables:**
+          `base` is the model size (small, medium, etc.)  
+          `audio.mp3` is the name of your audio file (.m4a, .wav, .flac)  
+          `transcript.txt` is the name of your output transcript  
+     4. Place your audio file (e.g. video1234.mp3) in the same directory  
+     5. Open a terminal and navigate to that folder `cd path/to/your/files`  
+     5. Run the script `python3 thecode.py`  
+     6. Wait for transcription to complete—your output will appear in the same directory    
 
 
+!!! question "Reflection"
+     
+     When you are finished transcription, inspect the transcript and answer the following:    
+     
+     - Is it accurate? 
+     - Is it usable?
+     - How does this help me achieve FAIR learning aims?  
 
-<iframe src="https://docs.google.com/presentation/d/1OjEQHg0TWgYtGGp5-zHduaTLLki6MXZ9/preview" width="640" height="360" allow="autoplay"></iframe>
 
-You can also download this cheat sheet as a pdf [here](https://drive.google.com/file/d/1hahGc_k3WVtqRRnlwkmGq-hKJe-5or4v/view?usp=share_link)
-
-When you are finished transcription, inspect the transcript and answer the following:
-
-- Is it accurate? 
-- Is it usable?
-- How does this help me achieve FAIR learning aims?
-
-### 6.3.2 Adding FAIR video & transcript to your sample course
+## 6.5 Adding FAIR video & transcript to your sample course
 
 Following the basic guidelines for FAIR video material in the slides, add your video to your sample course.
 
@@ -213,6 +230,7 @@ Following the basic guidelines for FAIR video material in the slides, add your v
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
 
 
