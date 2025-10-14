@@ -243,7 +243,7 @@ In this final exercise, you will practice publishing your own FAIR-by-design tra
 
      You’ve embedded your FAIR video and provided a transcript and license to improve findability, accessibility, and reusability.  
      
- !!! note "Using GitHub and LiaScript"
+!!! note "Using GitHub and LiaScript"
 
      1. Upload your video to a FAIR-friendly, openly accessible platform such as YouTube, Zenodo, or Figshare.  
         Make sure the video has a descriptive title, license, and metadata.  
@@ -252,7 +252,7 @@ In this final exercise, you will practice publishing your own FAIR-by-design tra
      4. Open the file `README.md` in your browser or local editor.  
      5. Embed your video in Markdown. LiaScript supports simple Markdown video embedding. Add something like:  
         ```markdown
-        ## 🎥 Training Video
+        ## Training Video
 
         ![Video](https://img.youtube.com/vi/yourvideoid/0.jpg)  
         [Watch on YouTube](https://www.youtube.com/watch?v=yourvideoid)
@@ -285,6 +285,7 @@ In this final exercise, you will practice publishing your own FAIR-by-design tra
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
 
 
