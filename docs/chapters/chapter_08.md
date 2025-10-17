@@ -108,12 +108,12 @@ Together, **ORCID**, **ROR**, and **DOI** form the foundation for making your tr
 
 ## 8.3 Selecting a strategy for unique identifiers
 
-### DOIs for presentations
+### DOI strategies for courses
 
 
 !!! checklist "Case Studies of Using PIDs in Training"
 
-    Read through the real world examples of using PIDs in Training from [FAIR handbook (chapter 05)](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/), by [ELIXIR training platform](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/). [CCBYSA 4.0 license](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md)
+    Read through the real world examples of using PIDs in Training from [FAIR handbook (chapter 05)](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/) (by [ELIXIR training platform](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/), [CCBYSA 4.0 license](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md)), and answer the following questions:
 
     - Summarise the strategy used in each use case
     - What is the main benefit with each strategy?
@@ -144,10 +144,10 @@ Together, **ORCID**, **ROR**, and **DOI** form the foundation for making your tr
     
     ??? abstract "Case 2 - Creating virtual collections of training materials and assigning own PIDs"
 
-        For [CLARIN](https://www.clarin.eu/), a training event usually consists of slides, handouts, a GitHub page, video tutorials, language resources, datasets and/or tools. The slides and handouts are published on the event web page, while the video recordings of the presentations are published on the CLARIN YouTube channel. In addition, the language resources and tools used during the training are stored in the CLARIN national repositories, with a **unique** identifier assigned by the institution and can be cited.
+        For [CLARIN](https://www.clarin.eu/), a training event typically includes slides, handouts, a GitHub page, video tutorials, language resources, datasets, and/or tools. The slides and handouts are published on the event web page, while video recordings of the presentations are made available on the CLARIN YouTube channel. In addition, the language resources and tools used during the training are stored in CLARIN’s national repositories, where they are assigned unique identifiers by the hosting institutions, ensuring that they can be cited and reliably referenced.
 
 
-        One solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of **unique identifiers**, for example, a DOI. The links can originate from different archives. [Here](http://hdl.handle.net/11372/VC-1033) is an example of a virtual collection created for a hands-on tutorial on transcribing interview data
+        One solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of PIDs, e.g. a DOI. The links can originate from different archives. [Here](http://hdl.handle.net/11372/VC-1033) is an example of a virtual collection created for a hands-on tutorial on transcribing interview data.
 
         <figure>
             <img src="../../assets/images/FTH-clarin_image1.png"
@@ -165,17 +165,17 @@ Together, **ORCID**, **ROR**, and **DOI** form the foundation for making your tr
 
         Other practices that the trainers in the CLARIN community have adopted are:
 
-        - First, depositing the training materials together with the datasets in their CLARIN national data repository. See example:[Archilochus of Paros: Elegiac Fragments - XML Archive](http://hdl.handle.net/20.500.11752/OPEN-537). The advantage of using this path is that the authors can add more extensive metadata to describe their materials. 
-        - Second, depositing the training materials on Zenodo. See example: [Introduction to Speech Analysis](https://doi.org/10.5281/zenodo.5506969).  In this case, **related identifiers** are included that lead users to the main platform where the course is stored and maintained. 
-        - Third, adding the metadata of the training materials to the SSHOC Open Marketplace, see example: [Jupyter notebooks for Europeana newspaper text resource processing with CLARIN NLP tools](https://marketplace.sshopencloud.eu/training-material/duVII1). In this case, the Marketplace does not assign any unique identifiers, but the authors can identify themselves via their ORCID and can suggest a citation format for their collection.
+        - Depositing the training materials together with the datasets in their CLARIN national data repository. See example:[Archilochus of Paros: Elegiac Fragments - XML Archive](http://hdl.handle.net/20.500.11752/OPEN-537). The advantage of using this path is that the authors can add more extensive metadata to describe their materials. 
+        - Depositing the training materials on Zenodo. See example: [Introduction to Speech Analysis](https://doi.org/10.5281/zenodo.5506969).  In this case, related identifiers are included that lead users to the main platform where the course is stored and maintained. 
+        - Adding the metadata of the training materials to the [SSHOC Open Marketplace](https://sshopencloud.eu), see example: [Jupyter notebooks for Europeana newspaper text resource processing with CLARIN NLP tools](https://marketplace.sshopencloud.eu/training-material/duVII1). In this case, the Marketplace does not assign any unique identifiers, but the authors can identify themselves via their ORCID and can suggest a citation format for their collection.
 
-    ??? abstract "Case 3 - Creating virtual collections of training materials and assigning own PIDs"
+    ??? abstract "Case 3 - Separate DOIs for mixing and matching in a community"
 
         The [Dutch Techcentre for Life Sciences](https://www.dtls.nl/) (DTL) has a [Zenodo community](https://zenodo.org/communities/dtl/?page=1&size=20) to upload presentations and course materials. DTL has chosen to give separate DOIs for individual, often topical, elements of a course. An example is the [Helis Academy FAIR Datastewardship Course](https://www.aanmelder.nl/fair-data-stewardship-2021), a course of 6 half days. 
 
-        Providing a separate DOI has the following advantages: It is easier to mix and match different modules as part of a learning path, i.e. different combinations of our training modules can be made for the various target audiences, tailored to that specific purpose. When updating or revising a single module, it is more convenient to have that module as a separate entity with its own DOI, in order to easily keep track of the versions of different modules.
+        Providing a separate DOI has the following advantages: It is easier to mix and match different modules as part of a learning path, i.e. different combinations of training modules can be made for the various target audiences, tailored to that specific purpose. When updating or revising a single module, it is more convenient to have that module as a separate entity with its own DOI, in order to easily keep track of the versions of different modules.
 
-        At the level of the full course, we have chosen to use ELIXIR TeSS as the registry. Links to our training event details and training materials can be found [here](https://tess.elixir-europe.org/events/helis-course-fair-data-stewardship).
+        At the level of the full course, DTL uses [ELIXIR TeSS](https://tess.elixir-europe.org) as the registry. Links to training event details and training materials can be found [here](https://tess.elixir-europe.org/events/helis-course-fair-data-stewardship).
 
         <figure>
             <img src="../../assets/images/FTH-fig4-chap5.png"
@@ -190,14 +190,15 @@ Together, **ORCID**, **ROR**, and **DOI** form the foundation for making your tr
          </figure>
          **Figure 5:** Zenodo record for the Introductory Module of the DTL FAIR Data Stewardship Course. View [this record](https://doi.org/10.5281/zenodo.4629718) on Zenodo.
 
-### DOIs for GitHub repositories and making use of releases to version training material
+### DOIs strategies for GitHub repositories and making use of releases to version training material
 
-In this course we have promoted the use of GitHub for hosting markdown based training material. The public repositories Zenodo and Figshare have integrations with GitHub set up in order to issue DOIs for repositories. These integrations make use of `releases` which can be described as a snapshot of your project at a specific point in time that is packaged in way that make the content of the repository available for a wider audience to download and use. Each relaese is usually attached with a version number and attched to the snapshot in GitHub via a `tag`. This number helps users and authors keep track of different stages of the project and understand the differences between multiple releases. 
+In this course we have promoted the use of GitHub for hosting markdown based training material. The public repositories Zenodo and Figshare integrate directly with GitHub to automatically issue DOIs for repositories. These integrations rely on GitHub `releases`, which are essentially snapshots of your project taken at a specific point in time. A release packages your project in a stable, downloadable form, making it easier for others to access and use. Each release is linked to a version number (for example, v1.0) and is created from a specific `tag` in your GitHub repository. Tags mark particular commits in the project’s history, allowing you and others to track the evolution of your work and see what has changed between versions.
 
-In addition, a title and `release notes` can be used to add some metadata for describing the release. If you make use of Zenodo to archive your repository, the release notes are imported as the record description while other metadata is set by default, e.g. `Resource type` will be set to "Software" and a link to the repository  itslef will be included as `related works` or needs to be added manually. 
+In addition to tagging a release, you can add a `title` and `release notes` to include basic metadata that describes what has changed in that version. If you use **Zenodo** to archive your GitHub repository, the release notes are automatically imported as the record’s `description`, while some metadata fields are populated by default, e.g. `Resource type` is set to "Software" and a link to the GitHub repository is included under `related works` (or can be added manually if needed). 
 
-For each new release, a new version of your figshare or Zenodo record will be generated and a new doi will be issued. This doi is linked to the previous ones and there is also one DOI representing all versions. Read more about DOI versioing in Zenodo [here](https://sandbox.zenodo.org/help/versioning).
-        
+Each time you create a new release, a new version of your **Zenodo** or **Figshare** record is generated, and a **new DOI** is issued.  
+This DOI and the DOIs representing previous versions are automatically linked together, and an additional DOI is created to represent **all versions** of the record collectively. Read more about DOI versioning in Zenodo [here](https://sandbox.zenodo.org/help/versioning).  
+         
 <figure>
 <img src="../../assets/images/fig6_ch_08.png" width="500" alt="Screenshot DTL data stewardship course DOIs view"/>
 </figure>
@@ -211,7 +212,7 @@ For each new release, a new version of your figshare or Zenodo record will be ge
     
     ??? Tip "Things to consider"
 
-        - Do you want to get a PID for each training material?
+        - Do you want to get a PID for each individual training material?
         - Do you want to get one PID for your whole training or course?
         - Do you want to get a separate PID for each topic/module? For example, for a course containing several topics.
         - Do you want to create a collection of topics with a PID where each concept will also have a PID and associated metadata?
@@ -387,5 +388,6 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
             - `Resource type`
 
             
+
 
 
