@@ -73,7 +73,7 @@ DOIs enhance **citability** and **attribution**, allowing others to reference yo
 ### Other Persistent Identifiers Useful for Training Materials
 
 There are several types of PIDs designed for different kinds of resources or objects.  
-For training materials, the following three are the most important:
+For training materials, the following PIDs are the most important:
 
 
 * **ORCID**  
@@ -210,15 +210,14 @@ This DOI and the DOIs representing previous versions are automatically linked to
 
 !!! question "Reflection"
 
-    Think about what would be a good strategy to use for your own context 
+    What could a good DOI strategy look like for your own context? 
     
     ??? Tip "Things to consider"
 
-        - Do you want to get a PID for each individual training material?
-        - Do you want to get one PID for your whole training or course?
-        - Do you want to get a separate PID for each topic/module? For example, for a course containing several topics.
-        - Do you want to create a collection of topics with a PID where each concept will also have a PID and associated metadata?
-        - Do you want to get one PID for your whole training or course?
+        - Do you want to assign a DOI to each individual training material, such as a video, slide deck, or document?
+        - Would it be more useful to have one PID for the entire course or training package?
+        - If your course is divided into multiple topics or modules, would you prefer to assign a separate PID to each of them?
+        - Or would you rather create a collection PID that represents the whole course, while still assigning individual PIDs (and metadata) to each topic or component within it?  
 
         Read more in [Chapter 5 of the FAIR Training Handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/#how-to-get-a-doi-for-your-training-materials)
     
@@ -390,6 +389,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
             - `Resource type`
 
             
+
 
 
 
