@@ -77,17 +77,12 @@ For trainin materials, the following three are the most important:
 
 
 * **ORCID**  
-[ORCID](https://orcid.org/) (Open Researcher and Contributor ID) provides a **unique** and **persistent** identifier for individual researchers, free of charge.  
-It helps distinguish between people with similar names (homonyms) and ensures that your work is correctly attributed to you, regardless of name changes or institutional moves.
-
-ORCID allows you to add **aliases** if your name changes, and your ORCID iD remains the same even when you change affiliations.  
+[ORCID](https://orcid.org/) (Open Researcher and Contributor ID) provides a unique and persistent identifier for individual researchers, free of charge.  
+It helps distinguish between people with similar names (homonyms) and ensures that your work is correctly attributed to you, regardless of name changes or institutional moves. ORCID allows you to add aliases if your name changes, and your ORCID iD remains the same even when you change affiliations.  
 This makes it a powerful tool for maintaining your research identity over time, ensuring that you always get proper credit and that your scholarly contributions are easy to track globally.
 
 * **ROR**   
 The [Research Organization Registry (ROR)](https://ror.org/) is a global, community-led registry that assigns open persistent identifiers to research organizations. ROR helps systems and users unambiguously identify institutions and connect them to researchers and research outputs. For example, *Science for Life Laboratory* is often referred to as *SciLifeLab*. To avoid confusion between names, the [SciLifeLab ROR ID](https://ror.org/04ev03g22) uniquely identifies the organization, ensuring consistent and accurate affiliation metadata across platforms and publications.
-
-* **DOI**  
-For the training materials themselves, a DOI is highly recommended. DOIs can be assigned to a wide range of digital resources, including videos, presentations, datasets, and course materials. Using DOIs ensures that your training materials are findable, citable, and trackable over time. Many public repositories (such as Zenodo or Figshare) automatically generate DOIs and can link different versions of the same object, helping you maintain clear version control and citation consistency.
 
 
 Together, **ORCID**, **ROR**, and **DOI** form the foundation for making your training materials, their creators and institutions **clearly identifiable, citable, and FAIR**.  
@@ -392,4 +387,5 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
             - `Resource type`
 
             
+
 
