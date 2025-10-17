@@ -73,13 +73,12 @@ DOIs enhance **citability** and **attribution**, allowing others to reference yo
 ### Other Persistent Identifiers Useful for Training Materials
 
 There are several types of PIDs designed for different kinds of resources or objects.  
-For trainin materials, the following three are the most important:
+For training materials, the following three are the most important:
 
 
 * **ORCID**  
 [ORCID](https://orcid.org/) (Open Researcher and Contributor ID) provides a unique and persistent identifier for individual researchers, free of charge.  
-It helps distinguish between people with similar names (homonyms) and ensures that your work is correctly attributed to you, regardless of name changes or institutional moves. ORCID allows you to add aliases if your name changes, and your ORCID iD remains the same even when you change affiliations.  
-This makes it a powerful tool for maintaining your research identity over time, ensuring that you always get proper credit and that your scholarly contributions are easy to track globally.
+It helps distinguish between people with similar names (homonyms) and ensures that your work is correctly attributed to you, regardless of name changes or institutional moves. ORCID allows you to add aliases if your name changes, and your ORCID iD remains the same even when you change affiliations. This makes it a powerful tool for maintaining your research identity over time, ensuring that you always get proper credit and that your scholarly contributions are easy to track globally.
 
 * **ROR**   
 The [Research Organization Registry (ROR)](https://ror.org/) is a global, community-led registry that assigns open persistent identifiers to research organizations. ROR helps systems and users unambiguously identify institutions and connect them to researchers and research outputs. For example, *Science for Life Laboratory* is often referred to as *SciLifeLab*. To avoid confusion between names, the [SciLifeLab ROR ID](https://ror.org/04ev03g22) uniquely identifies the organization, ensuring consistent and accurate affiliation metadata across platforms and publications.
@@ -128,7 +127,7 @@ Together, **ORCID**, **ROR**, and **DOI** form the foundation for making your tr
         For each event, a Zenodo record is created that includes detailed metadata, new training materials and links to previous materials that were reused as part of the training (Figure 1).
 
 
-        Two types of PIDs are used when sharing materials from our events.
+        Two types of PIDs are used when sharing materials from events:
 
         * DOIs - Zenodo automatically assigns a DOI to the event. DOIs are also used when linking to related materials to ensure that there is no ambiguity about which materials were used.
 
@@ -165,15 +164,18 @@ Together, **ORCID**, **ROR**, and **DOI** form the foundation for making your tr
 
         Other practices that the trainers in the CLARIN community have adopted are:
 
-        - Depositing the training materials together with the datasets in their CLARIN national data repository. See example:[Archilochus of Paros: Elegiac Fragments - XML Archive](http://hdl.handle.net/20.500.11752/OPEN-537). The advantage of using this path is that the authors can add more extensive metadata to describe their materials. 
-        - Depositing the training materials on Zenodo. See example: [Introduction to Speech Analysis](https://doi.org/10.5281/zenodo.5506969).  In this case, related identifiers are included that lead users to the main platform where the course is stored and maintained. 
+        - Depositing the training materials together with the datasets in their CLARIN national data repository. See example: [Archilochus of Paros: Elegiac Fragments - XML Archive](http://hdl.handle.net/20.500.11752/OPEN-537). The advantage of using this path is that the authors can add more extensive metadata to describe their materials. 
+        - Depositing the training materials on Zenodo. See example: [Introduction to Speech Analysis](https://doi.org/10.5281/zenodo.5506969). In this case, related identifiers are included that lead users to the main platform where the course is stored and maintained. 
         - Adding the metadata of the training materials to the [SSHOC Open Marketplace](https://sshopencloud.eu), see example: [Jupyter notebooks for Europeana newspaper text resource processing with CLARIN NLP tools](https://marketplace.sshopencloud.eu/training-material/duVII1). In this case, the Marketplace does not assign any unique identifiers, but the authors can identify themselves via their ORCID and can suggest a citation format for their collection.
 
     ??? abstract "Case 3 - Separate DOIs for mixing and matching in a community"
 
         The [Dutch Techcentre for Life Sciences](https://www.dtls.nl/) (DTL) has a [Zenodo community](https://zenodo.org/communities/dtl/?page=1&size=20) to upload presentations and course materials. DTL has chosen to give separate DOIs for individual, often topical, elements of a course. An example is the [Helis Academy FAIR Datastewardship Course](https://www.aanmelder.nl/fair-data-stewardship-2021), a course of 6 half days. 
 
-        Providing a separate DOI has the following advantages: It is easier to mix and match different modules as part of a learning path, i.e. different combinations of training modules can be made for the various target audiences, tailored to that specific purpose. When updating or revising a single module, it is more convenient to have that module as a separate entity with its own DOI, in order to easily keep track of the versions of different modules.
+        Providing a separate DOI has the following advantages: 
+        
+        -  It is easier to mix and match different modules as part of a learning path, i.e. different combinations of training modules can be made for the various target audiences, tailored to that specific purpose.  
+        - When updating or revising a single module, it is more convenient to have that module as a separate entity with its own DOI, in order to easily keep track of the versions of different modules.  
 
         At the level of the full course, DTL uses [ELIXIR TeSS](https://tess.elixir-europe.org) as the registry. Links to training event details and training materials can be found [here](https://tess.elixir-europe.org/events/helis-course-fair-data-stewardship).
 
@@ -388,6 +390,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
             - `Resource type`
 
             
+
 
 
 
