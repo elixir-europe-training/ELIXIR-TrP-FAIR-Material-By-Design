@@ -230,16 +230,16 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
 ??? note "Zenodo - GitHub integration"
 
-    This tutorial will guide you through the steps of creating a Zenodo record for your GitHub repository which will be automatically versioned. Upon creation of a new realse of your repository, a new DOI, linked to the original one,  will be issued. Make sure to have an ORCID and a GitHub account before we get started.
+    This tutorial will guide you through creating a Zenodo record for your GitHub repository that supports automatic versioning. Each time you create a new release of your repository, Zenodo will generate a new DOI that is linked to the original one. Before we get started, make sure you have the following accounts set up:  
 
-    ??? success "Get an ORCID iD"
+    ??? success "Get an ORCID"
 
-        Create your ORCID iD by [registering](https://orcid.org/register) at the [ORCID website](https://info.orcid.org/researchers/)
+        Register for an ORCID iD at the [registering](https://orcid.org/register) at the [ORCID website](https://info.orcid.org/researchers/)
 
 
     ??? success "Get a GitHub account"
 
-        Create your GitHub account by [signing up](https:/github.com)
+        If you don’t already have one, create a GitHub account by signing up [here](https:/github.com)
 
 
     #### Step 1- Link your repository to Zenodo
@@ -255,7 +255,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     #### Step 2 - Create a GitHub release of your repository
 
-    1. Create a tag by clickincg the `Choose a tag` button in the top left part of the page. Enter `v0.0.1` in the text field and click `+ Create new tag: on publish`
+    1. Create a tag by clicking the `Select tag` button in the top left part of the page. Enter `v0.0.1` in the text field and click `Create new tag`
     2. Just below, enter `initial release` as the Release title
     3. In the large text box, add `This is the initial release of <Title of your training material>` as release notes 
     4. Click the green button `Publish release`
@@ -266,11 +266,11 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     !!! question "Reflection"
 
-        Can you find some metadata which is automatically imported from the github repository? What metadata is missing?
+        Which metadata is automatically imported from your GitHub repository? Are there any important metadata fields that are missing?  
         
         ??? tip "Hints"
 
-            Zenodo automatically extract metadata about your release from GitHub APIs. For example, the authors are determined from the repository’s contributor statistics or the citation.cff file that is used to populate the GitHub repository with information. To overwrite some of the default metadata that would come from a regular GitHub release you can include a .zenodo.json file at the root of your GitHub repository. This will not be covered in this course but you can find more information in the [Zenodo Developers documentation](https://developers.zenodo.org/#add-metadata-to-your-github-repository-release)
+            Zenodo automatically extracts metadata about your release from GitHub APIs. For example, the authors are determined from the repository’s contributor statistics or the citation.cff file that is used to populate the GitHub repository with information. To overwrite some of the default metadata that would come from a regular GitHub release you can include a .zenodo.json file at the root of your GitHub repository. This will not be covered in this course but you can find more information in the [Zenodo Developers documentation](https://developers.zenodo.org/#add-metadata-to-your-github-repository-release)
 
 
             | Zenodo Record      | GitHub Repository                    |
@@ -283,7 +283,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     #### Step 3 - Add additional metadata to your record
 
-    Rich metadata is very important for making any kind of digital object FAIR. We will manually add the metadata from the previous session in the Zenodo Record fot your repository.  
+    Rich metadata is essential for making any digital object FAIR. In this step, we will manually add the metadata from the previous session to your Zenodo record for the repository.    
 
     1. In your Zenodo Sandbox Dashboard, click `edit` next to your repository in the list
     2. Set (change or add) the following:
@@ -293,7 +293,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
         - `Keywords` as specified previously
         - `Funding` if any
 
-    3. In the `Creators`section, click `edit` next to an existing name or click the `Add creator` button below the names. Make sure to add the Names, the ORCID-iD in the `Identifiers` field and one or several Affiliations.
+    3. In the `Creators`section, click `edit` next to an existing name or click the `Add creator` button below the names. Make sure to add 'Name', 'ORCID' (under 'identifiers'), and one or several 'affiliations'.
     4. In the `Related Works`field click `Add related work` to add a link to your TeSS record as follows:
 
         - `Relation`:  "Is described by" 
@@ -305,29 +305,28 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     #### Step 4 - Link your training material to your TeSS record through the DOI
 
-    The F3 principle of the [FAIR data pronciples](https://www.go-fair.org/fair-principles/) states that "Metadata clearly and explicitly include the identifier of the data they describe" and this applies to training materials as well. The association between the description of your course in TeSS and the course material in the GitHub repository should be done by mentioning the DOI is the TeSS record (and the repository) and also linking to the TeSS record from Zenodo.
+    The F3 principle of the [FAIR data principles](https://www.go-fair.org/fair-principles/) states that *Metadata clearly and explicitly include the identifier of the data they describe*. This principle also applies to training materials. To link your course description in TeSS with your course materials in a GitHub repository, include the DOI generated by Zenodo in the TeSS record (and in the repository) and link back to the TeSS record from Zenodo.  
 
-    1. Go [test instance of TeSS](https://dev.tess.elixir-europe.org/users/sign_up)
-    2. Click edit
-    3. Add the DOI in the appropriate place
+    1. Go to the [test instance of TeSS](https://dev.tess.elixir-europe.org/users/sign_up)
+    2. Click `Edit` on your course record
+    3. Add the DOI in the designated field
 
     ??? abstract "Additional exercises"
 
 
         1. Add a citation.cff file to your repository
-        2. Add a .zenodo.json file to your repository. For an example see https://cdnis-brain.readthedocs.io/zenodo/
+        2. Add a .zenodo.json file to your repository. For an example see [https://cdnis-brain.readthedocs.io/zenodo/](https://cdnis-brain.readthedocs.io/zenodo/)
 
-??? note "Zenodo - manual creation of record for GDrive folder"
+??? note "Zenodo - Manual creation of record for GDrive folder"
 
-    This tutorial will guide you through the steps of creating a Zenodo record for your training material hosted on GDrive. Make sure to have an ORCID before we get started.
+    This tutorial will guide you through creating a Zenodo record for your training materials hosted on Google Drive. Please ensure you have an ORCID before starting.
 
-    ??? success "Get an ORCID iD"
+    ??? success "Get an ORCID"
 
-        Create your ORCID iD by [registering](https://orcid.org/register) at the [ORCID website](https://info.orcid.org/researchers/)
-
+        Register for an ORCID iD at the [registering](https://orcid.org/register) at the [ORCID website](https://info.orcid.org/researchers/)  
    
 
-    #### Step 1 - Zenodo reserve a DOI
+    #### Step 1 - Reserve a DOI on Zenodo
     1. Go to [Zenodo Sandbox](https://sandbox.zenodo.org/)
     2. Sign up or sign in with your email adress or Github account 
     > The ORCID connection might not be stable for Zenodo Sandbox
@@ -339,23 +338,23 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
         - `Title` to "Title of your Training material"
         - `Publication date` to "today's date"
         - `Creators` click `+ Add Creator` button and add your group members ORCIDs one at the time
-        - `Description` add the course description formattedin a human readable way
+        - `Description` add the course description formatted in a human readable way
         - `License` to "Creative Commons Attribution 4.0 International aka CC-BY-4.0"
-    6. Go back to the first field `Digital Object Indtifier`, click the button `Get a DOI now!` > This will reserve a DOI for your record that can be included in your files prior to upload. Copy the reserved DOI that has appeared to the left. It should look similar to this: `10.5072/zenodo.109776`
+    6. Go back to the first field `Digital Object Identifier`, click the button `Get a DOI now!` > This will reserve a DOI for your record that can be included in your files prior to upload. Copy the reserved DOI that has appeared to the left. It should look similar to this: `10.5072/zenodo.109776`
     7. Click `Save draft`in the right hand menu
     
     #### Step 2 - Upload  your files
-    1. Go to your GDrive folder
+    1. Go to your Google Drive folder
     2. In your `readme file`, add the DOI you reserved in the previous step 
     3. Now download the entire folder by right clicking on the folder name and then select `download`. A `.zip file` will de downloaded to your computer. 
     4. Locate the `.zip file` on your computer
-    5. Return to Zenodo sandbox and in your Dashboard, click `edit` next to your saved record in the list
-    6. Upload your `.zip file` of your GDrive folder by `Drag and drop` or by clicking the `Upload files` button
+    5. Return to [Zenodo Sandbox](https://sandbox.zenodo.org/) and in your Dashboard, click `edit` next to your saved record in the list
+    6. Upload the `.zip file` you downloaded from your Google Drive folder by `Drag and drop` or by clicking the `Upload files` button
     7. Click `Save draft` in the right side-menu and then `Preview`. Review your record and if everything looks good, click `Back to edit` in the top left and then `Publish`in the right side-menu.
 
     #### Step 3 - Add additional metadata to your record
 
-    Rich metadata is very important for making any kind of digital object FAIR. We will continue to add the metadata from the previous session in the Zenodo Record. Metadata can be addedd without generating a new version of your record. If you were to upload new files, a new version of the record would automatically be generated and triggering the creation of a new DOI.
+    Rich metadata is essential for making any digital object FAIR. In this step, we will manually add the metadata from the previous session to your Zenodo record for the repository. Adding or updating metadata does not create a new version of the record. A new version, and a new DOI, is only generated if you upload additional files to the repository.  
 
     1. In your Zenodo Sandbox Dashboard, click `edit` next to your repository in the list
     2. Set (change or add) the following:
@@ -374,11 +373,12 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
 
     #### Step 4 - Link your training material to your TeSS record through the DOI
 
-    The F3 principle of the [FAIR data principles](https://www.go-fair.org/fair-principles/) states that "Metadata clearly and explicitly include the identifier of the data they describe" and this applies to training materials as well. The association between the description of your course in TeSS and the course material in the LMS should be done by mentioning the DOI is the TeSS record (and the files themselves) and also linking to the TeSS record from Zenodo.
+    The F3 principle of the [FAIR data principles](https://www.go-fair.org/fair-principles/) states that *Metadata clearly and explicitly include the identifier of the data they describe*. This principle also applies to training materials. To link your course description in TeSS with your course materials in a GitHub repository, include the DOI generated by Zenodo in the TeSS record (and in the repository) and link back to the TeSS record from Zenodo.  
 
-    1. Go [test instance of TeSS](https://dev.tess.elixir-europe.org/users/sign_up)
-    2. Click edit
-    3. Add the DOI in the appropriate place
+    1. Go to the [test instance of TeSS](https://dev.tess.elixir-europe.org/users/sign_up)
+    2. Click `Edit` on your course record
+    3. Add the DOI in the designated field  
+
 
     ??? abstract "Additional exercises"
 
@@ -389,6 +389,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
             - `Resource type`
 
             
+
 
 
 
