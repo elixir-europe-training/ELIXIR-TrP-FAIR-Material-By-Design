@@ -317,7 +317,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
         1. Add a citation.cff file to your repository
         2. Add a .zenodo.json file to your repository. For an example see [https://cdnis-brain.readthedocs.io/zenodo/](https://cdnis-brain.readthedocs.io/zenodo/)
 
-??? note "Zenodo - Get a DOI for material in a Google Drive folder"
+??? note "Get a DOI for material in a Google Drive folder"
 
     This tutorial will guide you through creating a Zenodo record for your training materials hosted on Google Drive. Please ensure you have an ORCID before starting.
 
@@ -389,6 +389,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
             - `Resource type`
 
             
+
 
 
 
