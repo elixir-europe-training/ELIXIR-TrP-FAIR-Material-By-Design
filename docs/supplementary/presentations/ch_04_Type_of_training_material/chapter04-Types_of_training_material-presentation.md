@@ -34,6 +34,10 @@ link:   https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
 script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
 -->
+# Let's start with slides from this course provider
+
+[](https://www.ebi.ac.uk/training/materials/from-sequences-to-structures-materials/uniprot/)
+
 # Our context - we focus on the letters I and R 
 
 ![Ten rules for making training materials FAIR](../../../assets/images/10steps_rules4FAIRtraining.png)
