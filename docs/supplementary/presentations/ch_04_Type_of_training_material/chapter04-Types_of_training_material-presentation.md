@@ -34,6 +34,9 @@ link:   https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
 script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
 -->
+# Our context - we focus on the letters I and R 
+
+![Ten rules for making training materials FAIR](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/blob/2510-chapter04/docs/assets/images/10steps_rules4FAIRtraining.png)
 
 # Training materials formats
 
