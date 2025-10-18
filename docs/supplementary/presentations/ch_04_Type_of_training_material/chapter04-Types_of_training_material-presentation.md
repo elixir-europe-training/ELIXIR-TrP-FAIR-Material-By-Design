@@ -134,8 +134,12 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 
 ## Popular file formats of training materials - pros and cons
 
-              {{0}}
-|  ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |      Activity: Think about the pros and cons of file formats for slides, text documents, and scripts or software. Images and videos will be addressed tomorrow. Which format(s) do you mostly adopt? Why?   |
+|  ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |   **Activity**      |
+| ⌛ **5 min** (in pairs)                  | $\bullet$  Think about the pros and cons of file formats for slides, text documents, and scripts or software. |
+|                                          |    $\bullet$ Task 2                  |
+|                                          |    $\bullet$ Task 2               |
+
+
 
 ## Compare your discussion results 
 
@@ -190,21 +194,25 @@ Now, we're going to consolidate our understanding of the diverse resources we've
 
 [^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
-## Let's use an AI tool to map the concept of interoperability for training material.
+## Mapping out interoperability for training material.
 
 | ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->  | **Activity**  |
-|                                          |       $\bullet$ Create a text document of the rule 6 and save it on your computer.               |
+|      ⌛ **5 min**            |       $\bullet$ Create a text document of the [rule 6](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec007) and save it on your computer.               |
 |                                          |       $\bullet$ Login to NotebookLM with a Google account.               |
-|                                          |       $\bullet$ Create a new notebook and give it a name.               |
+|                                          |       $\bullet$ Create a new notebook and give it a name e.g. "Rule 6"  |
 |                                          |       $\bullet$ Upload the text file in the left panel.               |
 |                                          |       $\bullet$ Create a mindmap (via right panel).               |
 
 According to the paper, what are the main features of an interoperable training material?
 
+                    {{1}}
+********
 
 **Enhance your training materials via**
 
 ![](../../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 650px;" -->
+
+********
 
 ## How re-usable public training material are
 
