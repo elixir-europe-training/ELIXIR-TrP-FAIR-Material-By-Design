@@ -29,20 +29,54 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 </script>
 @end
 
+@style
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap as needed */
+    align-items: stretch;
+    gap: 10px;
+}
+
+.flex-child,
+.flex-child-1 { flex: 1; }
+.flex-child-2 { flex: 2; }
+.flex-child-3 { flex: 3; }
+.flex-child-4 { flex: 4; }
+.flex-child-5 { flex: 5; }
+.flex-child-6 { flex: 6; }
+.flex-child-7 { flex: 7; }
+.flex-child-8 { flex: 8; }
+
+@media (max-width: 500px) {
+    .flex-child,
+    .flex-child-1,
+    .flex-child-2,
+    .flex-child-3,
+    .flex-child-4,
+    .flex-child-5,
+    .flex-child-6,
+    .flex-child-7,
+    .flex-child-8 {
+        flex: 100%; /* Makes the child divs take up the full width on slim devices */
+        margin-right: 0; /* Removes the right margin */
+    }
+}
+@end
 
 link:   https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
 script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
 -->
+
 # Let's start with slides from this course provider
 
 [From sequence to structures](https://www.ebi.ac.uk/training/materials/from-sequences-to-structures-materials/uniprot/)
 
-# Our context - we focus on the letters I and R 
+### Our context - we focus on the letters I and R 
 
 ![Ten rules for making training materials FAIR](../../../assets/images/10steps_rules4FAIRtraining.png)
 
-# Training materials formats
+### Training materials formats
 
 This presentation will guide you through this session where we will touch on:
 
@@ -106,7 +140,7 @@ This presentation will guide you through this session where we will touch on:
 }
 ```
 
-## We use a lot of training material types and file formats 
+### We use a lot of training material types and file formats 
 
            --{{0}}--
 Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them. Here is the activity Overview: We’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll determine the possible formats they could take. Then, we’ll dive deeper to discuss which formats we predominantly use and, most importantly, why we prefer those over others. This exercise will not only enhance our understanding of the material formats but also provide insights into our teaching methodologies. It’s a chance to share experiences, learn from each other, and possibly discover new ways to engage our audience.
@@ -132,7 +166,7 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 
 ***********
 
-## Popular file formats of training materials - pros and cons
+### Popular file formats of training materials - pros and cons
 
 |  ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |   **Activity**      |
 | ⌛ **5 min** (in pairs)                  | $\bullet$  Think about the pros and cons of file formats for slides, text documents, and scripts or software. |
@@ -141,7 +175,7 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 
 
 
-## Compare your discussion results 
+### Compare your discussion results 
 
                --{{0}}--
 Let's take a moment to reflect on our recent discussions and how they align with the insights from the "10 simple rules" paper. Our conversation has highlighted the various formats we use to disseminate knowledge in life sciences, each with its own set of advantages and challenges.
@@ -185,7 +219,7 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 
 [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
 
-## Summary of training material file formats
+### Summary of training material file formats
 
                --{{0}}--
 Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the red thread of our training efforts, providing clear, structured information at a glance. **Guidelines:** These guidelines are your roadmap to best practices and essential procedures for certain tasks. **Video:** Our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Tutorial:** Our tutorials provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** Training about software is where you'll gain hands-on experience with the tools that drive life science research forward. **Dataset:** Our datasets are the real-world data playgrounds where you can apply your analytical skills. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed. Now, let's continue to build on this foundation and delve deeper into our next activity.
@@ -194,27 +228,45 @@ Now, we're going to consolidate our understanding of the diverse resources we've
 
 [^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
-## Mapping out interoperability for training material.
+### Map out interoperability for training material
 
-| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->  | **Activity**  |
-|      ⌛ **5 min**            |       $\bullet$ Create a text document of the [rule 6](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec007) and save it on your computer.               |
-|                                          |       $\bullet$ Login to NotebookLM with a Google account.               |
-|                                          |       $\bullet$ Create a new notebook and give it a name e.g. "Rule 6"  |
-|                                          |       $\bullet$ Upload the text file in the left panel.               |
-|                                          |       $\bullet$ Create a mindmap (via right panel).               |
+<section class="flex-container">
 
-According to the paper, what are the main features of an interoperable training material?
+<div class="flex-child-1" style="min-width: 200px; margin-bottom: -10px">
+
+![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->
+
+</div>
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+### Activity
+
+</section>
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+### 5 min ⌛ 
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+- Create a text document of the [rule 6](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec007) and save it on your computer.
+- Login to NotebookLM with a Google account.
+- Create a new notebook and give it a name e.g. "Rule 6"
+- Upload the text file in the left panel.
+- Create a mindmap (via right panel).               
+</section>
+
+> ### According to the paper, what are the main features of an interoperable training material?
+
+
 
                     {{1}}
 ********
 
-**Enhance your training materials via**
+### Enhance your training materials
 
 ![](../../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 650px;" -->
 
-********
-
-## How re-usable public training material are
+### How re-usable public training material are
 
 | ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->  | Activity: Have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.   |
 
@@ -222,7 +274,7 @@ According to the paper, what are the main features of an interoperable training 
 2. Could you choose a few slides and incorporate them in your presentation?
 3. Could you easily fix a typo?
 
-## Evaluate interoperability and re-usability of training material
+### Evaluate interoperability and re-usability of training material
 
 | ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Consider the list of in table 1. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.   |
      
@@ -233,12 +285,12 @@ According to the paper, what are the main features of an interoperable training 
 | ... | yes/no/partially | yes/no/partially | 
 | | *Explanation* | *Explanation* | 
 
-## Training material crafted for collaboration
+### Training material crafted for collaboration
 
                --{{0}}--
 Training materials need to be captured in interoperable formats, so that they can be used in different contexts (e.g., operating systems and software) and built upon later. For materials like slides, it is important that other trainers are able to (re)use, fine-tune or even extend them. This means that you should choose a format that supports editing and extension. Interoperability: Ensure your training materials are versatile. Use formats that are compatible across various operating systems and software platforms. Reusability: Design your slides for longevity. Allow other trainers to adopt and adapt your materials with ease. Editability & Extensibility: Select formats that support seamless editing and extension, enabling continuous improvement and customization.
 
-## The more context you give about your material the better
+### The more context you give about your material the better
 
           --{{0}}--
 1. For a lecture-style presentation, you can annotate each slide with an extensive narrative capturing all aspects of the subject on the slides. You can put the complete transcript of the verbal presentation in the Notes panel in Powerpoint or in Google slides. Suppose you want to share your slides in pdf format. In that case, it is handier to place the detailed content into a handbook or use text-book style reference materials and keep the slides for lectures cleaner, only placing relevant elements directly on the slides. 
@@ -256,11 +308,11 @@ style = "width: 200px;"
 --> |
 | narratives  | instructor notes     | lesson plan     |
 
-## Instructor notes
+### Instructor notes
 
 About this chapter, you can find the [instructor notes](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/blob/main/docs/supplementary/trainer-instructions/chapter_04_notes.md) in the GitHub repository.
 
-## Lesson plans
+### Lesson plans
 
           {{0}}
 ************************
@@ -1271,7 +1323,7 @@ About this chapter, you can find the [instructor notes](https://github.com/elixi
 
 *************************
 
-## Minimal efforts per training material type
+### Minimal efforts per training material type
 
 This table provides specific recommendations for enhancing the interoperability and reusability of training materials across three types: **Presentations**, **Textual Documents**, and **Scripts/Software**. The emphasis is on starting with open file formats and textual representations whenever possible.
 
@@ -1287,7 +1339,7 @@ This table provides specific recommendations for enhancing the interoperability 
 | Scripts/Software | Python/R Scripts (.py, .R) | Open/Plain Text | Include comprehensive header comments with metadata; document dependencies (requirements.txt, renv.lock); use consistent coding standards; store in version control (Git); include README with execution instructions; add inline documentation; consider containerization (Docker) for reproducibility. |
 | Scripts/Software | Shell Scripts/Configuration (.sh, .yml, .json) | Open/Plain Text | Use plain text formats (YAML, JSON, TOML); include comments explaining purpose; specify interpreter/tool versions; store in version control (Git); validate syntax; document environment requirements; consider using standardized configuration schemas; ensure cross-platform compatibility where possible. |
 
-## Create and explore Interoperable and Reproducible training material (text, presentation)
+### Create and explore Interoperable and Reproducible training material (text, presentation)
 
           --{{0}}--
 Let's first have a look at example presentations using Liascript, a markdown dialect.
@@ -1323,7 +1375,7 @@ Additional exercise
 
 *************
 
-## Final considerations
+### Final considerations
 
       --{{0}}--
 When considering the re-usability and extendability of training materials, PDF documents offer limited flexibility due to their static nature, making them less adaptable for updates or interactive elements. HTML pages provide greater re-usability and extendability, allowing for dynamic content and easier updates. PowerPoint files are somewhat reusable but can be cumbersome to update and share collaboratively. Google Presentations enhance re-usability through cloud-based collaboration and real-time updates, though they still face limitations in format compatibility. Markdown-based material stands out for its high degree of re-usability and extendability, being easily editable, version-controlled, and convertible to various formats. Looking ahead, the future of interoperable training material formats lies in developing standards that ensure seamless integration across platforms. Current gaps include inconsistent formatting, limited support for interactive elements, and challenges in maintaining version control across different tools. Addressing these gaps will be crucial for creating truly interoperable and user-friendly training materials.
