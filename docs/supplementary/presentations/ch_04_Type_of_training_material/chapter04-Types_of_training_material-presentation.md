@@ -106,19 +106,19 @@ This presentation will guide you through this session where we will touch on:
 }
 ```
 
-## Formats for training material
+## We use a lot of training material types and file formats 
 
            --{{0}}--
 Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them. Here is the activity Overview: We’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll determine the possible formats they could take. Then, we’ll dive deeper to discuss which formats we predominantly use and, most importantly, why we prefer those over others. This exercise will not only enhance our understanding of the material formats but also provide insights into our teaching methodologies. It’s a chance to share experiences, learn from each other, and possibly discover new ways to engage our audience.
 So, let’s get started! Please go to to the joint file. As we proceed, I encourage you to think critically about the ‘why’—it’s the key to understanding our choices and improving our approach to training. Let’s have a productive session!
 
               {{0-1}}
-|  ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |      Activity: How many training materials formats can you list? Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
+|  ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |      Activity: List types of training materials. Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
 
               {{1}}
 *************
 
-| Material type | Possible format(s) | Format(s) you mostly use | Why? |
+| Material type | Possible file format(s) | Format(s) you mostly use | Why? |
 | ----------------- | ------------------ | ------------------------ | ---- |
 | slides |  PowerPoint/Keynote (.pptx) with speaker notes and animations  • PDF handout (1-up or 3-up with notes)  • Web slides (Reveal.js/Marp/Quarto)  • Cloud deck (Microsoft 365/Google Slides)              |                          |    PPTX for delivery; PDF for distribution. PPTX supports animations/live demos and presenter notes during the course; exporting to PDF gives a stable, portable, non-editable handout students can search and annotate offline  |
 | video |        Micro‑lectures (5–8 min MP4)  • Screencasts (live coding/CLI walkthrough)  • Animated explainers (diagram-first)  • Full-session recording with chapters            |                          |     Micro‑lectures reduce cognitive load, fit just‑in‑time review, and are easy to update. Pair with screencasts for tasks (e.g., docking run, queue submission) and keep full recordings as “nice-to-have. |
@@ -131,6 +131,11 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 | webpage |   Static site (Quarto/Jekyll) on GitHub Pages  • LMS page (Moodle/Canvas)  • GitHub Wiki  • ReadTheDocs                 |                          |   tatic site is versioned, searchable, linkable to repo tags, and easy to host for free. It’s fast, works with PRs, and can be snapshotted per course run for stable URLs   |
 
 ***********
+
+## Popular file formats of training materials - pros and cons
+
+              {{0}}
+|  ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |      Activity: Think about the pros and cons of file formats for slides, text documents, and scripts or software. Images and videos will be addressed tomorrow. Which format(s) do you mostly adopt? Why?   |
 
 ## Compare your discussion results 
 
@@ -176,21 +181,26 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 
 [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
 
-
 ## Summary of training material file formats
 
                --{{0}}--
-Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the bar charts of our training, providing clear, structured information at a glance. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom. **Video:** Like the play button that brings static images to life, our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Guidelines:** The checklists of our training, these guidelines are your roadmap to best practices and essential procedures, ensuring you're always on the right track. **Dataset:** Represented by database cylinders, our datasets are the real-world data playgrounds where you can apply and hone your analytical skills. **Tutorial:** The overlapping squares symbolize our tutorials, which provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** The gear of our toolkit, software training is where you'll gain hands-on experience with the tools that drive life science research forward. Each of these resources is interconnected, creating a comprehensive network that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed.
-Now, let's continue to build on this foundation and delve deeper into our next activity. Thank you for your engagement and enthusiasm!
+Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the red thread of our training efforts, providing clear, structured information at a glance. **Guidelines:** These guidelines are your roadmap to best practices and essential procedures for certain tasks. **Video:** Our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Tutorial:** Our tutorials provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** Training about software is where you'll gain hands-on experience with the tools that drive life science research forward. **Dataset:** Our datasets are the real-world data playgrounds where you can apply your analytical skills. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed. Now, let's continue to build on this foundation and delve deeper into our next activity.
 
 ![](../../../assets/images/04-formats.png)<!-- style="width: 700px;" -->
 
 [^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
-## Training material crafted for collaboration
+## Let's use an AI tool to map the concept of interoperability for training material.
 
-               --{{0}}--
-Training materials need to be captured in interoperable formats, so that they can be used in different contexts (e.g., operating systems and software) and built upon later. For materials like slides, it is important that other trainers are able to (re)use, fine-tune or even extend them. This means that you should choose a format that supports editing and extension. Interoperability: Ensure your training materials are versatile. Use formats that are compatible across various operating systems and software platforms. Reusability: Design your slides for longevity. Allow other trainers to adopt and adapt your materials with ease. Editability & Extensibility: Select formats that support seamless editing and extension, enabling continuous improvement and customization.
+| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->  | **Activity**  |
+|                                          |       $\bullet$ Create a text document of the rule 6 and save it on your computer.               |
+|                                          |       $\bullet$ Login to NotebookLM with a Google account.               |
+|                                          |       $\bullet$ Create a new notebook and give it a name.               |
+|                                          |       $\bullet$ Upload the text file in the left panel.               |
+|                                          |       $\bullet$ Create a mindmap (via right panel).               |
+
+According to the paper, what are the main features of an interoperable training material?
+
 
 **Enhance your training materials via**
 
@@ -214,6 +224,11 @@ Training materials need to be captured in interoperable formats, so that they ca
 | | *A pdf can be read in any OS, but to modify it you need to pay a licence* | *Only as is* | 
 | ... | yes/no/partially | yes/no/partially | 
 | | *Explanation* | *Explanation* | 
+
+## Training material crafted for collaboration
+
+               --{{0}}--
+Training materials need to be captured in interoperable formats, so that they can be used in different contexts (e.g., operating systems and software) and built upon later. For materials like slides, it is important that other trainers are able to (re)use, fine-tune or even extend them. This means that you should choose a format that supports editing and extension. Interoperability: Ensure your training materials are versatile. Use formats that are compatible across various operating systems and software platforms. Reusability: Design your slides for longevity. Allow other trainers to adopt and adapt your materials with ease. Editability & Extensibility: Select formats that support seamless editing and extension, enabling continuous improvement and customization.
 
 ## The more context you give about your material the better
 
@@ -1247,6 +1262,22 @@ About this chapter, you can find the [instructor notes](https://github.com/elixi
            style="text-decoration:none;text-decoration-line:none">⏰</text></g></g></g></svg>
 
 *************************
+
+## Minimal efforts per training material type
+
+This table provides specific recommendations for enhancing the interoperability and reusability of training materials across three types: **Presentations**, **Textual Documents**, and **Scripts/Software**. The emphasis is on starting with open file formats and textual representations whenever possible.
+
+| Type | File Format | Openness Level | Minimal Effort Recommendations |
+|---|---|---|---|
+| Presentations | PPTX (PowerPoint) | Proprietary/Closed | Export to ODP or HTML5 formats; use open alternatives like LibreOffice Impress; convert to PDF/A for archiving; consider reveal.js or similar HTML5 presentation frameworks for maximum portability. |
+| Presentations | ODP (OpenDocument Presentation) | Open Standard | Use ODP as primary format with LibreOffice Impress or similar tools; ensure compatibility testing across different viewers; include fonts and media resources; document any version-specific features used. |
+| Presentations | HTML5 (reveal.js, Slidev) | Open/Web Standard | Use HTML5-based presentation frameworks; store presentations in version control (Git); use Markdown for content where possible; embed resources or link to stable URLs; provide offline viewing capability. |
+| Textual Documents | DOCX (Word) | Proprietary/Closed | Convert to ODT or Markdown; use styles consistently for structure; export to PDF/A for archiving; avoid proprietary features; consider pandoc for conversion to multiple formats. |
+| Textual Documents | ODT (OpenDocument Text) | Open Standard | Use ODT as primary format; ensure style-based formatting for structure; validate with multiple ODF-compliant applications; embed or link fonts; export to PDF/A for long-term preservation. |
+| Textual Documents | Markdown/LaTeX/Plain Text | Open/Plain Text | Prefer Markdown for simple documents, LaTeX for complex technical content; store in version control (Git); use pandoc for multi-format conversion; include metadata headers; ensure UTF-8 encoding; maintain human readability. |
+| Scripts/Software | Jupyter Notebook (.ipynb) | Open Format (JSON-based) | Include requirements.txt or environment.yml; document dependencies with version numbers; clear outputs before committing to version control; add descriptive markdown cells; use nbconvert for HTML/PDF export; consider converting to .py scripts for long-term archival. |
+| Scripts/Software | Python/R Scripts (.py, .R) | Open/Plain Text | Include comprehensive header comments with metadata; document dependencies (requirements.txt, renv.lock); use consistent coding standards; store in version control (Git); include README with execution instructions; add inline documentation; consider containerization (Docker) for reproducibility. |
+| Scripts/Software | Shell Scripts/Configuration (.sh, .yml, .json) | Open/Plain Text | Use plain text formats (YAML, JSON, TOML); include comments explaining purpose; specify interpreter/tool versions; store in version control (Git); validate syntax; document environment requirements; consider using standardized configuration schemas; ensure cross-platform compatibility where possible. |
 
 ## Create and explore Interoperable and Reproducible training material (text, presentation)
 
