@@ -76,7 +76,7 @@ script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
 ![Ten rules for making training materials FAIR](../../../assets/images/10steps_rules4FAIRtraining.png)
 
-### Training materials formats
+### Scope of this session
 
 This presentation will guide you through this session where we will touch on:
 
@@ -140,14 +140,42 @@ This presentation will guide you through this session where we will touch on:
 }
 ```
 
-### We use a lot of training material types and file formats 
+### Many training material types and file formats 
 
            --{{0}}--
 Welcome, everyone! Today, we’re going to embark on an interactive journey to explore the diverse landscape of training materials in life sciences. Our activity is designed to not only identify the various formats available but also to reflect on our personal preferences and the rationale behind them. Here is the activity Overview: We’ll examine different types of training materials, ranging from slides and videos to datasets and software. For each category, we’ll determine the possible formats they could take. Then, we’ll dive deeper to discuss which formats we predominantly use and, most importantly, why we prefer those over others. This exercise will not only enhance our understanding of the material formats but also provide insights into our teaching methodologies. It’s a chance to share experiences, learn from each other, and possibly discover new ways to engage our audience.
 So, let’s get started! Please go to to the joint file. As we proceed, I encourage you to think critically about the ‘why’—it’s the key to understanding our choices and improving our approach to training. Let’s have a productive session!
 
               {{0-1}}
-|  ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |      Activity: List types of training materials. Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?   |
+***************
+
+> What are the pros and cons of popular file formats?
+
+<section class="flex-container">
+
+<div class="flex-child-1" style="min-width: 200px; margin-bottom: -10px">
+
+![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->
+
+</div>
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+## Activity
+
+</section>
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+### 7 min ⌛ 
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+- List types of training materials. Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?
+- Note down on a PostIt of the file format of these training material.
+- Note down on a PostIt of the reason of use.
+- Add the PostIts to the respective category on the wall.              
+</section>
+
+****
 
               {{1}}
 *************
@@ -166,13 +194,33 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 
 ***********
 
-### Popular file formats of training materials - pros and cons
+### Popular file formats of training materials
 
-|  ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    |   **Activity**      |
-| ⌛ **5 min** (in pairs)                  | $\bullet$  Think about the pros and cons of file formats for slides, text documents, and scripts or software. |
-|                                          |    $\bullet$ Task 2                  |
-|                                          |    $\bullet$ Task 2               |
+> What are the pros and cons of popular file formats?
 
+<section class="flex-container">
+
+<div class="flex-child-1" style="min-width: 200px; margin-bottom: -10px">
+
+![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->
+
+</div>
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+## Activity
+
+</section>
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+### 7 min ⌛ 
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+- Think about the pros and cons of file formats for *slides*, *text documents*, and *scripts or software*.
+- [Note down](https://docs.google.com/document/d/1ZEC3eZutm4RibyV7rurcnh3lnhvrzVPbE5wUTVfp-U8/edit?tab=t.0#heading=h.2sdkabumtxkf) the pros and cons per file format of these three categories.              
+</section>
+
+We compare your analysis with the notes from the paper in the next step.
 
 
 ### Compare your discussion results 
@@ -219,7 +267,7 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 
 [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
 
-### Summary of training material file formats
+### Common training material file types
 
                --{{0}}--
 Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the red thread of our training efforts, providing clear, structured information at a glance. **Guidelines:** These guidelines are your roadmap to best practices and essential procedures for certain tasks. **Video:** Our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Tutorial:** Our tutorials provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** Training about software is where you'll gain hands-on experience with the tools that drive life science research forward. **Dataset:** Our datasets are the real-world data playgrounds where you can apply your analytical skills. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed. Now, let's continue to build on this foundation and delve deeper into our next activity.
@@ -245,7 +293,7 @@ Now, we're going to consolidate our understanding of the diverse resources we've
 
 <section class="flex-container">
 <!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
-### 5 min ⌛ 
+### 7 min ⌛ 
 
 <!-- class="flex-child-2" style="min-width: 300px" -->
 - Create a text document of the [rule 6](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec007) and save it on your computer.
@@ -261,9 +309,9 @@ Now, we're going to consolidate our understanding of the diverse resources we've
 
 ![](../../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 650px;" -->
 
-### How re-usable public training material are
+### How re-usable are public training materials?
 
-| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->  | Activity: Have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.   |
+> We have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.
 
 1. Could the presentation be extended?
 2. Could you choose a few slides and incorporate them in your presentation?
@@ -271,14 +319,34 @@ Now, we're going to consolidate our understanding of the diverse resources we've
 
 ### Evaluate interoperability and re-usability of training material
 
-| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Consider the list of in table 1. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.   |
-     
 | Formats | Interoperability | Reusability |
 | :---: | :---: | :---: |
 | pdf | partially | yes | 
 | | *A pdf can be read in any OS, but to modify it you need to pay a licence* | *Only as is* | 
 | ... | yes/no/partially | yes/no/partially | 
 | | *Explanation* | *Explanation* | 
+
+<section class="flex-container">
+
+<div class="flex-child-1" style="min-width: 200px; margin-bottom: -10px">
+
+![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->
+
+</div>
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+## Activity
+
+</section>
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+### 7 min ⌛ - in pairs
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+- Open the [shared document](https://docs.google.com/document/d/1ZEC3eZutm4RibyV7rurcnh3lnhvrzVPbE5wUTVfp-U8/edit?tab=t.0#heading=h.2sdkabumtxkf).
+- Consider the list of in table 1. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion.             
+</section>
 
 ### Training material crafted for collaboration
 
@@ -292,25 +360,46 @@ Training materials need to be captured in interoperable formats, so that they ca
 2. You may associate “Instructor notes” with the materials, but you don’t need to include them in the materials. The Instructor notes should provide information drawing on your experience or the experience of other instructors. They may consist of technical tips and tricks, common problems, and a description of what parts or exercises are essential and what could be skipped in case of lack of time. Very good examples of Instructor/Trainer notes are provided by the Carpentries ([Carpentry Trainer notes](https://carpentries.github.io/instructor-training/guide/index.html#curriculum), [Instructor notes template](https://carpentries.github.io/lesson-example/guide/index.html)).
 3. You may create a lesson plan describing the purpose and the mode of delivery of each piece of material. Lesson plans could contain many practical details, including - for each part of the material - the time needed for the delivery, the learning experiences and expected learning outcomes. Chapter 2.4 shows an example Lesson plan of this lesson.
 
-|   |      |      |
-| :---------: | :---------: | :---------: |
-| ![](../../../assets/images/03-annotation-tutorial.png)<!--
+<section class="flex-container">
+
+<div class="flex-child-1" style="min-width: 300px; margin-bottom: -10px">
+
+![](../../../assets/images/03-annotation-tutorial.png)<!--
 style = "width: 200px;"
--->   |  ![](../../../assets/images/03-bloom-class.png)<!--
-style = "width: 200px;"
---> | ![](../../../assets/images/03-bloom-describe.png)<!--
-style = "width: 200px;"
---> |
-| narratives  | instructor notes     | lesson plan     |
+-->
+
+</div>
+
+<!-- class="flex-child-2" style="min-width: 200px" -->
+## narratives
+
+</section>
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 300px; margin-bottom: -10px"-->
+![](../../../assets/images/03-bloom-class.png)<!--style = "width: 200px;"-->
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+## instructor notes            
+</section>
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 300px; margin-bottom: -10px"-->
+![](../../../assets/images/03-bloom-describe.png)<!--
+style = "width: 200px;"-->
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+## lesson plan            
+</section>
+
 
 ### Instructor notes
 
 About this chapter, you can find the [instructor notes](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/blob/main/docs/supplementary/trainer-instructions/chapter_04_notes.md) in the GitHub repository.
 
-### Lesson plans
+Very good examples of Instructor/Trainer notes are provided by the Carpentries ([Carpentry Trainer notes](https://carpentries.github.io/instructor-training/guide/index.html#curriculum), [Instructor notes template](https://carpentries.github.io/lesson-example/guide/index.html))
 
-          {{0}}
-************************
+### Why lesson plans
 
 <svg
    version="1.1"
@@ -742,10 +831,7 @@ About this chapter, you can find the [instructor notes](https://github.com/elixi
   </g>
 </svg>
 
-************************
-
-          {{1}}
-************************
+### Example of a lesson plan
 
 <svg
    width="1000"
@@ -1315,8 +1401,6 @@ About this chapter, you can find the [instructor notes](https://github.com/elixi
            transform="translate(348.676,1783)"
            id="text45"
            style="text-decoration:none;text-decoration-line:none">⏰</text></g></g></g></svg>
-
-*************************
 
 ### Minimal efforts per training material type
 
