@@ -72,7 +72,7 @@ script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
 [From sequence to structures](https://www.ebi.ac.uk/training/materials/from-sequences-to-structures-materials/uniprot/)
 
-### Our context - we focus on the letters I and R 
+## Our context - we focus on the letters I and R 
 
 ![Ten rules for making training materials FAIR](../../../assets/images/10steps_rules4FAIRtraining.png)
 
@@ -228,7 +228,7 @@ Now, we're going to consolidate our understanding of the diverse resources we've
 
 [^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
-### Map out interoperability for training material
+### Interoperability for training material
 
 <section class="flex-container">
 
@@ -239,7 +239,7 @@ Now, we're going to consolidate our understanding of the diverse resources we've
 </div>
 
 <!-- class="flex-child-2" style="min-width: 300px" -->
-### Activity
+## Activity
 
 </section>
 
@@ -256,11 +256,6 @@ Now, we're going to consolidate our understanding of the diverse resources we've
 </section>
 
 > ### According to the paper, what are the main features of an interoperable training material?
-
-
-
-                    {{1}}
-********
 
 ### Enhance your training materials
 
