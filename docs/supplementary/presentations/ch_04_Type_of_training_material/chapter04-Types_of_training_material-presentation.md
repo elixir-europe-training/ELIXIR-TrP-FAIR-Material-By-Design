@@ -293,7 +293,8 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 - Login to NotebookLM with a Google account.
 - Create a new notebook and give it a name e.g. "Rule 6"
 - Upload the text file in the left panel.
-- Create a mindmap (via right panel).               
+- Create a mindmap (via right panel).
+- Write down three main features of interoperable material.               
 </section>
 
 ### Enhance your training materials
