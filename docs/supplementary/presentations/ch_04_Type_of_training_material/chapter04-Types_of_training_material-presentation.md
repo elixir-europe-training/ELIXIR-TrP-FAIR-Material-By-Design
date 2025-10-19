@@ -387,8 +387,7 @@ Put in simple terms, training material is interoperable when we are able to take
                --{{0}}--
 Training materials need to be captured in interoperable formats, so that they can be used in different contexts (e.g., operating systems and software) and built upon later. For materials like slides, it is important that other trainers are able to (re)use, fine-tune or even extend them. This means that you should choose a format that supports editing and extension. Interoperability: Ensure your training materials are versatile. Use formats that are compatible across various operating systems and software platforms. Reusability: Design your slides for longevity. Allow other trainers to adopt and adapt your materials with ease. Editability & Extensibility: Select formats that support seamless editing and extension, enabling continuous improvement and customization.
 
-![](../../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 1000px;" -->     
-</section>
+![](../../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 1000px;" -->
 
 ### The more context you give about your material the better
 
