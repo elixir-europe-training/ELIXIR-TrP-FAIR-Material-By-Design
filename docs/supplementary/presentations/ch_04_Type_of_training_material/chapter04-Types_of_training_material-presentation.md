@@ -335,7 +335,7 @@ Put in simple terms, training material is interoperable when we are able to take
 
 <section class="flex-container">
 <!-- class="flex-child-1" style="min-width: 650px; margin-bottom: -10px"-->
-![](../../../assets/images/04-reuse-extend-inter.png<!-- style="width: 650px;" -->     
+![](../../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 650px;" -->     
 </section>
 
 <section class="flex-container">
