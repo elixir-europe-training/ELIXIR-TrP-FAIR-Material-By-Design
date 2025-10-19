@@ -269,6 +269,8 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 
 ### Interoperability for training material
 
+> ### According to the paper, what are the main features of an interoperable training material?
+
 <section class="flex-container">
 
 <div class="flex-child-1" style="min-width: 200px; margin-bottom: -10px">
@@ -293,8 +295,6 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 - Upload the text file in the left panel.
 - Create a mindmap (via right panel).               
 </section>
-
-> ### According to the paper, what are the main features of an interoperable training material?
 
 ### Enhance your training materials
 
