@@ -1443,9 +1443,7 @@ style = "width: 200px;"-->
 ### Look back at common training material file types
 
                --{{0}}--
-Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the red thread of our training efforts, providing clear, structured information at a glance. **Guidelines:** These guidelines are your roadmap to best practices and essential procedures for certain tasks. **Video:** Our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Tutorial:** Our tutorials provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** Training about software is where you'll gain hands-on experience with the tools that drive life science research forward. **Dataset:** Our datasets are the real-world data playgrounds where you can apply your analytical skills. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed. Now, let's continue to build on this foundation and delve deeper into our next activity.
-
-TODO: add short reflection on situation with datasets 
+Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** The journey begins with presentations, the visual storytellers of relevant concepts. They are the red thread of our training efforts, providing clear, structured information. **Guidelines:** These guidelines are your roadmap to best practices and essential procedures for certain tasks. **Video:** Videos offer dynamic and engaging narratives, making complex topics digestible. **Tutorial:** The tutorials provide step-by-step guidance, helping you navigate through practical applications. **Software:** Training about software is where you'll gain hands-on experience with the respective tools. **Dataset:** The datasets are representative, real-world data playgrounds where you gain the appropriate skills for immediate use after the training session. **Website:** As gateway to our training resources, a course website is your go-to destination for relevant information and context, publically accessible anytime and anywhere, facilitating the learning beyond the classroom that supports your journey in the life sciences.
 
 ![](../../../assets/images/04-formats.png)<!-- style="width: 700px;" -->
 
@@ -1467,6 +1465,7 @@ This table provides specific recommendations for enhancing the interoperability 
 | Scripts/Software | Jupyter Notebook (.ipynb) | Open Format (JSON-based) | Include requirements.txt or environment.yml; document dependencies with version numbers; clear outputs before committing to version control; add descriptive markdown cells; use nbconvert for HTML/PDF export; consider converting to .py scripts for long-term archival. |
 | Scripts/Software | Python/R Scripts (.py, .R) | Open/Plain Text | Include comprehensive header comments with metadata; document dependencies (requirements.txt, renv.lock); use consistent coding standards; store in version control (Git); include README with execution instructions; add inline documentation; consider containerization (Docker) for reproducibility. |
 | Scripts/Software | Shell Scripts/Configuration (.sh, .yml, .json) | Open/Plain Text | Use plain text formats (YAML, JSON, TOML); include comments explaining purpose; specify interpreter/tool versions; store in version control (Git); validate syntax; document environment requirements; consider using standardized configuration schemas; ensure cross-platform compatibility where possible. |
+| Datasets | any formats possible | Open | create descriptive comments about the datasets (metadata); store in version control if possible; store in Zenodo (if possible) for identification; store in public storage buckets. | 
 
 ### Create and explore Interoperable and Reproducible training material (text, presentation)
 
@@ -1485,7 +1484,8 @@ Let's first have a look at example presentations using Liascript, a markdown dia
 **********************
 
          --{{1}}--
-Text
+Additional exercise
+| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    | Activity: Create a PDF with Liascript (installation needed)   |
 
            {{1}}
 *******************
@@ -1497,10 +1497,6 @@ Text
 [Doc about Liascript](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1)
 
 | ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a Google slides  |
-
-Additional exercise
-
-| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->    | Activity: Create a PDF with Liascript (installation needed)   |
 
 *************
 
