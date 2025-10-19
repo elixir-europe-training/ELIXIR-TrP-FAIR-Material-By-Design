@@ -267,15 +267,6 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 
 [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
 
-### Common training material file types
-
-               --{{0}}--
-Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the red thread of our training efforts, providing clear, structured information at a glance. **Guidelines:** These guidelines are your roadmap to best practices and essential procedures for certain tasks. **Video:** Our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Tutorial:** Our tutorials provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** Training about software is where you'll gain hands-on experience with the tools that drive life science research forward. **Dataset:** Our datasets are the real-world data playgrounds where you can apply your analytical skills. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed. Now, let's continue to build on this foundation and delve deeper into our next activity.
-
-![](../../../assets/images/04-formats.png)<!-- style="width: 700px;" -->
-
-[^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
-
 ### Interoperability for training material
 
 <section class="flex-container">
@@ -1401,6 +1392,19 @@ Very good examples of Instructor/Trainer notes are provided by the Carpentries (
            transform="translate(348.676,1783)"
            id="text45"
            style="text-decoration:none;text-decoration-line:none">⏰</text></g></g></g></svg>
+
+
+### Look back at common training material file types
+
+               --{{0}}--
+Now, we're going to consolidate our understanding of the diverse resources we've been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let's take a brief tour through these resources: **Presentations:** Our journey begins with presentations, the visual storytellers of complex concepts. They are the red thread of our training efforts, providing clear, structured information at a glance. **Guidelines:** These guidelines are your roadmap to best practices and essential procedures for certain tasks. **Video:** Our videos offer dynamic and engaging narratives, making complex topics digestible and memorable. **Tutorial:** Our tutorials provide step-by-step guidance, helping you navigate through practical applications with ease. **Software:** Training about software is where you'll gain hands-on experience with the tools that drive life science research forward. **Dataset:** Our datasets are the real-world data playgrounds where you can apply your analytical skills. **Website:** The globe of our resources, the website is your go-to destination for a wealth of knowledge, accessible anytime and anywhere, enriching your learning beyond the classroom that supports your journey in the life sciences. As we move forward, remember that each resource is a piece of a larger puzzle, and together, they form a complete picture of the knowledge and skills you need to succeed. Now, let's continue to build on this foundation and delve deeper into our next activity.
+
+TODO: add short reflection on situation with datasets 
+
+![](../../../assets/images/04-formats.png)<!-- style="width: 700px;" -->
+
+[^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
+
 
 ### Minimal efforts per training material type
 
