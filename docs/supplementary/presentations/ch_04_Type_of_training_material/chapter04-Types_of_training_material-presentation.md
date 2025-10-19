@@ -330,9 +330,22 @@ Let's [compare](https://notebooklm.google.com/notebook/4ff8c01e-f4e1-4beb-a7cf-6
 
 ### Enhance your training materials
 
+    --{{0}}--
+Put in simple terms, training material is interoperable when we are able to take parts of it, like slides, exercises, images, etc., and incorporate them in other course material or export it in a different context, as well as fix errors or extend it. This is doable to different extent depending on the material format. Taking parts of a video or modifying a pdf is not impossible, but often requires a licence for the appropriate software or skills not easy to own. Using, e.g., text or markdown files will facilitate the updates of materials or their integration into a new context or a different set of materials. Interoperable formats, according to this definition, facilitate the reuse of materials as described above. 
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+![](../../../assets/images/FAIRprinciples-I.svg)<!-- style = "width: 150px; padding:15px;"-->
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+- edit the material 
+- extract parts to other context
+- extend the material      
+</section>
+
 ![](../../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 650px;" -->
 
-### How re-usable are public training materials?
+### How re-usable are interoperable training materials?
 
 > We have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.
 
