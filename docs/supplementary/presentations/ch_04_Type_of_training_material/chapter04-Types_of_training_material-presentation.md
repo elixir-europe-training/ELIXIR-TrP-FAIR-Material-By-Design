@@ -429,11 +429,12 @@ style = "width: 200px;"-->
 </section>
 
 
-### Instructor notes
+### Narratives and instructor notes
 
-About this chapter, you can find the [instructor notes](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/blob/main/docs/supplementary/trainer-instructions/chapter_04_notes.md) in the GitHub repository.
-
-Very good examples of Instructor/Trainer notes are provided by the Carpentries ([Carpentry Trainer notes](https://carpentries.github.io/instructor-training/guide/index.html#curriculum), [Instructor notes template](https://carpentries.github.io/lesson-example/guide/index.html))
+- Narratives should contain references to content e.g. images and other content.
+- Narratives could be bullet points or fluent text of the content of the respective slide. 
+- About this chapter, you can find extended [instructor notes]() as part of the Lesson plan in the GitHub repository.
+- Very good examples of Instructor/Trainer notes are provided by the Carpentries ([Carpentry Trainer notes](https://carpentries.github.io/instructor-training/guide/index.html#curriculum), [Instructor notes template](https://carpentries.github.io/lesson-example/guide/index.html))
 
 ### Why lesson plans
 
