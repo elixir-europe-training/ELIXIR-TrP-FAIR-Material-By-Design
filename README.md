@@ -30,7 +30,7 @@ Activities are intended to **increase the technical skills** and **critical thin
 
 ### Material license
 
-[![**CC-BY-NC-SA**](https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/main/docs/assets/images/by-nc-sa.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+[![**CC-BY**](https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design/main/docs/assets/images/by.png)](https://creativecommons.org/licenses/by/4.0/deed.en)
 
 
 ### Complement (Links for materials and Reading)
@@ -108,6 +108,7 @@ Activities are intended to **increase the technical skills** and **critical thin
 - List and differentiate the types of unique identifiers that are relevant for publishing and sharing training materials
 - Compare different strategies for unique identifiers for training materials
 - Create versioned DOIs for training materials
+
 
 
 
