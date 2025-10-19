@@ -267,6 +267,35 @@ Compare the list to Table 1 from the '10 simple rules' paper[^1].
 
 [^1]: https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1007854.t001
 
+### Reusability <-> Interoperability
+
+         --{{0}}--
+The term interoperability in training materials can be relatively obscure. Still, in this section, we will provide a definition of interoperability for training materials, and we will explain how this concept is related to the idea of reusability. Regarding reusability, it is essential to make a distinction between: Reusing parts of material by repurposing it for a new context or integrating it into another set of materials, Reusing the material exactly as it is. File formats will have different implications in the context of FAIRness depending on the two types of material reuse. Some formats facilitate FAIRness while others don’t. To understand which formats facilitate interoperability and reusability, we must first understand these two concepts in the context of training and training materials. 
+
+<section class="flex-container">
+
+<div class="flex-child-1" style="min-width: 200px; margin-bottom: -10px">
+
+![](../../../assets/images/FAIRprinciples-R.svg)<!-- style = "width: 80px; padding:15px;"-->
+
+</div>
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+- reusing material exactly as it is 
+- reusing material by repurposing in other context
+
+</section>
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+![](../../../assets/images/FAIRprinciples-I.svg)<!-- style = "width: 80px; padding:15px;"-->
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+# ?      
+</section>
+
+> FAIRness is dependent on the choice of the file format.
+
 ### Interoperability for training material
 
 > ### According to the paper, what are the main features of an interoperable training material?
