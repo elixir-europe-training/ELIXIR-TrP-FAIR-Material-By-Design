@@ -149,7 +149,7 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
               {{0-1}}
 ***************
 
-> What are the pros and cons of popular file formats?
+> What are training material types and formats? Why use them?
 
 <section class="flex-container">
 
