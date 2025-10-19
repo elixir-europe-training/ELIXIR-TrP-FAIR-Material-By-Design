@@ -326,6 +326,8 @@ The term interoperability in training materials can be relatively obscure. Still
 - Write down three main features of interoperable material.               
 </section>
 
+Let's [compare](https://notebooklm.google.com/notebook/4ff8c01e-f4e1-4beb-a7cf-66374c300111).
+
 ### Enhance your training materials
 
 ![](../../../assets/images/04-reuse-extend-inter.png)<!-- style="width: 650px;" -->
