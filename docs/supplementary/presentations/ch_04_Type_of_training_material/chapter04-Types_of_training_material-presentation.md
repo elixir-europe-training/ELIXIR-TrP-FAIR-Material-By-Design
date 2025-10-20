@@ -343,6 +343,8 @@ Put in simple terms, training material is interoperable when we are able to take
 - extend the material      
 </section>
 
+> What were the main features of reusability of training materials?
+
 ### How re-usable are interoperable training materials?
 
 > We have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format.
@@ -431,10 +433,15 @@ style = "width: 200px;"-->
 
 ### Narratives and instructor notes
 
-- Narratives should contain references to content e.g. images and other content.
-- Narratives could be bullet points or fluent text of the content of the respective slide. 
-- About this chapter, you can find extended [instructor notes]() as part of the Lesson plan in the GitHub repository.
-- Very good examples of Instructor/Trainer notes are provided by the Carpentries ([Carpentry Trainer notes](https://carpentries.github.io/instructor-training/guide/index.html#curriculum), [Instructor notes template](https://carpentries.github.io/lesson-example/guide/index.html))
+* Narratives
+
+  * references to content e.g. images and other content.
+
+  * bullet points or fluent text of slide content
+
+* Instructor/Trainer notes
+
+  * from Carpentries ([Carpentry Trainer notes](https://carpentries.github.io/instructor-training/guide/index.html#curriculum), [Instructor notes template](https://carpentries.github.io/lesson-example/guide/index.html))
 
 ### Why lesson plans
 
