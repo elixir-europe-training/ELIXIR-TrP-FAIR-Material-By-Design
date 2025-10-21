@@ -72,7 +72,7 @@ script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
 [From sequence to structures](https://www.ebi.ac.uk/training/materials/from-sequences-to-structures-materials/uniprot/)
 
-## Our context - we focus on the letters I and R 
+## We focus on the letters I and R 
 
 ![Ten rules for making training materials FAIR](../../../assets/images/10steps_rules4FAIRtraining.png)
 
@@ -177,9 +177,7 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 
 ****
 
-              {{1}}
-*************
-
+              --{{1}}--
 | Material type | Possible file format(s) | Format(s) you mostly use | Why? |
 | ----------------- | ------------------ | ------------------------ | ---- |
 | slides |  PowerPoint/Keynote (.pptx) with speaker notes and animations  • PDF handout (1-up or 3-up with notes)  • Web slides (Reveal.js/Marp/Quarto)  • Cloud deck (Microsoft 365/Google Slides)              |                          |    PPTX for delivery; PDF for distribution. PPTX supports animations/live demos and presenter notes during the course; exporting to PDF gives a stable, portable, non-editable handout students can search and annotate offline  |
@@ -191,6 +189,21 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 | tutorial/hands-on | Markdown/Sphinx/ReadTheDocs step‑by‑step with copy‑paste blocks  • Quarto/Bookdown site  • Narrative Jupyter notebooks  • Interactive Binder/JupyterHub lab     |                          |    Markdown is diffable, version‑controlled, searchable, and robust offline—great for cluster instructions (modules, job scripts, file paths) where copy‑paste reliability matters.  |
 | software |  Conda (Bioconda) package + environment.yml  • Python wheels on PyPI  • Standalone CLI binaries  • Containerized app (Docker/Apptainer)  |                          |  Conda/Bioconda simplifies compiled deps common in life sciences and runs on Linux/macOS/Windows and HPC. Pair with a lock (e.g., conda-lock) and optionally a container for strict reproducibility    |
 | webpage |   Static site (Quarto/Jekyll) on GitHub Pages  • LMS page (Moodle/Canvas)  • GitHub Wiki  • ReadTheDocs                 |                          |   tatic site is versioned, searchable, linkable to repo tags, and easy to host for free. It’s fast, works with PRs, and can be snapshotted per course run for stable URLs   |
+
+              {{1}}
+*************
+
+| Material type | Possible file format(s) | Format(s) you mostly use | Why? |
+| ----------------- | ------------------ | ------------------------ | ---- |
+| slides |  pptx, PDF, Web slides, Google Slides |                          |    PPTX for delivery; PDF for distribution. |
+| video |  MP4 |                          |     Micro‑lectures reduce cognitive load, full recordings as “nice-to-have. |
+| dataset  |      many formats            |                          | realistic environment    |
+| repository | GitHub/GitLab template repo (scaffolded), Zenodo DOI  |    |  Template repo with tagged releases + DOI makes your course citable |
+| exercises  |   Jupyter notebooks, H5P content,  Markdown, coding exercises  |                          |  Notebook-based exercises immediate feedback, support live coding, and store code, outputs, and narrative together—ideal for computational biology workflows    |
+| VM/Container |    Docker & Apptainer recipe, Conda environment  |                          |   Apptainer/Singularity portable across clusters   |
+| tutorial/hands-on | Markdown, Quarto/Bookdown site, Narrative Jupyter notebooks  |                          |    Markdown version‑controlled, searchable, offline use  |
+| software |  Conda (Bioconda) package + environment.yml, Python scripts, CLI binaries, Containerized app |                          |  Conda/Bioconda and containers for strict reproducibility    |
+| webpage |   Static site (Quarto/Jekyll) on GitHub Pages, LMS page (Moodle/Canvas), GitHub Wiki  |                          |   static site versioned, searchable, host for free, stable URLs   |
 
 ***********
 
@@ -1499,11 +1512,38 @@ Additional exercise
 
 **Exercises**
 
-| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a markdown dialect called Liascript  |
+<section class="flex-container">
 
-[Doc about Liascript](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1)
+<div class="flex-child-1" style="min-width: 200px; margin-bottom: -10px">
 
-| ![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a Google slides  |
+![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->
+
+</div>
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+# Activity
+
+</section>
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+### 20 min ⌛ 
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+* Return to your Github repository from the last session
+* Create a presentation using a markdown dialect called Liascript             
+</section>
+
+OR
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+### 20 min ⌛ 
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+* Create a presentation using a Google slides
+
+</section>
 
 *************
 
