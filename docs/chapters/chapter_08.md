@@ -14,8 +14,7 @@ To Reuse:
 !!! success "Learning Outcomes"
 
     By the end of this session, learners will be able to:  
-  
-    - List common e-learning platforms   
+    
     - Explain what unique persistent identifiers are and their benefits
     - List and differentiate the types of unique identifiers that are relevant for publishing and sharing training materials
     - Compare different strategies for unique identifiers for training materials
@@ -70,7 +69,7 @@ While a DOI itself does not automatically make a resource interoperable, the **s
 DOIs enhance **citability** and **attribution**, allowing others to reference your work accurately. Persistent identifiers support **long-term tracking** and recognition of your outputs, promoting reuse and helping your materials remain valuable and usable well into the future.
 
 
-### Other Persistent Identifiers Useful for Training Materials
+### Other persistent identifiers useful for training materials
 
 There are several types of PIDs designed for different kinds of resources or objects.  
 For training materials, the following PIDs are the most important:
@@ -389,6 +388,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
             - `Resource type`
 
             
+
 
 
 
