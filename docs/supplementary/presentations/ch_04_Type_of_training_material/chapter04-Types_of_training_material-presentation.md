@@ -1469,10 +1469,26 @@ Now, we're going to consolidate our understanding of the diverse resources we've
 
 [^1]: https://docs.google.com/presentation/d/1fVbtwJACMnRM8GgMpGVfi373geFMQCZH6uSoihsRyxM/edit#slide=id.g26da19ef7b0_0_789
 
+### Minimal efforts per training material type
+
+> This table provides specific recommendations for enhancing the interoperability and reusability of training materials. The emphasis is on starting with open file formats and textual representations whenever possible.
+
+| Type | File Format | Openness Level | Minimal Effort Recommendations |
+|---|---|---|---|
+| Presentations | PPTX (PowerPoint) | Proprietary/Closed | Provide original file; Export to ODP; convert to PDF/A for archiving; |
+|  | ODP (OpenDocument Presentation) | Open Standard | Use ODP as primary format with LibreOffice Impress or similar tools;  include media resources;  | 
+|  | HTML5 (Marp, reveal.js, Slidev) | Open/Web Standard | Use HTML5-based presentation frameworks; store presentations in version control (Git); use Markdown for content where possible;  | 
+| Textual Documents | DOCX (Word) | Proprietary/Closed | Provide original; Convert to ODT; export to PDF/A for archiving; | 
+|  | ODT (OpenDocument Text) | Open Standard | Use ODT as primary format; ensure style-based formatting for structure; export to PDF/A for long-term preservation. | 
+|  | Markdown/LaTeX/Plain Text | Open/Plain Text | Prefer Markdown for simple documents;  store in version control (Git); | 
+| Scripts/Software | Jupyter Notebook (.ipynb) | Open Format (JSON-based) | Include requirements.txt or environment.yml; document dependencies with version numbers; clear outputs before committing to version control; add descriptive markdown cells; | 
+|  | Python/R Scripts (.py, .R) | Open/Plain Text | Include comprehensive header comments with metadata; document dependencies (requirements.txt, renv.lock); use consistent coding standards; store in version control (Git); include README with execution instructions; add inline documentation; | 
+|  | Shell Scripts/Configuration (.sh, .yml, .json) | Open/Plain Text | Use plain text formats (YAML, JSON, TOML); include comments explaining purpose; specify interpreter/tool versions; store in version control (Git); document environment requirements;  | 
+| Datasets | any formats possible | Open | create descriptive comments about the datasets (metadata); store in version control if possible;  otherwise store in public storage buckets. | 
 
 ### Minimal efforts per training material type
 
-This table provides specific recommendations for enhancing the interoperability and reusability of training materials across three types: **Presentations**, **Textual Documents**, and **Scripts/Software**. The emphasis is on starting with open file formats and textual representations whenever possible.
+> This table provides specific recommendations for enhancing the interoperability and reusability of training materials. The emphasis is on starting with open file formats and textual representations whenever possible.
 
 | Type | File Format | Openness Level | Minimal Effort Recommendations | More Efforts |
 |---|---|---|---|---|
