@@ -1245,6 +1245,7 @@ style = "width: 200px;"-->
 <th>File Format</th>
 <th>Openness Level</th>
 <th>Minimal Effort Recommendations</th>
+<th>More Efforts</th>
 </tr>
 </thead>
 <tbody>
@@ -1252,61 +1253,71 @@ style = "width: 200px;"-->
 <td>Presentations</td>
 <td>PPTX (PowerPoint)</td>
 <td>Proprietary/Closed</td>
-<td>Export to ODP or HTML5 formats; use open alternatives like LibreOffice Impress; convert to PDF/A for archiving; consider reveal.js or similar HTML5 presentation frameworks for maximum portability.</td>
+<td>Provide original file; Export to ODP; convert to PDF/A for archiving;</td>
+<td>use open alternatives like LibreOffice Impress; consider reveal.js or similar HTML5 presentation frameworks for maximum portability.</td>
 </tr>
 <tr>
 <td>Presentations</td>
 <td>ODP (OpenDocument Presentation)</td>
 <td>Open Standard</td>
-<td>Use ODP as primary format with LibreOffice Impress or similar tools; ensure compatibility testing across different viewers; include fonts and media resources; document any version-specific features used.</td>
+<td>Use ODP as primary format with LibreOffice Impress or similar tools;  include media resources;</td>
+<td>ensure compatibility testing across different viewers; document any version-specific features used.</td>
 </tr>
 <tr>
 <td>Presentations</td>
-<td>HTML5 (reveal.js, Slidev)</td>
+<td>HTML5 (Marp, reveal.js, Slidev)</td>
 <td>Open/Web Standard</td>
-<td>Use HTML5-based presentation frameworks; store presentations in version control (Git); use Markdown for content where possible; embed resources or link to stable URLs; provide offline viewing capability.</td>
+<td>Use HTML5-based presentation frameworks; store presentations in version control (Git); use Markdown for content where possible;</td>
+<td>embed resources or link to stable URLs; provide offline viewing capability.</td>
 </tr>
 <tr>
 <td>Textual Documents</td>
 <td>DOCX (Word)</td>
 <td>Proprietary/Closed</td>
-<td>Convert to ODT or Markdown; use styles consistently for structure; export to PDF/A for archiving; avoid proprietary features; consider pandoc for conversion to multiple formats.</td>
+<td>Provide original; Convert to ODT; export to PDF/A for archiving;</td>
+<td>use styles consistently for structure; avoid proprietary features; consider pandoc for conversion to multiple formats.</td>
 </tr>
 <tr>
 <td>Textual Documents</td>
 <td>ODT (OpenDocument Text)</td>
 <td>Open Standard</td>
-<td>Use ODT as primary format; ensure style-based formatting for structure; validate with multiple ODF-compliant applications; embed or link fonts; export to PDF/A for long-term preservation.</td>
+<td>Use ODT as primary format; ensure style-based formatting for structure; export to PDF/A for long-term preservation.</td>
+<td>validate with multiple ODF-compliant applications; embed or link fonts;</td>
 </tr>
 <tr>
 <td>Textual Documents</td>
 <td>Markdown/LaTeX/Plain Text</td>
 <td>Open/Plain Text</td>
-<td>Prefer Markdown for simple documents, LaTeX for complex technical content; store in version control (Git); use pandoc for multi-format conversion; include metadata headers; ensure UTF-8 encoding; maintain human readability.</td>
+<td>Prefer Markdown for simple documents;  store in version control (Git);</td>
+<td>LaTeX for complex technical content; use pandoc for multi-format conversion; include metadata headers; ensure UTF-8 encoding; maintain human readability.</td>
 </tr>
 <tr>
 <td>Scripts/Software</td>
 <td>Jupyter Notebook (.ipynb)</td>
 <td>Open Format (JSON-based)</td>
-<td>Include requirements.txt or environment.yml; document dependencies with version numbers; clear outputs before committing to version control; add descriptive markdown cells; use nbconvert for HTML/PDF export; consider converting to .py scripts for long-term archival.</td>
+<td>Include requirements.txt or environment.yml; document dependencies with version numbers; clear outputs before committing to version control; add descriptive markdown cells;</td>
+<td>use nbconvert for HTML/PDF export; consider converting to .py scripts for long-term archival.</td>
 </tr>
 <tr>
 <td>Scripts/Software</td>
 <td>Python/R Scripts (.py, .R)</td>
 <td>Open/Plain Text</td>
-<td>Include comprehensive header comments with metadata; document dependencies (requirements.txt, renv.lock); use consistent coding standards; store in version control (Git); include README with execution instructions; add inline documentation; consider containerization (Docker) for reproducibility.</td>
+<td>Include comprehensive header comments with metadata; document dependencies (requirements.txt, renv.lock); use consistent coding standards; store in version control (Git); include README with execution instructions; add inline documentation;</td>
+<td>consider containerization (Docker) for reproducibility.</td>
 </tr>
 <tr>
 <td>Scripts/Software</td>
 <td>Shell Scripts/Configuration (.sh, .yml, .json)</td>
 <td>Open/Plain Text</td>
-<td>Use plain text formats (YAML, JSON, TOML); include comments explaining purpose; specify interpreter/tool versions; store in version control (Git); validate syntax; document environment requirements; consider using standardized configuration schemas; ensure cross-platform compatibility where possible.</td>
+<td>Use plain text formats (YAML, JSON, TOML); include comments explaining purpose; specify interpreter/tool versions; store in version control (Git); document environment requirements;</td>
+<td>validate syntax; consider using standardized configuration schemas; ensure cross-platform compatibility where possible.</td>
 </tr>
 <tr>
 <td>Datasets</td>
 <td>any formats possible</td>
 <td>Open</td>
-<td>create descriptive comments about the datasets (metadata); store in version control if possible; store in Zenodo (if possible) for identification; store in public storage buckets.</td>
+<td>create descriptive comments about the datasets (metadata); store in version control if possible;  otherwise store in public storage buckets.</td>
+<td>store in Zenodo (if possible) for DOI;</td>
 </tr>
 </tbody>
 </table>
