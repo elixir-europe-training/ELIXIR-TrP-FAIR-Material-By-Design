@@ -1531,7 +1531,10 @@ Additional exercise
 
 <!-- class="flex-child-2" style="min-width: 300px" -->
 * Return to your Github repository from the last session
-* Create a presentation using a markdown dialect called Liascript             
+* Extend a presentation using a markdown dialect called Liascript
+* The file is at supplementary/chapter-01-presentation.md
+* For reference: [Documentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1)
+
 </section>
 
 OR
