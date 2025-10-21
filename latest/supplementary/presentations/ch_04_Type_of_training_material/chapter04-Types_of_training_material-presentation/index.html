@@ -529,7 +529,7 @@
 
 <div><h1 id="lets-start-with-slides-from-this-course-provider">Let’s start with slides from this course provider</h1>
 <p><a href="https://www.ebi.ac.uk/training/materials/from-sequences-to-structures-materials/uniprot/">From sequence to structures</a></p>
-<h2 id="our-context-we-focus-on-the-letters-i-and-r">Our context - we focus on the letters I and R</h2>
+<h2 id="we-focus-on-the-letters-i-and-r">We focus on the letters I and R</h2>
 <p><img alt="Ten rules for making training materials FAIR" src="../../../../assets/images/10steps_rules4FAIRtraining.png"></p>
 <h3 id="scope-of-this-session">Scope of this session</h3>
 <p>This presentation will guide you through this session where we will touch on:</p>
@@ -630,10 +630,9 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 </section>
 
 <hr>
-<div class="codehilite"><pre><span></span><code>          {{1}}
+<div class="codehilite"><pre><span></span><code>          --{{1}}--
 </code></pre></div>
 
-<hr>
 <table>
 <thead>
 <tr>
@@ -697,6 +696,76 @@ So, let’s get started! Please go to to the joint file. As we proceed, I encour
 <td>Static site (Quarto/Jekyll) on GitHub Pages  • LMS page (Moodle/Canvas)  • GitHub Wiki  • ReadTheDocs</td>
 <td></td>
 <td>tatic site is versioned, searchable, linkable to repo tags, and easy to host for free. It’s fast, works with PRs, and can be snapshotted per course run for stable URLs</td>
+</tr>
+</tbody>
+</table>
+<div class="codehilite"><pre><span></span><code>          {{1}}
+</code></pre></div>
+
+<hr>
+<table>
+<thead>
+<tr>
+<th>Material type</th>
+<th>Possible file format(s)</th>
+<th>Format(s) you mostly use</th>
+<th>Why?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>slides</td>
+<td>pptx, PDF, Web slides, Google Slides</td>
+<td></td>
+<td>PPTX for delivery; PDF for distribution.</td>
+</tr>
+<tr>
+<td>video</td>
+<td>MP4</td>
+<td></td>
+<td>Micro‑lectures reduce cognitive load, full recordings as “nice-to-have.</td>
+</tr>
+<tr>
+<td>dataset</td>
+<td>many formats</td>
+<td></td>
+<td>realistic environment</td>
+</tr>
+<tr>
+<td>repository</td>
+<td>GitHub/GitLab template repo (scaffolded), Zenodo DOI</td>
+<td></td>
+<td>Template repo with tagged releases + DOI makes your course citable</td>
+</tr>
+<tr>
+<td>exercises</td>
+<td>Jupyter notebooks, H5P content,  Markdown, coding exercises</td>
+<td></td>
+<td>Notebook-based exercises immediate feedback, support live coding, and store code, outputs, and narrative together—ideal for computational biology workflows</td>
+</tr>
+<tr>
+<td>VM/Container</td>
+<td>Docker &amp; Apptainer recipe, Conda environment</td>
+<td></td>
+<td>Apptainer/Singularity portable across clusters</td>
+</tr>
+<tr>
+<td>tutorial/hands-on</td>
+<td>Markdown, Quarto/Bookdown site, Narrative Jupyter notebooks</td>
+<td></td>
+<td>Markdown version‑controlled, searchable, offline use</td>
+</tr>
+<tr>
+<td>software</td>
+<td>Conda (Bioconda) package + environment.yml, Python scripts, CLI binaries, Containerized app</td>
+<td></td>
+<td>Conda/Bioconda and containers for strict reproducibility</td>
+</tr>
+<tr>
+<td>webpage</td>
+<td>Static site (Quarto/Jekyll) on GitHub Pages, LMS page (Moodle/Canvas), GitHub Wiki</td>
+<td></td>
+<td>static site versioned, searchable, host for free, stable URLs</td>
 </tr>
 </tbody>
 </table>
@@ -1264,9 +1333,38 @@ style = "width: 200px;"-->
 
 <hr>
 <p><strong>Exercises</strong></p>
-<p>| <img alt="" src="../../../../assets/images/04-activities.png"><!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a markdown dialect called Liascript  |</p>
-<p><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1">Doc about Liascript</a></p>
-<p>| <img alt="" src="../../../../assets/images/04-activities.png"><!-- style = "width: 80px; padding:15px;"-->   | Activity: Create a presentation using a Google slides  |</p>
+<section class="flex-container">
+
+<div class="flex-child-1" style="min-width: 200px; margin-bottom: -10px">
+
+![](../../../assets/images/04-activities.png)<!-- style = "width: 80px; padding:15px;"-->
+
+</div>
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+# Activity
+
+</section>
+
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+### 20 min ⌛ 
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+* Return to your Github repository from the last session
+* Create a presentation using a markdown dialect called Liascript             
+</section>
+
+<p>OR</p>
+<section class="flex-container">
+<!-- class="flex-child-1" style="min-width: 200px; margin-bottom: -10px"-->
+### 20 min ⌛ 
+
+<!-- class="flex-child-2" style="min-width: 300px" -->
+* Create a presentation using a Google slides
+
+</section>
+
 <hr>
 <h3 id="final-considerations">Final considerations</h3>
 <div class="codehilite"><pre><span></span><code>  --{{0}}--
