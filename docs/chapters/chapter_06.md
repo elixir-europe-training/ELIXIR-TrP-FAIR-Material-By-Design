@@ -54,7 +54,7 @@ Let's now have a look at what it takes to FAIRify video material:
     - **Interoperable** → Are there captions or transcripts? Is it in a standard format (e.g. .mp4, .mov)?
     - **Reusable** → Is there a clear license? Are contributors and tools properly attributed? Is there versioning information?
 
-    Document your findings in the [**Checklist for minimally FAIR video material**](https://docs.google.com/document/d/e/2PACX-1vTAvSqdNhrO_ZNsRvzPSulFxucFkbNN7UvnC1oFvyFZtG4H0wZWBgcGFWct2ynB8eFA3UwDeAehT_Xb/pub)
+    Document your findings in the [**Checklist for minimally FAIR video material**](https://docs.google.com/document/d/18xg9ZYLQX9yFlAU1cIl8W5eMpoVhuQvEO6aLWVG81TM/edit?usp=sharing)
 
 !!! question "Reflection"
 
@@ -285,6 +285,7 @@ In this final exercise, you will practice publishing your own FAIR-by-design tra
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
 
 
