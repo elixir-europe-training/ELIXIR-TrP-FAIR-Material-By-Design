@@ -1237,7 +1237,85 @@ style = "width: 200px;"-->
 <p>Now, we’re going to consolidate our understanding of the diverse resources we’ve been discussing. These resources form the backbone of our life science training and are crucial for a holistic learning experience. Let’s take a brief tour through these resources: <strong>Presentations:</strong> The journey begins with presentations, the visual storytellers of relevant concepts. They are the red thread of our training efforts, providing clear, structured information. <strong>Guidelines:</strong> These guidelines are your roadmap to best practices and essential procedures for certain tasks. <strong>Video:</strong> Videos offer dynamic and engaging narratives, making complex topics digestible. <strong>Tutorial:</strong> The tutorials provide step-by-step guidance, helping you navigate through practical applications. <strong>Software:</strong> Training about software is where you’ll gain hands-on experience with the respective tools. <strong>Dataset:</strong> The datasets are representative, real-world data playgrounds where you gain the appropriate skills for immediate use after the training session. <strong>Website:</strong> As gateway to our training resources, a course website is your go-to destination for relevant information and context, publically accessible anytime and anywhere, facilitating the learning beyond the classroom that supports your journey in the life sciences.</p>
 <p><img alt="" src="../../../../assets/images/04-formats.png"><!-- style="width: 700px;" --></p>
 <h3 id="minimal-efforts-per-training-material-type">Minimal efforts per training material type</h3>
-<p>This table provides specific recommendations for enhancing the interoperability and reusability of training materials across three types: <strong>Presentations</strong>, <strong>Textual Documents</strong>, and <strong>Scripts/Software</strong>. The emphasis is on starting with open file formats and textual representations whenever possible.</p>
+<blockquote>
+<p>This table provides specific recommendations for enhancing the interoperability and reusability of training materials. The emphasis is on starting with open file formats and textual representations whenever possible.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>File Format</th>
+<th>Openness Level</th>
+<th>Minimal Effort Recommendations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Presentations</td>
+<td>PPTX (PowerPoint)</td>
+<td>Proprietary/Closed</td>
+<td>Provide original file; Export to ODP; convert to PDF/A for archiving;</td>
+</tr>
+<tr>
+<td></td>
+<td>ODP (OpenDocument Presentation)</td>
+<td>Open Standard</td>
+<td>Use ODP as primary format with LibreOffice Impress or similar tools;  include media resources;</td>
+</tr>
+<tr>
+<td></td>
+<td>HTML5 (Marp, reveal.js, Slidev)</td>
+<td>Open/Web Standard</td>
+<td>Use HTML5-based presentation frameworks; store presentations in version control (Git); use Markdown for content where possible;</td>
+</tr>
+<tr>
+<td>Textual Documents</td>
+<td>DOCX (Word)</td>
+<td>Proprietary/Closed</td>
+<td>Provide original; Convert to ODT; export to PDF/A for archiving;</td>
+</tr>
+<tr>
+<td></td>
+<td>ODT (OpenDocument Text)</td>
+<td>Open Standard</td>
+<td>Use ODT as primary format; ensure style-based formatting for structure; export to PDF/A for long-term preservation.</td>
+</tr>
+<tr>
+<td></td>
+<td>Markdown/LaTeX/Plain Text</td>
+<td>Open/Plain Text</td>
+<td>Prefer Markdown for simple documents;  store in version control (Git);</td>
+</tr>
+<tr>
+<td>Scripts/Software</td>
+<td>Jupyter Notebook (.ipynb)</td>
+<td>Open Format (JSON-based)</td>
+<td>Include requirements.txt or environment.yml; document dependencies with version numbers; clear outputs before committing to version control; add descriptive markdown cells;</td>
+</tr>
+<tr>
+<td></td>
+<td>Python/R Scripts (.py, .R)</td>
+<td>Open/Plain Text</td>
+<td>Include comprehensive header comments with metadata; document dependencies (requirements.txt, renv.lock); use consistent coding standards; store in version control (Git); include README with execution instructions; add inline documentation;</td>
+</tr>
+<tr>
+<td></td>
+<td>Shell Scripts/Configuration (.sh, .yml, .json)</td>
+<td>Open/Plain Text</td>
+<td>Use plain text formats (YAML, JSON, TOML); include comments explaining purpose; specify interpreter/tool versions; store in version control (Git); document environment requirements;</td>
+</tr>
+<tr>
+<td>Datasets</td>
+<td>any formats possible</td>
+<td>Open</td>
+<td>create descriptive comments about the datasets (metadata); store in version control if possible;  otherwise store in public storage buckets.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="minimal-efforts-per-training-material-type_1">Minimal efforts per training material type</h3>
+<blockquote>
+<p>This table provides specific recommendations for enhancing the interoperability and reusability of training materials. The emphasis is on starting with open file formats and textual representations whenever possible.</p>
+</blockquote>
 <table>
 <thead>
 <tr>
