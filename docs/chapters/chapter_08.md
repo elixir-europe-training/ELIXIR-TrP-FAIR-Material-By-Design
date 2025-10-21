@@ -111,7 +111,7 @@ Together, **ORCID**, **ROR**, and **DOI** form the foundation for making your tr
 
 !!! checklist "Case Studies of Using PIDs in Training"
 
-    Read through the real world examples of using PIDs in Training from [FAIR handbook (chapter 05)](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/) (by [ELIXIR training platform](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/), [CCBYSA 4.0 license](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md)), and answer the following questions:
+    Read through the real world examples of using PIDs in Training from [FAIR handbook (chapter 05)](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/) (by [ELIXIR training platform](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/), [CCBYSA 4.0 license](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md)), and answer the following questions in the [shared document](https://docs.google.com/document/d/14zbkvn0VzKrNvAUhmUOgAe2rWzVbLRrWMEcfawqhmKU/edit?usp=sharing):
 
     - Summarise the strategy used in each use case
     - What is the main benefit with each strategy?
@@ -388,6 +388,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
             - `Resource type`
 
             
+
 
 
 
