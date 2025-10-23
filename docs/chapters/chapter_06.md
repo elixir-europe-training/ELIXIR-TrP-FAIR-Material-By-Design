@@ -14,8 +14,8 @@ Here you can find the presentation for this session:
 
 <iframe src="https://docs.google.com/presentation/d/1FnBrgXXmSBMSVXlVohaGQeETwO2FR2lX/preview" width="640" height="360" allow="autoplay"></iframe>
 
-The full presentation can be downloaded as a pdf by clicking [here](https://docs.google.com/presentation/d/1FnBrgXXmSBMSVXlVohaGQeETwO2FR2lX/export?format=pdf).
-
+The full presentation can be <a href="https://docs.google.com/presentation/d/1FnBrgXXmSBMSVXlVohaGQeETwO2FR2lX/view" target="_blank">viewed in Google slides</a> or <a href="https://docs.google.com/presentation/d/1FnBrgXXmSBMSVXlVohaGQeETwO2FR2lX/copy" target="_blank">copied for reuse</a> under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
+  
 
 ## 6.2 Why FAIR video materials matter
 Video is one of the most powerful ways to enhance learning, but only if it can be found, accessed, reused, and understood by others.
@@ -55,6 +55,8 @@ Let's now have a look at what it takes to FAIRify video material:
     - **Reusable** → Is there a clear license? Are contributors and tools properly attributed? Is there versioning information?
 
     Document your findings in the [**Checklist for minimally FAIR video material**](https://docs.google.com/document/d/18xg9ZYLQX9yFlAU1cIl8W5eMpoVhuQvEO6aLWVG81TM/edit?usp=sharing)
+    You can <a href="https://docs.google.com/document/d/1yTOgv2fgngRRp0CFQOd_btdF-L57rpR02Bzkjd46bKQ/view" target="_blank">view this course worksheet in Google Docs</a> or <a href="https://docs.google.com/document/d/1yTOgv2fgngRRp0CFQOd_btdF-L57rpR02Bzkjd46bKQ/copy" target="_blank">make a copy of this course worksheet for reuse</a> under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).   
+
 
 !!! question "Reflection"
 
@@ -285,6 +287,7 @@ In this final exercise, you will practice publishing your own FAIR-by-design tra
 2.	Mayer RE (2009) Multimedia Learning. 2nd ed. Cambridge University Press. https://doi.org/10.1017/CBO9780511811678  
 3.	Guo P, Kim J,  Rubin R. (2014) How video production affects student engagement: An empirical study of MOOC videos. L@S '14: Proceedings of the first ACM conference on Learning @ scale conference 41-50. https://doi.org/10.1145/2556325.2566239  
 4. Zhang D, Zhou L, Briggs RO, Nunamaker JF (2006) Instructional video in e-learning: Assessing the impact of interactive video on learning effectiveness. Information & Management 43(1): 15-27, https://doi.org/10.1016/j.im.2005.01.004   
+
 
 
 
