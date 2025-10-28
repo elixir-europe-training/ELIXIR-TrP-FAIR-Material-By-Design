@@ -92,11 +92,10 @@ Activities are intended to **increase the technical skills** and **critical thin
 - Acknowledging othe training materials sources
 
 **Session 6: Put on your producer hat: considerations for FAIR video material**
-- Describe the advantages and challenges of video media in FAIR training
-- Understand active and responsible AI usage in creating FAIR video materials
-- Find video materials to use in FAIR training
-- Annotate video material to make it FAIR
-- Apply FAIR video materials to your training delivery system
+- Explain why video materials should follow FAIR principles and identify key challenges in doing so
+- Evaluate how FAIR a given video is, using real examples
+- Apply minimum FAIR-by-design practices when creating or sharing training videos
+- Generate and use transcripts or captions to enhance accessibility and interoperability
 
 **Session 7: Metadata and Findability**
 - Define training metadata
@@ -104,10 +103,11 @@ Activities are intended to **increase the technical skills** and **critical thin
 - Register training metadata in TeSS manually
 
 **Session 8: Releases and use of unique identifiers**
-- Explain what unique persistant identifiers are and their benefits
+- Explain what unique persistent identifiers are and their benefits
 - List and differentiate the types of unique identifiers that are relevant for publishing and sharing training materials
 - Compare different strategies for unique identifiers for training materials
 - Create versioned DOIs for training materials
+
 
 
 
