@@ -45,7 +45,7 @@ Activities are intended to **increase the technical skills** and **critical thin
   - [How to host your training](./docs/supplementary/presentations/ch_03_Hosting_Training_Material/)
   - [Training material formats and interoperability](./docs/supplementary/presentations/ch_04_Type_of_training_material/)
   - [Acknowledgements, a comprehensive perspective](./docs/supplementary/presentations/ch_05_Acknowledgements/)
-  - [Put on your producer hat: considerations for FAIR video material](./docs/supplementary/presentations/ch_06_considerations_for_FAIR_video%20/)
+  - [Considerations for FAIR video material](./docs/supplementary/presentations/ch_06_FAIR_video_materials/)
   - [Metadata and Findability](./docs/supplementary/presentations/ch_07_Metadata_n_findability/)
   - [Releases and use of unique identifiers](./docs/supplementary/presentations/ch_08_Unique_identifiers/)
 
@@ -108,6 +108,7 @@ Activities are intended to **increase the technical skills** and **critical thin
 - List and differentiate the types of unique identifiers that are relevant for publishing and sharing training materials
 - Compare different strategies for unique identifiers for training materials
 - Create versioned DOIs for training materials
+
 
 
 
