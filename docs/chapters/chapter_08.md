@@ -26,7 +26,8 @@ Here you can find the presentation for this session:
 
 <iframe src="https://docs.google.com/presentation/d/1B17jD_C7knHazgsbyv8EmXPf-3RXTEJZ/preview" width="640" height="360" allow="autoplay"></iframe>  
   
-The full presentation can be downloaded as a pdf [here](https://docs.google.com/presentation/d/1B17jD_C7knHazgsbyv8EmXPf-3RXTEJZ/export?format=pdf).  
+The full presentation can be <a href="https://docs.google.com/presentation/d/1B17jD_C7knHazgsbyv8EmXPf-3RXTEJZ/view" target="_blank">viewed in Google slides</a> or <a href="https://docs.google.com/presentation/d/1B17jD_C7knHazgsbyv8EmXPf-3RXTEJZ/copy" target="_blank">copied for reuse</a> under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
+    
   
 
 ## 8.2 Unique identifiers for training materials  
@@ -111,12 +112,13 @@ Together, **ORCID**, **ROR**, and **DOI** form the foundation for making your tr
 
 !!! checklist "Case Studies of Using PIDs in Training"
 
-    Read through the real world examples of using PIDs in Training from [FAIR handbook (chapter 05)](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/) (by [ELIXIR training platform](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/), [CCBYSA 4.0 license](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md)), and answer the following questions in the [shared document](https://docs.google.com/document/d/14zbkvn0VzKrNvAUhmUOgAe2rWzVbLRrWMEcfawqhmKU/edit?usp=sharing):
+    Read through the real world examples of using PIDs in Training from [FAIR handbook (chapter 05)](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/) (by [ELIXIR training platform](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/contributor_list/), [CCBYSA 4.0 license](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/blob/main/LICENSE.md)), and answer the following questions in the [chapter worksheet](https://docs.google.com/document/d/1G2pdVO7jedvvnbSxggzebnsi1VnYcFwllvNa9VNrgcs/view):
 
     - Summarise the strategy used in each use case
     - What is the main benefit with each strategy?
     - Are there any drawbacks with each strategy?
 
+    You can <a href="https://docs.google.com/document/d/1G2pdVO7jedvvnbSxggzebnsi1VnYcFwllvNa9VNrgcs/copy" target="_blank">make a copy of this course worksheet for reuse</a> under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). 
 
     ??? abstract  "Case 1 - Assigning a unique DOI combined with ORCID for each event in a community"
 
@@ -388,6 +390,7 @@ Now we will use Zenodo sandbox to create DOIs for our training material project 
             - `Resource type`
 
             
+
 
 
 
