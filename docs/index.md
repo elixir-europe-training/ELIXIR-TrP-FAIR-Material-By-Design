@@ -39,7 +39,7 @@
     
   :fontawesome-solid-stairs: **Level:** Beginner/Intermediate  
    
-  :fontawesome-solid-lock: **License:** [CC-BY-NC-SA License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)  
+  :fontawesome-solid-lock: **License:** [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)  
     
   :fontawesome-solid-money-bill-1: **Funding:** This project has received funding from ELIXIR.  
 
@@ -63,7 +63,8 @@
 
 Please cite as:
 
-  1. Bruna Piereck, Jill Jaworski, Nina Norgren, Elin Kronander, Kristen Schroeder, Alexander Botzki, Jessica Lindvall (2024). The ELIXIR FAIR training material by Design course. DOI: 10.5281/zenodo.13773159 
+Bruna Piereck, Jill Jaworski, Nina Norgren, Elin Kronander, Kristen Schroeder, Alexander Botzki, Jessica Lindvall, Ineke Luijten (2025). The ELIXIR *Training material made FAIR by design* course. DOI: 10.5281/zenodo.13773159
+
 
 
 
