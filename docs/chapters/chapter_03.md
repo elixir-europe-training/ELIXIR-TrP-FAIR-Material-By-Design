@@ -16,7 +16,7 @@ Here you can find the presentation for this session:
 
 <iframe src="https://docs.google.com/presentation/d/1Dl7QjDlAxRDKUQZ97GkDxfKCcr3sDRdx/preview" width="640" height="360" allow="autoplay"></iframe>
 
-The full presentation can be downloaded as a pdf [here](https://docs.google.com/presentation/d/1Dl7QjDlAxRDKUQZ97GkDxfKCcr3sDRdx/export?format=pdf).
+The full presentation can be <a href="https://docs.google.com/presentation/d/1Dl7QjDlAxRDKUQZ97GkDxfKCcr3sDRdx/view" target="_blank">viewed in Google slides</a> or <a href="https://docs.google.com/presentation/d/1Dl7QjDlAxRDKUQZ97GkDxfKCcr3sDRdx/copy" target="_blank">copied for reuse</a> under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
 
 ## 3.2 Hosting and delivery
@@ -183,6 +183,7 @@ Intermediate knowledge of GitHub (clone, push, pull, gh-pages configuration) and
     * Include a page with your learning outcomes and course syllabus    
 
     You have now created a course website using GitHub Pages and Quarto, ready for future training delivery!  
+
 
 
 
