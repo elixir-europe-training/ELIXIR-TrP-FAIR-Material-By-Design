@@ -1,4 +1,5 @@
-[![DOI](https://zenodo.org/badge/737050365.svg)](https://doi.org/10.5281/zenodo.14987327)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13773159.svg)](https://doi.org/10.5281/zenodo.13773159)
+
 
 
 ### Training material made FAIR _by design_
@@ -107,6 +108,7 @@ Activities are intended to **increase the technical skills** and **critical thin
 - List and differentiate the types of unique identifiers that are relevant for publishing and sharing training materials
 - Compare different strategies for unique identifiers for training materials
 - Create versioned DOIs for training materials
+
 
 
 
