@@ -14,7 +14,7 @@ Here you can find the presentation for this session:
  
  <iframe src="https://docs.google.com/presentation/d/1Hr8UfxxNSD2y9EHUw410ZN_D1D1IcLHw/preview" width="640" height="360" allow="autoplay"></iframe>
 
-The full presentation can be downloaded [here](https://docs.google.com/presentation/d/1Hr8UfxxNSD2y9EHUw410ZN_D1D1IcLHw/export?format=pdf).
+The full presentation can be <a href="https://docs.google.com/presentation/d/1Hr8UfxxNSD2y9EHUw410ZN_D1D1IcLHw/view" target="_blank">viewed in Google slides</a> or <a href="https://docs.google.com/presentation/d/1Hr8UfxxNSD2y9EHUw410ZN_D1D1IcLHw/copy" target="_blank">copied for reuse</a> under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
 ## 2.2 Developing Effective Learning Outcomes  
 
