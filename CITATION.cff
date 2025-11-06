@@ -1,52 +1,39 @@
-abstract: >
-  This repository contains material for a 2-day course on how to make
-  training material FAIR by design based on the FAIR training handbook
-  and the "10 simple rules to make material FAIR" publication.
-
-  This release contains the materials used for the course instance
-  held in Ghent, Belgium, October 2025.
-
-authors:
-- affiliation: VIB
-  family-names: Piereck Moura
-  given-names: Bruna
-  orcid: 0000-0001-5958-0669
-- affiliation: Science for Life Laboratory
-  family-names: Jaworski
-  given-names: Jillian
-  orcid: 0009-0006-2607-5256
-- affiliation: National Bioinformatics Infrastructure Sweden
-  family-names: Norgren
-  given-names: Nina
-  orcid: 0000-0002-3823-1555
-- affiliation: National Bioinformatics Infrastructure Sweden
-  family-names: Kronander
-  given-names: Elin
-  orcid: 0000-0003-0280-6318
-- affiliation: Science for Life Laboratory
-  family-names: Schroeder
-  given-names: Kristen
-  orcid: 0000-0002-6271-4530
-- affiliation: VIB
-  family-names: Botzki
-  given-names: Alexander
-  orcid: 0000-0001-6691-4233
-- affiliation: National Bioinformatics Infrastructure Sweden
-  family-names: Lindvall
-  given-names: Jessica
-  orcid: 0000-0002-5042-8481
-- affiliation: Science for Life Laboratory
-  family-names: Luijten
-  given-names: Ineke
-  orcid: 0000-0001-5768-275X
 cff-version: 1.3.0
-date-released: '2025-11-06'
-doi: 10.5281/zenodo.13773159
-identifiers:
-- type: swh
-  value: swh:1:dir:24b6f1a3c57e766eb1679ed0feff8fa464a06516;origin=https://doi.org/10.5281/zenodo.13773159;visit=swh:1:snp:1de5a44095725ae56c083531d849173be9ad6bb3;anchor=swh:1:rel:b9ebc7978e3b73769bd15c4946fec5b279f04965;path=elixir-europe-training-ELIXIR-TrP-FAIR-Material-By-Design-a46ae5c
-license:
-- cc-by-4.0
-message: If you use this work, please cite it using the metadata from this file.
-title: Training material made FAIR by design
+message: "If you use this material, please cite it as below."
+authors:
+  - family-names: Botzki
+    given-names: Alexander
+    orcid: https://orcid.org/0000-0001-6691-4233
+    affiliation: VIB Training and conferences
+  - family-names: Piereck
+    given-names: Bruna
+    orcid: https://orcid.org/0000-0001-5958-0669
+    affiliation: VIB Training and conferences
+  - family-names: Kronander
+    given-names: Elin
+    orcid: https://orcid.org/0000-0003-0280-6318
+    affiliation: National Bioinformatics Infrastructure Sweden
+  - family-names: Lindvall
+    given-names: Jessica
+    orcid: https://orcid.org/0000-0002-5042-8481
+    affiliation: SciLifeLab Training
+  - family-names: Jaworski
+    given-names: Jill
+    orcid: https://orcid.org/0009-0006-2607-5256
+    affiliation: SciLifeLab Training
+  - family-names: Schroeder
+    given-names: Kristen
+    orcid: https://orcid.org/0000-0002-6271-4530
+    affiliation: SciLifeLab Training
+  - family-names: Norgren
+    given-names: Nina
+    orcid: https://orcid.org/0000-0002-3823-1555
+    affiliation: SciLifeLab Training
+  - family-names: Luijten
+    given-names: Ineke
+    orcid: https://orcid.org/0000-0001-5768-275X
+    affiliation: SciLifeLab Training
+title: "Training material made FAIR by design"
 version: 2025-10-Ghent
+license: CC-BY-4.0
+date-released: 2025-11-06
