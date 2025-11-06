@@ -1,10 +1,11 @@
-abstract: '<p>This repository contains material for a 2 days course on how to make
-  Training material made FAIR by design based on the <a href="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/">FAIR
-  training handbook</a> and <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854">10
-  simple rules to make material FAIR</a> publication.</p>
+abstract: >
+  This repository contains material for a 2-day course on how to make
+  training material FAIR by design based on the FAIR training handbook
+  and the "10 simple rules to make material FAIR" publication.
 
-  <p>This release contains the materials used for the course instance held in Ghent
-  Belgium October 2025.</p>'
+  This release contains the materials used for the course instance
+  held in Ghent, Belgium, October 2025.
+
 authors:
 - affiliation: VIB
   family-names: Piereck Moura
@@ -40,7 +41,7 @@ authors:
   orcid: 0000-0001-5768-275X
 cff-version: 1.3.0
 date-released: '2025-11-06'
-doi: 10.5281/zenodo.14987327
+doi: 10.5281/zenodo.13773159
 identifiers:
 - type: swh
   value: swh:1:dir:24b6f1a3c57e766eb1679ed0feff8fa464a06516;origin=https://doi.org/10.5281/zenodo.13773159;visit=swh:1:snp:1de5a44095725ae56c083531d849173be9ad6bb3;anchor=swh:1:rel:b9ebc7978e3b73769bd15c4946fec5b279f04965;path=elixir-europe-training-ELIXIR-TrP-FAIR-Material-By-Design-a46ae5c
