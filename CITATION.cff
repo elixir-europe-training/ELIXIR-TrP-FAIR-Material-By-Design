@@ -3,8 +3,8 @@ abstract: '<p>This repository contains material for a 2 days course on how to ma
   training handbook</a> and <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854">10
   simple rules to make material FAIR</a> publication.</p>
 
-  <p>This release contains the materials used for the course instance held in Uppsala
-  Sweden September 2024.</p>'
+  <p>This release contains the materials used for the course instance held in Ghent
+  Belgium October 2025.</p>'
 authors:
 - affiliation: VIB
   family-names: Piereck Moura
@@ -34,8 +34,12 @@ authors:
   family-names: Lindvall
   given-names: Jessica
   orcid: 0000-0002-5042-8481
-cff-version: 1.2.0
-date-released: '2025-03-07'
+- affiliation: Science for Life Laboratory
+  family-names: Luijten
+  given-names: Ineke
+  orcid: 0000-0001-5768-275X
+cff-version: 1.3.0
+date-released: '2025-11-06'
 doi: 10.5281/zenodo.14987327
 identifiers:
 - type: swh
@@ -44,4 +48,4 @@ license:
 - cc-by-4.0
 message: If you use this work, please cite it using the metadata from this file.
 title: Training material made FAIR by design
-version: 2024-09-Uppsala
+version: 2025-10-Ghent
