@@ -56,6 +56,8 @@ mike deploy <YYYY-MM> --push
 
 This will create a new versioned folder in the `gh-pages` branch. The `--push` option will push the changes to the remote repository.
 
+If the content is not pushed, checkout the gh-pages branch and run `git push`
+
 ## Citation
 
 Please cite as
