@@ -40,7 +40,7 @@ According to the [Cambrige dictionary](https://dictionary.cambridge.org/dictiona
 
 
 <figure>
-    <img src="../../assets/images/FAIRprinciples.svg"
+    <img src="../assets/images/FAIRprinciples.svg"
     width="40%" align="center" alt="FAIR acronim description"/>
 </figure>
 
@@ -83,7 +83,7 @@ After considering all the previous principles, the next step is to **REUSE** exi
 When sharing or reusing materials, it is essential to provide proper attribution to those involved, whether as authors or contributors. Recognition ensures that the time and effort invested by individuals is acknowledged, unless a CC0 or similar license has been applied. This topic will be explored further in the following chapters.  
 <br>  
 <figure>
-    <img src="../../assets/images/10steps_rules4FAIRtraining.png"
+    <img src="../assets/images/10steps_rules4FAIRtraining.png"
     width="50%" align="center" alt="10 steps for FAIR training material"/>
 </figure>
 
@@ -103,7 +103,7 @@ Now that you know a bit about what the acronym FAIR stands for, consider the que
 OPEN refers to the rules governing access and sharing of materials. Clear rules determine whether material can be freely accessed, modified, and shared, or whether certain restrictions apply to specific groups. Access may be limited, for example, through platform registration, and authors can specify how and with whom materials may be shared. Last but not least, a resource can have restricted or closed access and still be considered FAIR: the metadata and information about the material remain discoverable, even if the content itself cannot be accessed. 
 
  <figure>
-    <img src="../../assets/images/FAIRvsOPEN_FloraD&apos;Anna.svg"
+    <img src="../assets/images/FAIRvsOPEN_FloraD&apos;Anna.svg"
     width="25%" align="center" alt="Schema of FAIR and OPEN meaning and overlaps"/>
 </figure>
   
