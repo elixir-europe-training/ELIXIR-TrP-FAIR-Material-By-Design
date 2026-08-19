@@ -29,7 +29,7 @@ To deliver training materials effectively, many educators rely on a **Learning M
   
 ### The training life cycle
 
-![](../../assets/images/03-life-cycle.png){width=80%}
+![](../assets/images/03-life-cycle.png){width=80%}
 
 Training materials go through several phases in their lifecycle: development, delivery, sharing, and archiving. In the **development** phase, tools like Google workspace or GitHub allow for collaborative creation of content. Once the materials are ready, they move into the **delivery phase**, where LMS platforms or GitHub Pages are used to distribute them to learners. The **sharing** phase ensures that materials are made publicly available, ideally according to FAIR principles, through platforms like Zenodo, GitHub, or even a public LMS site. Finally, in the **archiving** phase, content is stored for future use, ensuring it remains accessible and reusable for future trainers or trainees.
 
