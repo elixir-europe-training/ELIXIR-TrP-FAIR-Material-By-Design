@@ -1,4 +1,6 @@
-# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+# 
+docs_dir: docs_build
+
 site_name: Training material made FAIR by design
 nav:
     - About: index.md
@@ -32,12 +34,7 @@ repo_url: https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-
 edit_uri: edit/main/docs/
 
 plugins:
-  - tags:
-      tags_file: keywords.md
   - search
-  - mkdocs-video # embed videos to the docs
-  - bibtex:
-      bib_file: "references.bib"
 
   
 # Footer
@@ -66,12 +63,8 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
   - neoteroi.cards
-
+  - addbioschemas
 
 extra_css:
   - stylesheets/extra.css
   - stylesheets/neoteroi-mkdocs.css
-
-extra:
-  version:
-    provider: mike
