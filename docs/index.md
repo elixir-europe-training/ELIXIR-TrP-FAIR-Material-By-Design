@@ -1,5 +1,7 @@
 # Training material made FAIR _by design_
 
+[add-bioschemas file='_data/metadata.yaml']
+
 ## Authors
 
 [cards class_name="authors" cols="4"(./docs/assets/cards/author1_cards.yaml)]
