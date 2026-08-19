@@ -39,8 +39,8 @@ Use the **SMARTIE** framework:
 Combine this with **Bloom’s Taxonomy** to select appropriate **action verbs**—from “remember” and “understand” to “analyze,” “evaluate,” and “create.”  
 Avoid vague or unmeasurable verbs like “know” or “appreciate.”
 
-![](../../assets/images/02-bloom.png){width=40%}
-![](../../assets/images/02-bloom_verbs.png){width=40%}
+![](../assets/images/02-bloom.png){width=40%}
+![](../assets/images/02-bloom_verbs.png){width=40%}
 
 ## 2.3 Syllabus Creation  
 
@@ -61,12 +61,12 @@ Training development is **cyclical**. It evolves through:
 
 **Nicholl’s Five Steps** – from defining outcomes to evaluation:  
 <br>
-![](../../assets/images/02-nicholls.png){width=80%}
+![](../assets/images/02-nicholls.png){width=80%}
 
 <br>
 **The Training Life Cycle** – identify, design, develop, deliver, evaluate:  
 <br>
-![](../../assets/images/02-training_lifecycle.png)
+![](../assets/images/02-training_lifecycle.png)
 
 Each phase encourages continuous refinement through feedback and adaptation.
 
