@@ -5,6 +5,8 @@
     - Register training events and materials in TeSS manually
     - Create a JSON object as basis for automated ingestion of metadata into TeSS
 
+# 7 Metadata and Findability
+
 ## 7.1 Presentation
 
 Here you can find the presentation for this session:
