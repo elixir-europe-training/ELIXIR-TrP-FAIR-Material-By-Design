@@ -7,7 +7,7 @@
     - Apply minimum FAIR-by-design practices when creating or sharing training videos 
     - Generate and use transcripts or captions to enhance accessibility and interoperability
   
-
+# 6 Considerations for FAIR video material
 
 ## 6.1 Presentation
 Here you can find the presentation for this session:
