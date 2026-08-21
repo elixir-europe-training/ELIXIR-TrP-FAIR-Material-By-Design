@@ -7,7 +7,8 @@
     - Understand how Nicholl’s Five Steps and the Training Life Cycle relate to FAIR
     - Describe how documentation pedagogically supports FAIR trainings 
     - Describe methods for and means for documenting trainings in a FAIR way 
- 
+
+# 2 Planning and Designing a FAIR training 
 
 ## 2.1 Presentation
 Here you can find the presentation for this session: 
