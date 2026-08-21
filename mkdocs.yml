@@ -27,6 +27,9 @@ theme:
     - version
   font: 
     text: Lato
+  palette:
+    primary: custom
+    accent: custom
 
 # Repository
 repo_name: elixir-europe-training/ELIXIR-TrP-FAIR-Material-By-Design
