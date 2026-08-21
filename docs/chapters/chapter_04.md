@@ -6,7 +6,7 @@
     - explain the concepts of re-usability, interoperability and extendibility for training material  
     - develop presentation with narratives for each slides using Liascript  
     
-    
+# 4 Training material formats and interoperability    
 
 ## 4.1 Presentation
 

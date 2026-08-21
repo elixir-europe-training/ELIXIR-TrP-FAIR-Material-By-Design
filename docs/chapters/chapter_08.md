@@ -20,9 +20,10 @@ To Reuse:
     - Compare different strategies for unique identifiers for training materials
     - Create versioned DOIs for training materials
 
+# 8 Releases and use of unique identifiers
+
 ## 8.1 Presentation
 Here you can find the presentation for this session:
-
 
 <iframe src="https://docs.google.com/presentation/d/1B17jD_C7knHazgsbyv8EmXPf-3RXTEJZ/preview" width="640" height="360" allow="autoplay"></iframe>  
   

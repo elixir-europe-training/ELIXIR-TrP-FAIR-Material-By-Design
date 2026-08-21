@@ -9,7 +9,7 @@
     - Create a GitHub page to host and deliver training
     - Describe how to make your training material FAIR using only Google drive
 
-
+# 3 How to host your training
 
 ## 3.1 Presentation
 Here you can find the presentation for this session:

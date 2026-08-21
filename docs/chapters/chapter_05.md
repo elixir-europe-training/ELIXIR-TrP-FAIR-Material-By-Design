@@ -8,7 +8,7 @@
     - Defining Authorship and Contributors
     - Acknowledging othe training materials sources
 
-# Acknowledgements a comprehensive perspective
+# 5 Acknowledgements a comprehensive perspective
 
 ## 5.1 Presentation
 Here you can find the presentation for this session: 
